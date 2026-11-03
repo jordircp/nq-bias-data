@@ -117,6 +117,32 @@ def ff_calendar():
     return out
 
 
+def ff_news(horas=24, maximo=25):
+    """Titulares de la página de noticias de Forex Factory (incluye tweets de cuentas de squawk)."""
+    import html as htmlmod
+    import re
+    import urllib.request
+    req = urllib.request.Request("https://www.forexfactory.com/news", headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
+        "Accept-Language": "en-US"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        raw = r.read().decode("utf-8", "replace")
+    txt = htmlmod.unescape(raw)
+    pat = re.compile(r'"dateline":(\d+),"url":"[^"]*","hit_url":"[^"]*","title":"(.*?)","preview".*?"source":"(.*?)","impact":"(.*?)"', re.S)
+    ahora = pd.Timestamp.now(tz="UTC")
+    vistos, out = set(), []
+    for ts, titulo, fuente, impacto in pat.findall(txt):
+        t = pd.Timestamp(int(ts), unit="s", tz="UTC")
+        titulo = titulo.replace("\\/", "/").strip()
+        if (ahora - t) > pd.Timedelta(hours=horas) or titulo in vistos:
+            continue
+        vistos.add(titulo)
+        out.append({"hora_alemania": t.tz_convert("Europe/Berlin").strftime("%d/%m %H:%M"), "_t": t,
+                    "titular": titulo[:220], "fuente": fuente.replace("\\/", "/"), "impacto": impacto or "-"})
+    out.sort(key=lambda e: e["_t"], reverse=True)
+    return out[:maximo]
+
+
 # ---------------------------------------------------------------- análisis
 def find_fvgs(df, tf, max_items=8):
     """FVG de 3 velas. Devuelve los no rellenados (o parcialmente) más recientes."""
@@ -419,10 +445,6 @@ def clean(o):
 
 
 def main():
-    try:
-        import probe_ff  # noqa: F401  (prueba temporal de la página de noticias)
-    except Exception as e:
-        print("probe", e)
     data = synthetic() if "--synthetic" in sys.argv else download()
     m5 = data["5m"]
     os.makedirs(OUT, exist_ok=True)
@@ -467,6 +489,10 @@ def main():
         summary["calendario_semana"] = [e for e in cal if e["fecha"] > hoy and e["impacto"] == "ALTO"]
     except Exception as e:  # el calendario es un extra: si falla, se sigue
         summary["calendario_hoy"] = {"error": str(e)}
+    try:
+        summary["noticias_24h"] = ff_news()
+    except Exception as e:
+        summary["noticias_24h"] = {"error": str(e)}
     summary = clean(summary)
 
     with open(os.path.join(OUT, "summary.json"), "w", encoding="utf-8") as f:
@@ -511,6 +537,13 @@ def to_md(s):
             L.append(f"- Próximo ALTO: {e['fecha']} {e['hora_alemania']} · {e['evento']} · previsión {e['prevision']}")
     elif isinstance(cal, dict):
         L += ["", f"Calendario no disponible: {cal.get('error')}"]
+    nw = s.get("noticias_24h")
+    if isinstance(nw, list):
+        L += ["", "## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)"]
+        for e in nw:
+            L.append(f"- {e['hora_alemania']} · [{e['impacto']}] {e['titular']} ({e['fuente']})")
+    elif isinstance(nw, dict):
+        L += ["", f"Noticias no disponibles: {nw.get('error')}"]
     st = s.get("estadisticas") or {}
     if st and "error" not in st:
         L += ["", f"## Estadísticas (últimos {st['dias_analizados']} días)"]
