@@ -96,6 +96,27 @@ def resample_4h(h1):
     return h1.resample("4h", offset="2h").agg(agg).dropna()
 
 
+def ff_calendar():
+    """Calendario de Forex Factory (feed público de la semana): eventos USD de impacto alto/medio."""
+    import urllib.request
+    url = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (nq-bias-data)"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        data = json.loads(r.read().decode("utf-8"))
+    out = []
+    for e in data:
+        if e.get("country") != "USD" or e.get("impact") not in ("High", "Medium"):
+            continue
+        t = pd.Timestamp(e["date"]).tz_convert("Europe/Berlin")
+        out.append({
+            "fecha": t.strftime("%Y-%m-%d"), "hora_alemania": t.strftime("%H:%M"),
+            "evento": e.get("title"), "impacto": "ALTO" if e["impact"] == "High" else "medio",
+            "prevision": e.get("forecast") or None, "anterior": e.get("previous") or None,
+            "real": e.get("actual") or None,
+        })
+    return out
+
+
 # ---------------------------------------------------------------- análisis
 def find_fvgs(df, tf, max_items=8):
     """FVG de 3 velas. Devuelve los no rellenados (o parcialmente) más recientes."""
@@ -435,6 +456,13 @@ def main():
         summary["estadisticas"] = history_stats(data["1h"])
     except Exception as e:  # nunca romper el informe por las estadísticas
         summary["estadisticas"] = {"error": str(e)}
+    try:
+        cal = ff_calendar()
+        hoy = pd.Timestamp.now(tz="Europe/Berlin").strftime("%Y-%m-%d")
+        summary["calendario_hoy"] = [e for e in cal if e["fecha"] == hoy]
+        summary["calendario_semana"] = [e for e in cal if e["fecha"] > hoy and e["impacto"] == "ALTO"]
+    except Exception as e:  # el calendario es un extra: si falla, se sigue
+        summary["calendario_hoy"] = {"error": str(e)}
     summary = clean(summary)
 
     with open(os.path.join(OUT, "summary.json"), "w", encoding="utf-8") as f:
@@ -468,6 +496,17 @@ def to_md(s):
         eq = t["liquidez_iguales"]
         if eq["maximos_iguales"] or eq["minimos_iguales"]:
             L.append(f"Máximos iguales {eq['maximos_iguales']} · mínimos iguales {eq['minimos_iguales']}")
+    cal = s.get("calendario_hoy")
+    if isinstance(cal, list):
+        L += ["", "## Calendario USD de hoy (Forex Factory, hora de Alemania)"]
+        if not cal:
+            L.append("Sin eventos de impacto alto o medio.")
+        for e in cal:
+            L.append(f"- {e['hora_alemania']} · {e['evento']} · impacto {e['impacto']} · previsión {e['prevision']} · anterior {e['anterior']}" + (f" · REAL {e['real']}" if e.get('real') else ""))
+        for e in s.get("calendario_semana") or []:
+            L.append(f"- Próximo ALTO: {e['fecha']} {e['hora_alemania']} · {e['evento']} · previsión {e['prevision']}")
+    elif isinstance(cal, dict):
+        L += ["", f"Calendario no disponible: {cal.get('error')}"]
     st = s.get("estadisticas") or {}
     if st and "error" not in st:
         L += ["", f"## Estadísticas (últimos {st['dias_analizados']} días)"]
