@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-03 14:14",
-  "ultima_vela_ny": "2026-11-03 09:00",
-  "precio": 28295.25,
+  "generado_utc": "2026-11-03 14:15",
+  "ultima_vela_ny": "2026-11-03 09:05",
+  "precio": 28290.0,
   "dia_anterior": {
     "fecha": "2026-11-02",
     "PDH": 28891.25,
@@ -310,16 +310,6 @@
         {
           "tf": "5m",
           "tipo": "bajista",
-          "arriba": 28552.25,
-          "abajo": 28547.0,
-          "ce": 28549.62,
-          "tamano": 5.25,
-          "hora_ny": "2026-11-02 13:25",
-          "estado": "virgen"
-        },
-        {
-          "tf": "5m",
-          "tipo": "bajista",
           "arriba": 28508.0,
           "abajo": 28498.0,
           "ce": 28503.0,
@@ -359,6 +349,16 @@
         },
         {
           "tf": "5m",
+          "tipo": "bajista",
+          "arriba": 28316.25,
+          "abajo": 28293.75,
+          "ce": 28305.0,
+          "tamano": 22.5,
+          "hora_ny": "2026-11-03 09:00",
+          "estado": "virgen"
+        },
+        {
+          "tf": "5m",
           "tipo": "alcista",
           "arriba": 28207.0,
           "abajo": 28196.25,
@@ -381,9 +381,9 @@
           "tf": "5m",
           "tipo": "alcista",
           "arriba": 28122.0,
-          "abajo": 28096.0,
-          "ce": 28109.0,
-          "tamano": 26.0,
+          "abajo": 28096.5,
+          "ce": 28109.25,
+          "tamano": 25.5,
           "hora_ny": "2026-11-03 02:45",
           "estado": "tocado"
         }
@@ -422,15 +422,15 @@
       "casos": 10,
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
-      "pct_cierra_arriba_de_apertura": 40,
-      "rebote_medio_desde_apertura": 155.3
+      "pct_cierra_arriba_de_apertura": 50,
+      "rebote_medio_desde_apertura": 155.4
     },
     "tras_dia_alcista_fuerte": {
       "casos": 17,
       "pct_toma_pdh": 88,
       "pct_toma_pdl": 24,
       "pct_cierra_abajo_de_apertura": 41,
-      "retroceso_medio_desde_apertura": 248.6
+      "retroceso_medio_desde_apertura": 248.1
     },
     "dia_anterior_tipo": "bajista fuerte"
   },

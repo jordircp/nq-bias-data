@@ -1,6 +1,6 @@
-# NQ datos · 2026-11-03 09:00 (NY)
+# NQ datos · 2026-11-03 09:05 (NY)
 
-Precio: **28295.25**
+Precio: **28290.0**
 
 Día anterior (2026-11-02): PDH 28891.25 · PDL 28101.75 · cierre 28223.75 · semana 28038.25–28891.25
 - asia: 28116.75 – 28269.0
@@ -38,14 +38,14 @@ Swing highs [28269.0, 28167.0, 28275.75] · swing lows [28038.25, 28104.25, 2811
 
 ## 5m: alcista · HH y HL · BOS alcista: cierre por encima de 28269.00 (03/11 08:40 NY)
 Swing highs [28250.75, 28249.75, 28426.5] · swing lows [28215.25, 28114.25, 28197.0]
-- FVG bajista 28547.0–28552.25 (CE 28549.62, virgen, 2026-11-02 13:25)
 - FVG bajista 28498.0–28508.0 (CE 28503.0, virgen, 2026-11-02 13:40)
 - FVG bajista 28443.5–28455.5 (CE 28449.5, virgen, 2026-11-02 13:55)
 - FVG bajista 28423.5–28435.25 (CE 28429.38, tocado, 2026-11-02 14:00)
 - FVG alcista 28234.25–28350.5 (CE 28292.38, tocado, 2026-11-03 08:25)
+- FVG bajista 28293.75–28316.25 (CE 28305.0, virgen, 2026-11-03 09:00)
 - FVG alcista 28196.25–28207.0 (CE 28201.62, tocado, 2026-11-03 07:20)
 - FVG alcista 28183.0–28187.5 (CE 28185.25, virgen, 2026-11-03 07:15)
-- FVG alcista 28096.0–28122.0 (CE 28109.0, tocado, 2026-11-03 02:45)
+- FVG alcista 28096.5–28122.0 (CE 28109.25, tocado, 2026-11-03 02:45)
 Máximos iguales [28250.25] · mínimos iguales [28200.75]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
@@ -60,5 +60,5 @@ Rango medio: 576.0 pts (20d) · 703.4 pts (5d)
 Toma PDH 52 % · toma PDL 50 % · ambos 13 %
 Sesión del máximo: {'NY': 47, 'Asia': 28, 'otro': 13, 'Londres': 13} · del mínimo: {'NY': 32, 'Asia': 28, 'Londres': 21, 'otro': 19}
 Ayer fue un día: bajista fuerte
-tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 80, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 40, 'rebote_medio_desde_apertura': 155.3}
-tras dia alcista fuerte: {'casos': 17, 'pct_toma_pdh': 88, 'pct_toma_pdl': 24, 'pct_cierra_abajo_de_apertura': 41, 'retroceso_medio_desde_apertura': 248.6}
+tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 80, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 50, 'rebote_medio_desde_apertura': 155.4}
+tras dia alcista fuerte: {'casos': 17, 'pct_toma_pdh': 88, 'pct_toma_pdl': 24, 'pct_cierra_abajo_de_apertura': 41, 'retroceso_medio_desde_apertura': 248.1}
