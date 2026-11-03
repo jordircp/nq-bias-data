@@ -70,7 +70,7 @@ def clean_spikes(df, k=8.0):
     # apertura imposible: salta lejísimos del cierre anterior fuera de la reapertura de las 18:00
     prev_c = df["Close"].shift(1)
     not_reopen = ~((df.index.hour == 18) & (df.index.minute == 0))
-    bad_o = ((df["Open"] - prev_c).abs() > rng * k * 1.5) & not_reopen & prev_c.notna()
+    bad_o = ((df["Open"] - prev_c).abs() > rng * k * 0.75) & not_reopen & prev_c.notna()
     df.loc[bad_o, "Open"] = prev_c[bad_o]
     body_hi = df[["Open", "Close"]].max(axis=1)
     body_lo = df[["Open", "Close"]].min(axis=1)
