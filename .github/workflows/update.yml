@@ -6,7 +6,7 @@ on:
     # Hora UTC.ok Cada 15 min en las ventanas antes de Londres y antes de NY (Alemania = UTC+1 en invierno, +2 en verano).
     # Varias pasadas porque GitHub a veces retrasa o se salta ejecuciones programadas.
     - cron: "7,22,37,52 4-7 * * 1-5"
-    - cron: "7,22,37,52 10-13 * * 1-5"
+    - cron: "7,22,37,52 10-14 * * 1-5"
 
 permissions:
   contents: write
