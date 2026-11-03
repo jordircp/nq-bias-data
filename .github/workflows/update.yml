@@ -1,0 +1,37 @@
+name: Actualizar datos NQ
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Hora UTC. Dos pasadas por bloque para cubrir horario de invierno y verano en Alemania.
+    - cron: "40 4 * * 1-5"   # 5:40 / 6:40 Alemania
+    - cron: "40 5 * * 1-5"   # 6:40 / 7:40 Alemania
+    - cron: "5 11 * * 1-5"   # 12:05 / 13:05 Alemania
+    - cron: "5 12 * * 1-5"   # 13:05 / 14:05 Alemania
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nq-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q yfinance pandas numpy matplotlib
+      - run: python nq_data.py
+      - name: Guardar resultados
+        run: |
+          git config user.name "nq-bot"
+          git config user.email "nq-bot@users.noreply.github.com"
+          git add data
+          git commit -m "Datos NQ $(date -u +'%Y-%m-%d %H:%M') UTC" || echo "sin cambios"
+          git pull --rebase origin main || true
+          git push
