@@ -3,11 +3,10 @@ name: Actualizar datos NQ
 on:
   workflow_dispatch:
   schedule:
-    # Hora UTC. Dos pasadas por bloque para cubrir horario de invierno y verano en Alemania.
-    - cron: "40 4 * * 1-5"   # 5:40 / 6:40 Alemania
-    - cron: "40 5 * * 1-5"   # 6:40 / 7:40 Alemania
-    - cron: "5 11 * * 1-5"   # 12:05 / 13:05 Alemania
-    - cron: "5 12 * * 1-5"   # 13:05 / 14:05 Alemania
+    # Hora UTC. Cada 15 min en las ventanas antes de Londres y antes de NY (Alemania = UTC+1 en invierno, +2 en verano).
+    # Varias pasadas porque GitHub a veces retrasa o se salta ejecuciones programadas.
+    - cron: "7,22,37,52 4-7 * * 1-5"
+    - cron: "7,22,37,52 10-13 * * 1-5"
 
 permissions:
   contents: write
