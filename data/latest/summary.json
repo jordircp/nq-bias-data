@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-03 14:16",
-  "ultima_vela_ny": "2026-11-03 09:05",
-  "precio": 28293.0,
+  "generado_utc": "2026-11-03 14:42",
+  "ultima_vela_ny": "2026-11-03 09:30",
+  "precio": 28256.75,
   "dia_anterior": {
     "fecha": "2026-11-02",
     "PDH": 28891.25,
@@ -20,7 +20,10 @@
       "maximo": 28239.5,
       "minimo": 28038.25
     },
-    "ny_am": null,
+    "ny_am": {
+      "maximo": 28293.5,
+      "minimo": 28215.75
+    },
     "overnight": {
       "maximo": 28426.5,
       "minimo": 28038.25
@@ -44,16 +47,6 @@
         ]
       },
       "fvg_abiertos": [
-        {
-          "tf": "4h",
-          "tipo": "bajista",
-          "arriba": 30465.75,
-          "abajo": 30237.0,
-          "ce": 30351.38,
-          "tamano": 228.75,
-          "hora_ny": "2026-10-14 10:00",
-          "estado": "virgen"
-        },
         {
           "tf": "4h",
           "tipo": "bajista",
@@ -93,16 +86,6 @@
           "tamano": 200.5,
           "hora_ny": "2026-11-02 13:00",
           "estado": "tocado"
-        },
-        {
-          "tf": "4h",
-          "tipo": "alcista",
-          "arriba": 28279.0,
-          "abajo": 28239.5,
-          "ce": 28259.25,
-          "tamano": 39.5,
-          "hora_ny": "2026-11-03 05:00",
-          "estado": "virgen"
         }
       ],
       "fibonacci": {
@@ -179,16 +162,6 @@
           "tamano": 65.5,
           "hora_ny": "2026-11-02 14:00",
           "estado": "tocado"
-        },
-        {
-          "tf": "1h",
-          "tipo": "alcista",
-          "arriba": 28279.0,
-          "abajo": 28249.75,
-          "ce": 28264.38,
-          "tamano": 29.25,
-          "hora_ny": "2026-11-03 08:00",
-          "estado": "virgen"
         }
       ],
       "fibonacci": {
@@ -213,9 +186,9 @@
         "tendencia": "alcista · HH y HL",
         "evento": "BOS alcista: cierre por encima de 28284.50 (03/11 08:45 NY)",
         "ultimos_swing_high": [
-          28269.0,
           28167.0,
-          28275.75
+          28275.75,
+          28426.5
         ],
         "ultimos_swing_low": [
           28038.25,
@@ -224,6 +197,16 @@
         ]
       },
       "fvg_abiertos": [
+        {
+          "tf": "15m",
+          "tipo": "bajista",
+          "arriba": 28622.75,
+          "abajo": 28598.75,
+          "ce": 28610.75,
+          "tamano": 24.0,
+          "hora_ny": "2026-11-02 12:15",
+          "estado": "tocado"
+        },
         {
           "tf": "15m",
           "tipo": "bajista",
@@ -257,26 +240,6 @@
         {
           "tf": "15m",
           "tipo": "alcista",
-          "arriba": 28325.75,
-          "abajo": 28230.25,
-          "ce": 28278.0,
-          "tamano": 95.5,
-          "hora_ny": "2026-11-03 08:15",
-          "estado": "tocado"
-        },
-        {
-          "tf": "15m",
-          "tipo": "bajista",
-          "arriba": 28325.75,
-          "abajo": 28322.0,
-          "ce": 28323.88,
-          "tamano": 3.75,
-          "hora_ny": "2026-11-03 08:45",
-          "estado": "virgen"
-        },
-        {
-          "tf": "15m",
-          "tipo": "alcista",
           "arriba": 28216.5,
           "abajo": 28183.0,
           "ce": 28199.75,
@@ -293,20 +256,30 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · HH y HL",
-        "evento": "BOS alcista: cierre por encima de 28269.00 (03/11 08:40 NY)",
+        "tendencia": "bajista · LH y HL",
+        "evento": "CHoCH/MSS bajista: cierre por debajo de 28279.00 (03/11 09:20 NY)",
         "ultimos_swing_high": [
-          28250.75,
           28249.75,
-          28426.5
+          28426.5,
+          28336.75
         ],
         "ultimos_swing_low": [
-          28215.25,
           28114.25,
-          28197.0
+          28197.0,
+          28279.0
         ]
       },
       "fvg_abiertos": [
+        {
+          "tf": "5m",
+          "tipo": "bajista",
+          "arriba": 28552.25,
+          "abajo": 28547.0,
+          "ce": 28549.62,
+          "tamano": 5.25,
+          "hora_ny": "2026-11-02 13:25",
+          "estado": "virgen"
+        },
         {
           "tf": "5m",
           "tipo": "bajista",
@@ -336,26 +309,6 @@
           "tamano": 11.75,
           "hora_ny": "2026-11-02 14:00",
           "estado": "tocado"
-        },
-        {
-          "tf": "5m",
-          "tipo": "alcista",
-          "arriba": 28350.5,
-          "abajo": 28234.25,
-          "ce": 28292.38,
-          "tamano": 116.25,
-          "hora_ny": "2026-11-03 08:25",
-          "estado": "tocado"
-        },
-        {
-          "tf": "5m",
-          "tipo": "bajista",
-          "arriba": 28316.25,
-          "abajo": 28297.5,
-          "ce": 28306.88,
-          "tamano": 18.75,
-          "hora_ny": "2026-11-03 09:00",
-          "estado": "virgen"
         },
         {
           "tf": "5m",
@@ -484,6 +437,18 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "03/11 15:33",
+      "titular": "US RCM/TIPP Optimism Hits a Nine-Month-High",
+      "fuente": "realclearmarkets.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 15:26",
+      "titular": "Iran Says Us Response To Its Demands Wasnt Convincing: BBG",
+      "fuente": "@apewirenews",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "03/11 14:58",
       "titular": "US-Iran Reportedly Agree To Concessions On Nuclear File, Oil Plunges",
@@ -621,18 +586,6 @@
       "titular": "US excessive demands will not be accepted by Tehran - Senior Iranian Official",
       "fuente": "@financialjuice",
       "impacto": "low"
-    },
-    {
-      "hora_alemania": "03/11 07:33",
-      "titular": "Rates Spark: US midterms and expanding European government bond concerns",
-      "fuente": "think.ing.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "03/11 06:31",
-      "titular": "Monetary policy in times of high public debt",
-      "fuente": "youtube.com/ecbeuro",
-      "impacto": "-"
     }
   ]
 }

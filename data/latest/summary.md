@@ -1,21 +1,20 @@
-# NQ datos · 2026-11-03 09:05 (NY)
+# NQ datos · 2026-11-03 09:30 (NY)
 
-Precio: **28293.0**
+Precio: **28256.75**
 
 Día anterior (2026-11-02): PDH 28891.25 · PDL 28101.75 · cierre 28223.75 · semana 28038.25–28891.25
 - asia: 28116.75 – 28269.0
 - londres: 28038.25 – 28239.5
+- ny_am: 28215.75 – 28293.5
 - overnight: 28038.25 – 28426.5
 
 ## 4h: bajista · LH y LL · BOS bajista: cierre por debajo de 28927.25 (03/11 01:00 NY)
 Swing highs [29989.25, 30178.0, 28891.25] · swing lows [28821.5, 28232.75, 28038.25]
 Fib bajista (máximo → mínimo): 28038.25–28891.25 · 50 % 28464.75 · OTE 28567.11/28639.62/28712.12 · precio en discount
-- FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, 2026-10-14 10:00)
 - FVG bajista 29180.0–29431.5 (CE 29305.75, virgen, 2026-10-29 14:00)
 - FVG bajista 29042.0–29111.0 (CE 29076.5, tocado, 2026-10-29 18:00)
 - FVG bajista 28608.0–28683.25 (CE 28645.62, virgen, 2026-11-02 09:00)
 - FVG bajista 28284.5–28485.0 (CE 28384.75, tocado, 2026-11-02 13:00)
-- FVG alcista 28239.5–28279.0 (CE 28259.25, virgen, 2026-11-03 05:00)
 Máximos iguales [] · mínimos iguales [29023.5]
 
 ## 1h: bajista · HH y LL · BOS bajista: cierre por debajo de 28101.75 (03/11 00:00 NY)
@@ -25,24 +24,21 @@ Fib bajista (máximo → mínimo): 28038.25–28891.25 · 50 % 28464.75 · OTE 2
 - FVG bajista 28608.0–28634.0 (CE 28621.0, virgen, 2026-11-02 12:00)
 - FVG bajista 28443.5–28485.0 (CE 28464.25, virgen, 2026-11-02 13:00)
 - FVG bajista 28369.75–28435.25 (CE 28402.5, tocado, 2026-11-02 14:00)
-- FVG alcista 28249.75–28279.0 (CE 28264.38, virgen, 2026-11-03 08:00)
 
 ## 15m: alcista · HH y HL · BOS alcista: cierre por encima de 28284.50 (03/11 08:45 NY)
-Swing highs [28269.0, 28167.0, 28275.75] · swing lows [28038.25, 28104.25, 28114.25]
+Swing highs [28167.0, 28275.75, 28426.5] · swing lows [28038.25, 28104.25, 28114.25]
+- FVG bajista 28598.75–28622.75 (CE 28610.75, tocado, 2026-11-02 12:15)
 - FVG bajista 28498.0–28536.5 (CE 28517.25, virgen, 2026-11-02 13:30)
 - FVG bajista 28443.5–28463.75 (CE 28453.62, virgen, 2026-11-02 13:45)
 - FVG bajista 28423.0–28435.25 (CE 28429.12, tocado, 2026-11-02 14:00)
-- FVG alcista 28230.25–28325.75 (CE 28278.0, tocado, 2026-11-03 08:15)
-- FVG bajista 28322.0–28325.75 (CE 28323.88, virgen, 2026-11-03 08:45)
 - FVG alcista 28183.0–28216.5 (CE 28199.75, tocado, 2026-11-03 07:15)
 
-## 5m: alcista · HH y HL · BOS alcista: cierre por encima de 28269.00 (03/11 08:40 NY)
-Swing highs [28250.75, 28249.75, 28426.5] · swing lows [28215.25, 28114.25, 28197.0]
+## 5m: bajista · LH y HL · CHoCH/MSS bajista: cierre por debajo de 28279.00 (03/11 09:20 NY)
+Swing highs [28249.75, 28426.5, 28336.75] · swing lows [28114.25, 28197.0, 28279.0]
+- FVG bajista 28547.0–28552.25 (CE 28549.62, virgen, 2026-11-02 13:25)
 - FVG bajista 28498.0–28508.0 (CE 28503.0, virgen, 2026-11-02 13:40)
 - FVG bajista 28443.5–28455.5 (CE 28449.5, virgen, 2026-11-02 13:55)
 - FVG bajista 28423.5–28435.25 (CE 28429.38, tocado, 2026-11-02 14:00)
-- FVG alcista 28234.25–28350.5 (CE 28292.38, tocado, 2026-11-03 08:25)
-- FVG bajista 28297.5–28316.25 (CE 28306.88, virgen, 2026-11-03 09:00)
 - FVG alcista 28196.25–28207.0 (CE 28201.62, tocado, 2026-11-03 07:20)
 - FVG alcista 28183.0–28187.5 (CE 28185.25, virgen, 2026-11-03 07:15)
 - FVG alcista 28096.0–28122.0 (CE 28109.0, tocado, 2026-11-03 02:45)
@@ -56,6 +52,8 @@ Máximos iguales [28250.25] · mínimos iguales [28200.75]
 - Próximo ALTO: 2026-11-06 14:30 · Unemployment Rate · previsión 4.2%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 03/11 15:33 · [-] US RCM/TIPP Optimism Hits a Nine-Month-High (realclearmarkets.com)
+- 03/11 15:26 · [low] Iran Says Us Response To Its Demands Wasnt Convincing: BBG (@apewirenews)
 - 03/11 14:58 · [-] US-Iran Reportedly Agree To Concessions On Nuclear File, Oil Plunges (zerohedge.com)
 - 03/11 14:31 · [low] Trump Says A Balanced Budget Would Be Achieved If The Fed Cut Interest Rates (@RedboxWire)
 - 03/11 14:28 · [high] US Approved Draft Mou Presented By Qatari Delegation For Iran Yesterday (@FirstSquawk)
@@ -79,8 +77,6 @@ Máximos iguales [28250.25] · mínimos iguales [28200.75]
 - 03/11 08:22 · [low] Diplomat: Iran, US reviewing latest suggestions from mediators (@financialjuice)
 - 03/11 08:08 · [low] Iranian Parliament Speaker Qalibaf: Tehran Has Given Washington A Strong, Rational Response; Next Move Is Up To The US (@FirstSquawk)
 - 03/11 07:43 · [low] US excessive demands will not be accepted by Tehran - Senior Iranian Official (@financialjuice)
-- 03/11 07:33 · [-] Rates Spark: US midterms and expanding European government bond concerns (think.ing.com)
-- 03/11 06:31 · [-] Monetary policy in times of high public debt (youtube.com/ecbeuro)
 
 ## Estadísticas (últimos 46 días)
 Rango medio: 576.0 pts (20d) · 703.4 pts (5d)
