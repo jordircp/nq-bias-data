@@ -1,11 +1,11 @@
-# NQ datos · 2026-11-02 18:55 (NY)
+# NQ datos · 2026-11-02 19:00 (NY)
 
-Precio: **28201.25**
+Precio: **28209.5**
 
 Día anterior (2026-11-02): PDH 28891.25 · PDL 28101.75 · cierre 28223.75 · semana 28101.75–28891.25
 - overnight: 28132.0 – 28284.5
 
-## 4h: bajista (LH y LL) · cierre por debajo del último swing low 28232.75
+## 4h: bajista · LH y LL · BOS bajista: cierre por debajo de 29207.50 (02/11 17:00 NY)
 Swing highs [30178.0, 29562.0, 28891.25] · swing lows [29288.0, 28821.5, 28232.75]
 Fib bajista (máximo → mínimo): 28101.75–28891.25 · 50 % 28496.5 · OTE 28591.24/28658.35/28725.46 · precio en discount
 - FVG bajista 30538.25–30705.25 (CE 30621.75, virgen, 2026-10-14 06:00)
@@ -14,22 +14,22 @@ Fib bajista (máximo → mínimo): 28101.75–28891.25 · 50 % 28496.5 · OTE 28
 - FVG bajista 28284.5–28485.0 (CE 28384.75, virgen, 2026-11-02 13:00)
 Máximos iguales [] · mínimos iguales [29023.5]
 
-## 1h: posible giro bajista (rompió el último swing low) · cierre por debajo del último swing low 28713.00
-Swing highs [29562.0, 28831.5, 28891.25] · swing lows [28821.5, 28232.75, 28713.0]
+## 1h: bajista · HH y LL · BOS bajista: cierre por debajo de 28946.75 (02/11 16:00 NY)
+Swing highs [29562.0, 28831.5, 28891.25] · swing lows [28232.75, 28713.0, 28101.75]
 Fib bajista (máximo → mínimo): 28101.75–28891.25 · 50 % 28496.5 · OTE 28591.24/28658.35/28725.46 · precio en discount
 - FVG bajista 29794.25–29821.5 (CE 29807.88, virgen, 2026-10-28 16:00)
 - FVG bajista 28608.0–28634.0 (CE 28621.0, virgen, 2026-11-02 12:00)
 - FVG bajista 28443.5–28485.0 (CE 28464.25, virgen, 2026-11-02 13:00)
 - FVG bajista 28369.75–28435.25 (CE 28402.5, virgen, 2026-11-02 14:00)
 
-## 15m: alcista (HH y HL)
-Swing highs [28791.25, 28844.0, 28891.25] · swing lows [28639.0, 28101.75, 28132.0]
-- FVG bajista 28498.0–28536.5 (CE 28517.25, virgen, 2026-11-02 13:30)
+## 15m: bajista · LH y HL · BOS bajista: cierre por debajo de 28232.75 (02/11 15:30 NY)
+Swing highs [28844.0, 28891.25, 28284.5] · swing lows [28639.0, 28101.75, 28132.0]
 - FVG bajista 28443.5–28463.75 (CE 28453.62, virgen, 2026-11-02 13:45)
 - FVG bajista 28423.0–28435.25 (CE 28429.12, virgen, 2026-11-02 14:00)
 - FVG bajista 28374.75–28384.25 (CE 28379.5, virgen, 2026-11-02 14:15)
+- FVG bajista 28213.75–28220.5 (CE 28217.12, virgen, 2026-11-02 18:45)
 
-## 5m: mixta con sesgo alcista
+## 5m: bajista · HH y LL · BOS bajista: cierre por debajo de 28173.00 (02/11 18:00 NY)
 Swing highs [28369.75, 28270.0, 28284.5] · swing lows [28101.75, 28173.0, 28132.0]
 - FVG bajista 28498.0–28508.0 (CE 28503.0, virgen, 2026-11-02 13:40)
 - FVG bajista 28443.5–28455.5 (CE 28449.5, virgen, 2026-11-02 13:55)

@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-03 00:08",
-  "ultima_vela_ny": "2026-11-02 18:55",
-  "precio": 28201.25,
+  "generado_utc": "2026-11-03 00:10",
+  "ultima_vela_ny": "2026-11-02 19:00",
+  "precio": 28209.5,
   "dia_anterior": {
     "fecha": "2026-11-02",
     "PDH": 28891.25,
@@ -24,8 +24,8 @@
   "temporalidades": {
     "4h": {
       "estructura": {
-        "tendencia": "bajista (LH y LL)",
-        "evento": "cierre por debajo del último swing low 28232.75",
+        "tendencia": "bajista · LH y LL",
+        "evento": "BOS bajista: cierre por debajo de 29207.50 (02/11 17:00 NY)",
         "ultimos_swing_high": [
           30178.0,
           29562.0,
@@ -100,17 +100,17 @@
     },
     "1h": {
       "estructura": {
-        "tendencia": "posible giro bajista (rompió el último swing low)",
-        "evento": "cierre por debajo del último swing low 28713.00",
+        "tendencia": "bajista · HH y LL",
+        "evento": "BOS bajista: cierre por debajo de 28946.75 (02/11 16:00 NY)",
         "ultimos_swing_high": [
           29562.0,
           28831.5,
           28891.25
         ],
         "ultimos_swing_low": [
-          28821.5,
           28232.75,
-          28713.0
+          28713.0,
+          28101.75
         ]
       },
       "fvg_abiertos": [
@@ -174,12 +174,12 @@
     },
     "15m": {
       "estructura": {
-        "tendencia": "alcista (HH y HL)",
-        "evento": null,
+        "tendencia": "bajista · LH y HL",
+        "evento": "BOS bajista: cierre por debajo de 28232.75 (02/11 15:30 NY)",
         "ultimos_swing_high": [
-          28791.25,
           28844.0,
-          28891.25
+          28891.25,
+          28284.5
         ],
         "ultimos_swing_low": [
           28639.0,
@@ -188,16 +188,6 @@
         ]
       },
       "fvg_abiertos": [
-        {
-          "tf": "15m",
-          "tipo": "bajista",
-          "arriba": 28536.5,
-          "abajo": 28498.0,
-          "ce": 28517.25,
-          "tamano": 38.5,
-          "hora_ny": "2026-11-02 13:30",
-          "estado": "virgen"
-        },
         {
           "tf": "15m",
           "tipo": "bajista",
@@ -227,6 +217,16 @@
           "tamano": 9.5,
           "hora_ny": "2026-11-02 14:15",
           "estado": "virgen"
+        },
+        {
+          "tf": "15m",
+          "tipo": "bajista",
+          "arriba": 28220.5,
+          "abajo": 28213.75,
+          "ce": 28217.12,
+          "tamano": 6.75,
+          "hora_ny": "2026-11-02 18:45",
+          "estado": "virgen"
         }
       ],
       "fibonacci": null,
@@ -237,8 +237,8 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "mixta con sesgo alcista",
-        "evento": null,
+        "tendencia": "bajista · HH y LL",
+        "evento": "BOS bajista: cierre por debajo de 28173.00 (02/11 18:00 NY)",
         "ultimos_swing_high": [
           28369.75,
           28270.0,
