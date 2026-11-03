@@ -419,6 +419,10 @@ def clean(o):
 
 
 def main():
+    try:
+        import probe_ff  # noqa: F401  (prueba temporal de la página de noticias)
+    except Exception as e:
+        print("probe", e)
     data = synthetic() if "--synthetic" in sys.argv else download()
     m5 = data["5m"]
     os.makedirs(OUT, exist_ok=True)
