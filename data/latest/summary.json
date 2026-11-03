@@ -1,23 +1,26 @@
 {
-  "generado_utc": "2026-11-03 00:10",
-  "ultima_vela_ny": "2026-11-02 19:00",
-  "precio": 28209.5,
+  "generado_utc": "2026-11-03 06:20",
+  "ultima_vela_ny": "2026-11-03 01:10",
+  "precio": 28084.0,
   "dia_anterior": {
     "fecha": "2026-11-02",
     "PDH": 28891.25,
     "PDL": 28101.75,
     "cierre": 28223.75,
     "max_semana": 28891.25,
-    "min_semana": 28101.75
+    "min_semana": 28069.75
   },
   "sesiones": {
     "dia_trading": "2026-11-03",
-    "asia": null,
+    "asia": {
+      "maximo": 28269.0,
+      "minimo": 28150.25
+    },
     "londres": null,
     "ny_am": null,
     "overnight": {
       "maximo": 28284.5,
-      "minimo": 28132.0
+      "minimo": 28069.75
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -25,10 +28,10 @@
     "4h": {
       "estructura": {
         "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 29207.50 (02/11 17:00 NY)",
+        "evento": "BOS bajista: cierre por debajo de 28927.25 (03/11 01:00 NY)",
         "ultimos_swing_high": [
+          29989.25,
           30178.0,
-          29562.0,
           28891.25
         ],
         "ultimos_swing_low": [
@@ -41,22 +44,12 @@
         {
           "tf": "4h",
           "tipo": "bajista",
-          "arriba": 30705.25,
-          "abajo": 30538.25,
-          "ce": 30621.75,
-          "tamano": 167.0,
-          "hora_ny": "2026-10-14 06:00",
-          "estado": "virgen"
-        },
-        {
-          "tf": "4h",
-          "tipo": "bajista",
-          "arriba": 30465.75,
-          "abajo": 30237.0,
-          "ce": 30351.38,
-          "tamano": 228.75,
-          "hora_ny": "2026-10-14 10:00",
-          "estado": "virgen"
+          "arriba": 29111.0,
+          "abajo": 29042.0,
+          "ce": 29076.5,
+          "tamano": 69.0,
+          "hora_ny": "2026-10-29 18:00",
+          "estado": "tocado"
         },
         {
           "tf": "4h",
@@ -77,18 +70,28 @@
           "tamano": 200.5,
           "hora_ny": "2026-11-02 13:00",
           "estado": "virgen"
+        },
+        {
+          "tf": "4h",
+          "tipo": "bajista",
+          "arriba": 28132.0,
+          "abajo": 28098.0,
+          "ce": 28115.0,
+          "tamano": 34.0,
+          "hora_ny": "2026-11-02 21:00",
+          "estado": "virgen"
         }
       ],
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 28891.25,
-        "minimo": 28101.75,
+        "minimo": 28069.75,
         "hora_max": "2026-11-02 09:00",
-        "hora_min": "2026-11-02 13:00",
-        "50": 28496.5,
-        "62": 28591.24,
-        "70.5": 28658.35,
-        "79": 28725.46,
+        "hora_min": "2026-11-03 01:00",
+        "50": 28480.5,
+        "62": 28579.08,
+        "70.5": 28648.91,
+        "79": 28718.74,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -101,9 +104,9 @@
     "1h": {
       "estructura": {
         "tendencia": "bajista · HH y LL",
-        "evento": "BOS bajista: cierre por debajo de 28946.75 (02/11 16:00 NY)",
+        "evento": "BOS bajista: cierre por debajo de 28101.75 (03/11 00:00 NY)",
         "ultimos_swing_high": [
-          29562.0,
+          29062.0,
           28831.5,
           28891.25
         ],
@@ -117,54 +120,54 @@
         {
           "tf": "1h",
           "tipo": "bajista",
-          "arriba": 29821.5,
-          "abajo": 29794.25,
-          "ce": 29807.88,
-          "tamano": 27.25,
-          "hora_ny": "2026-10-28 16:00",
-          "estado": "virgen"
-        },
-        {
-          "tf": "1h",
-          "tipo": "bajista",
-          "arriba": 28634.0,
-          "abajo": 28608.0,
-          "ce": 28621.0,
-          "tamano": 26.0,
-          "hora_ny": "2026-11-02 12:00",
-          "estado": "virgen"
-        },
-        {
-          "tf": "1h",
-          "tipo": "bajista",
-          "arriba": 28485.0,
-          "abajo": 28443.5,
-          "ce": 28464.25,
-          "tamano": 41.5,
-          "hora_ny": "2026-11-02 13:00",
-          "estado": "virgen"
-        },
-        {
-          "tf": "1h",
-          "tipo": "bajista",
           "arriba": 28435.25,
           "abajo": 28369.75,
           "ce": 28402.5,
           "tamano": 65.5,
           "hora_ny": "2026-11-02 14:00",
           "estado": "virgen"
+        },
+        {
+          "tf": "1h",
+          "tipo": "bajista",
+          "arriba": 28213.5,
+          "abajo": 28180.75,
+          "ce": 28197.12,
+          "tamano": 32.75,
+          "hora_ny": "2026-11-02 22:00",
+          "estado": "virgen"
+        },
+        {
+          "tf": "1h",
+          "tipo": "bajista",
+          "arriba": 28172.0,
+          "abajo": 28148.25,
+          "ce": 28160.12,
+          "tamano": 23.75,
+          "hora_ny": "2026-11-02 23:00",
+          "estado": "virgen"
+        },
+        {
+          "tf": "1h",
+          "tipo": "bajista",
+          "arriba": 28150.25,
+          "abajo": 28098.0,
+          "ce": 28124.12,
+          "tamano": 52.25,
+          "hora_ny": "2026-11-03 00:00",
+          "estado": "virgen"
         }
       ],
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 28891.25,
-        "minimo": 28101.75,
+        "minimo": 28069.75,
         "hora_max": "2026-11-02 10:00",
-        "hora_min": "2026-11-02 15:00",
-        "50": 28496.5,
-        "62": 28591.24,
-        "70.5": 28658.35,
-        "79": 28725.46,
+        "hora_min": "2026-11-03 01:00",
+        "50": 28480.5,
+        "62": 28579.08,
+        "70.5": 28648.91,
+        "79": 28718.74,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -175,29 +178,19 @@
     "15m": {
       "estructura": {
         "tendencia": "bajista · LH y HL",
-        "evento": "BOS bajista: cierre por debajo de 28232.75 (02/11 15:30 NY)",
+        "evento": "BOS bajista: cierre por debajo de 28101.75 (03/11 00:45 NY)",
         "ultimos_swing_high": [
-          28844.0,
           28891.25,
-          28284.5
+          28284.5,
+          28269.0
         ],
         "ultimos_swing_low": [
-          28639.0,
           28101.75,
-          28132.0
+          28132.0,
+          28161.0
         ]
       },
       "fvg_abiertos": [
-        {
-          "tf": "15m",
-          "tipo": "bajista",
-          "arriba": 28463.75,
-          "abajo": 28443.5,
-          "ce": 28453.62,
-          "tamano": 20.25,
-          "hora_ny": "2026-11-02 13:45",
-          "estado": "virgen"
-        },
         {
           "tf": "15m",
           "tipo": "bajista",
@@ -221,82 +214,98 @@
         {
           "tf": "15m",
           "tipo": "bajista",
-          "arriba": 28220.5,
-          "abajo": 28213.75,
-          "ce": 28217.12,
-          "tamano": 6.75,
-          "hora_ny": "2026-11-02 18:45",
+          "arriba": 28217.0,
+          "abajo": 28208.0,
+          "ce": 28212.5,
+          "tamano": 9.0,
+          "hora_ny": "2026-11-02 22:30",
           "estado": "virgen"
+        },
+        {
+          "tf": "15m",
+          "tipo": "bajista",
+          "arriba": 28175.0,
+          "abajo": 28131.0,
+          "ce": 28153.0,
+          "tamano": 44.0,
+          "hora_ny": "2026-11-02 23:00",
+          "estado": "tocado"
         }
       ],
       "fibonacci": null,
       "liquidez_iguales": {
-        "maximos_iguales": [],
+        "maximos_iguales": [
+          28269.5
+        ],
         "minimos_iguales": []
       }
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · HH y LL",
-        "evento": "BOS bajista: cierre por debajo de 28173.00 (02/11 18:00 NY)",
+        "tendencia": "bajista · LH y LL",
+        "evento": "BOS bajista: cierre por debajo de 28101.75 (03/11 00:35 NY)",
         "ultimos_swing_high": [
-          28369.75,
-          28270.0,
-          28284.5
+          28250.75,
+          28148.25,
+          28141.75
         ],
         "ultimos_swing_low": [
-          28101.75,
-          28173.0,
-          28132.0
+          28172.0,
+          28115.0,
+          28081.75
         ]
       },
       "fvg_abiertos": [
         {
           "tf": "5m",
           "tipo": "bajista",
-          "arriba": 28508.0,
-          "abajo": 28498.0,
-          "ce": 28503.0,
-          "tamano": 10.0,
-          "hora_ny": "2026-11-02 13:40",
+          "arriba": 28150.5,
+          "abajo": 28131.0,
+          "ce": 28140.75,
+          "tamano": 19.5,
+          "hora_ny": "2026-11-03 00:05",
+          "estado": "tocado"
+        },
+        {
+          "tf": "5m",
+          "tipo": "bajista",
+          "arriba": 28150.25,
+          "abajo": 28126.0,
+          "ce": 28138.12,
+          "tamano": 24.25,
+          "hora_ny": "2026-11-02 23:05",
+          "estado": "tocado"
+        },
+        {
+          "tf": "5m",
+          "tipo": "bajista",
+          "arriba": 28116.25,
+          "abajo": 28114.0,
+          "ce": 28115.12,
+          "tamano": 2.25,
+          "hora_ny": "2026-11-03 00:50",
           "estado": "virgen"
         },
         {
           "tf": "5m",
           "tipo": "bajista",
-          "arriba": 28455.5,
-          "abajo": 28443.5,
-          "ce": 28449.5,
-          "tamano": 12.0,
-          "hora_ny": "2026-11-02 13:55",
-          "estado": "virgen"
-        },
-        {
-          "tf": "5m",
-          "tipo": "bajista",
-          "arriba": 28435.25,
-          "abajo": 28423.5,
-          "ce": 28429.38,
-          "tamano": 11.75,
-          "hora_ny": "2026-11-02 14:00",
-          "estado": "virgen"
-        },
-        {
-          "tf": "5m",
-          "tipo": "bajista",
-          "arriba": 28390.5,
-          "abajo": 28377.5,
-          "ce": 28384.0,
-          "tamano": 13.0,
-          "hora_ny": "2026-11-02 14:15",
-          "estado": "virgen"
+          "arriba": 28111.5,
+          "abajo": 28092.5,
+          "ce": 28102.0,
+          "tamano": 19.0,
+          "hora_ny": "2026-11-03 00:55",
+          "estado": "tocado"
         }
       ],
       "fibonacci": null,
       "liquidez_iguales": {
-        "maximos_iguales": [],
+        "maximos_iguales": [
+          28243.88,
+          28252.0
+        ],
         "minimos_iguales": [
-          28102.12
+          28161.88,
+          28233.25
         ]
       }
     }
