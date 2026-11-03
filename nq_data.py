@@ -36,7 +36,7 @@ def download():
         df.index = pd.to_datetime(df.index)
         if df.index.tz is None:
             df.index = df.index.tz_localize("UTC")
-        return df.tz_convert(NY)
+        return clean_spikes(df.tz_convert(NY))
 
     d = {
         "5m": get("5m", "5d"),
@@ -61,6 +61,33 @@ def synthetic():
     d["1d"] = m5.resample("1D").agg(agg).dropna()
     d["4h"] = resample_4h(d["1h"])
     return d
+
+
+def clean_spikes(df, k=8.0):
+    """Recorta mechas imposibles (errores de datos): mecha > k veces el rango mediano."""
+    df = df.copy()
+    rng = (df["High"] - df["Low"]).rolling(50, min_periods=10).median().bfill()
+    # apertura imposible: salta lejísimos del cierre anterior fuera de la reapertura de las 18:00
+    prev_c = df["Close"].shift(1)
+    not_reopen = ~((df.index.hour == 18) & (df.index.minute == 0))
+    bad_o = ((df["Open"] - prev_c).abs() > rng * k * 1.5) & not_reopen & prev_c.notna()
+    df.loc[bad_o, "Open"] = prev_c[bad_o]
+    body_hi = df[["Open", "Close"]].max(axis=1)
+    body_lo = df[["Open", "Close"]].min(axis=1)
+    lim = rng * k
+    bad_h = (df["High"] - body_hi) > lim
+    bad_l = (body_lo - df["Low"]) > lim
+    df.loc[bad_h, "High"] = body_hi[bad_h] + rng[bad_h]
+    df.loc[bad_l, "Low"] = body_lo[bad_l] - rng[bad_l]
+    # cuerpos imposibles: vela que abre y cierra lejísimos de sus vecinas
+    jump = (df["Close"] - df["Close"].shift(1)).abs() > lim * 1.5
+    back = (df["Close"].shift(-1) - df["Close"].shift(1)).abs() < rng * 3
+    bad_c = jump & back
+    if bad_c.any():
+        df = df[~bad_c]
+    df["High"] = df[["High", "Open", "Close"]].max(axis=1)
+    df["Low"] = df[["Low", "Open", "Close"]].min(axis=1)
+    return df
 
 
 def resample_4h(h1):
@@ -116,31 +143,29 @@ def swings(df, order=3):
 
 
 def structure(df, order=3):
+    """Estructura por rupturas: el último cierre que rompe un swing marca la dirección.
+    Romper a favor = BOS; romper en contra = CHoCH/MSS."""
     sh, sl = swings(df, order)
-    last = float(df["Close"].iloc[-1])
-    trend = "rango"
+    c = df["Close"].values
+    state, last_break, broken = None, None, set()
+    for j in range(len(df)):
+        act_h = [p for p in sh if p[0] + order <= j and p[0] not in broken]
+        act_l = [p for p in sl if p[0] + order <= j and p[0] not in broken]
+        if act_h and c[j] > act_h[-1][1]:
+            kind = "BOS" if state == "alcista" else "CHoCH/MSS"
+            state = "alcista"
+            broken.add(act_h[-1][0])
+            last_break = f"{kind} alcista: cierre por encima de {act_h[-1][1]:.2f} ({df.index[j].strftime('%d/%m %H:%M')} NY)"
+        elif act_l and c[j] < act_l[-1][1]:
+            kind = "BOS" if state == "bajista" else "CHoCH/MSS"
+            state = "bajista"
+            broken.add(act_l[-1][0])
+            last_break = f"{kind} bajista: cierre por debajo de {act_l[-1][1]:.2f} ({df.index[j].strftime('%d/%m %H:%M')} NY)"
+    pattern = ""
     if len(sh) >= 2 and len(sl) >= 2:
-        hh, hl = sh[-1][1] > sh[-2][1], sl[-1][1] > sl[-2][1]
-        lh, ll = sh[-1][1] < sh[-2][1], sl[-1][1] < sl[-2][1]
-        if hh and hl:
-            trend = "alcista (HH y HL)"
-        elif lh and ll:
-            trend = "bajista (LH y LL)"
-        elif hh or hl:
-            trend = "mixta con sesgo alcista"
-        elif lh or ll:
-            trend = "mixta con sesgo bajista"
-    event = None
-    if sh and last > sh[-1][1]:
-        event = f"cierre por encima del último swing high {sh[-1][1]:.2f}"
-        if "bajista" in trend:
-            trend = "posible giro alcista (rompió el último swing high)"
-    elif sl and last < sl[-1][1]:
-        event = f"cierre por debajo del último swing low {sl[-1][1]:.2f}"
-        if "alcista" in trend:
-            trend = "posible giro bajista (rompió el último swing low)"
+        pattern = (" · " + ("HH" if sh[-1][1] > sh[-2][1] else "LH") + " y " + ("HL" if sl[-1][1] > sl[-2][1] else "LL"))
     return {
-        "tendencia": trend, "evento": event,
+        "tendencia": (state or "sin ruptura clara") + pattern, "evento": last_break,
         "ultimos_swing_high": [round(v, 2) for _, v in sh[-3:]],
         "ultimos_swing_low": [round(v, 2) for _, v in sl[-3:]],
     }, sh, sl
