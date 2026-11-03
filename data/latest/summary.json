@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-03 13:43",
-  "ultima_vela_ny": "2026-11-03 08:30",
-  "precio": 28398.25,
+  "generado_utc": "2026-11-03 14:12",
+  "ultima_vela_ny": "2026-11-03 09:00",
+  "precio": 28288.75,
   "dia_anterior": {
     "fecha": "2026-11-02",
     "PDH": 28891.25,
@@ -38,9 +38,9 @@
           28891.25
         ],
         "ultimos_swing_low": [
-          29288.0,
           28821.5,
-          28232.75
+          28232.75,
+          28038.25
         ]
       },
       "fvg_abiertos": [
@@ -93,6 +93,16 @@
           "tamano": 200.5,
           "hora_ny": "2026-11-02 13:00",
           "estado": "tocado"
+        },
+        {
+          "tf": "4h",
+          "tipo": "alcista",
+          "arriba": 28279.0,
+          "abajo": 28239.5,
+          "ce": 28259.25,
+          "tamano": 39.5,
+          "hora_ny": "2026-11-03 05:00",
+          "estado": "virgen"
         }
       ],
       "fibonacci": {
@@ -133,16 +143,6 @@
         {
           "tf": "1h",
           "tipo": "bajista",
-          "arriba": 29821.5,
-          "abajo": 29794.25,
-          "ce": 29807.88,
-          "tamano": 27.25,
-          "hora_ny": "2026-10-28 16:00",
-          "estado": "virgen"
-        },
-        {
-          "tf": "1h",
-          "tipo": "bajista",
           "arriba": 29443.25,
           "abajo": 29180.0,
           "ce": 29311.62,
@@ -179,6 +179,16 @@
           "tamano": 65.5,
           "hora_ny": "2026-11-02 14:00",
           "estado": "tocado"
+        },
+        {
+          "tf": "1h",
+          "tipo": "alcista",
+          "arriba": 28279.0,
+          "abajo": 28249.75,
+          "ce": 28264.38,
+          "tamano": 29.25,
+          "hora_ny": "2026-11-03 08:00",
+          "estado": "virgen"
         }
       ],
       "fibonacci": {
@@ -201,7 +211,7 @@
     "15m": {
       "estructura": {
         "tendencia": "alcista · HH y HL",
-        "evento": "BOS alcista: cierre por encima de 28269.00 (03/11 08:30 NY)",
+        "evento": "BOS alcista: cierre por encima de 28284.50 (03/11 08:45 NY)",
         "ultimos_swing_high": [
           28269.0,
           28167.0,
@@ -214,16 +224,6 @@
         ]
       },
       "fvg_abiertos": [
-        {
-          "tf": "15m",
-          "tipo": "bajista",
-          "arriba": 28622.75,
-          "abajo": 28598.75,
-          "ce": 28610.75,
-          "tamano": 24.0,
-          "hora_ny": "2026-11-02 12:15",
-          "estado": "tocado"
-        },
         {
           "tf": "15m",
           "tipo": "bajista",
@@ -257,11 +257,21 @@
         {
           "tf": "15m",
           "tipo": "alcista",
-          "arriba": 28350.5,
+          "arriba": 28325.75,
           "abajo": 28230.25,
-          "ce": 28290.38,
-          "tamano": 120.25,
+          "ce": 28278.0,
+          "tamano": 95.5,
           "hora_ny": "2026-11-03 08:15",
+          "estado": "tocado"
+        },
+        {
+          "tf": "15m",
+          "tipo": "bajista",
+          "arriba": 28325.75,
+          "abajo": 28322.0,
+          "ce": 28323.88,
+          "tamano": 3.75,
+          "hora_ny": "2026-11-03 08:45",
           "estado": "virgen"
         },
         {
@@ -283,12 +293,12 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · LH y HL",
-        "evento": "BOS alcista: cierre por encima de 28250.75 (03/11 08:30 NY)",
+        "tendencia": "alcista · HH y HL",
+        "evento": "BOS alcista: cierre por encima de 28269.00 (03/11 08:40 NY)",
         "ultimos_swing_high": [
-          28275.75,
           28250.75,
-          28249.75
+          28249.75,
+          28426.5
         ],
         "ultimos_swing_low": [
           28215.25,
@@ -345,7 +355,7 @@
           "ce": 28292.38,
           "tamano": 116.25,
           "hora_ny": "2026-11-03 08:25",
-          "estado": "virgen"
+          "estado": "tocado"
         },
         {
           "tf": "5m",
@@ -371,9 +381,9 @@
           "tf": "5m",
           "tipo": "alcista",
           "arriba": 28122.0,
-          "abajo": 28096.5,
-          "ce": 28109.25,
-          "tamano": 25.5,
+          "abajo": 28096.0,
+          "ce": 28109.0,
+          "tamano": 26.0,
           "hora_ny": "2026-11-03 02:45",
           "estado": "tocado"
         }
@@ -412,16 +422,65 @@
       "casos": 10,
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
-      "pct_cierra_arriba_de_apertura": 50,
-      "rebote_medio_desde_apertura": 155.4
+      "pct_cierra_arriba_de_apertura": 40,
+      "rebote_medio_desde_apertura": 155.3
     },
     "tras_dia_alcista_fuerte": {
       "casos": 17,
       "pct_toma_pdh": 88,
       "pct_toma_pdl": 24,
       "pct_cierra_abajo_de_apertura": 41,
-      "retroceso_medio_desde_apertura": 248.1
+      "retroceso_medio_desde_apertura": 248.6
     },
     "dia_anterior_tipo": "bajista fuerte"
-  }
+  },
+  "calendario_hoy": [
+    {
+      "fecha": "2026-11-03",
+      "hora_alemania": "16:00",
+      "evento": "JOLTS Job Openings",
+      "impacto": "medio",
+      "prevision": "7.15M",
+      "anterior": "7.08M",
+      "real": null
+    },
+    {
+      "fecha": "2026-11-03",
+      "hora_alemania": "16:16",
+      "evento": "Congressional Elections",
+      "impacto": "ALTO",
+      "prevision": null,
+      "anterior": null,
+      "real": null
+    }
+  ],
+  "calendario_semana": [
+    {
+      "fecha": "2026-11-06",
+      "hora_alemania": "14:30",
+      "evento": "Average Hourly Earnings m/m",
+      "impacto": "ALTO",
+      "prevision": "0.3%",
+      "anterior": "0.1%",
+      "real": null
+    },
+    {
+      "fecha": "2026-11-06",
+      "hora_alemania": "14:30",
+      "evento": "Non-Farm Employment Change",
+      "impacto": "ALTO",
+      "prevision": "65K",
+      "anterior": "29K",
+      "real": null
+    },
+    {
+      "fecha": "2026-11-06",
+      "hora_alemania": "14:30",
+      "evento": "Unemployment Rate",
+      "impacto": "ALTO",
+      "prevision": "4.2%",
+      "anterior": "4.2%",
+      "real": null
+    }
+  ]
 }
