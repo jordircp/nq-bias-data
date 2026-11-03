@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-03 12:12",
-  "ultima_vela_ny": "2026-11-03 07:00",
-  "precio": 28138.0,
+  "generado_utc": "2026-11-03 12:28",
+  "ultima_vela_ny": "2026-11-03 07:15",
+  "precio": 28188.0,
   "dia_anterior": {
     "fecha": "2026-11-02",
     "PDH": 28891.25,
@@ -154,9 +154,9 @@
           "tf": "1h",
           "tipo": "bajista",
           "arriba": 28215.25,
-          "abajo": 28180.25,
-          "ce": 28197.75,
-          "tamano": 35.0,
+          "abajo": 28196.25,
+          "ce": 28205.75,
+          "tamano": 19.0,
           "hora_ny": "2026-11-03 06:00",
           "estado": "virgen"
         }
@@ -197,6 +197,16 @@
         {
           "tf": "15m",
           "tipo": "bajista",
+          "arriba": 28536.5,
+          "abajo": 28498.0,
+          "ce": 28517.25,
+          "tamano": 38.5,
+          "hora_ny": "2026-11-02 13:30",
+          "estado": "virgen"
+        },
+        {
+          "tf": "15m",
+          "tipo": "bajista",
           "arriba": 28463.75,
           "abajo": 28443.5,
           "ce": 28453.62,
@@ -228,11 +238,11 @@
           "tf": "15m",
           "tipo": "bajista",
           "arriba": 28198.75,
-          "abajo": 28180.25,
-          "ce": 28189.5,
-          "tamano": 18.5,
+          "abajo": 28183.0,
+          "ce": 28190.88,
+          "tamano": 15.75,
           "hora_ny": "2026-11-03 06:45",
-          "estado": "virgen"
+          "estado": "tocado"
         }
       ],
       "fibonacci": null,
@@ -245,7 +255,7 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · LH y HL",
+        "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 28167.00 (03/11 07:00 NY)",
         "ultimos_swing_high": [
           28211.5,
@@ -253,12 +263,22 @@
           28250.75
         ],
         "ultimos_swing_low": [
-          28104.25,
           28167.0,
-          28215.25
+          28215.25,
+          28114.25
         ]
       },
       "fvg_abiertos": [
+        {
+          "tf": "5m",
+          "tipo": "bajista",
+          "arriba": 28508.0,
+          "abajo": 28498.0,
+          "ce": 28503.0,
+          "tamano": 10.0,
+          "hora_ny": "2026-11-02 13:40",
+          "estado": "virgen"
+        },
         {
           "tf": "5m",
           "tipo": "bajista",
@@ -297,15 +317,15 @@
           "ce": 28192.12,
           "tamano": 10.25,
           "hora_ny": "2026-11-03 06:50",
-          "estado": "virgen"
+          "estado": "tocado"
         },
         {
           "tf": "5m",
           "tipo": "alcista",
           "arriba": 28122.0,
-          "abajo": 28096.0,
-          "ce": 28109.0,
-          "tamano": 26.0,
+          "abajo": 28096.5,
+          "ce": 28109.25,
+          "tamano": 25.5,
           "hora_ny": "2026-11-03 02:45",
           "estado": "tocado"
         }
@@ -313,7 +333,9 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [],
-        "minimos_iguales": []
+        "minimos_iguales": [
+          28113.0
+        ]
       }
     }
   },
@@ -340,15 +362,15 @@
       "casos": 10,
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
-      "pct_cierra_arriba_de_apertura": 40,
-      "rebote_medio_desde_apertura": 155.3
+      "pct_cierra_arriba_de_apertura": 50,
+      "rebote_medio_desde_apertura": 155.4
     },
     "tras_dia_alcista_fuerte": {
       "casos": 17,
       "pct_toma_pdh": 88,
       "pct_toma_pdl": 24,
       "pct_cierra_abajo_de_apertura": 41,
-      "retroceso_medio_desde_apertura": 248.6
+      "retroceso_medio_desde_apertura": 248.1
     },
     "dia_anterior_tipo": "bajista fuerte"
   }
