@@ -1,14 +1,14 @@
 {
-  "generado_utc": "2026-11-03 00:07",
+  "generado_utc": "2026-11-03 00:08",
   "ultima_vela_ny": "2026-11-02 18:55",
-  "precio": 28211.25,
+  "precio": 28201.25,
   "dia_anterior": {
-    "fecha": "2026-11-01",
-    "PDH": 28282.25,
-    "PDL": 28132.0,
-    "cierre": 28211.25,
-    "max_semana": 30178.0,
-    "min_semana": 28132.0
+    "fecha": "2026-11-02",
+    "PDH": 28891.25,
+    "PDL": 28101.75,
+    "cierre": 28223.75,
+    "max_semana": 28891.25,
+    "min_semana": 28101.75
   },
   "sesiones": {
     "dia_trading": "2026-11-03",
@@ -80,15 +80,15 @@
         }
       ],
       "fibonacci": {
-        "direccion": "alcista (mínimo → máximo)",
+        "direccion": "bajista (máximo → mínimo)",
         "maximo": 28891.25,
-        "minimo": 28232.75,
+        "minimo": 28101.75,
         "hora_max": "2026-11-02 09:00",
-        "hora_min": "2026-10-30 14:00",
-        "50": 28562.0,
-        "62": 28482.98,
-        "70.5": 28427.01,
-        "79": 28371.03,
+        "hora_min": "2026-11-02 13:00",
+        "50": 28496.5,
+        "62": 28591.24,
+        "70.5": 28658.35,
+        "79": 28725.46,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -100,7 +100,7 @@
     },
     "1h": {
       "estructura": {
-        "tendencia": "alcista (HH y HL)",
+        "tendencia": "posible giro bajista (rompió el último swing low)",
         "evento": "cierre por debajo del último swing low 28713.00",
         "ultimos_swing_high": [
           29562.0,
@@ -156,15 +156,15 @@
         }
       ],
       "fibonacci": {
-        "direccion": "alcista (mínimo → máximo)",
+        "direccion": "bajista (máximo → mínimo)",
         "maximo": 28891.25,
-        "minimo": 28713.0,
+        "minimo": 28101.75,
         "hora_max": "2026-11-02 10:00",
-        "hora_min": "2026-11-02 02:00",
-        "50": 28802.12,
-        "62": 28780.74,
-        "70.5": 28765.58,
-        "79": 28750.43,
+        "hora_min": "2026-11-02 15:00",
+        "50": 28496.5,
+        "62": 28591.24,
+        "70.5": 28658.35,
+        "79": 28725.46,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
