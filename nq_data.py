@@ -133,8 +133,12 @@ def structure(df, order=3):
     event = None
     if sh and last > sh[-1][1]:
         event = f"cierre por encima del último swing high {sh[-1][1]:.2f}"
+        if "bajista" in trend:
+            trend = "posible giro alcista (rompió el último swing high)"
     elif sl and last < sl[-1][1]:
         event = f"cierre por debajo del último swing low {sl[-1][1]:.2f}"
+        if "alcista" in trend:
+            trend = "posible giro bajista (rompió el último swing low)"
     return {
         "tendencia": trend, "evento": event,
         "ultimos_swing_high": [round(v, 2) for _, v in sh[-3:]],
@@ -145,22 +149,28 @@ def structure(df, order=3):
 def fib_leg(df, sh, sl):
     if not sh or not sl:
         return None
-    (ih, vh), (il, vl) = sh[-1], sl[-1]
+    h, l = df["High"].values, df["Low"].values
+    ih0, vh0 = sh[-1]
+    il_end = ih0 + int(np.argmin(l[ih0:]))  # mínimo real tras el último swing high
+    down = (vh0 - l[il_end], ih0, vh0, il_end, float(l[il_end]))
+    il0, vl0 = sl[-1]
+    ih_end = il0 + int(np.argmax(h[il0:]))  # máximo real tras el último swing low
+    up = (h[ih_end] - vl0, ih_end, float(h[ih_end]), il0, vl0)
+    last0 = float(df["Close"].iloc[-1])
+    up_ok, down_ok = last0 >= up[4], last0 <= down[2]  # un tramo cuyo origen ya se ha roto no vale
+    if up_ok and (not down_ok or up[0] >= down[0]):
+        _, ih, vh, il, vl = up
+        d = "alcista (mínimo → máximo)"
+    else:
+        _, ih, vh, il, vl = down
+        d = "bajista (máximo → mínimo)"
     rng = vh - vl
     if rng <= 0:
         return None
-    if il < ih:  # impulso alcista: de mínimo a máximo
-        lv = lambda r: vh - rng * r  # noqa: E731
-        d = "alcista (mínimo → máximo)"
-    else:
-        lv = lambda r: vl + rng * r  # noqa: E731
-        d = "bajista (máximo → mínimo)"
+    lv = (lambda r: vh - rng * r) if d.startswith("alcista") else (lambda r: vl + rng * r)
     last = float(df["Close"].iloc[-1])
     eq = lv(0.5)
-    if il < ih:
-        zona = "discount" if last < eq else "premium"
-    else:
-        zona = "premium" if last > eq else "discount"
+    zona = "premium" if last > eq else "discount"
     return {
         "direccion": d, "maximo": round(vh, 2), "minimo": round(vl, 2),
         "hora_max": df.index[ih].strftime("%Y-%m-%d %H:%M"), "hora_min": df.index[il].strftime("%Y-%m-%d %H:%M"),
@@ -191,18 +201,24 @@ def sessions(m5):
     }
 
 
-def prev_day(daily, m5):
-    d = daily.copy()
-    last_m5_day = m5.index[-1].normalize()
-    d = d[d.index.normalize() < last_m5_day] if len(d) > 1 else d
-    if d.empty:
+def prev_day(daily, m15):
+    """Día de futuros anterior (18:00–17:00 NY) calculado con velas de 15 min."""
+    now = m15.index[-1]
+    day = now.normalize() + (timedelta(days=1) if now.hour >= 18 else timedelta(0))
+    start = day - timedelta(hours=6)  # 18:00 NY del día anterior = inicio del día actual
+    prev = m15[(m15.index < start)]
+    if prev.empty:
         return None
-    r = d.iloc[-1]
-    week = daily[daily.index >= daily.index[-1] - timedelta(days=daily.index[-1].weekday())]
+    pday_end = prev.index[-1]
+    pday_start = (pday_end.normalize() - timedelta(hours=6)) if pday_end.hour < 18 else (pday_end.normalize() + timedelta(hours=18))
+    p = prev[prev.index >= pday_start]
+    week_start = day - timedelta(days=day.weekday()) - timedelta(hours=6)  # domingo 18:00 NY
+    wk = m15[m15.index >= week_start]
     return {
-        "fecha": d.index[-1].strftime("%Y-%m-%d"),
-        "PDH": round(float(r["High"]), 2), "PDL": round(float(r["Low"]), 2), "cierre": round(float(r["Close"]), 2),
-        "max_semana": round(float(week["High"].max()), 2), "min_semana": round(float(week["Low"].min()), 2),
+        "fecha": pday_end.strftime("%Y-%m-%d"),
+        "PDH": round(float(p["High"].max()), 2), "PDL": round(float(p["Low"].min()), 2),
+        "cierre": round(float(p["Close"].iloc[-1]), 2),
+        "max_semana": round(float(wk["High"].max()), 2), "min_semana": round(float(wk["Low"].min()), 2),
     }
 
 
@@ -294,7 +310,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     last = float(m5["Close"].iloc[-1])
     sess = sessions(m5)
-    pdx = prev_day(data["1d"], m5)
+    pdx = prev_day(data["1d"], data["15m"])
 
     summary = {
         "generado_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
