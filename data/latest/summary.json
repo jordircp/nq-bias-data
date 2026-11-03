@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-03 14:15",
+  "generado_utc": "2026-11-03 14:16",
   "ultima_vela_ny": "2026-11-03 09:05",
-  "precio": 28290.0,
+  "precio": 28293.0,
   "dia_anterior": {
     "fecha": "2026-11-02",
     "PDH": 28891.25,
@@ -351,9 +351,9 @@
           "tf": "5m",
           "tipo": "bajista",
           "arriba": 28316.25,
-          "abajo": 28293.75,
-          "ce": 28305.0,
-          "tamano": 22.5,
+          "abajo": 28297.5,
+          "ce": 28306.88,
+          "tamano": 18.75,
           "hora_ny": "2026-11-03 09:00",
           "estado": "virgen"
         },
@@ -381,9 +381,9 @@
           "tf": "5m",
           "tipo": "alcista",
           "arriba": 28122.0,
-          "abajo": 28096.5,
-          "ce": 28109.25,
-          "tamano": 25.5,
+          "abajo": 28096.0,
+          "ce": 28109.0,
+          "tamano": 26.0,
           "hora_ny": "2026-11-03 02:45",
           "estado": "tocado"
         }
@@ -422,15 +422,15 @@
       "casos": 10,
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
-      "pct_cierra_arriba_de_apertura": 50,
-      "rebote_medio_desde_apertura": 155.4
+      "pct_cierra_arriba_de_apertura": 40,
+      "rebote_medio_desde_apertura": 155.3
     },
     "tras_dia_alcista_fuerte": {
       "casos": 17,
       "pct_toma_pdh": 88,
       "pct_toma_pdl": 24,
       "pct_cierra_abajo_de_apertura": 41,
-      "retroceso_medio_desde_apertura": 248.1
+      "retroceso_medio_desde_apertura": 248.6
     },
     "dia_anterior_tipo": "bajista fuerte"
   },
@@ -481,6 +481,158 @@
       "prevision": "4.2%",
       "anterior": "4.2%",
       "real": null
+    }
+  ],
+  "noticias_24h": [
+    {
+      "hora_alemania": "03/11 14:58",
+      "titular": "US-Iran Reportedly Agree To Concessions On Nuclear File, Oil Plunges",
+      "fuente": "zerohedge.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 14:31",
+      "titular": "Trump Says A Balanced Budget Would Be Achieved If The Fed Cut Interest Rates",
+      "fuente": "@RedboxWire",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 14:28",
+      "titular": "US Approved Draft Mou Presented By Qatari Delegation For Iran Yesterday",
+      "fuente": "@FirstSquawk",
+      "impacto": "high"
+    },
+    {
+      "hora_alemania": "03/11 14:22",
+      "titular": "Trump on Iran: Not looking to kill tons of people; on Iran facility: We hit it last night very nicely",
+      "fuente": "@zerohedge",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 14:12",
+      "titular": "Yuan set for biggest daily drop in 6 months after PBOC raises FX RRR",
+      "fuente": "brecorder.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 13:34",
+      "titular": "FP Markets Goes Physical in South Africa",
+      "fuente": "financemagnates.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 13:24",
+      "titular": "Qatari Mediators Expect Feedback From US And Iran Within 36 Hours On New Proposal To Advance Talks - Official Briefed On The Talks To RTRS",
+      "fuente": "@LiveSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 13:15",
+      "titular": "Iran President: Leader Allowed Talks On Non-negotiable Issues",
+      "fuente": "@finsquawk_",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 12:49",
+      "titular": "The Greenback is Mixed as Americans Vote; Aussie Sold after RBA Signaled Its Fifth Hike may be its Last",
+      "fuente": "marctomarket.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 11:53",
+      "titular": "EUR/USD: Is the Bearish Trend Losing Its Grip?",
+      "fuente": "dailyforex.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 11:44",
+      "titular": "SNB's Schlegel: In Sept, Inflation Pressure Slightly Higher Than June; Swiss GDP Should Grow Moderately After Strong 2Q",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 11:32",
+      "titular": "Both The US And Iran Are Dedicated To The Mediation Efforts, Says Qatar's Foreign Ministry Spokesperson",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 10:59",
+      "titular": "China to continue implement moderately loose monetary policy - Xinhua",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 10:17",
+      "titular": "Iran Says Any Action It Takes Will Be Legitimate Self-defense",
+      "fuente": "@finsquawk_",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 10:14",
+      "titular": "ECB's Kocher Says Must Ensure Inflation Doesn't Become Entrenched",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 10:11",
+      "titular": "Gold eases ahead of US midterm elections",
+      "fuente": "brecorder.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 09:31",
+      "titular": "Florida police get first-ever $148K flying patrol vehicle &#x97; and its name is Astro",
+      "fuente": "nypost.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 08:44",
+      "titular": "RBA&#x92;s Split Rate Hike and US Midterm Uncertainty Shape Currency Markets",
+      "fuente": "monetamarkets.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 08:32",
+      "titular": "Swiss consumer prices increased by 0.2% in October",
+      "fuente": "bfs.admin.ch",
+      "impacto": "high"
+    },
+    {
+      "hora_alemania": "03/11 08:24",
+      "titular": "ECB's Radev: October pause doesn't mean tightening is over",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 08:22",
+      "titular": "Diplomat: Iran, US reviewing latest suggestions from mediators",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 08:08",
+      "titular": "Iranian Parliament Speaker Qalibaf: Tehran Has Given Washington A Strong, Rational Response; Next Move Is Up To The US",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 07:43",
+      "titular": "US excessive demands will not be accepted by Tehran - Senior Iranian Official",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "03/11 07:33",
+      "titular": "Rates Spark: US midterms and expanding European government bond concerns",
+      "fuente": "think.ing.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "03/11 06:31",
+      "titular": "Monetary policy in times of high public debt",
+      "fuente": "youtube.com/ecbeuro",
+      "impacto": "-"
     }
   ]
 }

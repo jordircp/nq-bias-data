@@ -1,6 +1,6 @@
 # NQ datos · 2026-11-03 09:05 (NY)
 
-Precio: **28290.0**
+Precio: **28293.0**
 
 Día anterior (2026-11-02): PDH 28891.25 · PDL 28101.75 · cierre 28223.75 · semana 28038.25–28891.25
 - asia: 28116.75 – 28269.0
@@ -42,10 +42,10 @@ Swing highs [28250.75, 28249.75, 28426.5] · swing lows [28215.25, 28114.25, 281
 - FVG bajista 28443.5–28455.5 (CE 28449.5, virgen, 2026-11-02 13:55)
 - FVG bajista 28423.5–28435.25 (CE 28429.38, tocado, 2026-11-02 14:00)
 - FVG alcista 28234.25–28350.5 (CE 28292.38, tocado, 2026-11-03 08:25)
-- FVG bajista 28293.75–28316.25 (CE 28305.0, virgen, 2026-11-03 09:00)
+- FVG bajista 28297.5–28316.25 (CE 28306.88, virgen, 2026-11-03 09:00)
 - FVG alcista 28196.25–28207.0 (CE 28201.62, tocado, 2026-11-03 07:20)
 - FVG alcista 28183.0–28187.5 (CE 28185.25, virgen, 2026-11-03 07:15)
-- FVG alcista 28096.5–28122.0 (CE 28109.25, tocado, 2026-11-03 02:45)
+- FVG alcista 28096.0–28122.0 (CE 28109.0, tocado, 2026-11-03 02:45)
 Máximos iguales [28250.25] · mínimos iguales [28200.75]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
@@ -55,10 +55,37 @@ Máximos iguales [28250.25] · mínimos iguales [28200.75]
 - Próximo ALTO: 2026-11-06 14:30 · Non-Farm Employment Change · previsión 65K
 - Próximo ALTO: 2026-11-06 14:30 · Unemployment Rate · previsión 4.2%
 
+## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 03/11 14:58 · [-] US-Iran Reportedly Agree To Concessions On Nuclear File, Oil Plunges (zerohedge.com)
+- 03/11 14:31 · [low] Trump Says A Balanced Budget Would Be Achieved If The Fed Cut Interest Rates (@RedboxWire)
+- 03/11 14:28 · [high] US Approved Draft Mou Presented By Qatari Delegation For Iran Yesterday (@FirstSquawk)
+- 03/11 14:22 · [low] Trump on Iran: Not looking to kill tons of people; on Iran facility: We hit it last night very nicely (@zerohedge)
+- 03/11 14:12 · [-] Yuan set for biggest daily drop in 6 months after PBOC raises FX RRR (brecorder.com)
+- 03/11 13:34 · [-] FP Markets Goes Physical in South Africa (financemagnates.com)
+- 03/11 13:24 · [low] Qatari Mediators Expect Feedback From US And Iran Within 36 Hours On New Proposal To Advance Talks - Official Briefed On The Talks To RTRS (@LiveSquawk)
+- 03/11 13:15 · [low] Iran President: Leader Allowed Talks On Non-negotiable Issues (@finsquawk_)
+- 03/11 12:49 · [-] The Greenback is Mixed as Americans Vote; Aussie Sold after RBA Signaled Its Fifth Hike may be its Last (marctomarket.com)
+- 03/11 11:53 · [-] EUR/USD: Is the Bearish Trend Losing Its Grip? (dailyforex.com)
+- 03/11 11:44 · [low] SNB's Schlegel: In Sept, Inflation Pressure Slightly Higher Than June; Swiss GDP Should Grow Moderately After Strong 2Q (@FirstSquawk)
+- 03/11 11:32 · [low] Both The US And Iran Are Dedicated To The Mediation Efforts, Says Qatar's Foreign Ministry Spokesperson (@FirstSquawk)
+- 03/11 10:59 · [low] China to continue implement moderately loose monetary policy - Xinhua (@financialjuice)
+- 03/11 10:17 · [low] Iran Says Any Action It Takes Will Be Legitimate Self-defense (@finsquawk_)
+- 03/11 10:14 · [low] ECB's Kocher Says Must Ensure Inflation Doesn't Become Entrenched (@FirstSquawk)
+- 03/11 10:11 · [-] Gold eases ahead of US midterm elections (brecorder.com)
+- 03/11 09:31 · [-] Florida police get first-ever $148K flying patrol vehicle &#x97; and its name is Astro (nypost.com)
+- 03/11 08:44 · [-] RBA&#x92;s Split Rate Hike and US Midterm Uncertainty Shape Currency Markets (monetamarkets.com)
+- 03/11 08:32 · [high] Swiss consumer prices increased by 0.2% in October (bfs.admin.ch)
+- 03/11 08:24 · [low] ECB's Radev: October pause doesn't mean tightening is over (@financialjuice)
+- 03/11 08:22 · [low] Diplomat: Iran, US reviewing latest suggestions from mediators (@financialjuice)
+- 03/11 08:08 · [low] Iranian Parliament Speaker Qalibaf: Tehran Has Given Washington A Strong, Rational Response; Next Move Is Up To The US (@FirstSquawk)
+- 03/11 07:43 · [low] US excessive demands will not be accepted by Tehran - Senior Iranian Official (@financialjuice)
+- 03/11 07:33 · [-] Rates Spark: US midterms and expanding European government bond concerns (think.ing.com)
+- 03/11 06:31 · [-] Monetary policy in times of high public debt (youtube.com/ecbeuro)
+
 ## Estadísticas (últimos 46 días)
 Rango medio: 576.0 pts (20d) · 703.4 pts (5d)
 Toma PDH 52 % · toma PDL 50 % · ambos 13 %
 Sesión del máximo: {'NY': 47, 'Asia': 28, 'otro': 13, 'Londres': 13} · del mínimo: {'NY': 32, 'Asia': 28, 'Londres': 21, 'otro': 19}
 Ayer fue un día: bajista fuerte
-tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 80, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 50, 'rebote_medio_desde_apertura': 155.4}
-tras dia alcista fuerte: {'casos': 17, 'pct_toma_pdh': 88, 'pct_toma_pdl': 24, 'pct_cierra_abajo_de_apertura': 41, 'retroceso_medio_desde_apertura': 248.1}
+tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 80, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 40, 'rebote_medio_desde_apertura': 155.3}
+tras dia alcista fuerte: {'casos': 17, 'pct_toma_pdh': 88, 'pct_toma_pdl': 24, 'pct_cierra_abajo_de_apertura': 41, 'retroceso_medio_desde_apertura': 248.6}
