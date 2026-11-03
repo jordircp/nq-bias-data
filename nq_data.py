@@ -262,6 +262,74 @@ def equal_levels(df, tol=3.0, lookback=60):
     return res
 
 
+def history_stats(h1):
+    """Estadísticas de los últimos días de futuros (18:00–17:00 NY) con velas de 1h."""
+    df = h1.copy()
+    day = (df.index + pd.Timedelta(hours=6)).normalize()  # 18:00 NY pasa al día siguiente
+    df["dia"] = day.tz_localize(None) if day.tz is not None else day
+    hr = df.index.hour + df.index.minute / 60
+
+    def ses(h):
+        if h >= 18 or h < 2:
+            return "Asia"
+        if h < 8:
+            return "Londres"
+        if 9.5 <= h < 16:
+            return "NY"
+        return "otro"
+
+    df["sesion"] = [ses(x) for x in hr]
+    rows = []
+    for d, g in df.groupby("dia"):
+        if len(g) < 18:
+            continue
+        hi, lo = g["High"].max(), g["Low"].min()
+        rows.append({
+            "dia": d, "open": g["Open"].iloc[0], "close": g["Close"].iloc[-1], "high": hi, "low": lo,
+            "rango": hi - lo,
+            "ses_max": g.loc[g["High"].idxmax(), "sesion"], "ses_min": g.loc[g["Low"].idxmin(), "sesion"],
+            "completo": g.index[-1].hour >= 15 and g.index[-1].hour < 18,
+        })
+    t = pd.DataFrame(rows).sort_values("dia").reset_index(drop=True)
+    if len(t) < 10:
+        return None
+    t = t[t["completo"]].reset_index(drop=True)  # solo días cerrados
+    t["toma_pdh"] = t["high"] > t["high"].shift(1)
+    t["toma_pdl"] = t["low"] < t["low"].shift(1)
+    t["pos_cierre"] = (t["close"] - t["low"]) / t["rango"]
+    prev_bajista = t["pos_cierre"].shift(1) < 0.25
+    prev_alcista = t["pos_cierre"].shift(1) > 0.75
+    pct = lambda s: round(float(s.mean()) * 100) if len(s) else None  # noqa: E731
+    n = len(t) - 1
+    out = {
+        "dias_analizados": int(n),
+        "rango_medio_20d": round(float(t["rango"].tail(20).mean()), 1),
+        "rango_medio_5d": round(float(t["rango"].tail(5).mean()), 1),
+        "pct_dias_toman_pdh": pct(t["toma_pdh"].iloc[1:]),
+        "pct_dias_toman_pdl": pct(t["toma_pdl"].iloc[1:]),
+        "pct_dias_toman_ambos": pct((t["toma_pdh"] & t["toma_pdl"]).iloc[1:]),
+        "sesion_del_maximo_pct": {k: round(v * 100) for k, v in t["ses_max"].value_counts(normalize=True).items()},
+        "sesion_del_minimo_pct": {k: round(v * 100) for k, v in t["ses_min"].value_counts(normalize=True).items()},
+    }
+    tb = t[prev_bajista.fillna(False)]
+    if len(tb) >= 3:
+        out["tras_dia_bajista_fuerte"] = {
+            "casos": int(len(tb)), "pct_toma_pdl": pct(tb["toma_pdl"]), "pct_toma_pdh": pct(tb["toma_pdh"]),
+            "pct_cierra_arriba_de_apertura": pct(tb["close"] > tb["open"]),
+            "rebote_medio_desde_apertura": round(float((tb["high"] - tb["open"]).mean()), 1),
+        }
+    ta = t[prev_alcista.fillna(False)]
+    if len(ta) >= 3:
+        out["tras_dia_alcista_fuerte"] = {
+            "casos": int(len(ta)), "pct_toma_pdh": pct(ta["toma_pdh"]), "pct_toma_pdl": pct(ta["toma_pdl"]),
+            "pct_cierra_abajo_de_apertura": pct(ta["close"] < ta["open"]),
+            "retroceso_medio_desde_apertura": round(float((ta["open"] - ta["low"]).mean()), 1),
+        }
+    ult = t.iloc[-1]
+    out["dia_anterior_tipo"] = "bajista fuerte" if ult["pos_cierre"] < 0.25 else ("alcista fuerte" if ult["pos_cierre"] > 0.75 else "neutro")
+    return out
+
+
 # ---------------------------------------------------------------- gráficos
 BG, FG, GRID = "#131722", "#d1d4dc", "#2a2e39"
 UP, DN = "#26a69a", "#ef5350"
@@ -363,6 +431,10 @@ def main():
               title=f"tendencia {st['tendencia']}")
         df.tail(400).round(2).to_csv(os.path.join(OUT, f"candles_{tf}.csv"))
     summary["temporalidades"] = per_tf
+    try:
+        summary["estadisticas"] = history_stats(data["1h"])
+    except Exception as e:  # nunca romper el informe por las estadísticas
+        summary["estadisticas"] = {"error": str(e)}
     summary = clean(summary)
 
     with open(os.path.join(OUT, "summary.json"), "w", encoding="utf-8") as f:
@@ -396,6 +468,16 @@ def to_md(s):
         eq = t["liquidez_iguales"]
         if eq["maximos_iguales"] or eq["minimos_iguales"]:
             L.append(f"Máximos iguales {eq['maximos_iguales']} · mínimos iguales {eq['minimos_iguales']}")
+    st = s.get("estadisticas") or {}
+    if st and "error" not in st:
+        L += ["", f"## Estadísticas (últimos {st['dias_analizados']} días)"]
+        L.append(f"Rango medio: {st['rango_medio_20d']} pts (20d) · {st['rango_medio_5d']} pts (5d)")
+        L.append(f"Toma PDH {st['pct_dias_toman_pdh']} % · toma PDL {st['pct_dias_toman_pdl']} % · ambos {st['pct_dias_toman_ambos']} %")
+        L.append(f"Sesión del máximo: {st['sesion_del_maximo_pct']} · del mínimo: {st['sesion_del_minimo_pct']}")
+        L.append(f"Ayer fue un día: {st['dia_anterior_tipo']}")
+        for k in ("tras_dia_bajista_fuerte", "tras_dia_alcista_fuerte"):
+            if k in st:
+                L.append(f"{k.replace('_', ' ')}: {st[k]}")
     return "\n".join(L) + "\n"
 
 
