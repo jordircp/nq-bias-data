@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-04 17:57",
-  "ultima_vela_ny": "2026-11-04 12:45",
-  "precio": 28711.0,
+  "generado_utc": "2026-11-04 18:06",
+  "ultima_vela_ny": "2026-11-04 12:55",
+  "precio": 28760.75,
   "dia_anterior": {
     "fecha": "2026-11-03",
     "PDH": 28449.5,
@@ -398,16 +398,6 @@
           "ce": 28034.25,
           "tamano": 3.5,
           "hora_ny": "2026-11-04 00:10",
-          "estado": "virgen"
-        },
-        {
-          "tf": "5m",
-          "tipo": "alcista",
-          "arriba": 28027.75,
-          "abajo": 27956.25,
-          "ce": 27992.0,
-          "tamano": 71.5,
-          "hora_ny": "2026-11-04 00:05",
           "estado": "virgen"
         }
       ],

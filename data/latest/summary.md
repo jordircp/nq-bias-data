@@ -1,6 +1,6 @@
-# NQ datos · 2026-11-04 12:45 (NY)
+# NQ datos · 2026-11-04 12:55 (NY)
 
-Precio: **28711.0**
+Precio: **28760.75**
 
 Día anterior (2026-11-03): PDH 28449.5 · PDL 28038.25 · cierre 28416.0 · semana 27615.75–28969.0
 - asia: 27615.75 – 28181.75
@@ -48,7 +48,6 @@ Swing highs [28969.0, 28792.0, 28768.5] · swing lows [28481.25, 28474.0, 28648.
 - FVG alcista 28610.0–28661.0 (CE 28635.5, tocado, 2026-11-04 11:40)
 - FVG alcista 28331.25–28349.5 (CE 28340.38, tocado, 2026-11-04 08:05)
 - FVG alcista 28032.5–28036.0 (CE 28034.25, virgen, 2026-11-04 00:10)
-- FVG alcista 27956.25–28027.75 (CE 27992.0, virgen, 2026-11-04 00:05)
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 16:00 · ISM Services PMI · impacto medio · previsión 54.8 · anterior 54.9
