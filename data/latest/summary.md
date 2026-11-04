@@ -1,88 +1,89 @@
-# NQ datos · 2026-11-03 15:30 (NY)
+# NQ datos · 2026-11-04 00:45 (NY)
 
-Precio: **28305.75**
+Precio: **28174.5**
 
-Día anterior (2026-11-02): PDH 28891.25 · PDL 28101.75 · cierre 28223.75 · semana 28038.25–28891.25
-- asia: 28116.75 – 28269.0
-- londres: 28038.25 – 28239.5
-- ny_am: 28215.75 – 28443.5
-- overnight: 28038.25 – 28426.5
+Día anterior (2026-11-03): PDH 28449.5 · PDL 28038.25 · cierre 28416.0 · semana 27615.75–28891.25
+- asia: 27615.75 – 28181.75
+- overnight: 27615.75 – 28512.0
 
-## 4h: bajista · LH y LL · BOS bajista: cierre por debajo de 28927.25 (03/11 01:00 NY)
+## 4h: bajista · LH y LL · BOS bajista: cierre por debajo de 28038.25 (03/11 17:00 NY)
 Swing highs [29989.25, 30178.0, 28891.25] · swing lows [28821.5, 28232.75, 28038.25]
-Fib bajista (máximo → mínimo): 28038.25–28891.25 · 50 % 28464.75 · OTE 28567.11/28639.62/28712.12 · precio en discount
-- FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, 2026-10-14 10:00)
+Fib bajista (máximo → mínimo): 27615.75–28891.25 · 50 % 28253.5 · OTE 28406.56/28514.98/28623.4 · precio en discount
 - FVG bajista 29180.0–29431.5 (CE 29305.75, virgen, 2026-10-29 14:00)
 - FVG bajista 29042.0–29111.0 (CE 29076.5, tocado, 2026-10-29 18:00)
 - FVG bajista 28608.0–28683.25 (CE 28645.62, virgen, 2026-11-02 09:00)
-- FVG bajista 28284.5–28485.0 (CE 28384.75, tocado, 2026-11-02 13:00)
+- FVG bajista 28189.0–28237.0 (CE 28213.0, virgen, 2026-11-03 17:00)
 Máximos iguales [] · mínimos iguales [29023.5]
 
-## 1h: bajista · LH y HL · BOS bajista: cierre por debajo de 28101.75 (03/11 00:00 NY)
-Swing highs [28831.5, 28891.25, 28443.5] · swing lows [28101.75, 28038.25, 28114.25]
-Fib alcista (mínimo → máximo): 28114.25–28443.5 · 50 % 28278.88 · OTE 28239.37/28211.38/28183.39 · precio en premium
+## 1h: bajista · HH y HL · BOS bajista: cierre por debajo de 28038.25 (03/11 21:00 NY)
+Swing highs [28891.25, 28443.5, 28512.0] · swing lows [28038.25, 28114.25, 28237.0]
+Fib bajista (máximo → mínimo): 27615.75–28512.0 · 50 % 28063.88 · OTE 28171.42/28247.61/28323.79 · precio en premium
+- FVG bajista 29794.25–29821.5 (CE 29807.88, virgen, 2026-10-28 16:00)
 - FVG bajista 29180.0–29443.25 (CE 29311.62, virgen, 2026-10-29 16:00)
 - FVG bajista 28608.0–28634.0 (CE 28621.0, virgen, 2026-11-02 12:00)
-- FVG bajista 28443.5–28485.0 (CE 28464.25, virgen, 2026-11-02 13:00)
-- FVG bajista 28333.0–28354.0 (CE 28343.5, virgen, 2026-11-03 14:00)
+- FVG bajista 28181.75–28305.75 (CE 28243.75, tocado, 2026-11-03 19:00)
+- FVG alcista 27768.75–28009.25 (CE 27889.0, virgen, 2026-11-03 23:00)
 
-## 15m: bajista · LH y LL · CHoCH/MSS bajista: cierre por debajo de 28282.75 (03/11 14:45 NY)
-Swing highs [28426.5, 28443.5, 28431.75] · swing lows [28215.75, 28282.75, 28237.0]
+## 15m: bajista · HH y LL · BOS bajista: cierre por debajo de 27732.50 (03/11 21:45 NY)
+Swing highs [28443.5, 28431.75, 28512.0] · swing lows [28264.0, 27732.5, 27615.75]
 - FVG bajista 28756.5–28800.75 (CE 28778.62, virgen, 2026-11-02 10:45)
 - FVG bajista 28598.75–28622.75 (CE 28610.75, tocado, 2026-11-02 12:15)
-- FVG bajista 28498.0–28536.5 (CE 28517.25, virgen, 2026-11-02 13:30)
-- FVG bajista 28443.5–28463.75 (CE 28453.62, virgen, 2026-11-02 13:45)
-- FVG alcista 28183.0–28216.5 (CE 28199.75, tocado, 2026-11-03 07:15)
+- FVG bajista 28498.0–28536.5 (CE 28517.25, tocado, 2026-11-02 13:30)
+- FVG bajista 28369.0–28448.0 (CE 28408.5, tocado, 2026-11-03 18:30)
+- FVG bajista 28158.0–28309.5 (CE 28233.75, tocado, 2026-11-03 19:15)
+- FVG alcista 28139.25–28164.0 (CE 28151.62, virgen, 2026-11-04 00:30)
+- FVG alcista 27734.75–28036.0 (CE 27885.38, virgen, 2026-11-04 00:00)
+- FVG alcista 27777.0–28009.25 (CE 27893.12, virgen, 2026-11-03 23:15)
 
-## 5m: bajista · HH y LL · BOS bajista: cierre por debajo de 28282.75 (03/11 14:50 NY)
-Swing highs [28398.5, 28426.5, 28431.75] · swing lows [28354.0, 28313.25, 28237.0]
-- FVG bajista 28598.75–28610.5 (CE 28604.62, tocado, 2026-11-02 12:25)
-- FVG bajista 28547.0–28552.25 (CE 28549.62, virgen, 2026-11-02 13:25)
-- FVG bajista 28498.0–28508.0 (CE 28503.0, virgen, 2026-11-02 13:40)
-- FVG bajista 28443.5–28455.5 (CE 28449.5, virgen, 2026-11-02 13:55)
-- FVG alcista 28295.25–28303.0 (CE 28299.12, tocado, 2026-11-03 15:15)
-- FVG alcista 28196.25–28207.0 (CE 28201.62, tocado, 2026-11-03 07:20)
-- FVG alcista 28183.0–28187.5 (CE 28185.25, virgen, 2026-11-03 07:15)
-- FVG alcista 28096.0–28122.0 (CE 28109.0, tocado, 2026-11-03 02:45)
+## 5m: alcista · LH y LL · BOS alcista: cierre por encima de 27991.00 (04/11 00:15 NY)
+Swing highs [27991.0, 27950.0, 27756.0] · swing lows [27615.75, 27683.0, 27676.5]
+- FVG bajista 28393.0–28414.25 (CE 28403.62, tocado, 2026-11-03 18:35)
+- FVG bajista 28327.75–28340.0 (CE 28333.88, virgen, 2026-11-03 19:10)
+- FVG bajista 28253.25–28309.5 (CE 28281.38, virgen, 2026-11-03 19:15)
+- FVG bajista 28189.75–28227.25 (CE 28208.5, tocado, 2026-11-03 19:20)
+- FVG alcista 28152.5–28164.0 (CE 28158.25, virgen, 2026-11-04 00:40)
+- FVG alcista 28032.5–28036.0 (CE 28034.25, virgen, 2026-11-04 00:10)
+- FVG alcista 27719.75–28027.75 (CE 27873.75, virgen, 2026-11-04 00:05)
+- FVG alcista 27734.75–28009.25 (CE 27872.0, virgen, 2026-11-03 23:20)
+Máximos iguales [] · mínimos iguales [27683.88]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
-- 16:00 · JOLTS Job Openings · impacto medio · previsión 7.15M · anterior 7.08M
-- 16:16 · Congressional Elections · impacto ALTO · previsión None · anterior None
+- 16:00 · ISM Services PMI · impacto medio · previsión 54.8 · anterior 54.9
 - Próximo ALTO: 2026-11-06 14:30 · Average Hourly Earnings m/m · previsión 0.3%
 - Próximo ALTO: 2026-11-06 14:30 · Non-Farm Employment Change · previsión 65K
 - Próximo ALTO: 2026-11-06 14:30 · Unemployment Rate · previsión 4.2%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 04/11 06:33 · [-] New York dog moms are lavishing pooches with $100k-a-year luxury retreats and themed birthday parties (nypost.com)
+- 04/11 06:02 · [medium] Trump: Democrats will send insane measures and I will veto them (@financialjuice)
+- 04/11 05:14 · [-] India rupee's recovery may find fresh legs from equity flows, US dollar weakness (brecorder.com)
+- 04/11 05:00 · [medium] Democrats win control of the U.S. Senate (@BNONews)
+- 04/11 04:31 · [-] AUD/USD Remains Vulnerable Despite US Dollar Weakness Amid Midterms (stonex.com)
+- 04/11 03:43 · [-] US dollar outlook: Nasdaq breakdown raises stakes for EUR/USD, USD/JPY (forex.com)
+- 04/11 03:11 · [high] Democrats Win Control Of The US House, DDHQ Projects (@zerohedge)
+- 04/11 02:51 · [high] US Dollar Index falls below 101.50 as early midterm results point to Democratic gains (@FXStreetNews)
+- 04/11 02:45 · [low] China: Services activity growth extends into the start of the fourth quarter (pmi.spglobal.com)
+- 04/11 02:08 · [-] Exclusive Markets Names Former PU Prime Executive as MENA CEO After Four Years (financemagnates.com)
+- 04/11 01:30 · [low] AU: Monthly Household Spending Indicator, September 2026 (abs.gov.au)
+- 04/11 01:23 · [-] National Bank of Poland to hold rates as inflation pressures remain contained (think.ing.com)
+- 04/11 01:02 · [low] ANZ Commodity Price Index (anz.co.nz)
+- 04/11 00:50 · [medium] Japan Monetary Base (October 2026) (boj.or.jp)
+- 04/11 00:41 · [-] NZ's jobless rate rises to 5.7% - the highest for more than a decade (interest.co.nz)
+- 04/11 00:36 · [medium] Trump: The US has no immediate plans to strike Iran, we seem to be getting everything we want (@investingLive_)
+- 03/11 23:50 · [-] Gold Analysis: Resilient U.S. Labor Market Continues to Pressure XAU/USD (forex.com)
+- 03/11 23:20 · [-] US Regulators Approve Perpetual Stock Futures Trading on Domestic Exchanges (moneycheck.com)
+- 03/11 22:59 · [low] API: Crude -5.267M, Cushing +0.51M, Gasoline +1.427M, Distillates -1.19M (@captgirish1)
+- 03/11 22:47 · [high] NZ labour market statistics: September 2026 quarter (stats.govt.nz)
+- 03/11 22:15 · [low] ECB's Kocher: Risks to inflation remain elevated (@financialjuice)
+- 03/11 22:15 · [-] CFTC court order directs Texas firm, owner to pay over $13 million in commodities fraud case (tradersunion.com)
 - 03/11 21:30 · [-] Bundesbank's Nagel joins ECB chorus backing December rate hike (finance.yahoo.com)
 - 03/11 20:46 · [-] US Dollar Short-term Outlook: USD Rally on the Line as Midterms, NFP Loom (forex.com)
 - 03/11 19:58 · [-] US job openings posted big September gain in positive sign for labor market ahead of payrolls report (cnbc.com)
-- 03/11 19:22 · [-] The economy is 'less K-shaped than you think' &#x97; and that's bad news for the Fed (finance.yahoo.com)
-- 03/11 19:00 · [low] Nagel: Courage for more Europe (bundesbank.de)
-- 03/11 18:52 · [low] Israel tells the US that Iran is weighing chemical weapons use - NYT (@financialjuice)
-- 03/11 18:41 · [-] USD/JPY Analysis: Rising U.S. Yields Leave the Yen on the Defensive (forex.com)
-- 03/11 17:55 · [-] Sterilized Forex Intervention: Why Buying Foreign Currency Need Not Ease Monetary Policy (beemarkets.com)
-- 03/11 17:19 · [-] Gold Price Forecast: Standard Chartered Cuts Targets But Maintains $4,700 Recovery (exchangerates.org.uk)
-- 03/11 17:06 · [low] Senior Iranian Official: There Is No Deadline For Exchanging Messages With Washington Through Mediators Or Reviewing Responses (@LiveSquawk)
-- 03/11 17:00 · [low] Macklem: Opening Statement before the House of Commons Standing Committee on Finance (bankofcanada.ca)
-- 03/11 16:43 · [-] Fed chair&#x92;s new claim to fame: His racehorse Deterministic won a $2 million race (dnyuz.com)
-- 03/11 16:18 · [medium] Iranian Delegation Spokesman: No New Agreement Reached Yet &#x96; IRIB (@LiveSquawk)
-- 03/11 16:08 · [-] Confidence in a Blue Wave Grows Ahead of US Midterm Elections (youtube.com/forexcom)
-- 03/11 16:04 · [low] US factory orders up 1.8% in September (breakingthenews.net)
-- 03/11 16:00 · [medium] US Job Openings and Labor Turnover &#x96; September 2026 (bls.gov)
-- 03/11 15:33 · [-] US RCM/TIPP Optimism Hits a Nine-Month-High (realclearmarkets.com)
-- 03/11 15:26 · [low] Iran Says Us Response To Its Demands Wasnt Convincing: BBG (@apewirenews)
-- 03/11 14:58 · [-] US-Iran Reportedly Agree To Concessions On Nuclear File, Oil Plunges (zerohedge.com)
-- 03/11 14:31 · [low] Trump Says A Balanced Budget Would Be Achieved If The Fed Cut Interest Rates (@RedboxWire)
-- 03/11 14:28 · [high] US Approved Draft MOU Presented By Qatari Delegation For Iran Yesterday (@FirstSquawk)
-- 03/11 14:22 · [low] Trump on Iran: Not looking to kill tons of people; on Iran facility: We hit it last night very nicely (@zerohedge)
-- 03/11 14:12 · [-] Yuan set for biggest daily drop in 6 months after PBOC raises FX RRR (brecorder.com)
-- 03/11 13:34 · [-] FP Markets Goes Physical in South Africa (financemagnates.com)
-- 03/11 13:24 · [low] Qatari Mediators Expect Feedback From US And Iran Within 36 Hours On New Proposal To Advance Talks - Official Briefed On The Talks To RTRS (@LiveSquawk)
 
-## Estadísticas (últimos 47 días)
-Rango medio: 580.9 pts (20d) · 665.8 pts (5d)
-Toma PDH 51 % · toma PDL 51 % · ambos 13 %
-Sesión del máximo: {'NY': 48, 'Asia': 27, 'otro': 12, 'Londres': 12} · del mínimo: {'NY': 31, 'Asia': 27, 'Londres': 23, 'otro': 19}
-Ayer fue un día: neutro
-tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 164.0}
-tras dia alcista fuerte: {'casos': 17, 'pct_toma_pdh': 88, 'pct_toma_pdl': 24, 'pct_cierra_abajo_de_apertura': 41, 'retroceso_medio_desde_apertura': 248.6}
+## Estadísticas (últimos 46 días)
+Rango medio: 581.2 pts (20d) · 667.0 pts (5d)
+Toma PDH 50 % · toma PDL 52 % · ambos 13 %
+Sesión del máximo: {'NY': 47, 'Asia': 28, 'otro': 13, 'Londres': 13} · del mínimo: {'NY': 32, 'Asia': 26, 'Londres': 23, 'otro': 19}
+Ayer fue un día: alcista fuerte
+tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 55, 'rebote_medio_desde_apertura': 163.9}
+tras dia alcista fuerte: {'casos': 16, 'pct_toma_pdh': 88, 'pct_toma_pdl': 25, 'pct_cierra_abajo_de_apertura': 44, 'retroceso_medio_desde_apertura': 257.5}
