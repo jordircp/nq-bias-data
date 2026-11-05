@@ -144,11 +144,22 @@ def ff_news(horas=24, maximo=25):
 
 
 # ---------------------------------------------------------------- análisis
-def find_fvgs(df, tf, max_items=8):
-    """FVG de 3 velas. Devuelve los no rellenados (o parcialmente) más recientes."""
-    out = []
-    h, l, c = df["High"].values, df["Low"].values, df["Close"].values
-    for i in range(1, len(df) - 1):
+def find_fvgs(df, tf, max_items=8, ifvg_lookback=40):
+    """FVG de 3 velas con reglas ICT.
+
+    - Tocar o meter la mecha NO invalida el FVG (queda "tocado" o "barrido" si la mecha lo atraviesa).
+    - Solo se invalida cuando una vela CIERRA más allá del extremo contrario
+      (alcista: cierre por debajo del borde inferior; bajista: cierre por encima del superior).
+    - Un FVG invalidado reciente pasa a IFVG (cambia de papel) mientras no vuelva a cerrar al otro lado.
+    Cada FVG lleva una puntuación de importancia (tamaño, desplazamiento, virgen, cercanía al precio).
+    """
+    o, h, l, c = (df[k].values for k in ("Open", "High", "Low", "Close"))
+    n = len(df)
+    rng = pd.Series(h - l).rolling(20, min_periods=5).mean().bfill().values
+    last = float(c[-1])
+    atr_now = float(rng[-1]) or 1.0
+    fvgs, ifvgs = [], []
+    for i in range(1, n - 1):
         kind = None
         if l[i + 1] > h[i - 1] and l[i + 1] - h[i - 1] >= MIN_FVG[tf]:
             kind, top, bot = "alcista", l[i + 1], h[i - 1]
@@ -156,26 +167,59 @@ def find_fvgs(df, tf, max_items=8):
             kind, top, bot = "bajista", l[i - 1], h[i + 1]
         if not kind:
             continue
-        later_l, later_h = l[i + 2:], h[i + 2:]
+        lh, ll, lc = h[i + 2:], l[i + 2:], c[i + 2:]
         if kind == "alcista":
-            filled = len(later_l) and later_l.min() <= bot
-            touched = len(later_l) and later_l.min() < top
+            broke = np.nonzero(lc < bot)[0]
+            touched = len(ll) and ll.min() < top
+            swept = len(ll) and ll.min() < bot
         else:
-            filled = len(later_h) and later_h.max() >= top
-            touched = len(later_h) and later_h.max() > bot
-        if filled:
-            continue
-        out.append({
-            "tf": tf, "tipo": kind, "arriba": round(float(top), 2), "abajo": round(float(bot), 2),
-            "ce": round(float((top + bot) / 2), 2), "tamano": round(float(top - bot), 2),
-            "hora_ny": df.index[i].strftime("%Y-%m-%d %H:%M"),
-            "estado": "tocado" if touched else "virgen", "_i": i,
-        })
-    last = float(c[-1])
-    above = sorted([f for f in out if f["abajo"] >= last], key=lambda f: f["abajo"])[: max_items // 2]
-    below = sorted([f for f in out if f["arriba"] <= last], key=lambda f: -f["arriba"])[: max_items // 2]
-    inside = [f for f in out if f["abajo"] < last < f["arriba"]]
-    return sorted(inside + above + below, key=lambda f: -f["arriba"])
+            broke = np.nonzero(lc > top)[0]
+            touched = len(lh) and lh.max() > bot
+            swept = len(lh) and lh.max() > top
+        size = float(top - bot)
+        disp = abs(c[i] - o[i]) / max(rng[i], 1e-9)  # cuerpo de la vela del medio vs rango medio
+        base = {
+            "tf": tf, "arriba": round(float(top), 2), "abajo": round(float(bot), 2),
+            "ce": round(float((top + bot) / 2), 2), "tamano": round(size, 2),
+            "hora_ny": df.index[i].strftime("%Y-%m-%d %H:%M"), "_i": i,
+        }
+        dist = min(abs(last - top), abs(last - bot)) if not (bot <= last <= top) else 0.0
+        if len(broke) == 0:
+            estado = "barrido (mecha lo atravesó, sin cierre)" if swept else ("tocado" if touched else "virgen")
+            score = size / atr_now + 0.8 * min(disp, 2.5) + (1.0 if estado == "virgen" else 0.3) - 0.15 * dist / atr_now
+            fvgs.append({**base, "tipo": kind, "estado": estado, "_score": score})
+        else:
+            j = i + 2 + int(broke[0])  # vela que cerró al otro lado
+            if n - 1 - j > ifvg_lookback:
+                continue
+            after = c[j + 1:]
+            # el IFVG se anula si vuelve a cerrar al lado original
+            if kind == "alcista" and len(after) and (after > top).any():
+                continue
+            if kind == "bajista" and len(after) and (after < bot).any():
+                continue
+            nuevo = "bajista" if kind == "alcista" else "alcista"
+            score = size / atr_now + 0.8 * min(disp, 2.5) + 0.5 - 0.15 * dist / atr_now
+            ifvgs.append({**base, "tipo": f"IFVG {nuevo}", "estado": f"invertido {df.index[j].strftime('%d/%m %H:%M')}",
+                          "_score": score})
+    for f in fvgs + ifvgs:
+        f["importancia"] = "alta" if f["_score"] >= 2.2 else ("media" if f["_score"] >= 1.2 else "baja")
+    # lista para el resumen: los mejores por lado (encima / dentro / debajo del precio)
+    above = sorted([f for f in fvgs if f["abajo"] >= last], key=lambda f: -f["_score"])[: max_items // 2]
+    below = sorted([f for f in fvgs if f["arriba"] <= last], key=lambda f: -f["_score"])[: max_items // 2]
+    inside = [f for f in fvgs if f["abajo"] < last < f["arriba"]]
+    best_ifvg = sorted(ifvgs, key=lambda f: -f["_score"])[:2]
+    return sorted(inside + above + below + best_ifvg, key=lambda f: -f["arriba"])
+
+
+def chart_pick(fvgs, last, per_side=2):
+    """Solo los más importantes para el gráfico: 2 por encima, 2 por debajo, el que contiene el precio y 1 IFVG."""
+    plain = [f for f in fvgs if not f["tipo"].startswith("IFVG")]
+    above = sorted([f for f in plain if f["abajo"] >= last], key=lambda f: -f["_score"])[:per_side]
+    below = sorted([f for f in plain if f["arriba"] <= last], key=lambda f: -f["_score"])[:per_side]
+    inside = [f for f in plain if f["abajo"] < last < f["arriba"]][:1]
+    ifv = sorted([f for f in fvgs if f["tipo"].startswith("IFVG")], key=lambda f: -f["_score"])[:1]
+    return inside + above + below + ifv
 
 
 def swings(df, order=3):
@@ -382,7 +426,7 @@ BG, FG, GRID = "#131722", "#d1d4dc", "#2a2e39"
 UP, DN = "#26a69a", "#ef5350"
 
 
-def chart(df, tf, fvgs, levels, fib=None, bars=90, path=None, title=""):
+def chart(df, tf, fvgs, levels, fib=None, bars=90, path=None, title="", htf=None):
     df = df.iloc[-bars:]
     off = len(df.index)  # posiciones 0..n-1
     fig, ax = plt.subplots(figsize=(13, 7), dpi=110)
@@ -396,15 +440,33 @@ def chart(df, tf, fvgs, levels, fib=None, bars=90, path=None, title=""):
         ax.add_patch(Rectangle((i - 0.35, min(o[i], c[i])), 0.7, max(abs(c[i] - o[i]), 0.25), color=col))
     lo_v, hi_v = l.min(), h.max()
     pad = (hi_v - lo_v) * 0.08
-    start_time = df.index[0]
+    labels = []  # (precio, texto, color)
+
+    def visible(f):
+        return not (f["arriba"] < lo_v - pad or f["abajo"] > hi_v + pad)
+
+    # FVG de la temporalidad mayor: solo contorno, para tener el contexto sin tapar nada
+    for f in (htf or []):
+        if not visible(f):
+            continue
+        col = UP if f["tipo"].endswith("alcista") else DN
+        ax.add_patch(Rectangle((0, f["abajo"]), off + 3, f["arriba"] - f["abajo"], fill=False,
+                               edgecolor=col, linewidth=1.1, linestyle="--", alpha=0.8))
+        labels.append((f["ce"], f"FVG {f['tf']} {f['abajo']:.0f}-{f['arriba']:.0f} (mayor)", col))
     for f in fvgs:
+        if not visible(f):
+            continue
         t = pd.Timestamp(f["hora_ny"]).tz_localize(NY)
         xs = max(0, int(np.searchsorted(df.index, t)))
-        if f["arriba"] < lo_v - pad or f["abajo"] > hi_v + pad:
-            continue
-        col = UP if f["tipo"] == "alcista" else DN
-        ax.add_patch(Rectangle((xs, f["abajo"]), off - xs + 3, f["arriba"] - f["abajo"], color=col, alpha=0.18))
-        ax.text(off + 3.5, f["ce"], f"FVG {tf} {f['abajo']:.0f}-{f['arriba']:.0f}", color=col, fontsize=8, va="center")
+        inv = f["tipo"].startswith("IFVG")
+        col = UP if f["tipo"].endswith("alcista") else DN
+        alpha = 0.30 if f.get("importancia") == "alta" else 0.17
+        ax.add_patch(Rectangle((xs, f["abajo"]), off - xs + 3, f["arriba"] - f["abajo"], color=col,
+                               alpha=alpha, hatch="//" if inv else None, fill=True))
+        tag = "IFVG" if inv else "FVG"
+        star = " ★" if f.get("importancia") == "alta" else ""
+        est = "" if inv else {"virgen": " virgen", "tocado": " tocado"}.get(f["estado"], " barrido")
+        labels.append((f["ce"], f"{tag} {tf} {f['abajo']:.0f}-{f['arriba']:.0f}{est}{star}", col))
     for name, val, col in levels:
         if val is None or not (lo_v - pad * 3 <= val <= hi_v + pad * 3):
             continue
@@ -418,8 +480,16 @@ def chart(df, tf, fvgs, levels, fib=None, bars=90, path=None, title=""):
     ax.axhline(c[-1], color=FG, linewidth=0.6, alpha=0.6)
     ax.text(off + 0.5, c[-1], f" {c[-1]:.2f}", color=BG, fontsize=8, va="center",
             bbox=dict(facecolor=FG, edgecolor="none", pad=1.5))
-    ax.set_xlim(-1, off + 22)
-    ax.set_ylim(lo_v - pad, hi_v + pad)
+    # etiquetas a la derecha sin solaparse
+    ylo, yhi = lo_v - pad, hi_v + pad
+    gap = (yhi - ylo) * 0.035
+    placed = []
+    for pr, txt, col in sorted(labels, key=lambda r: r[0]):
+        y = pr if not placed or pr - placed[-1] >= gap else placed[-1] + gap
+        placed.append(y)
+        ax.text(off + 3.5, y, txt, color=col, fontsize=8, va="center")
+    ax.set_xlim(-1, off + 30)
+    ax.set_ylim(ylo, yhi)
     step = max(1, off // 8)
     ax.set_xticks(x[::step])
     fmt = "%d/%m %H:%M" if tf in ("5m", "15m", "1h") else "%d/%m"
@@ -429,7 +499,8 @@ def chart(df, tf, fvgs, levels, fib=None, bars=90, path=None, title=""):
     ax.grid(color=GRID, linewidth=0.5)
     for s in ax.spines.values():
         s.set_color(GRID)
-    ax.set_title(f"NQ {tf} · {title} (hora NY)", color=FG, fontsize=11, loc="left")
+    ax.set_title(f"NQ {tf} · {title} (hora NY) · ★ = FVG más importante · rayado = IFVG · discontinuo = FVG de temporalidad mayor",
+                 color=FG, fontsize=10, loc="left")
     fig.tight_layout()
     fig.savefig(path, facecolor=BG)
     plt.close(fig)
@@ -467,6 +538,7 @@ def main():
             levels += [(f"{name} H", sess[key]["maximo"], col), (f"{name} L", sess[key]["minimo"], col)]
 
     per_tf = {}
+    parent = {"1h": "4h", "15m": "1h", "5m": "1h"}
     for tf, order, bars in (("4h", 2, 90), ("1h", 3, 120), ("15m", 3, 120), ("5m", 3, 130)):
         df = data[tf]
         st, sh, sl = structure(df, order)
@@ -474,8 +546,13 @@ def main():
         fib = fib_leg(df, sh, sl) if tf in ("4h", "1h") else None
         eq = equal_levels(df)
         per_tf[tf] = {"estructura": st, "fvg_abiertos": fv, "fibonacci": fib, "liquidez_iguales": eq}
-        chart(df, tf, fv, levels, fib=fib, bars=bars, path=os.path.join(OUT, f"chart_{tf}.png"),
-              title=f"tendencia {st['tendencia']}")
+        lastp = float(df["Close"].iloc[-1])
+        htf = None
+        if tf in parent:  # 1 FVG de la temporalidad mayor por lado, el más importante
+            pf = [f for f in per_tf[parent[tf]]["fvg_abiertos"] if not f["tipo"].startswith("IFVG")]
+            htf = chart_pick(pf, lastp, per_side=1)
+        chart(df, tf, chart_pick(fv, lastp), levels, fib=fib, bars=bars,
+              path=os.path.join(OUT, f"chart_{tf}.png"), title=f"tendencia {st['tendencia']}", htf=htf)
         df.tail(400).round(2).to_csv(os.path.join(OUT, f"candles_{tf}.csv"))
     summary["temporalidades"] = per_tf
     try:
@@ -507,7 +584,8 @@ def main():
 
 
 def to_md(s):
-    L = [f"# NQ datos · {s['ultima_vela_ny']} (NY)", "", f"Precio: **{s['precio']}**", ""]
+    L = [f"# NQ datos · {s['ultima_vela_ny']} (NY)", "", f"Precio: **{s['precio']}**", "",
+         "Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.", ""]
     p = s.get("dia_anterior")
     if p:
         L.append(f"Día anterior ({p['fecha']}): PDH {p['PDH']} · PDL {p['PDL']} · cierre {p['cierre']} · semana {p['min_semana']}–{p['max_semana']}")
@@ -522,7 +600,8 @@ def to_md(s):
             fb = t["fibonacci"]
             L.append(f"Fib {fb['direccion']}: {fb['minimo']}–{fb['maximo']} · 50 % {fb['50']} · OTE {fb['62']}/{fb['70.5']}/{fb['79']} · precio en {fb['precio_en']}")
         for f in t["fvg_abiertos"]:
-            L.append(f"- FVG {f['tipo']} {f['abajo']}–{f['arriba']} (CE {f['ce']}, {f['estado']}, {f['hora_ny']})")
+            tag = f["tipo"] if f["tipo"].startswith("IFVG") else f"FVG {f['tipo']}"
+            L.append(f"- {tag} {f['abajo']}–{f['arriba']} (CE {f['ce']}, {f['estado']}, importancia {f.get('importancia')}, {f['hora_ny']})")
         eq = t["liquidez_iguales"]
         if eq["maximos_iguales"] or eq["minimos_iguales"]:
             L.append(f"Máximos iguales {eq['maximos_iguales']} · mínimos iguales {eq['minimos_iguales']}")
