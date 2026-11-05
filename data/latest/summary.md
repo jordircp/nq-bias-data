@@ -1,63 +1,54 @@
-# NQ datos · 2026-11-05 09:25 (NY)
+# NQ datos · 2026-11-05 12:45 (NY)
 
-Precio: **28213.25**
+Precio: **26996.75**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
-Día anterior (2026-11-04): PDH 28969.0 · PDL 27615.75 · cierre 28646.75 · semana 27615.75–28969.0
+Día anterior (2026-11-04): PDH 28969.0 · PDL 27615.75 · cierre 28646.75 · semana 26732.0–28969.0
 - asia: 28180.0 – 28476.0
 - londres: 28246.75 – 28438.5
+- ny_am: 26732.0 – 28228.25
 - overnight: 28167.75 – 28620.75
 
-## 4h: alcista · HH y HL · CHoCH/MSS alcista: cierre por encima de 28512.00 (04/11 09:00 NY)
+## 4h: bajista · HH y HL · CHoCH/MSS bajista: cierre por debajo de 28167.75 (05/11 09:00 NY)
 Swing highs [28891.25, 28512.0, 28969.0] · swing lows [28038.25, 27615.75, 28167.75]
-Fib bajista (máximo → mínimo): 28167.75–28969.0 · 50 % 28568.38 · OTE 28664.53/28732.63/28800.74 · precio en discount
+Fib bajista (máximo → mínimo): 26732.0–28969.0 · 50 % 27850.5 · OTE 28118.94/28309.08/28499.23 · precio en discount
 - FVG bajista 30538.25–30705.25 (CE 30621.75, virgen, importancia media, 2026-10-14 06:00)
-- FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, importancia alta, 2026-10-14 10:00)
+- FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, importancia media, 2026-10-14 10:00)
 - IFVG bajista 29045.75–29444.5 (CE 29245.12, invertido 29/10 18:00, importancia alta, 2026-09-14 10:00)
 - FVG bajista 29180.0–29431.5 (CE 29305.75, virgen, importancia media, 2026-10-29 14:00)
-- IFVG bajista 29354.0–29426.5 (CE 29390.25, invertido 29/10 14:00, importancia media, 2026-10-26 10:00)
+- IFVG bajista 29354.0–29426.5 (CE 29390.25, invertido 29/10 14:00, importancia baja, 2026-10-26 10:00)
 - FVG bajista 28476.0–28510.5 (CE 28493.25, virgen, importancia media, 2026-11-04 17:00)
 
-## 1h: bajista · LH y LL · CHoCH/MSS bajista: cierre por debajo de 28180.00 (05/11 00:00 NY)
+## 1h: bajista · LH y LL · BOS bajista: cierre por debajo de 27615.75 (05/11 11:00 NY)
 Swing highs [28662.0, 28969.0, 28465.0] · swing lows [28262.25, 28180.0, 28167.75]
-Fib alcista (mínimo → máximo): 28167.75–28465.0 · 50 % 28316.38 · OTE 28280.71/28255.44/28230.17 · precio en discount
+Fib bajista (máximo → mínimo): 26732.0–28465.0 · 50 % 27598.5 · OTE 27806.46/27953.76/28101.07 · precio en discount
 - FVG bajista 29794.25–29821.5 (CE 29807.88, virgen, importancia baja, 2026-10-28 16:00)
 - FVG bajista 29180.0–29443.25 (CE 29311.62, virgen, importancia alta, 2026-10-29 16:00)
-- FVG bajista 28958.25–29030.25 (CE 28994.25, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-10-29 20:00)
-- IFVG bajista 28455.0–28570.0 (CE 28512.5, invertido 04/11 20:00, importancia alta, 2026-11-04 09:00)
-- FVG bajista 28375.25–28388.75 (CE 28382.0, virgen, importancia media, 2026-11-05 07:00)
-- FVG alcista 27956.25–28131.0 (CE 28043.62, virgen, importancia alta, 2026-11-04 00:00)
-- IFVG alcista 27950.0–28040.0 (CE 27995.0, invertido 04/11 00:00, importancia alta, 2026-11-03 20:00)
-- FVG alcista 27768.75–28009.25 (CE 27889.0, virgen, importancia alta, 2026-11-03 23:00)
+- IFVG bajista 28455.0–28570.0 (CE 28512.5, invertido 04/11 20:00, importancia media, 2026-11-04 09:00)
+- FVG bajista 27587.75–28288.0 (CE 27937.88, virgen, importancia alta, 2026-11-05 09:00)
+- IFVG bajista 27768.75–28009.25 (CE 27889.0, invertido 05/11 09:00, importancia media, 2026-11-03 23:00)
+- FVG bajista 27358.0–27457.5 (CE 27407.75, virgen, importancia alta, 2026-11-05 10:00)
 
-## 15m: bajista · HH y HL · BOS bajista: cierre por debajo de 28273.50 (05/11 09:00 NY)
-Swing highs [28391.0, 28450.0, 28465.0] · swing lows [28167.75, 28273.5, 28388.75]
-- FVG bajista 29278.75–29452.5 (CE 29365.62, tocado, importancia alta, 2026-10-29 16:00)
-- FVG bajista 28463.0–28503.5 (CE 28483.25, tocado, importancia media, 2026-11-04 19:45)
-- FVG bajista 28383.75–28400.0 (CE 28391.88, virgen, importancia media, 2026-11-05 07:15)
-- FVG bajista 28264.0–28288.0 (CE 28276.0, virgen, importancia media, 2026-11-05 09:00)
-- IFVG bajista 28246.25–28256.25 (CE 28251.25, invertido 05/11 09:00, importancia media, 2026-11-05 01:45)
-- IFVG bajista 28216.0–28224.25 (CE 28220.12, invertido 05/11 09:15, importancia media, 2026-11-05 01:00)
-- FVG alcista 28139.25–28150.0 (CE 28144.62, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-04 00:30)
-- FVG alcista 27956.25–28036.0 (CE 27996.12, virgen, importancia alta, 2026-11-04 00:00)
-- FVG alcista 27823.0–28009.25 (CE 27916.12, virgen, importancia alta, 2026-11-03 23:45)
-- FVG alcista 27734.75–27799.75 (CE 27767.25, virgen, importancia media, 2026-11-03 23:30)
+## 15m: bajista · LH y LL · BOS bajista: cierre por debajo de 27615.75 (05/11 10:00 NY)
+Swing highs [28465.0, 28375.25, 27358.0] · swing lows [28273.5, 28388.75, 26732.0]
+- FVG bajista 29278.75–29452.5 (CE 29365.62, tocado, importancia media, 2026-10-29 16:00)
+- FVG bajista 27748.0–28200.25 (CE 27974.12, virgen, importancia alta, 2026-11-05 09:30)
+- IFVG bajista 27823.0–28009.25 (CE 27916.12, invertido 05/11 09:30, importancia media, 2026-11-03 23:45)
+- IFVG bajista 27734.75–27799.75 (CE 27767.25, invertido 05/11 09:30, importancia baja, 2026-11-03 23:30)
+- FVG bajista 27587.75–27700.0 (CE 27643.88, virgen, importancia alta, 2026-11-05 09:45)
+- FVG bajista 27428.5–27457.5 (CE 27443.0, virgen, importancia alta, 2026-11-05 10:00)
 
-## 5m: bajista · HH y HL · BOS bajista: cierre por debajo de 28246.75 (05/11 09:20 NY)
-Swing highs [28465.0, 28359.25, 28375.25] · swing lows [28388.75, 28291.25, 28303.0]
-- FVG bajista 28471.75–28522.0 (CE 28496.88, tocado, importancia media, 2026-11-04 19:50)
-- FVG bajista 28394.5–28411.5 (CE 28403.0, virgen, importancia media, 2026-11-05 07:15)
-- IFVG bajista 28299.5–28323.25 (CE 28311.38, invertido 05/11 09:00, importancia media, 2026-11-05 04:30)
-- FVG bajista 28308.5–28312.75 (CE 28310.62, virgen, importancia baja, 2026-11-05 08:55)
-- IFVG bajista 28225.5–28256.0 (CE 28240.75, invertido 05/11 09:20, importancia alta, 2026-11-05 01:45)
-- FVG bajista 28223.5–28229.0 (CE 28226.25, virgen, importancia media, 2026-11-05 09:20)
-- FVG alcista 28212.75–28224.25 (CE 28218.5, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-05 01:10)
-- FVG alcista 27956.25–28027.75 (CE 27992.0, virgen, importancia alta, 2026-11-04 00:05)
-- FVG alcista 27904.5–28009.25 (CE 27956.88, virgen, importancia alta, 2026-11-03 23:55)
-- FVG alcista 27740.25–27799.75 (CE 27770.0, virgen, importancia media, 2026-11-03 23:40)
-- FVG alcista 27687.25–27724.75 (CE 27706.0, virgen, importancia baja, 2026-11-03 23:35)
-Máximos iguales [28448.5, 28358.88] · mínimos iguales []
+## 5m: bajista · LH y HL · BOS bajista: cierre por debajo de 27019.50 (05/11 12:35 NY)
+Swing highs [28359.25, 28375.25, 27358.0] · swing lows [27085.5, 26732.0, 27019.5]
+- FVG bajista 28024.5–28200.25 (CE 28112.38, virgen, importancia alta, 2026-11-05 09:30)
+- FVG bajista 27874.25–27976.25 (CE 27925.25, virgen, importancia alta, 2026-11-05 09:35)
+- FVG bajista 27748.0–27847.5 (CE 27797.75, virgen, importancia alta, 2026-11-05 09:40)
+- IFVG bajista 27740.25–27799.75 (CE 27770.0, invertido 05/11 09:40, importancia media, 2026-11-03 23:40)
+- FVG bajista 27576.25–27624.25 (CE 27600.25, tocado, importancia baja, 2026-11-05 09:50)
+- IFVG bajista 27020.75–27110.0 (CE 27065.38, invertido 05/11 12:35, importancia media, 2026-11-05 11:10)
+- FVG bajista 26986.5–27007.5 (CE 26997.0, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-05 12:35)
+Máximos iguales [28358.88] · mínimos iguales []
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 14:30 · Unemployment Claims · impacto medio · previsión 197K · anterior 194K
@@ -66,6 +57,16 @@ Máximos iguales [28448.5, 28358.88] · mínimos iguales []
 - Próximo ALTO: 2026-11-06 14:30 · Unemployment Rate · previsión 4.2%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 05/11 18:42 · [-] Champions Don Land! HFM Brings the Premier League Trophy to Lagos for Africa Tour (investinglive.com)
+- 05/11 18:32 · [low] US Held Talks With Iran On Deporting Iranians During War: AP (@NourHammoury)
+- 05/11 17:54 · [-] A wipeout for AI stocks sends Wall Street reeling, and the S&amp;P 500 tumbles more than 3% (apnews.com)
+- 05/11 17:18 · [-] NFP Preview: Are Traders Underestimating the US Jobs Market Upside? (youtube.com/forexcom)
+- 05/11 17:01 · [low] Bailey: Second Hike More Likely Than Not If War Persists (@LiveSquawk)
+- 05/11 16:56 · [low] ECB's President Lagarde: Still necessary to apply tools to avoid inflation running away (@financialjuice)
+- 05/11 16:44 · [-] The Bank Tied To Paraguay's President Just Collapsed, And Depositors Are In The Streets (zerohedge.com)
+- 05/11 16:33 · [low] EIA: US gas inventories up by 77 billion cubic feet (breakingthenews.net)
+- 05/11 16:08 · [-] Wall Street plunges, Nasdaq sinks 3.4% (breakingthenews.net)
+- 05/11 15:41 · [-] BoE hikes rate for first time in 3 years; retreating oil prices may allow for more options ahead (apnews.com)
 - 05/11 15:23 · [low] Iran Says Two Tankers On Fire In Strait After Hitting Mines (@finsquawk_)
 - 05/11 15:09 · [low] Fed's Barkin: Demand In The Economy Is Solid, Though Some Sectors Don't Feel It (@FirstSquawk)
 - 05/11 15:04 · [-] Fed Chair Kevin Warsh set to face new headaches with Democrats in control: &#x91;Got no support&#x92; (nypost.com)
@@ -81,16 +82,6 @@ Máximos iguales [28448.5, 28358.88] · mínimos iguales []
 - 05/11 13:17 · [-] UK Monetary Policy Report Press Conference, 5 November 2026 (youtube.com/bankofenglanduk)
 - 05/11 13:04 · [high] UK Monetary Policy Report - November 2026 (bankofengland.co.uk)
 - 05/11 13:00 · [high] UK bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes (bankofengland.co.uk)
-- 05/11 12:49 · [-] Democratic Sweep Weakens the US Dollar and Lifts Precious Metals (monetamarkets.com)
-- 05/11 11:47 · [-] Euro Rally Hits a Wall Ahead of US Jobs Data (dailyforex.com)
-- 05/11 11:33 · [low] US October Layoffs at Three-Year Low; Seasonal Hiring Plans Up 26% (challengergray.com)
-- 05/11 11:01 · [low] Industrial producer prices up by 2.5% in the euro area and by 2.6% in the EU (ec.europa.eu)
-- 05/11 10:36 · [low] Weaker housing activity weighs on UK construction sector in October (pmi.spglobal.com)
-- 05/11 10:20 · [-] China's yuan rebounds as PBOC lifts midpoint, dollar falls after Democrats take Congress (brecorder.com)
-- 05/11 10:11 · [low] Italian retail trade - September 2026 (istat.it)
-- 05/11 09:13 · [low] ECB's Moulin: Higher yields are new test for financial sector (@financialjuice)
-- 05/11 09:12 · [low] ECB's Schnabel: Rise of non-bank finance and increase in public debt could threaten monetary dominance (@financialjuice)
-- 05/11 08:48 · [low] In September 2026, French manufacturing output increases by 0.5% (insee.fr)
 
 ## Estadísticas (últimos 46 días)
 Rango medio: 630.0 pts (20d) · 836.9 pts (5d)
