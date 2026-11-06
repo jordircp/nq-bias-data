@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-06 07:05",
-  "ultima_vela_ny": "2026-11-06 01:55",
-  "precio": 26990.0,
+  "generado_utc": "2026-11-06 07:35",
+  "ultima_vela_ny": "2026-11-06 02:25",
+  "precio": 26879.0,
   "dia_anterior": {
     "fecha": "2026-11-05",
     "PDH": 28620.75,
@@ -16,7 +16,10 @@
       "maximo": 27159.25,
       "minimo": 26817.75
     },
-    "londres": null,
+    "londres": {
+      "maximo": 26988.25,
+      "minimo": 26875.0
+    },
     "ny_am": null,
     "overnight": {
       "maximo": 27159.25,
@@ -188,9 +191,9 @@
         {
           "tf": "1h",
           "arriba": 27087.0,
-          "abajo": 26993.25,
-          "ce": 27040.12,
-          "tamano": 93.75,
+          "abajo": 26999.25,
+          "ce": 27043.12,
+          "tamano": 87.75,
           "hora_ny": "2026-11-06 00:00",
           "tipo": "bajista",
           "estado": "virgen",
@@ -239,7 +242,7 @@
     "15m": {
       "estructura": {
         "tendencia": "bajista · LH y HL",
-        "evento": "BOS bajista: cierre por debajo de 26732.00 (05/11 16:15 NY)",
+        "evento": "BOS bajista: cierre por debajo de 26903.00 (06/11 02:15 NY)",
         "ultimos_swing_high": [
           27358.0,
           27180.0,
@@ -287,13 +290,13 @@
         },
         {
           "tf": "15m",
-          "arriba": 27087.0,
-          "abajo": 27002.25,
-          "ce": 27044.62,
-          "tamano": 84.75,
-          "hora_ny": "2026-11-06 00:00",
+          "arriba": 26947.25,
+          "abajo": 26939.25,
+          "ce": 26943.25,
+          "tamano": 8.0,
+          "hora_ny": "2026-11-06 02:00",
           "tipo": "bajista",
-          "estado": "tocado",
+          "estado": "virgen",
           "importancia": "media"
         },
         {
@@ -316,7 +319,7 @@
           "hora_ny": "2026-11-05 15:45",
           "tipo": "IFVG alcista",
           "estado": "invertido 05/11 19:15",
-          "importancia": "baja"
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -327,7 +330,7 @@
           "hora_ny": "2026-11-05 19:00",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         }
       ],
       "fibonacci": null,
@@ -341,11 +344,11 @@
     "5m": {
       "estructura": {
         "tendencia": "bajista · LH y HL",
-        "evento": "CHoCH/MSS bajista: cierre por debajo de 27057.00 (06/11 00:05 NY)",
+        "evento": "BOS bajista: cierre por debajo de 26903.00 (06/11 02:25 NY)",
         "ultimos_swing_high": [
-          26973.75,
           27159.25,
-          27030.0
+          27030.0,
+          26999.25
         ],
         "ultimos_swing_low": [
           26903.0,
@@ -374,7 +377,7 @@
           "hora_ny": "2026-11-05 09:40",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "5m",
@@ -385,18 +388,18 @@
           "hora_ny": "2026-11-05 22:00",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "5m",
-          "arriba": 27087.0,
-          "abajo": 27011.75,
-          "ce": 27049.38,
-          "tamano": 75.25,
-          "hora_ny": "2026-11-06 00:05",
+          "arriba": 26979.75,
+          "abajo": 26941.75,
+          "ce": 26960.75,
+          "tamano": 38.0,
+          "hora_ny": "2026-11-06 02:00",
           "tipo": "bajista",
-          "estado": "tocado",
-          "importancia": "media"
+          "estado": "virgen",
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -407,7 +410,7 @@
           "hora_ny": "2026-11-05 19:00",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -514,6 +517,12 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "06/11 08:11",
+      "titular": "UK house prices fall in October as market remains subdued",
+      "fuente": "lloydsbank.com",
+      "impacto": "medium"
+    },
     {
       "hora_alemania": "06/11 08:01",
       "titular": "German production in September 2026: +0.7% compared to the previous month",
@@ -656,12 +665,6 @@
       "hora_alemania": "05/11 19:30",
       "titular": "What to Expect From the US October Jobs Report",
       "fuente": "kiplinger.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "05/11 18:42",
-      "titular": "Champions Don Land! HFM Brings the Premier League Trophy to Lagos for Africa Tour",
-      "fuente": "investinglive.com",
       "impacto": "-"
     }
   ]
