@@ -1,10 +1,10 @@
 {
-  "generado_utc": "2026-11-06 14:05",
-  "ultima_vela_ny": "2026-11-06 08:55",
-  "precio": 27159.5,
+  "generado_utc": "2026-11-06 14:35",
+  "ultima_vela_ny": "2026-11-06 09:25",
+  "precio": 27178.25,
   "dia_anterior": {
     "fecha": "2026-11-05",
-    "PDH": 28668.5,
+    "PDH": 28620.75,
     "PDL": 26570.0,
     "cierre": 26604.0,
     "max_semana": 28969.0,
@@ -30,12 +30,12 @@
   "temporalidades": {
     "4h": {
       "estructura": {
-        "tendencia": "bajista · HH y LL",
+        "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 27615.75 (05/11 13:00 NY)",
         "ultimos_swing_high": [
-          28891.25,
           28512.0,
-          28969.0
+          28969.0,
+          27251.5
         ],
         "ultimos_swing_low": [
           27615.75,
@@ -112,16 +112,16 @@
         }
       ],
       "fibonacci": {
-        "direccion": "bajista (máximo → mínimo)",
-        "maximo": 28969.0,
+        "direccion": "alcista (mínimo → máximo)",
+        "maximo": 27251.5,
         "minimo": 26366.5,
-        "hora_max": "2026-11-04 09:00",
+        "hora_max": "2026-11-06 01:00",
         "hora_min": "2026-11-05 17:00",
-        "50": 27667.75,
-        "62": 27980.05,
-        "70.5": 28201.26,
-        "79": 28422.47,
-        "precio_en": "discount"
+        "50": 26809.0,
+        "62": 26702.8,
+        "70.5": 26627.58,
+        "79": 26552.35,
+        "precio_en": "premium"
       },
       "liquidez_iguales": {
         "maximos_iguales": [],
@@ -249,8 +249,8 @@
           27220.75
         ],
         "ultimos_swing_low": [
-          26805.0,
           27049.5,
+          27043.0,
           27043.0
         ]
       },
@@ -358,22 +358,24 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [],
-        "minimos_iguales": []
+        "minimos_iguales": [
+          27043.0
+        ]
       }
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
+        "tendencia": "bajista · LH y HL",
         "evento": "CHoCH/MSS bajista: cierre por debajo de 27093.50 (06/11 08:00 NY)",
         "ultimos_swing_high": [
-          27220.75,
           27210.75,
-          27191.25
+          27191.25,
+          27188.75
         ],
         "ultimos_swing_low": [
-          27093.5,
           27043.0,
-          27043.0
+          27043.0,
+          27068.0
         ]
       },
       "fvg_abiertos": [
@@ -429,8 +431,8 @@
           "tamano": 32.75,
           "hora_ny": "2026-11-06 08:45",
           "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "alta"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "media"
         },
         {
           "tf": "5m",
@@ -469,7 +471,8 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [
-          27209.75
+          27209.75,
+          27190.0
         ],
         "minimos_iguales": [
           27043.0
@@ -479,8 +482,8 @@
   },
   "estadisticas": {
     "dias_analizados": 46,
-    "rango_medio_20d": 701.2,
-    "rango_medio_5d": 1120.0,
+    "rango_medio_20d": 698.8,
+    "rango_medio_5d": 1110.4,
     "pct_dias_toman_pdh": 50,
     "pct_dias_toman_pdl": 54,
     "pct_dias_toman_ambos": 15,
@@ -500,15 +503,15 @@
       "casos": 10,
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
-      "pct_cierra_arriba_de_apertura": 40,
-      "rebote_medio_desde_apertura": 172.9
+      "pct_cierra_arriba_de_apertura": 50,
+      "rebote_medio_desde_apertura": 172.2
     },
     "tras_dia_alcista_fuerte": {
       "casos": 17,
       "pct_toma_pdh": 82,
       "pct_toma_pdl": 35,
       "pct_cierra_abajo_de_apertura": 41,
-      "retroceso_medio_desde_apertura": 400.9
+      "retroceso_medio_desde_apertura": 398.1
     },
     "dia_anterior_tipo": "bajista fuerte"
   },
@@ -561,6 +564,12 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "06/11 15:11",
+      "titular": "Musalem: Your Fed: Decentralized by Design",
+      "fuente": "stlouisfed.org",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "06/11 15:00",
       "titular": "US job growth exceeds expectations in October despite economic uncertainty",
@@ -704,12 +713,6 @@
       "titular": "Democrats Plan To Pressure Trump With Canada Tariff Repeal Agenda: WSJ",
       "fuente": "@cablefxmacro",
       "impacto": "low"
-    },
-    {
-      "hora_alemania": "06/11 02:52",
-      "titular": "Mexico central bank cuts target rate to 6.25pc",
-      "fuente": "argusmedia.com",
-      "impacto": "-"
     }
   ]
 }
