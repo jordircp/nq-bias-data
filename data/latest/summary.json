@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-09 14:05",
-  "ultima_vela_ny": "2026-11-09 08:55",
-  "precio": 27346.25,
+  "generado_utc": "2026-11-09 14:35",
+  "ultima_vela_ny": "2026-11-09 09:25",
+  "precio": 27318.25,
   "dia_anterior": {
     "fecha": "2026-11-06",
     "PDH": 27425.0,
@@ -30,7 +30,7 @@
   "temporalidades": {
     "4h": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
+        "tendencia": "bajista · LH y HL",
         "evento": "BOS bajista: cierre por debajo de 27615.75 (05/11 13:00 NY)",
         "ultimos_swing_high": [
           28512.0,
@@ -38,9 +38,9 @@
           27425.0
         ],
         "ultimos_swing_low": [
-          27615.75,
           28167.75,
-          26366.5
+          26366.5,
+          26751.25
         ]
       },
       "fvg_abiertos": [
@@ -90,17 +90,6 @@
         },
         {
           "tf": "4h",
-          "arriba": 29426.5,
-          "abajo": 29354.0,
-          "ce": 29390.25,
-          "tamano": 72.5,
-          "hora_ny": "2026-10-26 10:00",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 29/10 14:00",
-          "importancia": "baja"
-        },
-        {
-          "tf": "4h",
           "arriba": 28510.5,
           "abajo": 28476.0,
           "ce": 28493.25,
@@ -120,18 +109,29 @@
           "tipo": "bajista",
           "estado": "tocado",
           "importancia": "alta"
+        },
+        {
+          "tf": "4h",
+          "arriba": 27291.75,
+          "abajo": 27147.25,
+          "ce": 27219.5,
+          "tamano": 144.5,
+          "hora_ny": "2026-11-09 05:00",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "media"
         }
       ],
       "fibonacci": {
-        "direccion": "alcista (mínimo → máximo)",
+        "direccion": "bajista (máximo → mínimo)",
         "maximo": 27425.0,
-        "minimo": 26366.5,
+        "minimo": 26751.25,
         "hora_max": "2026-11-06 09:00",
-        "hora_min": "2026-11-05 17:00",
-        "50": 26895.75,
-        "62": 26768.73,
-        "70.5": 26678.76,
-        "79": 26588.78,
+        "hora_min": "2026-11-09 01:00",
+        "50": 27088.12,
+        "62": 27168.97,
+        "70.5": 27226.24,
+        "79": 27283.51,
         "precio_en": "premium"
       },
       "liquidez_iguales": {
@@ -312,17 +312,6 @@
         },
         {
           "tf": "15m",
-          "arriba": 27303.25,
-          "abajo": 27287.5,
-          "ce": 27295.38,
-          "tamano": 15.75,
-          "hora_ny": "2026-11-09 08:30",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "15m",
           "arriba": 27065.25,
           "abajo": 27021.25,
           "ce": 27043.25,
@@ -345,6 +334,17 @@
         },
         {
           "tf": "15m",
+          "arriba": 26981.75,
+          "abajo": 26973.75,
+          "ce": 26977.75,
+          "tamano": 8.0,
+          "hora_ny": "2026-11-09 03:15",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "15m",
           "arriba": 26963.0,
           "abajo": 26887.25,
           "ce": 26925.12,
@@ -363,7 +363,7 @@
           "hora_ny": "2026-11-09 03:00",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "15m",
@@ -385,17 +385,17 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · LH y HL",
+        "tendencia": "alcista · HH y HL",
         "evento": "BOS alcista: cierre por encima de 27323.75 (09/11 08:00 NY)",
         "ultimos_swing_high": [
-          27248.0,
           27378.0,
-          27349.0
+          27349.0,
+          27368.75
         ],
         "ultimos_swing_low": [
-          27125.75,
           27195.75,
-          27230.25
+          27230.25,
+          27291.75
         ]
       },
       "fvg_abiertos": [
@@ -445,28 +445,6 @@
         },
         {
           "tf": "5m",
-          "arriba": 27342.25,
-          "abajo": 27340.25,
-          "ce": 27341.25,
-          "tamano": 2.0,
-          "hora_ny": "2026-11-09 08:50",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 27332.5,
-          "abajo": 27318.75,
-          "ce": 27325.62,
-          "tamano": 13.75,
-          "hora_ny": "2026-11-09 08:45",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
           "arriba": 27328.0,
           "abajo": 27297.0,
           "ce": 27312.5,
@@ -475,6 +453,17 @@
           "tipo": "IFVG alcista",
           "estado": "invertido 09/11 08:45",
           "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 27292.25,
+          "abajo": 27287.5,
+          "ce": 27289.88,
+          "tamano": 4.75,
+          "hora_ny": "2026-11-09 08:30",
+          "tipo": "alcista",
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "5m",
@@ -500,6 +489,17 @@
         },
         {
           "tf": "5m",
+          "arriba": 26931.0,
+          "abajo": 26893.25,
+          "ce": 26912.12,
+          "tamano": 37.75,
+          "hora_ny": "2026-11-09 03:05",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "5m",
           "arriba": 26883.75,
           "abajo": 26837.25,
           "ce": 26860.5,
@@ -521,8 +521,8 @@
   },
   "estadisticas": {
     "dias_analizados": 46,
-    "rango_medio_20d": 736.0,
-    "rango_medio_5d": 1132.7,
+    "rango_medio_20d": 738.4,
+    "rango_medio_5d": 1142.2,
     "pct_dias_toman_pdh": 48,
     "pct_dias_toman_pdl": 54,
     "pct_dias_toman_ambos": 13,
@@ -542,15 +542,15 @@
       "casos": 11,
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
-      "pct_cierra_arriba_de_apertura": 55,
-      "rebote_medio_desde_apertura": 227.9
+      "pct_cierra_arriba_de_apertura": 45,
+      "rebote_medio_desde_apertura": 228.5
     },
     "tras_dia_alcista_fuerte": {
       "casos": 16,
       "pct_toma_pdh": 81,
       "pct_toma_pdl": 31,
       "pct_cierra_abajo_de_apertura": 38,
-      "retroceso_medio_desde_apertura": 390.6
+      "retroceso_medio_desde_apertura": 393.8
     },
     "dia_anterior_tipo": "neutro"
   },
@@ -594,6 +594,12 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "09/11 15:29",
+      "titular": "Jensen Huang just handed Wall Street its first $4.5 trillion CEO scandal",
+      "fuente": "finance.yahoo.com",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "09/11 15:00",
       "titular": "Ranked: The World&#x92;s Biggest Economies vs. Debt in 2026",
@@ -737,12 +743,6 @@
       "titular": "'Kiwi dollar falls to 24-year lows &#x96; RBNZ verbal intervention should not be out of the question'",
       "fuente": "interest.co.nz",
       "impacto": "-"
-    },
-    {
-      "hora_alemania": "08/11 23:31",
-      "titular": "RBA's Hunter: What Happens to the Economy as &#x91;Intelligence&#x92; Gets Cheaper?",
-      "fuente": "rba.gov.au",
-      "impacto": "low"
     }
   ]
 }

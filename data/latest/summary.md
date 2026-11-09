@@ -1,6 +1,6 @@
-# NQ datos · 2026-11-09 08:55 (NY)
+# NQ datos · 2026-11-09 09:25 (NY)
 
-Precio: **27346.25**
+Precio: **27318.25**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
@@ -9,16 +9,16 @@ Día anterior (2026-11-06): PDH 27425.0 · PDL 26366.5 · cierre 27085.25 · sem
 - londres: 26751.25 – 27147.25
 - overnight: 26751.25 – 27378.0
 
-## 4h: bajista · LH y LL · BOS bajista: cierre por debajo de 27615.75 (05/11 13:00 NY)
-Swing highs [28512.0, 28969.0, 27425.0] · swing lows [27615.75, 28167.75, 26366.5]
-Fib alcista (mínimo → máximo): 26366.5–27425.0 · 50 % 26895.75 · OTE 26768.73/26678.76/26588.78 · precio en premium
+## 4h: bajista · LH y HL · BOS bajista: cierre por debajo de 27615.75 (05/11 13:00 NY)
+Swing highs [28512.0, 28969.0, 27425.0] · swing lows [28167.75, 26366.5, 26751.25]
+Fib bajista (máximo → mínimo): 26751.25–27425.0 · 50 % 27088.12 · OTE 27168.97/27226.24/27283.51 · precio en premium
 - FVG bajista 30538.25–30705.25 (CE 30621.75, virgen, importancia media, 2026-10-14 06:00)
 - FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, importancia media, 2026-10-14 10:00)
 - IFVG bajista 29045.75–29444.5 (CE 29245.12, invertido 29/10 18:00, importancia alta, 2026-09-14 10:00)
 - FVG bajista 29180.0–29431.5 (CE 29305.75, virgen, importancia media, 2026-10-29 14:00)
-- IFVG bajista 29354.0–29426.5 (CE 29390.25, invertido 29/10 14:00, importancia baja, 2026-10-26 10:00)
 - FVG bajista 28476.0–28510.5 (CE 28493.25, virgen, importancia media, 2026-11-04 17:00)
 - FVG bajista 27180.0–28288.0 (CE 27734.0, tocado, importancia alta, 2026-11-05 09:00)
+- FVG alcista 27147.25–27291.75 (CE 27219.5, virgen, importancia media, 2026-11-09 05:00)
 
 ## 1h: alcista · LH y LL · CHoCH/MSS alcista: cierre por encima de 27319.00 (09/11 07:00 NY)
 Swing highs [27251.5, 27425.0, 27319.0] · swing lows [26988.5, 26882.25, 26751.25]
@@ -37,24 +37,24 @@ Swing highs [27202.75, 27265.5, 27378.0] · swing lows [27196.5, 26751.25, 27085
 - FVG bajista 27748.0–28200.25 (CE 27974.12, virgen, importancia alta, 2026-11-05 09:30)
 - FVG bajista 27587.75–27700.0 (CE 27643.88, virgen, importancia alta, 2026-11-05 09:45)
 - FVG bajista 27428.5–27457.5 (CE 27443.0, virgen, importancia alta, 2026-11-05 10:00)
-- FVG alcista 27287.5–27303.25 (CE 27295.38, virgen, importancia media, 2026-11-09 08:30)
 - FVG alcista 27021.25–27065.25 (CE 27043.25, tocado, importancia baja, 2026-11-09 03:30)
 - IFVG alcista 27025.5–27055.0 (CE 27040.25, invertido 09/11 03:30, importancia baja, 2026-11-09 02:00)
+- FVG alcista 26973.75–26981.75 (CE 26977.75, virgen, importancia baja, 2026-11-09 03:15)
 - IFVG alcista 26887.25–26963.0 (CE 26925.12, invertido 09/11 03:15, importancia media, 2026-11-09 02:30)
-- FVG alcista 26887.25–26939.75 (CE 26913.5, virgen, importancia media, 2026-11-09 03:00)
+- FVG alcista 26887.25–26939.75 (CE 26913.5, virgen, importancia alta, 2026-11-09 03:00)
 - FVG alcista 26636.5–26725.25 (CE 26680.88, virgen, importancia media, 2026-11-05 19:00)
 
-## 5m: alcista · LH y HL · BOS alcista: cierre por encima de 27323.75 (09/11 08:00 NY)
-Swing highs [27248.0, 27378.0, 27349.0] · swing lows [27125.75, 27195.75, 27230.25]
+## 5m: alcista · HH y HL · BOS alcista: cierre por encima de 27323.75 (09/11 08:00 NY)
+Swing highs [27378.0, 27349.0, 27368.75] · swing lows [27195.75, 27230.25, 27291.75]
 - FVG bajista 28024.5–28200.25 (CE 28112.38, virgen, importancia alta, 2026-11-05 09:30)
 - FVG bajista 27874.25–27976.25 (CE 27925.25, virgen, importancia alta, 2026-11-05 09:35)
 - FVG bajista 27748.0–27847.5 (CE 27797.75, virgen, importancia alta, 2026-11-05 09:40)
 - FVG bajista 27576.25–27624.25 (CE 27600.25, tocado, importancia media, 2026-11-05 09:50)
-- FVG alcista 27340.25–27342.25 (CE 27341.25, virgen, importancia media, 2026-11-09 08:50)
-- FVG alcista 27318.75–27332.5 (CE 27325.62, virgen, importancia media, 2026-11-09 08:45)
 - IFVG alcista 27297.0–27328.0 (CE 27312.5, invertido 09/11 08:45, importancia alta, 2026-11-09 08:05)
+- FVG alcista 27287.5–27292.25 (CE 27289.88, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-09 08:30)
 - IFVG alcista 27224.0–27242.0 (CE 27233.0, invertido 09/11 07:30, importancia media, 2026-11-08 23:50)
 - FVG alcista 27083.25–27120.5 (CE 27101.88, tocado, importancia media, 2026-11-09 04:50)
+- FVG alcista 26893.25–26931.0 (CE 26912.12, virgen, importancia baja, 2026-11-09 03:05)
 - FVG alcista 26837.25–26883.75 (CE 26860.5, virgen, importancia media, 2026-11-09 03:00)
 Máximos iguales [] · mínimos iguales [27127.12]
 
@@ -66,6 +66,7 @@ Sin eventos de impacto alto o medio.
 - Próximo ALTO: 2026-11-13 14:30 · PPI m/m · previsión 0.4%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 09/11 15:29 · [-] Jensen Huang just handed Wall Street its first $4.5 trillion CEO scandal (finance.yahoo.com)
 - 09/11 15:00 · [-] Ranked: The World&#x92;s Biggest Economies vs. Debt in 2026 (visualcapitalist.com)
 - 09/11 14:10 · [-] US dollar rally needs more risk-off fuel (think.ing.com)
 - 09/11 14:09 · [low] Qatari Official: Reports On US-Iran Proposal Details Are False; US, Iran Talking To Mediators On Deal Details (@NourHammoury)
@@ -90,12 +91,11 @@ Sin eventos de impacto alto o medio.
 - 09/11 01:03 · [-] RBA&#x92;s Hunter warns AI could trigger sharp asset repricing as boom adds to inflation (investinglive.com)
 - 09/11 00:31 · [low] Trump: I expect to hold talks with Xi and Putin (@financialjuice)
 - 09/11 00:05 · [-] 'Kiwi dollar falls to 24-year lows &#x96; RBNZ verbal intervention should not be out of the question' (interest.co.nz)
-- 08/11 23:31 · [low] RBA's Hunter: What Happens to the Economy as &#x91;Intelligence&#x92; Gets Cheaper? (rba.gov.au)
 
 ## Estadísticas (últimos 46 días)
-Rango medio: 736.0 pts (20d) · 1132.7 pts (5d)
+Rango medio: 738.4 pts (20d) · 1142.2 pts (5d)
 Toma PDH 48 % · toma PDL 54 % · ambos 13 %
 Sesión del máximo: {'NY': 45, 'Asia': 30, 'Londres': 13, 'otro': 13} · del mínimo: {'NY': 30, 'Asia': 28, 'Londres': 21, 'otro': 21}
 Ayer fue un día: neutro
-tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 55, 'rebote_medio_desde_apertura': 227.9}
-tras dia alcista fuerte: {'casos': 16, 'pct_toma_pdh': 81, 'pct_toma_pdl': 31, 'pct_cierra_abajo_de_apertura': 38, 'retroceso_medio_desde_apertura': 390.6}
+tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 228.5}
+tras dia alcista fuerte: {'casos': 16, 'pct_toma_pdh': 81, 'pct_toma_pdl': 31, 'pct_cierra_abajo_de_apertura': 38, 'retroceso_medio_desde_apertura': 393.8}
