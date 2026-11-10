@@ -1,12 +1,13 @@
-# NQ datos · 2026-11-10 01:55 (NY)
+# NQ datos · 2026-11-10 02:25 (NY)
 
-Precio: **27994.5**
+Precio: **27960.25**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
 Día anterior (2026-11-09): PDH 28129.25 · PDL 26751.25 · cierre 28073.25 · semana 26751.25–28129.25
 - asia: 27931.25 – 28048.25
-- overnight: 27931.25 – 28109.0
+- londres: 27927.25 – 27993.25
+- overnight: 27927.25 – 28109.0
 
 ## 4h: alcista · HH y HL · CHoCH/MSS alcista: cierre por encima de 27425.00 (09/11 09:00 NY)
 Swing highs [28969.0, 27425.0, 28129.25] · swing lows [28167.75, 26366.5, 26751.25]
@@ -21,7 +22,7 @@ Fib alcista (mínimo → máximo): 26751.25–28129.25 · 50 % 27440.25 · OTE 2
 
 ## 1h: alcista · LH y HL · BOS alcista: cierre por encima de 27425.00 (09/11 09:00 NY)
 Swing highs [27319.0, 28129.25, 28109.0] · swing lows [26882.25, 26751.25, 27931.25]
-Fib bajista (máximo → mínimo): 27931.25–28109.0 · 50 % 28020.12 · OTE 28041.46/28056.56/28071.67 · precio en discount
+Fib bajista (máximo → mínimo): 27927.25–28109.0 · 50 % 28018.12 · OTE 28039.94/28055.38/28070.83 · precio en discount
 - FVG bajista 29794.25–29821.5 (CE 29807.88, virgen, importancia baja, 2026-10-28 16:00)
 - FVG bajista 29180.0–29443.25 (CE 29311.62, virgen, importancia alta, 2026-10-29 16:00)
 - FVG bajista 28958.25–29030.25 (CE 28994.25, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-10-29 20:00)
@@ -33,7 +34,7 @@ Fib bajista (máximo → mínimo): 27931.25–28109.0 · 50 % 28020.12 · OTE 28
 - IFVG alcista 27135.5–27196.5 (CE 27166.0, invertido 09/11 06:00, importancia baja, 2026-11-09 00:00)
 - FVG alcista 26717.0–26817.75 (CE 26767.38, tocado, importancia baja, 2026-11-05 19:00)
 
-## 15m: alcista · HH y HL · CHoCH/MSS alcista: cierre por encima de 28041.00 (10/11 00:30 NY)
+## 15m: bajista · HH y HL · CHoCH/MSS bajista: cierre por debajo de 27957.50 (10/11 02:00 NY)
 Swing highs [28109.0, 28041.0, 28050.5] · swing lows [28017.75, 27931.25, 27957.5]
 - FVG bajista 28463.0–28503.5 (CE 28483.25, tocado, importancia baja, 2026-11-04 19:45)
 - FVG bajista 28383.75–28400.0 (CE 28391.88, virgen, importancia baja, 2026-11-05 07:15)
@@ -41,25 +42,26 @@ Swing highs [28109.0, 28041.0, 28050.5] · swing lows [28017.75, 27931.25, 27957
 - FVG bajista 27748.0–28200.25 (CE 27974.12, tocado, importancia alta, 2026-11-05 09:30)
 - IFVG bajista 28025.5–28073.25 (CE 28049.38, invertido 09/11 19:30, importancia media, 2026-11-09 16:45)
 - FVG bajista 28018.0–28042.75 (CE 28030.38, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-09 19:30)
-- IFVG bajista 28008.75–28021.5 (CE 28015.12, invertido 10/11 01:00, importancia media, 2026-11-10 00:30)
-- FVG alcista 27961.0–27978.25 (CE 27969.62, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-09 14:30)
+- IFVG bajista 27961.0–27978.25 (CE 27969.62, invertido 10/11 02:00, importancia media, 2026-11-09 14:30)
 - FVG alcista 27901.0–27905.0 (CE 27903.0, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-09 11:45)
 - FVG alcista 27676.25–27688.75 (CE 27682.5, virgen, importancia media, 2026-11-09 09:45)
 - FVG alcista 27368.0–27640.5 (CE 27504.25, virgen, importancia alta, 2026-11-09 09:30)
+- FVG alcista 26887.25–26939.75 (CE 26913.5, virgen, importancia baja, 2026-11-09 03:00)
 
-## 5m: alcista · HH y HL · BOS alcista: cierre por encima de 28041.00 (10/11 00:40 NY)
-Swing highs [28041.0, 28025.0, 28050.5] · swing lows [27976.0, 27957.5, 27969.75]
+## 5m: bajista · LH y LL · BOS bajista: cierre por debajo de 27969.75 (10/11 02:10 NY)
+Swing highs [28025.0, 28050.5, 28006.25] · swing lows [27957.5, 27969.75, 27968.5]
 - FVG bajista 28394.5–28411.5 (CE 28403.0, virgen, importancia baja, 2026-11-05 07:15)
-- FVG bajista 28344.25–28365.5 (CE 28354.88, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-05 07:30)
 - FVG bajista 28024.5–28200.25 (CE 28112.38, tocado, importancia alta, 2026-11-05 09:30)
 - FVG bajista 28038.25–28049.25 (CE 28043.75, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-09 19:30)
-- FVG alcista 27958.0–28034.5 (CE 27996.25, barrido (mecha lo atravesó, sin cierre), importancia alta, 2026-11-09 14:35)
+- IFVG bajista 27958.0–28034.5 (CE 27996.25, invertido 10/11 02:05, importancia alta, 2026-11-09 14:35)
 - IFVG bajista 28005.0–28030.75 (CE 28017.88, invertido 10/11 01:10, importancia alta, 2026-11-10 00:35)
+- FVG bajista 27979.5–27984.0 (CE 27981.75, virgen, importancia media, 2026-11-10 02:00)
+- FVG bajista 27948.0–27969.75 (CE 27958.88, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-10 02:05)
 - FVG alcista 27769.0–27798.0 (CE 27783.5, virgen, importancia media, 2026-11-09 10:10)
 - FVG alcista 27574.0–27640.5 (CE 27607.25, virgen, importancia alta, 2026-11-09 09:40)
 - FVG alcista 27476.25–27544.5 (CE 27510.38, virgen, importancia alta, 2026-11-09 09:35)
 - FVG alcista 27368.0–27458.0 (CE 27413.0, virgen, importancia alta, 2026-11-09 09:30)
-Máximos iguales [28049.38, 28025.0, 28020.12] · mínimos iguales [27969.38]
+Máximos iguales [28049.38, 28025.0, 28020.12, 28007.5] · mínimos iguales [27969.38]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 10:00 · FOMC Member Waller Speaks · impacto medio · previsión None · anterior None
