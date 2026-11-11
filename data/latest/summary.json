@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-11 07:05",
-  "ultima_vela_ny": "2026-11-11 01:55",
-  "precio": 28251.0,
+  "generado_utc": "2026-11-11 07:35",
+  "ultima_vela_ny": "2026-11-11 02:25",
+  "precio": 28216.0,
   "dia_anterior": {
     "fecha": "2026-11-10",
     "PDH": 28109.0,
@@ -16,7 +16,10 @@
       "maximo": 28219.75,
       "minimo": 27953.75
     },
-    "londres": null,
+    "londres": {
+      "maximo": 28237.25,
+      "minimo": 28194.0
+    },
     "ny_am": null,
     "overnight": {
       "maximo": 28280.0,
@@ -98,10 +101,10 @@
         },
         {
           "tf": "4h",
-          "arriba": 28220.0,
+          "arriba": 28194.0,
           "abajo": 28134.75,
-          "ce": 28177.38,
-          "tamano": 85.25,
+          "ce": 28164.38,
+          "tamano": 59.25,
           "hora_ny": "2026-11-10 21:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -309,9 +312,9 @@
         "tendencia": "alcista · HH y HL",
         "evento": "BOS alcista: cierre por encima de 28129.25 (10/11 22:45 NY)",
         "ultimos_swing_high": [
-          28090.0,
           27916.0,
-          28134.75
+          28134.75,
+          28280.0
         ],
         "ultimos_swing_low": [
           27637.25,
@@ -320,17 +323,6 @@
         ]
       },
       "fvg_abiertos": [
-        {
-          "tf": "15m",
-          "arriba": 28623.5,
-          "abajo": 28594.25,
-          "ce": 28608.88,
-          "tamano": 29.25,
-          "hora_ny": "2026-11-04 18:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "baja"
-        },
         {
           "tf": "15m",
           "arriba": 28503.5,
@@ -362,6 +354,17 @@
           "hora_ny": "2026-11-05 09:00",
           "tipo": "bajista",
           "estado": "tocado",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28240.25,
+          "abajo": 28237.25,
+          "ce": 28238.75,
+          "tamano": 3.0,
+          "hora_ny": "2026-11-11 01:45",
+          "tipo": "bajista",
+          "estado": "virgen",
           "importancia": "media"
         },
         {
@@ -439,8 +442,8 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · HH y HL",
-        "evento": "BOS alcista: cierre por encima de 28265.00 (11/11 01:35 NY)",
+        "tendencia": "bajista · HH y HL",
+        "evento": "CHoCH/MSS bajista: cierre por debajo de 28220.00 (11/11 02:00 NY)",
         "ultimos_swing_high": [
           28219.75,
           28265.0,
@@ -466,6 +469,17 @@
         },
         {
           "tf": "5m",
+          "arriba": 28233.25,
+          "abajo": 28226.5,
+          "ce": 28229.88,
+          "tamano": 6.75,
+          "hora_ny": "2026-11-11 02:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
           "arriba": 28202.5,
           "abajo": 28185.0,
           "ce": 28193.75,
@@ -477,17 +491,6 @@
         },
         {
           "tf": "5m",
-          "arriba": 28196.0,
-          "abajo": 28185.0,
-          "ce": 28190.5,
-          "tamano": 11.0,
-          "hora_ny": "2026-11-10 23:20",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
           "arriba": 28195.75,
           "abajo": 28170.0,
           "ce": 28182.88,
@@ -495,7 +498,7 @@
           "hora_ny": "2026-11-10 22:50",
           "tipo": "alcista",
           "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -515,6 +518,17 @@
           "ce": 27894.75,
           "tamano": 37.5,
           "hora_ny": "2026-11-10 18:10",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 27458.0,
+          "abajo": 27368.0,
+          "ce": 27413.0,
+          "tamano": 90.0,
+          "hora_ny": "2026-11-09 09:30",
           "tipo": "alcista",
           "estado": "virgen",
           "importancia": "media"
@@ -584,6 +598,12 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "11/11 08:08",
+      "titular": "German inflation rate at +2.8% in October 2026",
+      "fuente": "destatis.de",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "11/11 07:41",
       "titular": "Martin Luther King Jr&#x92;s Handwritten Draft of His &#x91;I Have a Dream&#x92; Speech May Fetch $10 Million at Auction",
@@ -726,12 +746,6 @@
       "hora_alemania": "10/11 19:42",
       "titular": "Qatar's PM Told G7 Foreign Ministers That Doha Had Secured &quot;At Least Two Weeks&quot; To Pursue Diplomatic Efforts For A Washington-Tehran",
       "fuente": "@FirstSquawk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "10/11 19:30",
-      "titular": "BoC Summary of Governing Council deliberations: Fixed announcement date of October 28, 2026",
-      "fuente": "bankofcanada.ca",
       "impacto": "low"
     }
   ]
