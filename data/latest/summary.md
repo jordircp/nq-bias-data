@@ -1,11 +1,12 @@
-# NQ datos · 2026-11-12 01:55 (NY)
+# NQ datos · 2026-11-12 02:25 (NY)
 
-Precio: **28172.75**
+Precio: **28192.0**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
 Día anterior (2026-11-11): PDH 28697.0 · PDL 27856.0 · cierre 28444.25 · semana 26751.25–28697.0
 - asia: 28187.75 – 28368.75
+- londres: 28182.5 – 28236.5
 - overnight: 28131.75 – 28368.75
 
 ## 4h: alcista · HH y HL · BOS alcista: cierre por encima de 28129.25 (10/11 21:00 NY)
@@ -35,7 +36,7 @@ Fib alcista (mínimo → máximo): 28131.75–28368.75 · 50 % 28250.25 · OTE 2
 - FVG alcista 28021.0–28062.25 (CE 28041.62, virgen, importancia media, 2026-11-10 20:00)
 - FVG alcista 27789.5–27823.75 (CE 27806.62, virgen, importancia media, 2026-11-10 15:00)
 - FVG alcista 27374.25–27688.75 (CE 27531.5, tocado, importancia alta, 2026-11-09 09:00)
-Máximos iguales [] · mínimos iguales [27869.5]
+Máximos iguales [] · mínimos iguales [27869.5, 28133.0]
 
 ## 15m: bajista · LH y LL · BOS bajista: cierre por debajo de 28187.75 (12/11 00:15 NY)
 Swing highs [28426.0, 28697.0, 28368.75] · swing lows [28187.75, 28204.5, 28134.25]
@@ -48,21 +49,18 @@ Swing highs [28426.0, 28697.0, 28368.75] · swing lows [28187.75, 28204.5, 28134
 - FVG alcista 28162.75–28190.75 (CE 28176.75, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-12 01:00)
 - FVG alcista 28125.75–28161.0 (CE 28143.38, tocado, importancia media, 2026-11-10 22:00)
 - FVG alcista 28064.5–28075.0 (CE 28069.75, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-10 20:30)
-- FVG alcista 27811.5–27823.75 (CE 27817.62, virgen, importancia baja, 2026-11-10 15:45)
 - FVG alcista 27368.0–27640.5 (CE 27504.25, tocado, importancia alta, 2026-11-09 09:30)
 Máximos iguales [] · mínimos iguales [28133.0]
 
-## 5m: bajista · LH y LL · BOS bajista: cierre por debajo de 28166.00 (12/11 00:20 NY)
-Swing highs [28334.25, 28275.25, 28231.0] · swing lows [28280.5, 28204.5, 28134.25]
+## 5m: bajista · HH y HL · BOS bajista: cierre por debajo de 28166.00 (12/11 00:20 NY)
+Swing highs [28275.25, 28231.0, 28236.5] · swing lows [28204.5, 28134.25, 28162.25]
 - FVG bajista 28590.25–28628.25 (CE 28609.25, virgen, importancia media, 2026-11-11 14:05)
 - FVG bajista 28319.75–28467.75 (CE 28393.75, tocado, importancia alta, 2026-11-11 16:55)
 - FVG bajista 28258.75–28424.25 (CE 28341.5, tocado, importancia alta, 2026-11-11 18:00)
-- FVG bajista 28293.5–28301.5 (CE 28297.5, virgen, importancia baja, 2026-11-11 22:10)
-- IFVG bajista 28175.25–28187.75 (CE 28181.5, invertido 12/11 01:45, importancia media, 2026-11-12 01:05)
+- FVG bajista 28293.5–28301.5 (CE 28297.5, virgen, importancia media, 2026-11-11 22:10)
 - FVG alcista 28156.0–28175.0 (CE 28165.5, tocado, importancia media, 2026-11-12 01:00)
 - FVG alcista 28115.5–28156.25 (CE 28135.88, tocado, importancia alta, 2026-11-10 22:05)
-- FVG alcista 28018.75–28032.0 (CE 28025.38, virgen, importancia media, 2026-11-10 20:20)
-- FVG alcista 27876.0–27913.5 (CE 27894.75, virgen, importancia alta, 2026-11-10 18:10)
+- FVG alcista 27876.0–27913.5 (CE 27894.75, virgen, importancia media, 2026-11-10 18:10)
 - FVG alcista 27368.0–27458.0 (CE 27413.0, virgen, importancia alta, 2026-11-09 09:30)
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
@@ -71,6 +69,8 @@ Swing highs [28334.25, 28275.25, 28231.0] · swing lows [28280.5, 28204.5, 28134
 - Próximo ALTO: 2026-11-13 14:30 · PPI m/m · previsión 0.4%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 12/11 08:34 · [-] The world&#x92;s super-rich are piling into alternative investments. Here&#x92;s why (cnbc.com)
+- 12/11 08:05 · [medium] GDP monthly estimate, UK: September 2026 (ons.gov.uk)
 - 12/11 08:04 · [low] Index of Services, UK: September 2026 (ons.gov.uk)
 - 12/11 08:04 · [low] UK trade: September 2026 (ons.gov.uk)
 - 12/11 08:04 · [low] Index of Production, UK: September 2026 (ons.gov.uk)
@@ -94,8 +94,6 @@ Swing highs [28334.25, 28275.25, 28231.0] · swing lows [28280.5, 28204.5, 28134
 - 11/11 22:48 · [low] NZ international travel: September 2026 (stats.govt.nz)
 - 11/11 22:15 · [-] Gold Dips Back Below $4k as USD Touches Fresh Yearly High (forex.com)
 - 11/11 21:30 · [-] Rubio&#x92;s old words come back to bite him as his $1.2M football travel tab is exposed (dnyuz.com)
-- 11/11 20:44 · [-] Court approves IG Group move to Jersey (fxnewsgroup.com)
-- 11/11 19:58 · [-] Wall Street thinks the Fed made a 'mistake' &#x97; and now more hikes are coming (finance.yahoo.com)
 
 ## Estadísticas (últimos 46 días)
 Rango medio: 798.0 pts (20d) · 1184.2 pts (5d)

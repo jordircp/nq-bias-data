@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-12 07:05",
-  "ultima_vela_ny": "2026-11-12 01:55",
-  "precio": 28172.75,
+  "generado_utc": "2026-11-12 07:35",
+  "ultima_vela_ny": "2026-11-12 02:25",
+  "precio": 28192.0,
   "dia_anterior": {
     "fecha": "2026-11-11",
     "PDH": 28697.0,
@@ -16,7 +16,10 @@
       "maximo": 28368.75,
       "minimo": 28187.75
     },
-    "londres": null,
+    "londres": {
+      "maximo": 28236.5,
+      "minimo": 28182.5
+    },
     "ny_am": null,
     "overnight": {
       "maximo": 28368.75,
@@ -311,7 +314,8 @@
       "liquidez_iguales": {
         "maximos_iguales": [],
         "minimos_iguales": [
-          27869.5
+          27869.5,
+          28133.0
         ]
       }
     },
@@ -432,17 +436,6 @@
         },
         {
           "tf": "15m",
-          "arriba": 27823.75,
-          "abajo": 27811.5,
-          "ce": 27817.62,
-          "tamano": 12.25,
-          "hora_ny": "2026-11-10 15:45",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "baja"
-        },
-        {
-          "tf": "15m",
           "arriba": 27640.5,
           "abajo": 27368.0,
           "ce": 27504.25,
@@ -463,17 +456,17 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
+        "tendencia": "bajista · HH y HL",
         "evento": "BOS bajista: cierre por debajo de 28166.00 (12/11 00:20 NY)",
         "ultimos_swing_high": [
-          28334.25,
           28275.25,
-          28231.0
+          28231.0,
+          28236.5
         ],
         "ultimos_swing_low": [
-          28280.5,
           28204.5,
-          28134.25
+          28134.25,
+          28162.25
         ]
       },
       "fvg_abiertos": [
@@ -519,17 +512,6 @@
           "hora_ny": "2026-11-11 22:10",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "baja"
-        },
-        {
-          "tf": "5m",
-          "arriba": 28187.75,
-          "abajo": 28175.25,
-          "ce": 28181.5,
-          "tamano": 12.5,
-          "hora_ny": "2026-11-12 01:05",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 12/11 01:45",
           "importancia": "media"
         },
         {
@@ -556,17 +538,6 @@
         },
         {
           "tf": "5m",
-          "arriba": 28032.0,
-          "abajo": 28018.75,
-          "ce": 28025.38,
-          "tamano": 13.25,
-          "hora_ny": "2026-11-10 20:20",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
           "arriba": 27913.5,
           "abajo": 27876.0,
           "ce": 27894.75,
@@ -574,7 +545,7 @@
           "hora_ny": "2026-11-10 18:10",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "5m",
@@ -662,6 +633,18 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "12/11 08:34",
+      "titular": "The world&#x92;s super-rich are piling into alternative investments. Here&#x92;s why",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "12/11 08:05",
+      "titular": "GDP monthly estimate, UK: September 2026",
+      "fuente": "ons.gov.uk",
+      "impacto": "medium"
+    },
     {
       "hora_alemania": "12/11 08:04",
       "titular": "Index of Services, UK: September 2026",
@@ -798,18 +781,6 @@
       "hora_alemania": "11/11 21:30",
       "titular": "Rubio&#x92;s old words come back to bite him as his $1.2M football travel tab is exposed",
       "fuente": "dnyuz.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "11/11 20:44",
-      "titular": "Court approves IG Group move to Jersey",
-      "fuente": "fxnewsgroup.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "11/11 19:58",
-      "titular": "Wall Street thinks the Fed made a 'mistake' &#x97; and now more hikes are coming",
-      "fuente": "finance.yahoo.com",
       "impacto": "-"
     }
   ]
