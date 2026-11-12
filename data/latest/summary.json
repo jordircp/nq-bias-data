@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-12 12:34",
-  "ultima_vela_ny": "2026-11-12 07:20",
-  "precio": 28234.5,
+  "generado_utc": "2026-11-12 14:05",
+  "ultima_vela_ny": "2026-11-12 08:55",
+  "precio": 28133.25,
   "dia_anterior": {
     "fecha": "2026-11-11",
     "PDH": 28697.0,
@@ -23,15 +23,15 @@
     "ny_am": null,
     "overnight": {
       "maximo": 28368.75,
-      "minimo": 28131.75
+      "minimo": 28013.75
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
   "temporalidades": {
     "4h": {
       "estructura": {
-        "tendencia": "alcista · HH y HL",
-        "evento": "BOS alcista: cierre por encima de 28129.25 (10/11 21:00 NY)",
+        "tendencia": "bajista · HH y HL",
+        "evento": "CHoCH/MSS bajista: cierre por debajo de 28131.75 (12/11 05:00 NY)",
         "ultimos_swing_high": [
           27425.0,
           28129.25,
@@ -112,25 +112,14 @@
         },
         {
           "tf": "4h",
-          "arriba": 28178.0,
-          "abajo": 28134.75,
-          "ce": 28156.38,
-          "tamano": 43.25,
-          "hora_ny": "2026-11-10 21:00",
-          "tipo": "alcista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "baja"
-        },
-        {
-          "tf": "4h",
           "arriba": 28062.25,
           "abajo": 27916.0,
           "ce": 27989.12,
           "tamano": 146.25,
           "hora_ny": "2026-11-10 17:00",
           "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
+          "estado": "tocado",
+          "importancia": "baja"
         },
         {
           "tf": "4h",
@@ -158,13 +147,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 28697.0,
-        "minimo": 28131.75,
+        "minimo": 28013.75,
         "hora_max": "2026-11-11 13:00",
-        "hora_min": "2026-11-11 17:00",
-        "50": 28414.38,
-        "62": 28482.21,
-        "70.5": 28530.25,
-        "79": 28578.3,
+        "hora_min": "2026-11-12 05:00",
+        "50": 28355.38,
+        "62": 28437.37,
+        "70.5": 28495.44,
+        "79": 28553.52,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -175,7 +164,7 @@
     "1h": {
       "estructura": {
         "tendencia": "bajista · LH y HL",
-        "evento": "CHoCH/MSS bajista: cierre por debajo de 28199.00 (11/11 18:00 NY)",
+        "evento": "BOS bajista: cierre por debajo de 28134.25 (12/11 08:00 NY)",
         "ultimos_swing_high": [
           28697.0,
           28368.75,
@@ -256,25 +245,14 @@
         },
         {
           "tf": "1h",
-          "arriba": 28165.75,
-          "abajo": 28125.75,
-          "ce": 28145.75,
-          "tamano": 40.0,
-          "hora_ny": "2026-11-10 22:00",
-          "tipo": "alcista",
-          "estado": "tocado",
-          "importancia": "baja"
-        },
-        {
-          "tf": "1h",
           "arriba": 28062.25,
           "abajo": 28021.0,
           "ce": 28041.62,
           "tamano": 41.25,
           "hora_ny": "2026-11-10 20:00",
           "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "1h",
@@ -285,7 +263,7 @@
           "hora_ny": "2026-11-10 15:00",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "baja"
+          "importancia": "media"
         },
         {
           "tf": "1h",
@@ -297,19 +275,30 @@
           "tipo": "alcista",
           "estado": "tocado",
           "importancia": "alta"
+        },
+        {
+          "tf": "1h",
+          "arriba": 26817.75,
+          "abajo": 26717.0,
+          "ce": 26767.38,
+          "tamano": 100.75,
+          "hora_ny": "2026-11-05 19:00",
+          "tipo": "alcista",
+          "estado": "tocado",
+          "importancia": "baja"
         }
       ],
       "fibonacci": {
-        "direccion": "alcista (mínimo → máximo)",
+        "direccion": "bajista (máximo → mínimo)",
         "maximo": 28312.75,
-        "minimo": 28134.25,
+        "minimo": 28013.75,
         "hora_max": "2026-11-12 04:00",
-        "hora_min": "2026-11-12 00:00",
-        "50": 28223.5,
-        "62": 28202.08,
-        "70.5": 28186.91,
-        "79": 28171.74,
-        "precio_en": "premium"
+        "hora_min": "2026-11-12 08:00",
+        "50": 28163.25,
+        "62": 28199.13,
+        "70.5": 28224.54,
+        "79": 28249.96,
+        "precio_en": "discount"
       },
       "liquidez_iguales": {
         "maximos_iguales": [],
@@ -322,11 +311,11 @@
     "15m": {
       "estructura": {
         "tendencia": "bajista · LH y HL",
-        "evento": "BOS bajista: cierre por debajo de 28187.75 (12/11 00:15 NY)",
+        "evento": "BOS bajista: cierre por debajo de 28134.25 (12/11 08:15 NY)",
         "ultimos_swing_high": [
-          28697.0,
           28368.75,
-          28312.75
+          28312.75,
+          28308.75
         ],
         "ultimos_swing_low": [
           28204.5,
@@ -386,9 +375,20 @@
           "ce": 28176.75,
           "tamano": 28.0,
           "hora_ny": "2026-11-12 01:00",
-          "tipo": "alcista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 12/11 08:00",
           "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28173.0,
+          "abajo": 28118.0,
+          "ce": 28145.5,
+          "tamano": 55.0,
+          "hora_ny": "2026-11-12 08:00",
+          "tipo": "bajista",
+          "estado": "tocado",
+          "importancia": "alta"
         },
         {
           "tf": "15m",
@@ -397,19 +397,41 @@
           "ce": 28143.38,
           "tamano": 35.25,
           "hora_ny": "2026-11-10 22:00",
-          "tipo": "alcista",
-          "estado": "tocado",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 12/11 08:00",
           "importancia": "media"
         },
         {
           "tf": "15m",
-          "arriba": 28075.0,
-          "abajo": 28064.5,
-          "ce": 28069.75,
-          "tamano": 10.5,
-          "hora_ny": "2026-11-10 20:30",
+          "arriba": 27913.5,
+          "abajo": 27910.0,
+          "ce": 27911.75,
+          "tamano": 3.5,
+          "hora_ny": "2026-11-10 18:00",
           "tipo": "alcista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "15m",
+          "arriba": 27823.75,
+          "abajo": 27811.5,
+          "ce": 27817.62,
+          "tamano": 12.25,
+          "hora_ny": "2026-11-10 15:45",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "15m",
+          "arriba": 27775.75,
+          "abajo": 27772.25,
+          "ce": 27774.0,
+          "tamano": 3.5,
+          "hora_ny": "2026-11-10 15:15",
+          "tipo": "alcista",
+          "estado": "virgen",
           "importancia": "baja"
         },
         {
@@ -428,38 +450,26 @@
       "liquidez_iguales": {
         "maximos_iguales": [],
         "minimos_iguales": [
-          28133.0,
           28167.0
         ]
       }
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · LH y LL",
-        "evento": "BOS alcista: cierre por encima de 28270.75 (12/11 07:15 NY)",
+        "tendencia": "bajista · LH y LL",
+        "evento": "BOS bajista: cierre por debajo de 28224.50 (12/11 08:25 NY)",
         "ultimos_swing_high": [
-          28301.5,
-          28270.75,
-          28255.5
+          28255.5,
+          28308.75,
+          28242.5
         ],
         "ultimos_swing_low": [
-          28233.75,
           28214.25,
-          28195.0
+          28195.0,
+          28013.75
         ]
       },
       "fvg_abiertos": [
-        {
-          "tf": "5m",
-          "arriba": 28661.5,
-          "abajo": 28631.5,
-          "ce": 28646.5,
-          "tamano": 30.0,
-          "hora_ny": "2026-11-11 14:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "baja"
-        },
         {
           "tf": "5m",
           "arriba": 28628.25,
@@ -496,35 +506,35 @@
         {
           "tf": "5m",
           "arriba": 28267.25,
-          "abajo": 28224.5,
-          "ce": 28245.88,
-          "tamano": 42.75,
-          "hora_ny": "2026-11-12 07:10",
-          "tipo": "alcista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "abajo": 28234.25,
+          "ce": 28250.75,
+          "tamano": 33.0,
+          "hora_ny": "2026-11-12 07:20",
+          "tipo": "bajista",
+          "estado": "tocado",
           "importancia": "alta"
         },
         {
           "tf": "5m",
-          "arriba": 28236.0,
-          "abajo": 28230.0,
-          "ce": 28233.0,
-          "tamano": 6.0,
-          "hora_ny": "2026-11-12 06:50",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 12/11 07:10",
-          "importancia": "media"
+          "arriba": 28267.25,
+          "abajo": 28224.5,
+          "ce": 28245.88,
+          "tamano": 42.75,
+          "hora_ny": "2026-11-12 07:10",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 12/11 07:25",
+          "importancia": "alta"
         },
         {
           "tf": "5m",
-          "arriba": 28175.0,
-          "abajo": 28156.0,
-          "ce": 28165.5,
-          "tamano": 19.0,
-          "hora_ny": "2026-11-12 01:00",
-          "tipo": "alcista",
-          "estado": "tocado",
-          "importancia": "media"
+          "arriba": 28167.0,
+          "abajo": 28079.0,
+          "ce": 28123.0,
+          "tamano": 88.0,
+          "hora_ny": "2026-11-12 08:05",
+          "tipo": "bajista",
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -533,8 +543,8 @@
           "ce": 28135.88,
           "tamano": 40.75,
           "hora_ny": "2026-11-10 22:05",
-          "tipo": "alcista",
-          "estado": "tocado",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 12/11 08:05",
           "importancia": "alta"
         },
         {
@@ -546,6 +556,28 @@
           "hora_ny": "2026-11-10 18:10",
           "tipo": "alcista",
           "estado": "virgen",
+          "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 27815.5,
+          "abajo": 27799.25,
+          "ce": 27807.38,
+          "tamano": 16.25,
+          "hora_ny": "2026-11-10 15:45",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 27544.5,
+          "abajo": 27476.25,
+          "ce": 27510.38,
+          "tamano": 68.25,
+          "hora_ny": "2026-11-09 09:35",
+          "tipo": "alcista",
+          "estado": "tocado",
           "importancia": "media"
         },
         {
@@ -557,14 +589,12 @@
           "hora_ny": "2026-11-09 09:30",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         }
       ],
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [
-          28251.12,
-          28255.12,
           28308.0
         ],
         "minimos_iguales": []
@@ -638,6 +668,42 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "12/11 14:49",
+      "titular": "Jensen Out; Nvidia CEO Huang Resigns, Effective Immediately Nvidia Names CFO Colette Kress Interim CEO",
+      "fuente": "@zerohedge",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "12/11 14:45",
+      "titular": "Trump says &#x91;we don&#x92;t need a deal with Iran&#x92;",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "12/11 14:43",
+      "titular": "Fed's Hammack: Fed Has Been Missing On Inflation Mandate For Years",
+      "fuente": "@DeItaone",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "12/11 14:30",
+      "titular": "Canada building permits, September 2026",
+      "fuente": "statcan.gc.ca",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "12/11 14:30",
+      "titular": "US Unemployment Insurance Weekly Claims",
+      "fuente": "dol.gov",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "12/11 14:08",
+      "titular": "Trump: We don&#x92;t need a deal with Iran. Those days have long since passed. We&#x92;ve got their money, and we&#x92;ve got their Strait!",
+      "fuente": "@realDonaldTrump",
+      "impacto": "high"
+    },
     {
       "hora_alemania": "12/11 13:33",
       "titular": "ECB economists turn to Reddit and AI to read investors' mood",
@@ -751,42 +817,6 @@
       "titular": "US Dollar rises to 19-month high as Fed hike bets grow, yen softens",
       "fuente": "channelnewsasia.com",
       "impacto": "-"
-    },
-    {
-      "hora_alemania": "12/11 03:49",
-      "titular": "Monitoring Turkey: Central bank course unchanged",
-      "fuente": "think.ing.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "12/11 03:06",
-      "titular": "Gold under the pump as US dollar sensitivity surges",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "12/11 02:32",
-      "titular": "BOJ Asada: Economic Activity, Prices, and Monetary Policy in Japan",
-      "fuente": "boj.or.jp",
-      "impacto": "medium"
-    },
-    {
-      "hora_alemania": "12/11 02:31",
-      "titular": "Japan&#x92;s Mimura warns yen moves are too rapid as USD/JPY pushes back toward 160",
-      "fuente": "investinglive.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "12/11 01:45",
-      "titular": "Scott Bessent's risky short-termism",
-      "fuente": "interest.co.nz",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "12/11 01:14",
-      "titular": "Japan top currency diplomat Mimura: FX fluctuations are too rapid",
-      "fuente": "@financialjuice",
-      "impacto": "high"
     }
   ]
 }
