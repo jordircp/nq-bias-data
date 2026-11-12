@@ -1,32 +1,26 @@
 {
-  "generado_utc": "2026-11-11 17:51",
-  "ultima_vela_ny": "2026-11-11 12:40",
-  "precio": 28653.5,
+  "generado_utc": "2026-11-12 07:05",
+  "ultima_vela_ny": "2026-11-12 01:55",
+  "precio": 28172.75,
   "dia_anterior": {
-    "fecha": "2026-11-10",
-    "PDH": 28109.0,
-    "PDL": 27516.0,
-    "cierre": 27900.75,
-    "max_semana": 28666.25,
+    "fecha": "2026-11-11",
+    "PDH": 28697.0,
+    "PDL": 27856.0,
+    "cierre": 28444.25,
+    "max_semana": 28697.0,
     "min_semana": 26751.25
   },
   "sesiones": {
-    "dia_trading": "2026-11-11",
+    "dia_trading": "2026-11-12",
     "asia": {
-      "maximo": 28219.75,
-      "minimo": 27953.75
+      "maximo": 28368.75,
+      "minimo": 28187.75
     },
-    "londres": {
-      "maximo": 28326.75,
-      "minimo": 28178.0
-    },
-    "ny_am": {
-      "maximo": 28619.25,
-      "minimo": 28199.0
-    },
+    "londres": null,
+    "ny_am": null,
     "overnight": {
-      "maximo": 28406.25,
-      "minimo": 27850.75
+      "maximo": 28368.75,
+      "minimo": 28131.75
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -36,14 +30,14 @@
         "tendencia": "alcista · HH y HL",
         "evento": "BOS alcista: cierre por encima de 28129.25 (10/11 21:00 NY)",
         "ultimos_swing_high": [
-          28969.0,
           27425.0,
-          28129.25
+          28129.25,
+          28697.0
         ],
         "ultimos_swing_low": [
-          26366.5,
           26751.25,
-          27516.0
+          27516.0,
+          28131.75
         ]
       },
       "fvg_abiertos": [
@@ -56,7 +50,7 @@
           "hora_ny": "2026-10-14 06:00",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "4h",
@@ -78,29 +72,29 @@
           "hora_ny": "2026-10-29 14:00",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "4h",
-          "arriba": 29111.0,
-          "abajo": 29042.0,
-          "ce": 29076.5,
-          "tamano": 69.0,
-          "hora_ny": "2026-10-29 18:00",
+          "arriba": 28424.25,
+          "abajo": 28368.75,
+          "ce": 28396.5,
+          "tamano": 55.5,
+          "hora_ny": "2026-11-11 17:00",
           "tipo": "bajista",
-          "estado": "tocado",
-          "importancia": "media"
+          "estado": "virgen",
+          "importancia": "baja"
         },
         {
           "tf": "4h",
-          "arriba": 28510.5,
-          "abajo": 28476.0,
-          "ce": 28493.25,
-          "tamano": 34.5,
-          "hora_ny": "2026-11-04 17:00",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 11/11 09:00",
-          "importancia": "media"
+          "arriba": 28424.25,
+          "abajo": 28406.25,
+          "ce": 28415.25,
+          "tamano": 18.0,
+          "hora_ny": "2026-11-11 09:00",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 11/11 17:00",
+          "importancia": "baja"
         },
         {
           "tf": "4h",
@@ -121,8 +115,8 @@
           "tamano": 43.25,
           "hora_ny": "2026-11-10 21:00",
           "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "4h",
@@ -155,20 +149,20 @@
           "hora_ny": "2026-11-09 05:00",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "baja"
+          "importancia": "media"
         }
       ],
       "fibonacci": {
-        "direccion": "alcista (mínimo → máximo)",
-        "maximo": 28666.25,
-        "minimo": 27516.0,
-        "hora_max": "2026-11-11 09:00",
-        "hora_min": "2026-11-10 09:00",
-        "50": 28091.12,
-        "62": 27953.1,
-        "70.5": 27855.32,
-        "79": 27757.55,
-        "precio_en": "premium"
+        "direccion": "bajista (máximo → mínimo)",
+        "maximo": 28697.0,
+        "minimo": 28131.75,
+        "hora_max": "2026-11-11 13:00",
+        "hora_min": "2026-11-11 17:00",
+        "50": 28414.38,
+        "62": 28482.21,
+        "70.5": 28530.25,
+        "79": 28578.3,
+        "precio_en": "discount"
       },
       "liquidez_iguales": {
         "maximos_iguales": [],
@@ -177,42 +171,20 @@
     },
     "1h": {
       "estructura": {
-        "tendencia": "alcista · HH y HL",
-        "evento": "BOS alcista: cierre por encima de 28465.00 (11/11 10:00 NY)",
+        "tendencia": "bajista · LH y LL",
+        "evento": "CHoCH/MSS bajista: cierre por debajo de 28199.00 (11/11 18:00 NY)",
         "ultimos_swing_high": [
-          28109.0,
-          28050.5,
-          28090.0
+          28090.0,
+          28697.0,
+          28368.75
         ],
         "ultimos_swing_low": [
-          27590.0,
           27516.0,
-          28199.0
+          28199.0,
+          28131.75
         ]
       },
       "fvg_abiertos": [
-        {
-          "tf": "1h",
-          "arriba": 30716.0,
-          "abajo": 30660.75,
-          "ce": 30688.38,
-          "tamano": 55.25,
-          "hora_ny": "2026-10-14 08:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "baja"
-        },
-        {
-          "tf": "1h",
-          "arriba": 29821.5,
-          "abajo": 29794.25,
-          "ce": 29807.88,
-          "tamano": 27.25,
-          "hora_ny": "2026-10-28 16:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
         {
           "tf": "1h",
           "arriba": 29443.25,
@@ -226,36 +198,14 @@
         },
         {
           "tf": "1h",
-          "arriba": 29030.25,
-          "abajo": 28958.25,
-          "ce": 28994.25,
-          "tamano": 72.0,
-          "hora_ny": "2026-10-29 20:00",
+          "arriba": 28601.25,
+          "abajo": 28572.25,
+          "ce": 28586.75,
+          "tamano": 29.0,
+          "hora_ny": "2026-11-11 14:00",
           "tipo": "bajista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
-        },
-        {
-          "tf": "1h",
-          "arriba": 28575.0,
-          "abajo": 28550.25,
-          "ce": 28562.62,
-          "tamano": 24.75,
-          "hora_ny": "2026-11-11 11:00",
-          "tipo": "alcista",
           "estado": "virgen",
           "importancia": "media"
-        },
-        {
-          "tf": "1h",
-          "arriba": 28518.25,
-          "abajo": 28463.0,
-          "ce": 28490.62,
-          "tamano": 55.25,
-          "hora_ny": "2026-11-04 19:00",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 11/11 10:00",
-          "importancia": "baja"
         },
         {
           "tf": "1h",
@@ -264,8 +214,30 @@
           "ce": 28444.0,
           "tamano": 36.0,
           "hora_ny": "2026-11-11 10:00",
-          "tipo": "alcista",
-          "estado": "virgen",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 11/11 18:00",
+          "importancia": "alta"
+        },
+        {
+          "tf": "1h",
+          "arriba": 28443.5,
+          "abajo": 28319.75,
+          "ce": 28381.62,
+          "tamano": 123.75,
+          "hora_ny": "2026-11-11 16:00",
+          "tipo": "bajista",
+          "estado": "tocado",
+          "importancia": "media"
+        },
+        {
+          "tf": "1h",
+          "arriba": 28424.25,
+          "abajo": 28270.0,
+          "ce": 28347.12,
+          "tamano": 154.25,
+          "hora_ny": "2026-11-11 18:00",
+          "tipo": "bajista",
+          "estado": "tocado",
           "importancia": "alta"
         },
         {
@@ -287,6 +259,28 @@
           "tamano": 40.0,
           "hora_ny": "2026-11-10 22:00",
           "tipo": "alcista",
+          "estado": "tocado",
+          "importancia": "baja"
+        },
+        {
+          "tf": "1h",
+          "arriba": 28062.25,
+          "abajo": 28021.0,
+          "ce": 28041.62,
+          "tamano": 41.25,
+          "hora_ny": "2026-11-10 20:00",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "1h",
+          "arriba": 27823.75,
+          "abajo": 27789.5,
+          "ce": 27806.62,
+          "tamano": 34.25,
+          "hora_ny": "2026-11-10 15:00",
+          "tipo": "alcista",
           "estado": "virgen",
           "importancia": "media"
         },
@@ -304,15 +298,15 @@
       ],
       "fibonacci": {
         "direccion": "alcista (mínimo → máximo)",
-        "maximo": 28666.25,
-        "minimo": 28199.0,
-        "hora_max": "2026-11-11 12:00",
-        "hora_min": "2026-11-11 09:00",
-        "50": 28432.62,
-        "62": 28376.56,
-        "70.5": 28336.84,
-        "79": 28297.12,
-        "precio_en": "premium"
+        "maximo": 28368.75,
+        "minimo": 28131.75,
+        "hora_max": "2026-11-11 21:00",
+        "hora_min": "2026-11-11 18:00",
+        "50": 28250.25,
+        "62": 28221.81,
+        "70.5": 28201.67,
+        "79": 28181.52,
+        "precio_en": "discount"
       },
       "liquidez_iguales": {
         "maximos_iguales": [],
@@ -323,51 +317,29 @@
     },
     "15m": {
       "estructura": {
-        "tendencia": "alcista · HH y LL",
-        "evento": "BOS alcista: cierre por encima de 28476.00 (11/11 11:30 NY)",
+        "tendencia": "bajista · LH y LL",
+        "evento": "BOS bajista: cierre por debajo de 28187.75 (12/11 00:15 NY)",
         "ultimos_swing_high": [
-          28326.75,
-          28406.25,
-          28426.0
+          28426.0,
+          28697.0,
+          28368.75
         ],
         "ultimos_swing_low": [
-          28224.5,
-          28311.75,
-          28199.0
+          28187.75,
+          28204.5,
+          28134.25
         ]
       },
       "fvg_abiertos": [
         {
           "tf": "15m",
-          "arriba": 28629.75,
-          "abajo": 28624.5,
-          "ce": 28627.12,
-          "tamano": 5.25,
-          "hora_ny": "2026-11-11 12:15",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "15m",
-          "arriba": 28623.5,
-          "abajo": 28594.25,
-          "ce": 28608.88,
-          "tamano": 29.25,
-          "hora_ny": "2026-11-04 18:00",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 11/11 12:15",
-          "importancia": "media"
-        },
-        {
-          "tf": "15m",
-          "arriba": 28503.5,
-          "abajo": 28463.0,
-          "ce": 28483.25,
-          "tamano": 40.5,
-          "hora_ny": "2026-11-04 19:45",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 11/11 10:45",
+          "arriba": 28661.5,
+          "abajo": 28586.25,
+          "ce": 28623.88,
+          "tamano": 75.25,
+          "hora_ny": "2026-11-11 14:00",
+          "tipo": "bajista",
+          "estado": "tocado",
           "importancia": "media"
         },
         {
@@ -377,8 +349,30 @@
           "ce": 28453.12,
           "tamano": 17.75,
           "hora_ny": "2026-11-11 10:45",
-          "tipo": "alcista",
-          "estado": "virgen",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 11/11 18:00",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28455.25,
+          "abajo": 28319.75,
+          "ce": 28387.5,
+          "tamano": 135.5,
+          "hora_ny": "2026-11-11 16:45",
+          "tipo": "bajista",
+          "estado": "tocado",
+          "importancia": "alta"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28424.25,
+          "abajo": 28288.25,
+          "ce": 28356.25,
+          "tamano": 136.0,
+          "hora_ny": "2026-11-11 18:00",
+          "tipo": "bajista",
+          "estado": "tocado",
           "importancia": "alta"
         },
         {
@@ -388,9 +382,64 @@
           "ce": 28401.12,
           "tamano": 25.25,
           "hora_ny": "2026-11-11 10:30",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 11/11 18:00",
+          "importancia": "baja"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28282.75,
+          "abajo": 28277.25,
+          "ce": 28280.0,
+          "tamano": 5.5,
+          "hora_ny": "2026-11-11 22:15",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28190.75,
+          "abajo": 28162.75,
+          "ce": 28176.75,
+          "tamano": 28.0,
+          "hora_ny": "2026-11-12 01:00",
+          "tipo": "alcista",
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28161.0,
+          "abajo": 28125.75,
+          "ce": 28143.38,
+          "tamano": 35.25,
+          "hora_ny": "2026-11-10 22:00",
+          "tipo": "alcista",
+          "estado": "tocado",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28075.0,
+          "abajo": 28064.5,
+          "ce": 28069.75,
+          "tamano": 10.5,
+          "hora_ny": "2026-11-10 20:30",
+          "tipo": "alcista",
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
+        },
+        {
+          "tf": "15m",
+          "arriba": 27823.75,
+          "abajo": 27811.5,
+          "ce": 27817.62,
+          "tamano": 12.25,
+          "hora_ny": "2026-11-10 15:45",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -407,94 +456,149 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [],
-        "minimos_iguales": []
+        "minimos_iguales": [
+          28133.0
+        ]
       }
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · HH y HL",
-        "evento": "BOS alcista: cierre por encima de 28624.50 (11/11 12:20 NY)",
+        "tendencia": "bajista · LH y LL",
+        "evento": "BOS bajista: cierre por debajo de 28166.00 (12/11 00:20 NY)",
         "ultimos_swing_high": [
-          28348.0,
-          28554.5,
-          28624.5
+          28334.25,
+          28275.25,
+          28231.0
         ],
         "ultimos_swing_low": [
-          28199.0,
-          28462.0,
-          28575.0
+          28280.5,
+          28204.5,
+          28134.25
         ]
       },
       "fvg_abiertos": [
         {
           "tf": "5m",
-          "arriba": 28625.0,
-          "abajo": 28623.0,
-          "ce": 28624.0,
-          "tamano": 2.0,
-          "hora_ny": "2026-11-11 12:20",
+          "arriba": 28628.25,
+          "abajo": 28590.25,
+          "ce": 28609.25,
+          "tamano": 38.0,
+          "hora_ny": "2026-11-11 14:05",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 28467.75,
+          "abajo": 28319.75,
+          "ce": 28393.75,
+          "tamano": 148.0,
+          "hora_ny": "2026-11-11 16:55",
+          "tipo": "bajista",
+          "estado": "tocado",
+          "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 28424.25,
+          "abajo": 28258.75,
+          "ce": 28341.5,
+          "tamano": 165.5,
+          "hora_ny": "2026-11-11 18:00",
+          "tipo": "bajista",
+          "estado": "tocado",
+          "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 28301.5,
+          "abajo": 28293.5,
+          "ce": 28297.5,
+          "tamano": 8.0,
+          "hora_ny": "2026-11-11 22:10",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "5m",
+          "arriba": 28187.75,
+          "abajo": 28175.25,
+          "ce": 28181.5,
+          "tamano": 12.5,
+          "hora_ny": "2026-11-12 01:05",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 12/11 01:45",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 28175.0,
+          "abajo": 28156.0,
+          "ce": 28165.5,
+          "tamano": 19.0,
+          "hora_ny": "2026-11-12 01:00",
+          "tipo": "alcista",
+          "estado": "tocado",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 28156.25,
+          "abajo": 28115.5,
+          "ce": 28135.88,
+          "tamano": 40.75,
+          "hora_ny": "2026-11-10 22:05",
+          "tipo": "alcista",
+          "estado": "tocado",
+          "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 28032.0,
+          "abajo": 28018.75,
+          "ce": 28025.38,
+          "tamano": 13.25,
+          "hora_ny": "2026-11-10 20:20",
           "tipo": "alcista",
           "estado": "virgen",
           "importancia": "media"
         },
         {
           "tf": "5m",
-          "arriba": 28612.75,
-          "abajo": 28610.75,
-          "ce": 28611.75,
-          "tamano": 2.0,
-          "hora_ny": "2026-11-11 12:15",
+          "arriba": 27913.5,
+          "abajo": 27876.0,
+          "ce": 27894.75,
+          "tamano": 37.5,
+          "hora_ny": "2026-11-10 18:10",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "baja"
+          "importancia": "alta"
         },
         {
           "tf": "5m",
-          "arriba": 28510.0,
-          "abajo": 28505.5,
-          "ce": 28507.75,
-          "tamano": 4.5,
-          "hora_ny": "2026-11-11 11:05",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 11/11 11:20",
-          "importancia": "baja"
-        },
-        {
-          "tf": "5m",
-          "arriba": 28509.0,
-          "abajo": 28466.75,
-          "ce": 28487.88,
-          "tamano": 42.25,
-          "hora_ny": "2026-11-11 10:50",
-          "tipo": "alcista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 28336.5,
-          "abajo": 28321.5,
-          "ce": 28329.0,
-          "tamano": 15.0,
-          "hora_ny": "2026-11-11 10:25",
+          "arriba": 27458.0,
+          "abajo": 27368.0,
+          "ce": 27413.0,
+          "tamano": 90.0,
+          "hora_ny": "2026-11-09 09:30",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "baja"
+          "importancia": "alta"
         }
       ],
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [],
-        "minimos_iguales": [
-          28344.12
-        ]
+        "minimos_iguales": []
       }
     }
   },
   "estadisticas": {
     "dias_analizados": 46,
-    "rango_medio_20d": 799.0,
-    "rango_medio_5d": 1296.2,
+    "rango_medio_20d": 798.0,
+    "rango_medio_5d": 1184.2,
     "pct_dias_toman_pdh": 48,
     "pct_dias_toman_pdl": 52,
     "pct_dias_toman_ambos": 13,
@@ -515,18 +619,28 @@
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
       "pct_cierra_arriba_de_apertura": 50,
-      "rebote_medio_desde_apertura": 244.2
+      "rebote_medio_desde_apertura": 243.0
     },
     "tras_dia_alcista_fuerte": {
-      "casos": 17,
-      "pct_toma_pdh": 76,
-      "pct_toma_pdl": 29,
-      "pct_cierra_abajo_de_apertura": 41,
-      "retroceso_medio_desde_apertura": 403.9
+      "casos": 16,
+      "pct_toma_pdh": 75,
+      "pct_toma_pdl": 31,
+      "pct_cierra_abajo_de_apertura": 44,
+      "retroceso_medio_desde_apertura": 423.2
     },
     "dia_anterior_tipo": "neutro"
   },
-  "calendario_hoy": [],
+  "calendario_hoy": [
+    {
+      "fecha": "2026-11-12",
+      "hora_alemania": "14:30",
+      "evento": "Unemployment Claims",
+      "impacto": "medio",
+      "prevision": "194K",
+      "anterior": "189K",
+      "real": null
+    }
+  ],
   "calendario_semana": [
     {
       "fecha": "2026-11-13",
@@ -549,152 +663,152 @@
   ],
   "noticias_24h": [
     {
-      "hora_alemania": "11/11 18:34",
-      "titular": "Pound forecast: GBP/USD and GBP/AUD in focus ahead of UK GDP",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "11/11 17:50",
-      "titular": "How Inflation Fed the Slaughter of World War I",
-      "fuente": "thedailyeconomy.org",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "11/11 17:24",
-      "titular": "Iran's Ghalibaf: US has not yet given any official and specific response to the message and plan presented by Iran - Al Jazeera",
-      "fuente": "@financialjuice",
+      "hora_alemania": "12/11 08:04",
+      "titular": "Index of Services, UK: September 2026",
+      "fuente": "ons.gov.uk",
       "impacto": "low"
     },
     {
-      "hora_alemania": "11/11 17:11",
-      "titular": "Forget happy hour. 'Money parties' are having a moment.",
-      "fuente": "morningstar.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "11/11 16:39",
-      "titular": "Iran security chief threatens to strike US bases in Europe if used for attacks",
-      "fuente": "@NourHammoury",
+      "hora_alemania": "12/11 08:04",
+      "titular": "UK trade: September 2026",
+      "fuente": "ons.gov.uk",
       "impacto": "low"
     },
     {
-      "hora_alemania": "11/11 16:34",
-      "titular": "Internal Fed debate emerges over Williams exit date; Fed debate over 2027 vs 2028 departure - Sources",
-      "fuente": "@financialjuice",
+      "hora_alemania": "12/11 08:04",
+      "titular": "Index of Production, UK: September 2026",
+      "fuente": "ons.gov.uk",
       "impacto": "low"
     },
     {
-      "hora_alemania": "11/11 16:27",
-      "titular": "Fed&#x92;s Goolsbee calls inflation report &#x91;borderline disturbing&#x92; as central bank weighs more hikes",
-      "fuente": "cnbc.com",
+      "hora_alemania": "12/11 08:03",
+      "titular": "GDP first quarterly estimate, UK: July to September 2026",
+      "fuente": "ons.gov.uk",
+      "impacto": "medium"
+    },
+    {
+      "hora_alemania": "12/11 08:02",
+      "titular": "Construction output in Great Britain: September 2026",
+      "fuente": "ons.gov.uk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "12/11 07:08",
+      "titular": "BoJ Board Member Asada Says Japan Has Met Its 2% Inflation Goal",
+      "fuente": "@NodeWire",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "12/11 05:59",
+      "titular": "UK Labour candidate who bet on himself to lose says Gambling Commission &#x93;changed the result&#x94; of election",
+      "fuente": "igamingbusiness.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "11/11 15:43",
-      "titular": "Gold challenges the Fed's hawkish rate outlook",
-      "fuente": "home.saxo",
+      "hora_alemania": "12/11 05:14",
+      "titular": "Deutsche Bank sees 3 straight Fed hikes after hot CPI, adding a January move",
+      "fuente": "investinglive.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "11/11 15:00",
-      "titular": "Inflation Is Sticky, But This Isn&#x92;t 2022 All Over Again",
-      "fuente": "pimco.com",
+      "hora_alemania": "12/11 04:28",
+      "titular": "US Dollar rises to 19-month high as Fed hike bets grow, yen softens",
+      "fuente": "channelnewsasia.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "11/11 14:10",
-      "titular": "Making Sense of a Changing Economy - Speech by Governor Gabriel Makhlouf at Technological University Dublin",
-      "fuente": "centralbank.ie",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "11/11 13:36",
-      "titular": "U.S., China should &#x91;harbor no illusions&#x92; as they cooperate, compete on AI, Bessent says",
-      "fuente": "cnbc.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "11/11 12:45",
-      "titular": "FX Daily: Bearish yield curve flattening lifts the US dollar",
+      "hora_alemania": "12/11 03:49",
+      "titular": "Monitoring Turkey: Central bank course unchanged",
       "fuente": "think.ing.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "11/11 12:12",
-      "titular": "Germany's Chancellor Merz: Germany must do everything to preserve AAA credit rating",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 11:55",
-      "titular": "USD/CAD: Canadian Dollar Weakness Fuels Recovery",
-      "fuente": "dailyforex.com",
+      "hora_alemania": "12/11 03:06",
+      "titular": "Gold under the pump as US dollar sensitivity surges",
+      "fuente": "forex.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "11/11 11:17",
-      "titular": "SNB Told Govt It's Ready To Be Active In FX Markets",
-      "fuente": "@NourHammoury",
+      "hora_alemania": "12/11 02:32",
+      "titular": "BOJ Asada: Economic Activity, Prices, and Monetary Policy in Japan",
+      "fuente": "boj.or.jp",
       "impacto": "medium"
     },
     {
-      "hora_alemania": "11/11 11:16",
-      "titular": "Iran IRGC Claims 2 Tankers Hit Mines In Hormuz Overnight: FARS",
-      "fuente": "@FirstSquawk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 11:07",
-      "titular": "PBOC Vows To Step Up Efforts To Boost Domestic Demand",
-      "fuente": "@FirstSquawk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 10:17",
-      "titular": "Iran: We won't remove enriched nuclear from country - Mayadeen",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 10:15",
-      "titular": "Takaichi Says Will Work W/ Boj Towards Price Stability, Eco Growth",
-      "fuente": "@FirstSquawk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 10:12",
-      "titular": "Italian industrial production - September 2026",
-      "fuente": "istat.it",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 10:02",
-      "titular": "Why China&#x92;s $1 trillion trade surplus isn&#x92;t all good news for its economy",
-      "fuente": "aljazeera.com",
+      "hora_alemania": "12/11 02:31",
+      "titular": "Japan&#x92;s Mimura warns yen moves are too rapid as USD/JPY pushes back toward 160",
+      "fuente": "investinglive.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "11/11 09:38",
-      "titular": "ECB's Nagel: German recovery stronger than forecast",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 08:08",
-      "titular": "German inflation rate at +2.8% in October 2026",
-      "fuente": "destatis.de",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "11/11 07:41",
-      "titular": "Martin Luther King Jr&#x92;s Handwritten Draft of His &#x91;I Have a Dream&#x92; Speech May Fetch $10 Million at Auction",
-      "fuente": "robbreport.com",
+      "hora_alemania": "12/11 01:45",
+      "titular": "Scott Bessent's risky short-termism",
+      "fuente": "interest.co.nz",
       "impacto": "-"
     },
     {
-      "hora_alemania": "11/11 06:18",
-      "titular": "Hot inflation report has Wall Street eyeing whether the Fed could make a jumbo rate hike next month",
+      "hora_alemania": "12/11 01:14",
+      "titular": "Japan top currency diplomat Mimura: FX fluctuations are too rapid",
+      "fuente": "@financialjuice",
+      "impacto": "high"
+    },
+    {
+      "hora_alemania": "12/11 01:06",
+      "titular": "UK Residential Market Survey October 2026",
+      "fuente": "rics.org",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "12/11 00:50",
+      "titular": "Japan: Monthly Report on the Corporate Goods Price Index (Preliminary Figures for October 2026)",
+      "fuente": "boj.or.jp",
+      "impacto": "medium"
+    },
+    {
+      "hora_alemania": "12/11 00:30",
+      "titular": "ECB&#x92;s Nagel: &#x93;We Will Do What Is Necessary&#x94; to Restore Price Stability",
+      "fuente": "econostream-media.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "11/11 23:45",
+      "titular": "EUR/USD, EUR/JPY: Hawkish Fed Weighs on Euro as Yen Bulls Struggle",
+      "fuente": "stonex.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "11/11 23:00",
+      "titular": "Canada&#x92;s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "11/11 22:48",
+      "titular": "NZ international travel: September 2026",
+      "fuente": "stats.govt.nz",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "11/11 22:15",
+      "titular": "Gold Dips Back Below $4k as USD Touches Fresh Yearly High",
+      "fuente": "forex.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "11/11 21:30",
+      "titular": "Rubio&#x92;s old words come back to bite him as his $1.2M football travel tab is exposed",
+      "fuente": "dnyuz.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "11/11 20:44",
+      "titular": "Court approves IG Group move to Jersey",
+      "fuente": "fxnewsgroup.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "11/11 19:58",
+      "titular": "Wall Street thinks the Fed made a 'mistake' &#x97; and now more hikes are coming",
       "fuente": "finance.yahoo.com",
       "impacto": "-"
     }
