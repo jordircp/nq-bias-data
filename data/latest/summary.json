@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-13 14:05",
-  "ultima_vela_ny": "2026-11-13 08:55",
-  "precio": 28427.25,
+  "generado_utc": "2026-11-13 14:35",
+  "ultima_vela_ny": "2026-11-13 09:25",
+  "precio": 28438.0,
   "dia_anterior": {
     "fecha": "2026-11-12",
     "PDH": 28652.25,
@@ -30,7 +30,7 @@
   "temporalidades": {
     "4h": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
+        "tendencia": "bajista · LH y HL",
         "evento": "CHoCH/MSS bajista: cierre por debajo de 28131.75 (12/11 05:00 NY)",
         "ultimos_swing_high": [
           28129.25,
@@ -38,9 +38,9 @@
           28652.25
         ],
         "ultimos_swing_low": [
-          27516.0,
           28131.75,
-          28013.75
+          28013.75,
+          28243.25
         ]
       },
       "fvg_abiertos": [
@@ -90,6 +90,17 @@
         },
         {
           "tf": "4h",
+          "arriba": 28415.0,
+          "abajo": 28392.5,
+          "ce": 28403.75,
+          "tamano": 22.5,
+          "hora_ny": "2026-11-13 05:00",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "4h",
           "arriba": 28288.0,
           "abajo": 27180.0,
           "ce": 27734.0,
@@ -134,15 +145,15 @@
         }
       ],
       "fibonacci": {
-        "direccion": "alcista (mínimo → máximo)",
+        "direccion": "bajista (máximo → mínimo)",
         "maximo": 28652.25,
-        "minimo": 28013.75,
+        "minimo": 28044.5,
         "hora_max": "2026-11-12 09:00",
-        "hora_min": "2026-11-12 05:00",
-        "50": 28333.0,
-        "62": 28256.38,
-        "70.5": 28202.11,
-        "79": 28147.83,
+        "hora_min": "2026-11-12 09:00",
+        "50": 28348.38,
+        "62": 28421.31,
+        "70.5": 28472.96,
+        "79": 28524.62,
         "precio_en": "premium"
       },
       "liquidez_iguales": {
@@ -175,7 +186,7 @@
           "hora_ny": "2026-10-28 16:00",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "1h",
@@ -301,9 +312,9 @@
         "tendencia": "alcista · HH y HL",
         "evento": "BOS alcista: cierre por encima de 28469.75 (13/11 08:30 NY)",
         "ultimos_swing_high": [
-          28399.5,
           28392.5,
-          28469.75
+          28469.75,
+          28583.75
         ],
         "ultimos_swing_low": [
           28257.25,
@@ -392,7 +403,9 @@
       ],
       "fibonacci": null,
       "liquidez_iguales": {
-        "maximos_iguales": [],
+        "maximos_iguales": [
+          28583.0
+        ],
         "minimos_iguales": []
       }
     },
@@ -406,9 +419,9 @@
           28583.75
         ],
         "ultimos_swing_low": [
-          28374.25,
           28356.75,
-          28380.0
+          28380.0,
+          28404.0
         ]
       },
       "fvg_abiertos": [
@@ -432,7 +445,7 @@
           "hora_ny": "2026-11-11 14:05",
           "tipo": "bajista",
           "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -464,8 +477,8 @@
           "tamano": 35.25,
           "hora_ny": "2026-11-13 08:45",
           "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "alta"
+          "estado": "tocado",
+          "importancia": "media"
         },
         {
           "tf": "5m",
@@ -526,6 +539,7 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [
+          28471.25,
           28418.25
         ],
         "minimos_iguales": [
@@ -591,6 +605,18 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "13/11 15:31",
+      "titular": "The Conference Board Leading Economic Index (LEI) for the UK Ticked Down in September",
+      "fuente": "conference-board.org",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "13/11 15:11",
+      "titular": "Collins: Observations on Housing Market Challenges",
+      "fuente": "bostonfed.org",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "13/11 15:00",
       "titular": "US PPI As Expected, but USD/JPY Remains on Intervention Watch",
@@ -728,18 +754,6 @@
       "titular": "US dollar/yen briefly reaches 160, last at 159.96",
       "fuente": "@financialjuice",
       "impacto": "high"
-    },
-    {
-      "hora_alemania": "13/11 05:59",
-      "titular": "Karen Bass cuts ribbon on $72M homeless housing project in LA, costing taxpayers nearly $650K per unit",
-      "fuente": "nypost.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "13/11 05:14",
-      "titular": "AUD/USD Outlook: Historic yield squeeze leaves Aussie bears in control",
-      "fuente": "forex.com",
-      "impacto": "-"
     }
   ]
 }

@@ -1,6 +1,6 @@
-# NQ datos · 2026-11-13 08:55 (NY)
+# NQ datos · 2026-11-13 09:25 (NY)
 
-Precio: **28427.25**
+Precio: **28438.0**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
@@ -9,13 +9,14 @@ Día anterior (2026-11-12): PDH 28652.25 · PDL 28013.75 · cierre 28401.5 · se
 - londres: 28243.25 – 28392.5
 - overnight: 28243.25 – 28607.75
 
-## 4h: bajista · LH y LL · CHoCH/MSS bajista: cierre por debajo de 28131.75 (12/11 05:00 NY)
-Swing highs [28129.25, 28697.0, 28652.25] · swing lows [27516.0, 28131.75, 28013.75]
-Fib alcista (mínimo → máximo): 28013.75–28652.25 · 50 % 28333.0 · OTE 28256.38/28202.11/28147.83 · precio en premium
+## 4h: bajista · LH y HL · CHoCH/MSS bajista: cierre por debajo de 28131.75 (12/11 05:00 NY)
+Swing highs [28129.25, 28697.0, 28652.25] · swing lows [28131.75, 28013.75, 28243.25]
+Fib bajista (máximo → mínimo): 28044.5–28652.25 · 50 % 28348.38 · OTE 28421.31/28472.96/28524.62 · precio en premium
 - FVG bajista 30538.25–30705.25 (CE 30621.75, virgen, importancia media, 2026-10-14 06:00)
 - FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, importancia alta, 2026-10-14 10:00)
 - FVG bajista 29180.0–29431.5 (CE 29305.75, virgen, importancia alta, 2026-10-29 14:00)
 - FVG bajista 29042.0–29111.0 (CE 29076.5, tocado, importancia media, 2026-10-29 18:00)
+- FVG alcista 28392.5–28415.0 (CE 28403.75, virgen, importancia media, 2026-11-13 05:00)
 - IFVG alcista 27180.0–28288.0 (CE 27734.0, invertido 11/11 01:00, importancia alta, 2026-11-05 09:00)
 - FVG alcista 27916.0–28062.25 (CE 27989.12, tocado, importancia baja, 2026-11-10 17:00)
 - FVG alcista 27378.0–27891.0 (CE 27634.5, tocado, importancia alta, 2026-11-09 09:00)
@@ -24,7 +25,7 @@ Fib alcista (mínimo → máximo): 28013.75–28652.25 · 50 % 28333.0 · OTE 28
 ## 1h: bajista · LH y LL · CHoCH/MSS bajista: cierre por debajo de 28302.00 (13/11 00:00 NY)
 Swing highs [28312.75, 28652.25, 28607.75] · swing lows [28013.75, 28302.0, 28243.25]
 Fib bajista (máximo → mínimo): 28243.25–28607.75 · 50 % 28425.5 · OTE 28469.24/28500.22/28531.21 · precio en premium
-- FVG bajista 29794.25–29821.5 (CE 29807.88, virgen, importancia media, 2026-10-28 16:00)
+- FVG bajista 29794.25–29821.5 (CE 29807.88, virgen, importancia baja, 2026-10-28 16:00)
 - FVG bajista 29180.0–29443.25 (CE 29311.62, virgen, importancia alta, 2026-10-29 16:00)
 - FVG bajista 28958.25–29030.25 (CE 28994.25, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-10-29 20:00)
 - FVG bajista 28572.25–28601.25 (CE 28586.75, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-11 14:00)
@@ -37,7 +38,7 @@ Fib bajista (máximo → mínimo): 28243.25–28607.75 · 50 % 28425.5 · OTE 28
 Máximos iguales [] · mínimos iguales [28133.0]
 
 ## 15m: alcista · HH y HL · BOS alcista: cierre por encima de 28469.75 (13/11 08:30 NY)
-Swing highs [28399.5, 28392.5, 28469.75] · swing lows [28257.25, 28243.25, 28356.75]
+Swing highs [28392.5, 28469.75, 28583.75] · swing lows [28257.25, 28243.25, 28356.75]
 - FVG bajista 28586.25–28661.5 (CE 28623.88, tocado, importancia media, 2026-11-11 14:00)
 - IFVG alcista 28396.0–28415.0 (CE 28405.5, invertido 13/11 08:15, importancia baja, 2026-11-13 07:30)
 - FVG alcista 28375.5–28389.0 (CE 28382.25, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-13 05:45)
@@ -45,26 +46,29 @@ Swing highs [28399.5, 28392.5, 28469.75] · swing lows [28257.25, 28243.25, 2835
 - FVG alcista 28294.0–28301.75 (CE 28297.88, virgen, importancia media, 2026-11-13 04:00)
 - FVG alcista 28093.75–28258.5 (CE 28176.12, tocado, importancia alta, 2026-11-12 09:30)
 - FVG alcista 27368.0–27640.5 (CE 27504.25, tocado, importancia alta, 2026-11-09 09:30)
+Máximos iguales [28583.0] · mínimos iguales []
 
 ## 5m: alcista · HH y HL · BOS alcista: cierre por encima de 28469.75 (13/11 08:30 NY)
-Swing highs [28469.75, 28418.25, 28583.75] · swing lows [28374.25, 28356.75, 28380.0]
+Swing highs [28469.75, 28418.25, 28583.75] · swing lows [28356.75, 28380.0, 28404.0]
 - FVG bajista 28631.5–28661.5 (CE 28646.5, tocado, importancia media, 2026-11-11 14:00)
-- FVG bajista 28590.25–28628.25 (CE 28609.25, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-11 14:05)
+- FVG bajista 28590.25–28628.25 (CE 28609.25, barrido (mecha lo atravesó, sin cierre), importancia alta, 2026-11-11 14:05)
 - FVG bajista 28495.75–28503.75 (CE 28499.75, virgen, importancia media, 2026-11-13 08:40)
 - IFVG bajista 28446.0–28503.75 (CE 28474.88, invertido 13/11 08:45, importancia alta, 2026-11-13 08:30)
-- FVG bajista 28447.0–28482.25 (CE 28464.62, virgen, importancia alta, 2026-11-13 08:45)
+- FVG bajista 28447.0–28482.25 (CE 28464.62, tocado, importancia media, 2026-11-13 08:45)
 - IFVG alcista 28380.5–28384.25 (CE 28382.38, invertido 13/11 07:55, importancia media, 2026-11-13 07:45)
 - FVG alcista 28209.0–28303.75 (CE 28256.38, barrido (mecha lo atravesó, sin cierre), importancia alta, 2026-11-12 09:35)
 - FVG alcista 28274.25–28297.0 (CE 28285.62, virgen, importancia alta, 2026-11-13 04:00)
 - FVG alcista 28088.0–28194.5 (CE 28141.25, virgen, importancia alta, 2026-11-12 09:30)
 - FVG alcista 27368.0–27458.0 (CE 27413.0, virgen, importancia media, 2026-11-09 09:30)
-Máximos iguales [28418.25] · mínimos iguales [28381.0]
+Máximos iguales [28471.25, 28418.25] · mínimos iguales [28381.0]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 14:30 · Core PPI m/m · impacto ALTO · previsión 0.3% · anterior 0.7%
 - 14:30 · PPI m/m · impacto ALTO · previsión 0.4% · anterior 1.3%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 13/11 15:31 · [low] The Conference Board Leading Economic Index (LEI) for the UK Ticked Down in September (conference-board.org)
+- 13/11 15:11 · [low] Collins: Observations on Housing Market Challenges (bostonfed.org)
 - 13/11 15:00 · [-] US PPI As Expected, but USD/JPY Remains on Intervention Watch (youtube.com/forexcom)
 - 13/11 14:45 · [low] Fed's Goolsbee: We cannot look through inflation if demand is overheating; data center buildout is pushing up prices (@financialjuice)
 - 13/11 14:40 · [low] Fed's Goolsbee: Inflation is broad-based and going the wrong way (@financialjuice)
@@ -88,8 +92,6 @@ Máximos iguales [28418.25] · mínimos iguales [28381.0]
 - 13/11 08:09 · [low] German wholesale prices in October 2026: +8.8% on October 2025 (destatis.de)
 - 13/11 08:04 · [-] The Most Valuable Company in Every State, Mapped (mentalfloss.com)
 - 13/11 06:50 · [high] US dollar/yen briefly reaches 160, last at 159.96 (@financialjuice)
-- 13/11 05:59 · [-] Karen Bass cuts ribbon on $72M homeless housing project in LA, costing taxpayers nearly $650K per unit (nypost.com)
-- 13/11 05:14 · [-] AUD/USD Outlook: Historic yield squeeze leaves Aussie bears in control (forex.com)
 
 ## Estadísticas (últimos 46 días)
 Rango medio: 801.2 pts (20d) · 901.8 pts (5d)
