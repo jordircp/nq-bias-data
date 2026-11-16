@@ -1,12 +1,12 @@
 {
-  "generado_utc": "2026-11-16 07:05",
-  "ultima_vela_ny": "2026-11-16 01:55",
-  "precio": 27735.25,
+  "generado_utc": "2026-11-16 07:35",
+  "ultima_vela_ny": "2026-11-16 02:25",
+  "precio": 27760.25,
   "dia_anterior": {
     "fecha": "2026-11-13",
     "PDH": 28607.75,
     "PDL": 27695.25,
-    "cierre": 27927.25,
+    "cierre": 28034.75,
     "max_semana": 28279.25,
     "min_semana": 27658.0
   },
@@ -14,9 +14,12 @@
     "dia_trading": "2026-11-16",
     "asia": {
       "maximo": 28178.25,
-      "minimo": 27854.25
+      "minimo": 27802.25
     },
-    "londres": null,
+    "londres": {
+      "maximo": 27802.25,
+      "minimo": 27717.75
+    },
     "ny_am": null,
     "overnight": {
       "maximo": 28279.25,
@@ -165,6 +168,17 @@
       "fvg_abiertos": [
         {
           "tf": "1h",
+          "arriba": 29821.5,
+          "abajo": 29794.25,
+          "ce": 29807.88,
+          "tamano": 27.25,
+          "hora_ny": "2026-10-28 16:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "1h",
           "arriba": 29443.25,
           "abajo": 29180.0,
           "ce": 29311.62,
@@ -187,17 +201,6 @@
         },
         {
           "tf": "1h",
-          "arriba": 28150.0,
-          "abajo": 28111.75,
-          "ce": 28130.88,
-          "tamano": 38.25,
-          "hora_ny": "2026-11-13 16:00",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 15/11 20:00",
-          "importancia": "baja"
-        },
-        {
-          "tf": "1h",
           "arriba": 28110.5,
           "abajo": 28059.75,
           "ce": 28085.12,
@@ -209,14 +212,14 @@
         },
         {
           "tf": "1h",
-          "arriba": 27854.75,
-          "abajo": 27753.5,
-          "ce": 27804.12,
-          "tamano": 101.25,
-          "hora_ny": "2026-11-16 00:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
+          "arriba": 28110.5,
+          "abajo": 28044.5,
+          "ce": 28077.5,
+          "tamano": 66.0,
+          "hora_ny": "2026-11-15 18:00",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 15/11 20:00",
+          "importancia": "baja"
         },
         {
           "tf": "1h",
@@ -273,7 +276,7 @@
     },
     "15m": {
       "estructura": {
-        "tendencia": "bajista · LH y HL",
+        "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 27695.25 (16/11 01:00 NY)",
         "ultimos_swing_high": [
           28111.75,
@@ -281,9 +284,9 @@
           28059.75
         ],
         "ultimos_swing_low": [
-          27960.75,
           27766.5,
-          27854.25
+          27854.25,
+          27658.0
         ]
       },
       "fvg_abiertos": [
@@ -300,6 +303,17 @@
         },
         {
           "tf": "15m",
+          "arriba": 28249.0,
+          "abajo": 28195.25,
+          "ce": 28222.12,
+          "tamano": 53.75,
+          "hora_ny": "2026-11-15 19:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
           "arriba": 28177.25,
           "abajo": 27874.0,
           "ce": 28025.62,
@@ -308,6 +322,17 @@
           "tipo": "IFVG bajista",
           "estado": "invertido 15/11 20:45",
           "importancia": "alta"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28150.0,
+          "abajo": 28034.75,
+          "ce": 28092.38,
+          "tamano": 115.25,
+          "hora_ny": "2026-11-15 18:00",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 15/11 20:00",
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -322,36 +347,25 @@
         },
         {
           "tf": "15m",
-          "arriba": 27962.5,
-          "abajo": 27816.25,
-          "ce": 27889.38,
-          "tamano": 146.25,
-          "hora_ny": "2026-11-15 21:45",
+          "arriba": 27851.0,
+          "abajo": 27833.25,
+          "ce": 27842.12,
+          "tamano": 17.75,
+          "hora_ny": "2026-11-15 23:30",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "alta"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
-          "arriba": 27955.0,
-          "abajo": 27913.0,
-          "ce": 27934.0,
-          "tamano": 42.0,
-          "hora_ny": "2026-11-15 21:00",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 16/11 00:00",
-          "importancia": "media"
-        },
-        {
-          "tf": "15m",
-          "arriba": 27929.0,
-          "abajo": 27847.25,
-          "ce": 27888.12,
-          "tamano": 81.75,
-          "hora_ny": "2026-11-16 00:00",
+          "arriba": 27763.75,
+          "abajo": 27747.25,
+          "ce": 27755.5,
+          "tamano": 16.5,
+          "hora_ny": "2026-11-16 00:30",
           "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "alta"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -361,8 +375,8 @@
           "tamano": 21.0,
           "hora_ny": "2026-11-16 01:30",
           "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
+          "estado": "tocado",
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -373,7 +387,7 @@
           "hora_ny": "2026-11-10 13:30",
           "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -406,15 +420,15 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 27719.75 (16/11 01:10 NY)",
+        "tendencia": "alcista · HH y LL",
+        "evento": "CHoCH/MSS alcista: cierre por encima de 27753.50 (16/11 02:00 NY)",
         "ultimos_swing_high": [
-          28059.75,
           27847.25,
-          27753.5
+          27753.5,
+          27802.25
         ],
         "ultimos_swing_low": [
-          27854.75,
+          27830.5,
           27763.75,
           27658.0
         ]
@@ -444,36 +458,36 @@
         },
         {
           "tf": "5m",
-          "arriba": 27945.5,
-          "abajo": 27816.25,
-          "ce": 27880.88,
-          "tamano": 129.25,
-          "hora_ny": "2026-11-15 21:50",
+          "arriba": 27914.0,
+          "abajo": 27885.25,
+          "ce": 27899.62,
+          "tamano": 28.75,
+          "hora_ny": "2026-11-15 23:30",
           "tipo": "bajista",
-          "estado": "tocado",
-          "importancia": "alta"
-        },
-        {
-          "tf": "5m",
-          "arriba": 27934.75,
-          "abajo": 27903.5,
-          "ce": 27919.12,
-          "tamano": 31.25,
-          "hora_ny": "2026-11-15 21:00",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 16/11 00:00",
+          "estado": "virgen",
           "importancia": "media"
         },
         {
           "tf": "5m",
-          "arriba": 27929.0,
-          "abajo": 27813.0,
-          "ce": 27871.0,
-          "tamano": 116.0,
-          "hora_ny": "2026-11-16 00:00",
+          "arriba": 27914.0,
+          "abajo": 27909.75,
+          "ce": 27911.88,
+          "tamano": 4.25,
+          "hora_ny": "2026-11-15 23:20",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 15/11 23:30",
+          "importancia": "baja"
+        },
+        {
+          "tf": "5m",
+          "arriba": 27864.5,
+          "abajo": 27833.25,
+          "ce": 27848.88,
+          "tamano": 31.25,
+          "hora_ny": "2026-11-15 23:40",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "5m",
@@ -483,7 +497,7 @@
           "tamano": 31.0,
           "hora_ny": "2026-11-13 16:40",
           "tipo": "IFVG bajista",
-          "estado": "invertido 16/11 00:00",
+          "estado": "invertido 15/11 23:45",
           "importancia": "media"
         },
         {
@@ -512,16 +526,14 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [],
-        "minimos_iguales": [
-          27854.5
-        ]
+        "minimos_iguales": []
       }
     }
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 801.7,
-    "rango_medio_5d": 873.6,
+    "rango_medio_20d": 799.0,
+    "rango_medio_5d": 872.6,
     "pct_dias_toman_pdh": 47,
     "pct_dias_toman_pdl": 51,
     "pct_dias_toman_ambos": 13,
@@ -542,14 +554,14 @@
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
       "pct_cierra_arriba_de_apertura": 50,
-      "rebote_medio_desde_apertura": 244.2
+      "rebote_medio_desde_apertura": 243.0
     },
     "tras_dia_alcista_fuerte": {
       "casos": 16,
       "pct_toma_pdh": 75,
       "pct_toma_pdl": 31,
       "pct_cierra_abajo_de_apertura": 44,
-      "retroceso_medio_desde_apertura": 426.9
+      "retroceso_medio_desde_apertura": 423.2
     },
     "dia_anterior_tipo": "neutro"
   },
@@ -594,6 +606,12 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "16/11 08:22",
+      "titular": "Asia Outlook 2027: Growth broadens, capital gets selective",
+      "fuente": "think.ing.com",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "16/11 07:04",
       "titular": "Forex &amp; Gold Outlook: Dollar Dominates, Crosses Diverge",
@@ -736,12 +754,6 @@
       "hora_alemania": "15/11 10:45",
       "titular": "France October inflation accelerates as energy prices surge, keeping ECB rate hike bets alive",
       "fuente": "investinglive.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "15/11 08:31",
-      "titular": "USD To INR Forecast: Dollar Could Fall To 92 Rupees By September - Westpac",
-      "fuente": "exchangerates.org.uk",
       "impacto": "-"
     }
   ]
