@@ -1,6 +1,6 @@
-# NQ datos · 2026-11-16 08:55 (NY)
+# NQ datos · 2026-11-16 09:25 (NY)
 
-Precio: **27622.75**
+Precio: **27692.75**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
@@ -21,7 +21,7 @@ Fib bajista (máximo → mínimo): 27554.0–28583.75 · 50 % 28068.88 · OTE 28
 - FVG alcista 27378.0–27891.0 (CE 27634.5, tocado, importancia alta, 2026-11-09 09:00)
 - FVG alcista 27147.25–27291.75 (CE 27219.5, virgen, importancia media, 2026-11-09 05:00)
 
-## 1h: bajista · LH y LL · BOS bajista: cierre por debajo de 27658.00 (16/11 08:00 NY)
+## 1h: bajista · LH y LL · BOS bajista: cierre por debajo de 27695.25 (16/11 09:00 NY)
 Swing highs [28583.75, 28279.25, 27853.25] · swing lows [27695.25, 27766.5, 27658.0]
 Fib bajista (máximo → mínimo): 27554.0–27853.25 · 50 % 27703.62 · OTE 27739.53/27764.97/27790.41 · precio en discount
 - FVG bajista 29180.0–29443.25 (CE 29311.62, virgen, importancia alta, 2026-10-29 16:00)
@@ -34,27 +34,29 @@ Fib bajista (máximo → mínimo): 27554.0–27853.25 · 50 % 27703.62 · OTE 27
 - FVG alcista 26717.0–26817.75 (CE 26767.38, tocado, importancia baja, 2026-11-05 19:00)
 
 ## 15m: bajista · LH y LL · BOS bajista: cierre por debajo de 27658.00 (16/11 07:15 NY)
-Swing highs [28059.75, 27853.25, 27823.0] · swing lows [27658.0, 27735.5, 27554.0]
+Swing highs [27853.25, 27823.0, 27710.75] · swing lows [27658.0, 27735.5, 27554.0]
 - FVG bajista 28288.0–28389.5 (CE 28338.75, virgen, importancia alta, 2026-11-13 09:30)
+- FVG bajista 28195.25–28249.0 (CE 28222.12, virgen, importancia media, 2026-11-15 19:00)
 - FVG bajista 28004.5–28115.75 (CE 28060.12, tocado, importancia alta, 2026-11-15 20:00)
 - FVG bajista 27744.25–27773.0 (CE 27758.62, virgen, importancia media, 2026-11-16 06:45)
-- FVG bajista 27677.25–27734.5 (CE 27705.88, tocado, importancia media, 2026-11-16 07:00)
+- FVG bajista 27677.25–27734.5 (CE 27705.88, tocado, importancia alta, 2026-11-16 07:00)
 - IFVG bajista 27704.75–27725.75 (CE 27715.25, invertido 16/11 07:00, importancia baja, 2026-11-16 01:30)
 - FVG alcista 27368.0–27640.5 (CE 27504.25, tocado, importancia alta, 2026-11-09 09:30)
 - FVG alcista 27021.25–27065.25 (CE 27043.25, tocado, importancia baja, 2026-11-09 03:30)
-- FVG alcista 26973.75–26981.75 (CE 26977.75, virgen, importancia baja, 2026-11-09 03:15)
 - FVG alcista 26887.25–26939.75 (CE 26913.5, virgen, importancia media, 2026-11-09 03:00)
 - FVG alcista 26636.5–26725.25 (CE 26680.88, virgen, importancia baja, 2026-11-05 19:00)
 
 ## 5m: bajista · HH y HL · BOS bajista: cierre por debajo de 27658.00 (16/11 07:15 NY)
-Swing highs [27789.75, 27708.5, 27710.75] · swing lows [27745.0, 27554.0, 27601.0]
+Swing highs [27789.75, 27708.5, 27710.75] · swing lows [27554.0, 27601.0, 27612.0]
+- FVG bajista 28329.0–28389.5 (CE 28359.25, virgen, importancia media, 2026-11-13 09:30)
 - FVG bajista 28071.25–28164.0 (CE 28117.62, virgen, importancia alta, 2026-11-15 20:00)
 - FVG bajista 27885.25–27914.0 (CE 27899.62, virgen, importancia media, 2026-11-15 23:30)
 - IFVG bajista 27798.0–27807.75 (CE 27802.88, invertido 16/11 06:25, importancia media, 2026-11-16 06:15)
 - FVG bajista 27744.25–27771.0 (CE 27757.62, virgen, importancia alta, 2026-11-16 06:55)
 - FVG bajista 27687.25–27734.5 (CE 27710.88, tocado, importancia alta, 2026-11-16 07:00)
-- IFVG bajista 27639.0–27668.25 (CE 27653.62, invertido 16/11 08:20, importancia alta, 2026-11-16 07:40)
-Máximos iguales [27819.75, 27788.25, 27709.62] · mínimos iguales []
+- IFVG bajista 27704.75–27713.25 (CE 27709.0, invertido 16/11 07:00, importancia baja, 2026-11-16 01:30)
+- FVG alcista 27665.5–27671.0 (CE 27668.25, virgen, importancia media, 2026-11-16 09:15)
+Máximos iguales [27788.25, 27821.88, 27709.62] · mínimos iguales [27612.88]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 18:00 · Fed Chairman Warsh Speaks · impacto ALTO · previsión None · anterior None
@@ -63,6 +65,7 @@ Máximos iguales [27819.75, 27788.25, 27709.62] · mínimos iguales []
 - Próximo ALTO: 2026-11-18 20:00 · FOMC Meeting Minutes · previsión None
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 16/11 15:20 · [-] Fed's Warsh to take stock of AI revolution as US public grows wary (msn.com)
 - 16/11 15:00 · [-] The Technology Threat (am.jpmorgan.com)
 - 16/11 14:30 · [high] Canada Consumer Price Index, October 2026 (statcan.gc.ca)
 - 16/11 14:30 · [low] Empire State Manufacturing Survey (newyorkfed.org)
@@ -87,7 +90,6 @@ Máximos iguales [27819.75, 27788.25, 27709.62] · mínimos iguales []
 - 16/11 02:02 · [-] Japan's economy unexpectedly shrinks in July-September as consumption falters (channelnewsasia.com)
 - 16/11 00:53 · [-] Roger J Kerr says the FX markets are telling us the RBNZ is well behind the 8-ball with its timid approach (interest.co.nz)
 - 16/11 00:51 · [low] Quarterly Estimates of Japan GDP for July - September 2026 (First Preliminary Estimates) (cao.go.jp)
-- 16/11 00:06 · [-] Weekend Fed speak: Collins backs steady, gradual rate hikes, cool on a bigger December move (investinglive.com)
 
 ## Estadísticas (últimos 47 días)
 Rango medio: 801.7 pts (20d) · 873.6 pts (5d)

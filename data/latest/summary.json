@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-16 14:05",
-  "ultima_vela_ny": "2026-11-16 08:55",
-  "precio": 27622.75,
+  "generado_utc": "2026-11-16 14:35",
+  "ultima_vela_ny": "2026-11-16 09:25",
+  "precio": 27692.75,
   "dia_anterior": {
     "fecha": "2026-11-13",
     "PDH": 28607.75,
@@ -153,7 +153,7 @@
     "1h": {
       "estructura": {
         "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 27658.00 (16/11 08:00 NY)",
+        "evento": "BOS bajista: cierre por debajo de 27695.25 (16/11 09:00 NY)",
         "ultimos_swing_high": [
           28583.75,
           28279.25,
@@ -277,9 +277,9 @@
         "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 27658.00 (16/11 07:15 NY)",
         "ultimos_swing_high": [
-          28059.75,
           27853.25,
-          27823.0
+          27823.0,
+          27710.75
         ],
         "ultimos_swing_low": [
           27658.0,
@@ -298,6 +298,17 @@
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "alta"
+        },
+        {
+          "tf": "15m",
+          "arriba": 28249.0,
+          "abajo": 28195.25,
+          "ce": 28222.12,
+          "tamano": 53.75,
+          "hora_ny": "2026-11-15 19:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -330,7 +341,7 @@
           "hora_ny": "2026-11-16 07:00",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "15m",
@@ -363,17 +374,6 @@
           "hora_ny": "2026-11-09 03:30",
           "tipo": "alcista",
           "estado": "tocado",
-          "importancia": "baja"
-        },
-        {
-          "tf": "15m",
-          "arriba": 26981.75,
-          "abajo": 26973.75,
-          "ce": 26977.75,
-          "tamano": 8.0,
-          "hora_ny": "2026-11-09 03:15",
-          "tipo": "alcista",
-          "estado": "virgen",
           "importancia": "baja"
         },
         {
@@ -415,12 +415,23 @@
           27710.75
         ],
         "ultimos_swing_low": [
-          27745.0,
           27554.0,
-          27601.0
+          27601.0,
+          27612.0
         ]
       },
       "fvg_abiertos": [
+        {
+          "tf": "5m",
+          "arriba": 28389.5,
+          "abajo": 28329.0,
+          "ce": 28359.25,
+          "tamano": 60.5,
+          "hora_ny": "2026-11-13 09:30",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
         {
           "tf": "5m",
           "arriba": 28164.0,
@@ -478,24 +489,37 @@
         },
         {
           "tf": "5m",
-          "arriba": 27668.25,
-          "abajo": 27639.0,
-          "ce": 27653.62,
-          "tamano": 29.25,
-          "hora_ny": "2026-11-16 07:40",
+          "arriba": 27713.25,
+          "abajo": 27704.75,
+          "ce": 27709.0,
+          "tamano": 8.5,
+          "hora_ny": "2026-11-16 01:30",
           "tipo": "IFVG bajista",
-          "estado": "invertido 16/11 08:20",
-          "importancia": "alta"
+          "estado": "invertido 16/11 07:00",
+          "importancia": "baja"
+        },
+        {
+          "tf": "5m",
+          "arriba": 27671.0,
+          "abajo": 27665.5,
+          "ce": 27668.25,
+          "tamano": 5.5,
+          "hora_ny": "2026-11-16 09:15",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "media"
         }
       ],
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [
-          27819.75,
           27788.25,
+          27821.88,
           27709.62
         ],
-        "minimos_iguales": []
+        "minimos_iguales": [
+          27612.88
+        ]
       }
     }
   },
@@ -575,6 +599,12 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "16/11 15:20",
+      "titular": "Fed's Warsh to take stock of AI revolution as US public grows wary",
+      "fuente": "msn.com",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "16/11 15:00",
       "titular": "The Technology Threat",
@@ -718,12 +748,6 @@
       "titular": "Quarterly Estimates of Japan GDP for July - September 2026 (First Preliminary Estimates)",
       "fuente": "cao.go.jp",
       "impacto": "low"
-    },
-    {
-      "hora_alemania": "16/11 00:06",
-      "titular": "Weekend Fed speak: Collins backs steady, gradual rate hikes, cool on a bigger December move",
-      "fuente": "investinglive.com",
-      "impacto": "-"
     }
   ]
 }
