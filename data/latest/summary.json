@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-17 13:09",
-  "ultima_vela_ny": "2026-11-17 07:55",
-  "precio": 27392.5,
+  "generado_utc": "2026-11-17 14:05",
+  "ultima_vela_ny": "2026-11-17 08:55",
+  "precio": 27367.25,
   "dia_anterior": {
     "fecha": "2026-11-16",
     "PDH": 28279.25,
@@ -218,7 +218,7 @@
           "tamano": 150.75,
           "hora_ny": "2026-11-17 06:00",
           "tipo": "alcista",
-          "estado": "virgen",
+          "estado": "tocado",
           "importancia": "alta"
         },
         {
@@ -297,7 +297,7 @@
           "hora_ny": "2026-11-15 20:00",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -367,6 +367,17 @@
         },
         {
           "tf": "15m",
+          "arriba": 27168.5,
+          "abajo": 27149.25,
+          "ce": 27158.88,
+          "tamano": 19.25,
+          "hora_ny": "2026-11-17 04:30",
+          "tipo": "alcista",
+          "estado": "tocado",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
           "arriba": 26939.75,
           "abajo": 26887.25,
           "ce": 26913.5,
@@ -380,24 +391,24 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [
-          27358.62
+          27439.0
         ],
         "minimos_iguales": []
       }
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · LH y HL",
-        "evento": "BOS alcista: cierre por encima de 27407.25 (17/11 06:40 NY)",
+        "tendencia": "bajista · LH y LL",
+        "evento": "BOS bajista: cierre por debajo de 27372.00 (17/11 08:20 NY)",
         "ultimos_swing_high": [
-          27467.75,
-          27461.75,
-          27434.25
+          27434.25,
+          27432.25,
+          27424.0
         ],
         "ultimos_swing_low": [
-          27166.0,
           27372.0,
-          27382.25
+          27382.25,
+          27319.0
         ]
       },
       "fvg_abiertos": [
@@ -452,20 +463,9 @@
           "ce": 27401.12,
           "tamano": 38.75,
           "hora_ny": "2026-11-17 06:35",
-          "tipo": "alcista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 17/11 08:15",
           "importancia": "alta"
-        },
-        {
-          "tf": "5m",
-          "arriba": 27385.5,
-          "abajo": 27344.25,
-          "ce": 27364.88,
-          "tamano": 41.25,
-          "hora_ny": "2026-11-17 00:05",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 17/11 06:35",
-          "importancia": "media"
         },
         {
           "tf": "5m",
@@ -475,7 +475,7 @@
           "tamano": 58.0,
           "hora_ny": "2026-11-17 06:30",
           "tipo": "alcista",
-          "estado": "virgen",
+          "estado": "tocado",
           "importancia": "alta"
         },
         {
@@ -488,6 +488,17 @@
           "tipo": "alcista",
           "estado": "virgen",
           "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 27258.75,
+          "abajo": 27256.75,
+          "ce": 27257.75,
+          "tamano": 2.0,
+          "hora_ny": "2026-11-17 06:15",
+          "tipo": "alcista",
+          "estado": "tocado",
+          "importancia": "baja"
         },
         {
           "tf": "5m",
@@ -525,7 +536,10 @@
       ],
       "fibonacci": null,
       "liquidez_iguales": {
-        "maximos_iguales": [],
+        "maximos_iguales": [
+          27422.88,
+          27433.25
+        ],
         "minimos_iguales": [
           27380.88
         ]
@@ -534,8 +548,8 @@
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 829.8,
-    "rango_medio_5d": 807.0,
+    "rango_medio_20d": 827.1,
+    "rango_medio_5d": 805.9,
     "pct_dias_toman_pdh": 47,
     "pct_dias_toman_pdl": 51,
     "pct_dias_toman_ambos": 13,
@@ -556,14 +570,14 @@
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
       "pct_cierra_arriba_de_apertura": 50,
-      "rebote_medio_desde_apertura": 244.2
+      "rebote_medio_desde_apertura": 243.0
     },
     "tras_dia_alcista_fuerte": {
       "casos": 16,
       "pct_toma_pdh": 75,
       "pct_toma_pdl": 31,
       "pct_cierra_abajo_de_apertura": 44,
-      "retroceso_medio_desde_apertura": 426.9
+      "retroceso_medio_desde_apertura": 423.2
     },
     "dia_anterior_tipo": "bajista fuerte"
   },
@@ -599,6 +613,54 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "17/11 15:00",
+      "titular": "Lisa Cook lawyer signals Fed gov won't attend Trump committee's hearing",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "17/11 14:58",
+      "titular": "France October inflation accelerates as energy prices surge, keeping ECB rate hike bets alive",
+      "fuente": "investinglive.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "17/11 14:40",
+      "titular": "Fed's Lisa Cook Declines To Join White House Hearing On Dec 14",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "17/11 14:31",
+      "titular": "US retail sales up 0.2% in October",
+      "fuente": "breakingthenews.net",
+      "impacto": "high"
+    },
+    {
+      "hora_alemania": "17/11 14:30",
+      "titular": "Canada's international transactions in securities, September 2026",
+      "fuente": "statcan.gc.ca",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "17/11 14:30",
+      "titular": "US Import and Export Price Indexes - October 2026",
+      "fuente": "bls.gov",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "17/11 14:16",
+      "titular": "Housing starts and construction data for October 2026",
+      "fuente": "cmhc-schl.gc.ca",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "17/11 14:15",
+      "titular": "ADP National Employment Report Preliminary Estimate for October 31, 2026",
+      "fuente": "prnewswire.com",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "17/11 13:46",
       "titular": "How Jensen Huang scandal makes Congress a bigger risk to U.S.-China relations",
@@ -699,54 +761,6 @@
       "hora_alemania": "17/11 05:55",
       "titular": "Third U.S. carrier arrives, stoking concerns about renewed conflicts with Iran",
       "fuente": "cnbc.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "17/11 05:31",
-      "titular": "Japan Indices of Tertiary Industry Activity (ITA) for September, 2026",
-      "fuente": "meti.go.jp",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "17/11 05:06",
-      "titular": "Canada PM office: Announces extension, expansion of prelim joint arrangement on bilateral economic, trade issues between Canada and China",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "17/11 05:04",
-      "titular": "JPM&#x92;s Michele: &#x91;Looks a Bit Silly&#x92; Fed Missed Oct. Hike",
-      "fuente": "youtube.com/markets",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "17/11 04:16",
-      "titular": "NZ: Annual inflation heading back above 4%",
-      "fuente": "bnz.co.nz",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "17/11 03:27",
-      "titular": "Two more Fed hikes, then a long pause: Goldman reads a third hot core CPI print",
-      "fuente": "investinglive.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "17/11 03:01",
-      "titular": "NZ Survey of Expectations &#x96; November 2026",
-      "fuente": "rbnz.govt.nz",
-      "impacto": "medium"
-    },
-    {
-      "hora_alemania": "17/11 02:38",
-      "titular": "Aschenbrenner&#x92;s Situational Awareness made AI bets again before October rout",
-      "fuente": "cnbc.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "17/11 01:49",
-      "titular": "NZD/USD Forecast: Kiwi faces historic breakdown as RBNZ survey looms",
-      "fuente": "forex.com",
       "impacto": "-"
     }
   ]
