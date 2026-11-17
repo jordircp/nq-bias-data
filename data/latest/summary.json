@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-17 14:05",
-  "ultima_vela_ny": "2026-11-17 08:55",
-  "precio": 27367.25,
+  "generado_utc": "2026-11-17 14:35",
+  "ultima_vela_ny": "2026-11-17 09:25",
+  "precio": 27358.75,
   "dia_anterior": {
     "fecha": "2026-11-16",
     "PDH": 28279.25,
@@ -38,9 +38,9 @@
           27498.0
         ],
         "ultimos_swing_low": [
-          28131.75,
           28013.75,
-          27695.25
+          27695.25,
+          27085.0
         ]
       },
       "fvg_abiertos": [
@@ -144,9 +144,9 @@
         "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 27590.00 (16/11 13:00 NY)",
         "ultimos_swing_high": [
-          28279.25,
           27853.25,
-          27498.0
+          27498.0,
+          27467.75
         ],
         "ultimos_swing_low": [
           27658.0,
@@ -245,15 +245,15 @@
         }
       ],
       "fibonacci": {
-        "direccion": "bajista (máximo → mínimo)",
-        "maximo": 27498.0,
+        "direccion": "alcista (mínimo → máximo)",
+        "maximo": 27467.75,
         "minimo": 27085.0,
-        "hora_max": "2026-11-16 22:00",
+        "hora_max": "2026-11-17 06:00",
         "hora_min": "2026-11-17 04:00",
-        "50": 27291.5,
-        "62": 27341.06,
-        "70.5": 27376.17,
-        "79": 27411.27,
+        "50": 27276.38,
+        "62": 27230.44,
+        "70.5": 27197.91,
+        "79": 27165.38,
         "precio_en": "premium"
       },
       "liquidez_iguales": {
@@ -263,7 +263,7 @@
     },
     "15m": {
       "estructura": {
-        "tendencia": "alcista · HH y LL",
+        "tendencia": "alcista · HH y HL",
         "evento": "BOS alcista: cierre por encima de 27407.25 (17/11 06:45 NY)",
         "ultimos_swing_high": [
           27407.25,
@@ -271,9 +271,9 @@
           27467.75
         ],
         "ultimos_swing_low": [
-          27180.5,
           27225.75,
-          27085.0
+          27085.0,
+          27319.0
         ]
       },
       "fvg_abiertos": [
@@ -390,9 +390,7 @@
       ],
       "fibonacci": null,
       "liquidez_iguales": {
-        "maximos_iguales": [
-          27439.0
-        ],
+        "maximos_iguales": [],
         "minimos_iguales": []
       }
     },
@@ -401,9 +399,9 @@
         "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 27372.00 (17/11 08:20 NY)",
         "ultimos_swing_high": [
-          27434.25,
           27432.25,
-          27424.0
+          27424.0,
+          27405.0
         ],
         "ultimos_swing_low": [
           27372.0,
@@ -480,6 +478,17 @@
         },
         {
           "tf": "5m",
+          "arriba": 27367.0,
+          "abajo": 27359.75,
+          "ce": 27363.38,
+          "tamano": 7.25,
+          "hora_ny": "2026-11-17 08:55",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 17/11 09:20",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
           "arriba": 27304.75,
           "abajo": 27274.75,
           "ce": 27289.75,
@@ -499,17 +508,6 @@
           "tipo": "alcista",
           "estado": "tocado",
           "importancia": "baja"
-        },
-        {
-          "tf": "5m",
-          "arriba": 27226.75,
-          "abajo": 27190.25,
-          "ce": 27208.5,
-          "tamano": 36.5,
-          "hora_ny": "2026-11-17 04:00",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 17/11 06:00",
-          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -548,8 +546,8 @@
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 827.1,
-    "rango_medio_5d": 805.9,
+    "rango_medio_20d": 829.8,
+    "rango_medio_5d": 807.0,
     "pct_dias_toman_pdh": 47,
     "pct_dias_toman_pdl": 51,
     "pct_dias_toman_ambos": 13,
@@ -570,14 +568,14 @@
       "pct_toma_pdl": 80,
       "pct_toma_pdh": 10,
       "pct_cierra_arriba_de_apertura": 50,
-      "rebote_medio_desde_apertura": 243.0
+      "rebote_medio_desde_apertura": 244.2
     },
     "tras_dia_alcista_fuerte": {
       "casos": 16,
       "pct_toma_pdh": 75,
       "pct_toma_pdl": 31,
       "pct_cierra_abajo_de_apertura": 44,
-      "retroceso_medio_desde_apertura": 423.2
+      "retroceso_medio_desde_apertura": 426.9
     },
     "dia_anterior_tipo": "bajista fuerte"
   },
@@ -614,15 +612,33 @@
   ],
   "noticias_24h": [
     {
-      "hora_alemania": "17/11 15:00",
-      "titular": "Lisa Cook lawyer signals Fed gov won't attend Trump committee's hearing",
-      "fuente": "cnbc.com",
+      "hora_alemania": "17/11 15:33",
+      "titular": "Fed's Hammack: Time to establish clear principles for when FOMC to intervene in US Tsy bond market",
+      "fuente": "@MaceNewsMacro",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "17/11 15:32",
+      "titular": "US shoppers slowed spending in October with high prices leading to caution",
+      "fuente": "apnews.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "17/11 14:58",
-      "titular": "France October inflation accelerates as energy prices surge, keeping ECB rate hike bets alive",
-      "fuente": "investinglive.com",
+      "hora_alemania": "17/11 15:21",
+      "titular": "US industrial production down by 0.4% in October",
+      "fuente": "breakingthenews.net",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "17/11 15:10",
+      "titular": "Waller: Considerations at the Intersection of Payments and Tokenized Markets",
+      "fuente": "federalreserve.gov",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "17/11 15:00",
+      "titular": "Lisa Cook lawyer signals Fed gov won't attend Trump committee's hearing",
+      "fuente": "cnbc.com",
       "impacto": "-"
     },
     {
@@ -744,24 +760,6 @@
       "titular": "Labour market overview, UK: November 2026",
       "fuente": "ons.gov.uk",
       "impacto": "high"
-    },
-    {
-      "hora_alemania": "17/11 07:10",
-      "titular": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
-      "fuente": "brecorder.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "17/11 06:08",
-      "titular": "Oman foreign ministry: Oman, Iran foreign ministers discuss shipping and maritime corridor security",
-      "fuente": "@MarketsCapApp",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "17/11 05:55",
-      "titular": "Third U.S. carrier arrives, stoking concerns about renewed conflicts with Iran",
-      "fuente": "cnbc.com",
-      "impacto": "-"
     }
   ]
 }
