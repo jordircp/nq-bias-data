@@ -1,11 +1,12 @@
-# NQ datos · 2026-11-18 01:55 (NY)
+# NQ datos · 2026-11-18 02:25 (NY)
 
-Precio: **27234.25**
+Precio: **27264.75**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
 Día anterior (2026-11-17): PDH 27498.0 · PDL 26658.5 · cierre 27126.0 · semana 26658.5–28279.25
 - asia: 27093.0 – 27451.75
+- londres: 27216.5 – 27277.5
 - overnight: 27093.0 – 27605.25
 
 ## 4h: bajista · HH y LL · BOS bajista: cierre por debajo de 27516.00 (16/11 09:00 NY)
@@ -34,33 +35,36 @@ Fib bajista (máximo → mínimo): 27093.0–27605.25 · 50 % 27349.12 · OTE 27
 Swing highs [27605.25, 27293.25, 27269.75] · swing lows [27093.0, 27158.25, 27158.5]
 - FVG bajista 28288.0–28389.5 (CE 28338.75, virgen, importancia media, 2026-11-13 09:30)
 - FVG bajista 28004.5–28115.75 (CE 28060.12, tocado, importancia media, 2026-11-15 20:00)
+- FVG bajista 27677.25–27734.5 (CE 27705.88, tocado, importancia media, 2026-11-16 07:00)
 - FVG bajista 27399.25–27438.75 (CE 27419.0, virgen, importancia media, 2026-11-17 20:00)
 - IFVG bajista 27173.0–27433.5 (CE 27303.25, invertido 17/11 20:45, importancia alta, 2026-11-17 18:00)
 - FVG bajista 27252.75–27298.5 (CE 27275.62, tocado, importancia media, 2026-11-17 20:30)
-- FVG bajista 27197.75–27240.5 (CE 27219.12, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-17 23:30)
 - FVG alcista 27197.75–27201.5 (CE 27199.62, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-18 00:00)
 - IFVG alcista 26939.25–27131.0 (CE 27035.12, invertido 17/11 16:15, importancia alta, 2026-11-17 10:30)
 - FVG alcista 27033.25–27066.25 (CE 27049.75, tocado, importancia baja, 2026-11-17 15:45)
 Máximos iguales [] · mínimos iguales [27158.38]
 
-## 5m: bajista · LH y LL · BOS bajista: cierre por debajo de 27204.25 (18/11 01:00 NY)
-Swing highs [27243.5, 27293.25, 27269.75] · swing lows [27158.25, 27204.25, 27158.5]
+## 5m: alcista · LH y HL · CHoCH/MSS alcista: cierre por encima de 27254.50 (18/11 02:20 NY)
+Swing highs [27293.25, 27269.75, 27254.5] · swing lows [27204.25, 27158.5, 27208.75]
 - FVG bajista 28071.25–28164.0 (CE 28117.62, virgen, importancia media, 2026-11-15 20:00)
+- FVG bajista 27744.25–27771.0 (CE 27757.62, virgen, importancia baja, 2026-11-16 06:55)
 - FVG bajista 27687.25–27734.5 (CE 27710.88, tocado, importancia media, 2026-11-16 07:00)
 - FVG bajista 27396.5–27443.5 (CE 27420.0, tocado, importancia alta, 2026-11-17 20:00)
 - FVG bajista 27256.5–27306.75 (CE 27281.62, tocado, importancia alta, 2026-11-17 20:35)
-- IFVG bajista 27212.5–27256.25 (CE 27234.38, invertido 17/11 23:35, importancia alta, 2026-11-17 23:10)
 - IFVG alcista 27201.0–27213.0 (CE 27207.0, invertido 18/11 01:15, importancia media, 2026-11-18 01:00)
+- IFVG alcista 27164.5–27186.25 (CE 27175.38, invertido 18/11 00:10, importancia baja, 2026-11-17 23:45)
 - FVG alcista 27137.25–27184.0 (CE 27160.62, tocado, importancia alta, 2026-11-17 21:55)
 - FVG alcista 27104.0–27155.5 (CE 27129.75, barrido (mecha lo atravesó, sin cierre), importancia alta, 2026-11-17 16:20)
 - FVG alcista 26974.0–27066.25 (CE 27020.12, tocado, importancia alta, 2026-11-17 15:55)
 - FVG alcista 26804.25–26916.5 (CE 26860.38, barrido (mecha lo atravesó, sin cierre), importancia alta, 2026-11-17 10:55)
-Máximos iguales [27242.75, 27253.0] · mínimos iguales [27158.38]
+Máximos iguales [27253.0] · mínimos iguales [27158.38]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 20:00 · FOMC Meeting Minutes · impacto ALTO · previsión None · anterior None
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 18/11 08:05 · [high] Consumer price inflation, UK: October 2026 (ons.gov.uk)
+- 18/11 08:05 · [low] Producer price inflation, UK: October 2026 (ons.gov.uk)
 - 18/11 07:03 · [-] Canada Has &#x91;Eyes Wide Open&#x92; on China Says Trade Minister (youtube.com/markets)
 - 18/11 05:59 · [-] Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action' (finance.yahoo.com)
 - 18/11 05:10 · [-] Three things to watch as Trump, Xi and Putin meet in China (cnbc.com)
@@ -84,8 +88,6 @@ Máximos iguales [27242.75, 27253.0] · mínimos iguales [27158.38]
 - 17/11 19:58 · [-] US Dollar Index fades from 19-month high after retail sales spike (fxstreet.com)
 - 17/11 19:20 · [-] Will the UK Economy Beat Expectations Again in 2027? (goldmansachs.com)
 - 17/11 18:39 · [-] Kalshi takes down controversial Trump &#x91;mention&#x92; markets at CFTC&#x92;s request (cnbc.com)
-- 17/11 18:06 · [medium] NSA classified network outage linked to software update, not cyberattack (@DeItaone)
-- 17/11 17:57 · [-] Ranked: The World&#x92;s Largest Economies vs. GDP Per Capita (visualcapitalist.com)
 
 ## Estadísticas (últimos 47 días)
 Rango medio: 843.5 pts (20d) · 855.2 pts (5d)
