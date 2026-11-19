@@ -1,71 +1,76 @@
-# NQ datos · 2026-11-19 09:25 (NY)
+# NQ datos · 2026-11-19 13:45 (NY)
 
-Precio: **27674.0**
+Precio: **26782.0**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
-Día anterior (2026-11-18): PDH 27605.25 · PDL 26921.75 · cierre 27175.0 · semana 26658.5–28279.25
+Día anterior (2026-11-18): PDH 27609.75 · PDL 26921.75 · cierre 27175.0 · semana 26658.5–28279.25
 - asia: 27303.0 – 27589.0
 - londres: 27627.5 – 27742.0
+- ny_am: 26965.5 – 27838.0
 - overnight: 27169.0 – 27830.5
 
-## 4h: alcista · LH y HL · BOS alcista: cierre por encima de 27498.00 (19/11 05:00 NY)
-Swing highs [27498.0, 27605.25, 27424.5] · swing lows [27695.25, 26658.5, 26921.75]
-Fib alcista (mínimo → máximo): 26921.75–27830.5 · 50 % 27376.12 · OTE 27267.08/27189.83/27112.59 · precio en premium
+## 4h: bajista · LH y HL · CHoCH/MSS bajista: cierre por debajo de 26921.75 (19/11 09:00 NY)
+Swing highs [27498.0, 27609.75, 27424.5] · swing lows [27695.25, 26658.5, 26921.75]
+Fib bajista (máximo → mínimo): 26674.25–27424.5 · 50 % 27049.38 · OTE 27139.4/27203.18/27266.95 · precio en discount
 - FVG bajista 30538.25–30705.25 (CE 30621.75, virgen, importancia media, 2026-10-14 06:00)
 - FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, importancia media, 2026-10-14 10:00)
-- FVG bajista 29180.0–29431.5 (CE 29305.75, virgen, importancia media, 2026-10-29 14:00)
 - FVG bajista 28111.75–28328.75 (CE 28220.25, tocado, importancia media, 2026-11-13 09:00)
 - IFVG bajista 27378.0–27891.0 (CE 27634.5, invertido 16/11 13:00, importancia alta, 2026-11-09 09:00)
-- FVG alcista 27562.25–27641.5 (CE 27601.88, virgen, importancia media, 2026-11-19 01:00)
-- IFVG alcista 27413.0–27554.0 (CE 27483.5, invertido 19/11 01:00, importancia media, 2026-11-16 09:00)
+- FVG bajista 26928.25–27641.5 (CE 27284.88, virgen, importancia alta, 2026-11-19 09:00)
+- IFVG bajista 27562.25–27641.5 (CE 27601.88, invertido 19/11 09:00, importancia baja, 2026-11-19 01:00)
 Máximos iguales [27424.75] · mínimos iguales []
 
-## 1h: alcista · HH y HL · BOS alcista: cierre por encima de 27498.00 (19/11 04:00 NY)
-Swing highs [27424.5, 27589.0, 27830.5] · swing lows [27093.0, 26921.75, 27303.0]
-Fib alcista (mínimo → máximo): 27303.0–27830.5 · 50 % 27566.75 · OTE 27503.45/27458.61/27413.78 · precio en premium
-- FVG bajista 29794.25–29821.5 (CE 29807.88, virgen, importancia baja, 2026-10-28 16:00)
+## 1h: bajista · HH y HL · BOS bajista: cierre por debajo de 26921.75 (19/11 12:00 NY)
+Swing highs [27424.5, 27589.0, 27838.0] · swing lows [27093.0, 26921.75, 27303.0]
+Fib bajista (máximo → mínimo): 26674.25–27838.0 · 50 % 27256.12 · OTE 27395.78/27494.69/27593.61 · precio en discount
 - FVG bajista 29180.0–29443.25 (CE 29311.62, virgen, importancia alta, 2026-10-29 16:00)
 - FVG bajista 28096.0–28376.5 (CE 28236.25, tocado, importancia alta, 2026-11-13 09:00)
-- FVG bajista 28059.75–28110.5 (CE 28085.12, virgen, importancia alta, 2026-11-15 20:00)
-- IFVG bajista 27735.0–27746.25 (CE 27740.62, invertido 19/11 08:00, importancia baja, 2026-11-19 05:00)
-- FVG alcista 27509.75–27642.25 (CE 27576.0, tocado, importancia media, 2026-11-19 01:00)
-- IFVG alcista 27413.0–27459.5 (CE 27436.25, invertido 18/11 19:00, importancia media, 2026-11-16 12:00)
-- FVG alcista 27258.0–27407.0 (CE 27332.5, tocado, importancia media, 2026-11-18 18:00)
-- FVG alcista 26717.0–26817.75 (CE 26767.38, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-05 19:00)
+- FVG bajista 28059.75–28110.5 (CE 28085.12, virgen, importancia media, 2026-11-15 20:00)
+- IFVG bajista 27509.75–27642.25 (CE 27576.0, invertido 19/11 10:00, importancia media, 2026-11-19 01:00)
+- FVG bajista 27429.75–27620.0 (CE 27524.88, virgen, importancia alta, 2026-11-19 10:00)
+- IFVG bajista 27258.0–27407.0 (CE 27332.5, invertido 19/11 11:00, importancia media, 2026-11-18 18:00)
+- FVG alcista 26717.0–26817.75 (CE 26767.38, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-05 19:00)
 
-## 15m: bajista · LH y HL · CHoCH/MSS bajista: cierre por debajo de 27695.00 (19/11 08:30 NY)
-Swing highs [27737.75, 27830.5, 27808.0] · swing lows [27642.25, 27627.5, 27695.0]
+## 15m: bajista · LH y LL · BOS bajista: cierre por debajo de 26921.75 (19/11 12:30 NY)
+Swing highs [27808.0, 27838.0, 27429.75] · swing lows [27695.0, 27038.75, 26674.25]
 - FVG bajista 28288.0–28389.5 (CE 28338.75, virgen, importancia alta, 2026-11-13 09:30)
-- FVG bajista 28195.25–28249.0 (CE 28222.12, virgen, importancia baja, 2026-11-15 19:00)
-- FVG bajista 28004.5–28115.75 (CE 28060.12, tocado, importancia alta, 2026-11-15 20:00)
-- FVG bajista 27833.25–27851.0 (CE 27842.12, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-15 23:30)
-- FVG alcista 27585.75–27606.75 (CE 27596.25, virgen, importancia media, 2026-11-19 01:30)
-- IFVG alcista 27540.75–27547.0 (CE 27543.88, invertido 19/11 01:15, importancia baja, 2026-11-18 20:00)
-- FVG alcista 27442.0–27503.75 (CE 27472.88, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-18 22:45)
-- FVG alcista 27381.75–27424.5 (CE 27403.12, virgen, importancia media, 2026-11-18 22:30)
-- FVG alcista 27199.0–27330.75 (CE 27264.88, tocado, importancia alta, 2026-11-18 18:00)
+- FVG bajista 27566.0–27620.0 (CE 27593.0, virgen, importancia media, 2026-11-19 10:00)
+- FVG bajista 27353.0–27562.75 (CE 27457.88, tocado, importancia alta, 2026-11-19 10:15)
+- IFVG bajista 27442.0–27503.75 (CE 27472.88, invertido 19/11 10:15, importancia baja, 2026-11-18 22:45)
+- IFVG bajista 27199.0–27330.75 (CE 27264.88, invertido 19/11 10:30, importancia alta, 2026-11-18 18:00)
+- FVG bajista 27023.25–27225.75 (CE 27124.5, tocado, importancia alta, 2026-11-19 11:45)
 Máximos iguales [] · mínimos iguales [27641.88]
 
-## 5m: bajista · LH y LL · BOS bajista: cierre por debajo de 27677.75 (19/11 08:35 NY)
-Swing highs [27792.5, 27830.5, 27808.0] · swing lows [27695.0, 27723.25, 27641.5]
-- FVG bajista 28071.25–28164.0 (CE 28117.62, virgen, importancia alta, 2026-11-15 20:00)
-- FVG bajista 27885.25–27914.0 (CE 27899.62, virgen, importancia media, 2026-11-15 23:30)
-- FVG bajista 27749.75–27776.0 (CE 27762.88, virgen, importancia alta, 2026-11-19 08:15)
-- IFVG bajista 27762.75–27776.0 (CE 27769.38, invertido 19/11 08:15, importancia media, 2026-11-19 08:05)
-- IFVG bajista 27724.5–27739.0 (CE 27731.75, invertido 19/11 08:25, importancia media, 2026-11-19 05:15)
-- FVG bajista 27684.75–27696.0 (CE 27690.38, virgen, importancia media, 2026-11-19 09:20)
-- FVG alcista 27569.25–27590.0 (CE 27579.62, virgen, importancia alta, 2026-11-19 01:30)
-- FVG alcista 27251.0–27321.75 (CE 27286.38, tocado, importancia alta, 2026-11-18 18:05)
-- FVG alcista 27184.75–27242.25 (CE 27213.5, virgen, importancia media, 2026-11-18 18:00)
-- FVG alcista 26804.25–26916.5 (CE 26860.38, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-17 10:55)
-Máximos iguales [27792.25] · mínimos iguales [27723.38]
+## 5m: bajista · LH y HL · BOS bajista: cierre por debajo de 27119.50 (19/11 12:15 NY)
+Swing highs [27319.75, 27429.75, 27126.25] · swing lows [27038.75, 26674.25, 26700.0]
+- FVG bajista 28071.25–28164.0 (CE 28117.62, virgen, importancia media, 2026-11-15 20:00)
+- FVG bajista 27566.0–27682.75 (CE 27624.38, virgen, importancia alta, 2026-11-19 10:10)
+- FVG bajista 27471.5–27562.75 (CE 27517.12, virgen, importancia media, 2026-11-19 10:15)
+- FVG bajista 27148.25–27298.5 (CE 27223.38, virgen, importancia alta, 2026-11-19 11:50)
+- IFVG bajista 27015.0–27080.75 (CE 27047.88, invertido 19/11 12:35, importancia baja, 2026-11-19 12:25)
+- IFVG bajista 26798.75–26988.5 (CE 26893.62, invertido 19/11 13:10, importancia alta, 2026-11-19 12:20)
+- FVG alcista 26777.75–26793.5 (CE 26785.62, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-19 13:20)
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 14:30 · Philly Fed Manufacturing Index · impacto medio · previsión 20.6 · anterior 20.9
 - 14:30 · Unemployment Claims · impacto medio · previsión 198K · anterior 200K
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 19/11 19:28 · [low] Trump to Axios: I'm &quot;not rushing into a decision&quot; on Iran (@axios)
+- 19/11 19:21 · [-] Higher fuel prices seep into core inflation (dallasfed.org)
+- 19/11 19:01 · [low] ECB's Panetta: Must fight inflation without hurting growth too much (@financialjuice)
+- 19/11 18:42 · [low] Fed's Goolsbee: Job market is stable but inflation is &quot;way higher&quot; than the Fed's 2% target (@financialjuice)
+- 19/11 18:40 · [-] Traders Are Betting on Interest Rates Staying High for Years (finance.yahoo.com)
+- 19/11 18:13 · [low] Kushner: Trump Wants To Engage Xi, Putin To Get To Peace; Making Steps Towards Getting Russia, Ukraine To Table (@zerohedge)
+- 19/11 17:55 · [-] Van Gogh painting with complex Nazi-era history sells for record $190M at auction (nypost.com)
+- 19/11 17:50 · [low] Anthropic Shares Open At $111.50 Vs $83/Share IPO Price (@LiveSquawk)
+- 19/11 17:15 · [-] Why Is Gold Falling So Much? (robinjbrooks.substack.com)
+- 19/11 16:49 · [low] US Mortgage Delinquencies Increase in the Third Quarter of 2026 (mba.org)
+- 19/11 16:42 · [-] Thanksgiving dinner will come with higher price tag (thehill.com)
+- 19/11 16:36 · [low] EIA: US gas inventories up by 20 billion cubic feet (breakingthenews.net)
+- 19/11 16:05 · [-] Weak Core Inflation In Japan Could Send the Yen Lower Again &#x97; But Probably Not For Long (natglobalmarkets.com)
+- 19/11 16:01 · [low] The Conference Board Leading Economic Index (LEI) for the US Declined in October (prnewswire.com)
 - 19/11 15:30 · [-] Moneta Markets launches Anthropic Share CFDs (ANT, ANT24) and 24-hour trading (fxstreet.com)
 - 19/11 15:25 · [low] Jefferson: Monetary Policy amid Frequent and Complex Shocks (federalreserve.gov)
 - 19/11 14:54 · [-] Hammack: 2026 Financial Stability Conference (clevelandfed.org)
@@ -77,25 +82,11 @@ Máximos iguales [27792.25] · mínimos iguales [27723.38]
 - 19/11 13:30 · [-] FP Markets Adds Anthropic Share CFD to Product Range (financefeeds.com)
 - 19/11 12:50 · [-] Greenback Consolidates Gains, while Disappointing Australian Jobs Data Brings Forward Speculation of a Cut (marctomarket.com)
 - 19/11 12:03 · [low] Manufacturing output rises for the first time in two and a half years &#x96; CBI Industrial Trends Survey (cbi.org.uk)
-- 19/11 12:02 · [low] Bundesbank: German economic growth to quicken in fourth quarter (@financialjuice)
-- 19/11 12:00 · [low] Xi, Trump, Putin agree to boost supply of refined oil products (@financialjuice)
-- 19/11 11:43 · [-] AUD/USD: Aussie Hits 11-Month Low Ahead of US Retail Sales (dailyforex.com)
-- 19/11 11:23 · [low] ECB's Nagel: An ECB rate hike would send clear signal (@MarketsCapApp)
-- 19/11 11:22 · [low] Data center electricity use could double by 2030, IEA says (cnbc.com)
-- 19/11 11:03 · [low] Iran's IRGC Says 2 Tankers Hit Mine In Eastern Hormuz- FARS (@RedboxWire)
-- 19/11 10:45 · [low] ECB's Moulin: Dont See Second-Round Effects Yet; ECB Needs To BE Vigilant (@LiveSquawk)
-- 19/11 10:02 · [low] Euro area monthly balance of payments: September 2026 (ecb.europa.eu)
-- 19/11 09:59 · [-] South Korea becomes fourth country globally to hit US$1 trillion exports on AI chip boom (channelnewsasia.com)
-- 19/11 09:41 · [low] Trump: We're positioned to discuss reducing nuclear weapons (@financialjuice)
-- 19/11 09:40 · [low] Putin: We should discuss global and regional ties, as well as energy security - IFX (@financialjuice)
-- 19/11 09:33 · [low] Xi Says To Expand Cooperation, Narrow List Of Problems; China, US Should Prevent Tensions From Escalating (@FirstSquawk)
-- 19/11 08:57 · [low] ECB's Moulin Says French Can't Ignore Reality Of High Debt, Deficit (@FirstSquawk)
-- 19/11 08:02 · [-] Gold holds near 14-month low as Fed hike bets weigh (brecorder.com)
 
 ## Estadísticas (últimos 47 días)
-Rango medio: 858.4 pts (20d) · 823.7 pts (5d)
+Rango medio: 861.3 pts (20d) · 824.6 pts (5d)
 Toma PDH 47 % · toma PDL 51 % · ambos 11 %
 Sesión del máximo: {'NY': 46, 'Asia': 35, 'otro': 10, 'Londres': 8} · del mínimo: {'NY': 35, 'Asia': 25, 'Londres': 21, 'otro': 19}
 Ayer fue un día: neutro
-tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 90, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 40, 'rebote_medio_desde_apertura': 225.8}
-tras dia alcista fuerte: {'casos': 16, 'pct_toma_pdh': 75, 'pct_toma_pdl': 31, 'pct_cierra_abajo_de_apertura': 44, 'retroceso_medio_desde_apertura': 423.2}
+tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 90, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 40, 'rebote_medio_desde_apertura': 227.3}
+tras dia alcista fuerte: {'casos': 16, 'pct_toma_pdh': 75, 'pct_toma_pdl': 31, 'pct_cierra_abajo_de_apertura': 44, 'retroceso_medio_desde_apertura': 426.9}
