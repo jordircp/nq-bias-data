@@ -1,10 +1,10 @@
 {
-  "generado_utc": "2026-11-19 14:05",
-  "ultima_vela_ny": "2026-11-19 08:55",
-  "precio": 27684.0,
+  "generado_utc": "2026-11-19 14:35",
+  "ultima_vela_ny": "2026-11-19 09:25",
+  "precio": 27674.0,
   "dia_anterior": {
     "fecha": "2026-11-18",
-    "PDH": 27609.75,
+    "PDH": 27605.25,
     "PDL": 26921.75,
     "cierre": 27175.0,
     "max_semana": 28279.25,
@@ -34,7 +34,7 @@
         "evento": "BOS alcista: cierre por encima de 27498.00 (19/11 05:00 NY)",
         "ultimos_swing_high": [
           27498.0,
-          27609.75,
+          27605.25,
           27424.5
         ],
         "ultimos_swing_low": [
@@ -146,9 +146,9 @@
         "tendencia": "alcista · HH y HL",
         "evento": "BOS alcista: cierre por encima de 27498.00 (19/11 04:00 NY)",
         "ultimos_swing_high": [
-          27609.75,
           27424.5,
-          27589.0
+          27589.0,
+          27830.5
         ],
         "ultimos_swing_low": [
           27093.0,
@@ -325,14 +325,14 @@
         },
         {
           "tf": "15m",
-          "arriba": 27710.75,
-          "abajo": 27686.5,
-          "ce": 27698.62,
-          "tamano": 24.25,
-          "hora_ny": "2026-11-19 08:30",
+          "arriba": 27851.0,
+          "abajo": 27833.25,
+          "ce": 27842.12,
+          "tamano": 17.75,
+          "hora_ny": "2026-11-15 23:30",
           "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -355,17 +355,6 @@
           "tipo": "IFVG alcista",
           "estado": "invertido 19/11 01:15",
           "importancia": "baja"
-        },
-        {
-          "tf": "15m",
-          "arriba": 27521.25,
-          "abajo": 27416.5,
-          "ce": 27468.88,
-          "tamano": 104.75,
-          "hora_ny": "2026-11-18 20:15",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 18/11 23:00",
-          "importancia": "alta"
         },
         {
           "tf": "15m",
@@ -404,12 +393,14 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [],
-        "minimos_iguales": []
+        "minimos_iguales": [
+          27641.88
+        ]
       }
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · LH y HL",
+        "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 27677.75 (19/11 08:35 NY)",
         "ultimos_swing_high": [
           27792.5,
@@ -417,9 +408,9 @@
           27808.0
         ],
         "ultimos_swing_low": [
-          27746.25,
           27695.0,
-          27723.25
+          27723.25,
+          27641.5
         ]
       },
       "fvg_abiertos": [
@@ -443,17 +434,6 @@
           "hora_ny": "2026-11-15 23:30",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 27864.5,
-          "abajo": 27833.25,
-          "ce": 27848.88,
-          "tamano": 31.25,
-          "hora_ny": "2026-11-15 23:40",
-          "tipo": "bajista",
-          "estado": "tocado",
           "importancia": "media"
         },
         {
@@ -491,13 +471,13 @@
         },
         {
           "tf": "5m",
-          "arriba": 27710.75,
-          "abajo": 27681.75,
-          "ce": 27696.25,
-          "tamano": 29.0,
-          "hora_ny": "2026-11-19 08:30",
+          "arriba": 27696.0,
+          "abajo": 27684.75,
+          "ce": 27690.38,
+          "tamano": 11.25,
+          "hora_ny": "2026-11-19 09:20",
           "tipo": "bajista",
-          "estado": "tocado",
+          "estado": "virgen",
           "importancia": "media"
         },
         {
@@ -558,8 +538,8 @@
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 861.3,
-    "rango_medio_5d": 824.6,
+    "rango_medio_20d": 858.4,
+    "rango_medio_5d": 823.7,
     "pct_dias_toman_pdh": 47,
     "pct_dias_toman_pdl": 51,
     "pct_dias_toman_ambos": 11,
@@ -580,14 +560,14 @@
       "pct_toma_pdl": 90,
       "pct_toma_pdh": 10,
       "pct_cierra_arriba_de_apertura": 40,
-      "rebote_medio_desde_apertura": 227.3
+      "rebote_medio_desde_apertura": 225.8
     },
     "tras_dia_alcista_fuerte": {
       "casos": 16,
       "pct_toma_pdh": 75,
       "pct_toma_pdl": 31,
       "pct_cierra_abajo_de_apertura": 44,
-      "retroceso_medio_desde_apertura": 426.9
+      "retroceso_medio_desde_apertura": 423.2
     },
     "dia_anterior_tipo": "neutro"
   },
@@ -613,6 +593,18 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "19/11 15:30",
+      "titular": "Moneta Markets launches Anthropic Share CFDs (ANT, ANT24) and 24-hour trading",
+      "fuente": "fxstreet.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "19/11 15:25",
+      "titular": "Jefferson: Monetary Policy amid Frequent and Complex Shocks",
+      "fuente": "federalreserve.gov",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "19/11 14:54",
       "titular": "Hammack: 2026 Financial Stability Conference",
@@ -735,7 +727,7 @@
     },
     {
       "hora_alemania": "19/11 09:33",
-      "titular": "Xi Says To Expand Cooperation, Narrow List Of Problems; China, Us Should Prevent Tensions From Escalating",
+      "titular": "Xi Says To Expand Cooperation, Narrow List Of Problems; China, US Should Prevent Tensions From Escalating",
       "fuente": "@FirstSquawk",
       "impacto": "low"
     },
@@ -750,18 +742,6 @@
       "titular": "Gold holds near 14-month low as Fed hike bets weigh",
       "fuente": "brecorder.com",
       "impacto": "-"
-    },
-    {
-      "hora_alemania": "19/11 07:30",
-      "titular": "Japan PM Takaichi: Briefly exchanged views with Putin and Trump",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "19/11 06:48",
-      "titular": "Kremlin Says Putin Emerged from Talks with Trump in an Excellent Mood",
-      "fuente": "@FirstSquawk",
-      "impacto": "low"
     }
   ]
 }
