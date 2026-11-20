@@ -1,14 +1,14 @@
 {
-  "generado_utc": "2026-11-20 12:44",
-  "ultima_vela_ny": "2026-11-20 07:30",
-  "precio": 26143.0,
+  "generado_utc": "2026-11-20 14:05",
+  "ultima_vela_ny": "2026-11-20 08:55",
+  "precio": 26151.5,
   "dia_anterior": {
     "fecha": "2026-11-19",
     "PDH": 27838.0,
     "PDL": 26436.0,
     "cierre": 26505.5,
     "max_semana": 28279.25,
-    "min_semana": 26100.0
+    "min_semana": 26000.0
   },
   "sesiones": {
     "dia_trading": "2026-11-20",
@@ -23,7 +23,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26603.5,
-      "minimo": 26100.0
+      "minimo": 26000.0
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -114,13 +114,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 27838.0,
-        "minimo": 26100.0,
+        "minimo": 26000.0,
         "hora_max": "2026-11-19 09:00",
         "hora_min": "2026-11-20 05:00",
-        "50": 26969.0,
-        "62": 27177.56,
-        "70.5": 27325.29,
-        "79": 27473.02,
+        "50": 26919.0,
+        "62": 27139.56,
+        "70.5": 27295.79,
+        "79": 27452.02,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -214,13 +214,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 26447.75,
-        "minimo": 26100.0,
+        "minimo": 26000.0,
         "hora_max": "2026-11-20 03:00",
-        "hora_min": "2026-11-20 07:00",
-        "50": 26273.88,
-        "62": 26315.6,
-        "70.5": 26345.16,
-        "79": 26374.72,
+        "hora_min": "2026-11-20 08:00",
+        "50": 26223.88,
+        "62": 26277.6,
+        "70.5": 26315.66,
+        "79": 26353.72,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -231,7 +231,7 @@
     "15m": {
       "estructura": {
         "tendencia": "bajista · LH y LL",
-        "evento": "CHoCH/MSS bajista: cierre por debajo de 26230.00 (20/11 04:15 NY)",
+        "evento": "BOS bajista: cierre por debajo de 26135.75 (20/11 07:30 NY)",
         "ultimos_swing_high": [
           26373.0,
           26447.75,
@@ -323,17 +323,17 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 26142.75 (20/11 07:15 NY)",
+        "tendencia": "alcista · LH y LL",
+        "evento": "CHoCH/MSS alcista: cierre por encima de 26144.25 (20/11 08:45 NY)",
         "ultimos_swing_high": [
-          26447.75,
-          26370.0,
-          26223.25
+          26175.0,
+          26167.25,
+          26144.25
         ],
         "ultimos_swing_low": [
-          26142.75,
-          26171.75,
-          26100.25
+          26100.25,
+          26076.75,
+          26000.0
         ]
       },
       "fvg_abiertos": [
@@ -357,17 +357,6 @@
           "hora_ny": "2026-11-20 05:45",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 26273.5,
-          "abajo": 26255.0,
-          "ce": 26264.25,
-          "tamano": 18.5,
-          "hora_ny": "2026-11-20 05:20",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 20/11 06:10",
           "importancia": "media"
         },
         {
@@ -401,6 +390,39 @@
           "hora_ny": "2026-11-20 07:00",
           "tipo": "bajista",
           "estado": "tocado",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26128.75,
+          "abajo": 26064.25,
+          "ce": 26096.5,
+          "tamano": 64.5,
+          "hora_ny": "2026-11-20 08:45",
+          "tipo": "alcista",
+          "estado": "virgen",
+          "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26068.25,
+          "abajo": 26038.75,
+          "ce": 26053.5,
+          "tamano": 29.5,
+          "hora_ny": "2026-11-20 08:30",
+          "tipo": "IFVG alcista",
+          "estado": "invertido 20/11 08:45",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26049.5,
+          "abajo": 26038.75,
+          "ce": 26044.12,
+          "tamano": 10.75,
+          "hora_ny": "2026-11-20 08:40",
+          "tipo": "alcista",
+          "estado": "virgen",
           "importancia": "media"
         }
       ],
@@ -464,10 +486,49 @@
       "prevision": null,
       "anterior": "4.3%",
       "real": null
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora_alemania": "18:00",
+      "evento": "President Trump Speaks",
+      "impacto": "medio",
+      "prevision": null,
+      "anterior": null,
+      "real": null
     }
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "20/11 14:52",
+      "titular": "Embattled Trump seeks reset with White House news conference",
+      "fuente": "thehill.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 14:30",
+      "titular": "Canadian Retail Trade, September 2026",
+      "fuente": "statcan.gc.ca",
+      "impacto": "medium"
+    },
+    {
+      "hora_alemania": "20/11 14:26",
+      "titular": "Waller: Opening Remarks",
+      "fuente": "federalreserve.gov",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 14:24",
+      "titular": "ECB's Nagel: Inflation is too high",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 14:19",
+      "titular": "&#x91;GTA VI&#x92; Sales Surge Past $2 Billion On Launch Day As Vice City Mania Takes Over",
+      "fuente": "deadline.com",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "20/11 13:37",
       "titular": "Oil and Stocks Drive Rates Lower, and Take Some Shine Off the US Dollar",
@@ -586,36 +647,6 @@
       "hora_alemania": "20/11 03:01",
       "titular": "NZ credit card summary",
       "fuente": "rbnz.govt.nz",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 02:58",
-      "titular": "Trump tells skeptical Europeans: &quot;Putin wants to end the war&quot;",
-      "fuente": "@BarakRavid",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 02:09",
-      "titular": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-      "fuente": "cnbc.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 01:16",
-      "titular": "Gold and Silver's Deepening Dollar Dilemma",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 01:05",
-      "titular": "Philly Fed's Paulson: Think we have more tightening to do; moving deliberately 'leaves us in a better place' to absorb new information",
-      "fuente": "@MaceNewsMacro",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 00:41",
-      "titular": "Paulson: Monetary Policy Communication: Do We Understand Each Other?",
-      "fuente": "philadelphiafed.org",
       "impacto": "low"
     }
   ]
