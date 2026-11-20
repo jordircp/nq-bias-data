@@ -1,14 +1,14 @@
 {
-  "generado_utc": "2026-11-20 14:35",
-  "ultima_vela_ny": "2026-11-20 09:25",
-  "precio": 26301.0,
+  "generado_utc": "2026-11-20 18:33",
+  "ultima_vela_ny": "2026-11-20 13:20",
+  "precio": 25634.25,
   "dia_anterior": {
     "fecha": "2026-11-19",
     "PDH": 27838.0,
     "PDL": 26436.0,
     "cierre": 26505.5,
     "max_semana": 28279.25,
-    "min_semana": 26000.0
+    "min_semana": 25493.25
   },
   "sesiones": {
     "dia_trading": "2026-11-20",
@@ -20,7 +20,10 @@
       "maximo": 26447.75,
       "minimo": 26135.75
     },
-    "ny_am": null,
+    "ny_am": {
+      "maximo": 26504.25,
+      "minimo": 25610.0
+    },
     "overnight": {
       "maximo": 26603.5,
       "minimo": 26000.0
@@ -33,7 +36,7 @@
         "tendencia": "bajista · HH y HL",
         "evento": "BOS bajista: cierre por debajo de 26366.50 (19/11 21:00 NY)",
         "ultimos_swing_high": [
-          27609.75,
+          27605.25,
           27424.5,
           27838.0
         ],
@@ -53,17 +56,6 @@
           "hora_ny": "2026-10-14 10:00",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "4h",
-          "arriba": 28328.75,
-          "abajo": 28111.75,
-          "ce": 28220.25,
-          "tamano": 217.0,
-          "hora_ny": "2026-11-13 09:00",
-          "tipo": "bajista",
-          "estado": "tocado",
           "importancia": "media"
         },
         {
@@ -109,18 +101,29 @@
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "media"
+        },
+        {
+          "tf": "4h",
+          "arriba": 26000.0,
+          "abajo": 25654.5,
+          "ce": 25827.25,
+          "tamano": 345.5,
+          "hora_ny": "2026-11-20 09:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "alta"
         }
       ],
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 27838.0,
-        "minimo": 26000.0,
+        "minimo": 25493.25,
         "hora_max": "2026-11-19 09:00",
-        "hora_min": "2026-11-20 05:00",
-        "50": 26919.0,
-        "62": 27139.56,
-        "70.5": 27295.79,
-        "79": 27452.02,
+        "hora_min": "2026-11-20 13:00",
+        "50": 26665.62,
+        "62": 26946.99,
+        "70.5": 27146.3,
+        "79": 27345.6,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -130,12 +133,12 @@
     },
     "1h": {
       "estructura": {
-        "tendencia": "bajista · LH y HL",
+        "tendencia": "bajista · HH y HL",
         "evento": "BOS bajista: cierre por debajo de 26366.50 (19/11 23:00 NY)",
         "ultimos_swing_high": [
-          27589.0,
           27838.0,
-          26447.75
+          26447.75,
+          26504.25
         ],
         "ultimos_swing_low": [
           27093.0,
@@ -146,17 +149,6 @@
       "fvg_abiertos": [
         {
           "tf": "1h",
-          "arriba": 29443.25,
-          "abajo": 29180.0,
-          "ce": 29311.62,
-          "tamano": 263.25,
-          "hora_ny": "2026-10-29 16:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "1h",
           "arriba": 28376.5,
           "abajo": 28096.0,
           "ce": 28236.25,
@@ -164,7 +156,7 @@
           "hora_ny": "2026-11-13 09:00",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "1h",
@@ -186,7 +178,7 @@
           "hora_ny": "2026-11-18 18:00",
           "tipo": "IFVG bajista",
           "estado": "invertido 19/11 11:00",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "1h",
@@ -197,15 +189,26 @@
           "hora_ny": "2026-11-05 19:00",
           "tipo": "IFVG bajista",
           "estado": "invertido 19/11 14:00",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "1h",
-          "arriba": 26661.25,
-          "abajo": 26608.75,
-          "ce": 26635.0,
-          "tamano": 52.5,
-          "hora_ny": "2026-11-19 15:00",
+          "arriba": 26116.75,
+          "abajo": 25980.0,
+          "ce": 26048.38,
+          "tamano": 136.75,
+          "hora_ny": "2026-11-20 10:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "alta"
+        },
+        {
+          "tf": "1h",
+          "arriba": 25805.5,
+          "abajo": 25721.5,
+          "ce": 25763.5,
+          "tamano": 84.0,
+          "hora_ny": "2026-11-20 11:00",
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "media"
@@ -213,15 +216,15 @@
       ],
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
-        "maximo": 26447.75,
-        "minimo": 26000.0,
-        "hora_max": "2026-11-20 03:00",
-        "hora_min": "2026-11-20 08:00",
-        "50": 26223.88,
-        "62": 26277.6,
-        "70.5": 26315.66,
-        "79": 26353.72,
-        "precio_en": "premium"
+        "maximo": 26504.25,
+        "minimo": 25493.25,
+        "hora_max": "2026-11-20 10:00",
+        "hora_min": "2026-11-20 13:00",
+        "50": 25998.75,
+        "62": 26120.07,
+        "70.5": 26206.01,
+        "79": 26291.94,
+        "precio_en": "discount"
       },
       "liquidez_iguales": {
         "maximos_iguales": [],
@@ -230,12 +233,12 @@
     },
     "15m": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 26135.75 (20/11 07:30 NY)",
+        "tendencia": "bajista · HH y LL",
+        "evento": "CHoCH/MSS bajista: cierre por debajo de 26000.00 (20/11 10:30 NY)",
         "ultimos_swing_high": [
-          26373.0,
           26447.75,
-          26370.0
+          26370.0,
+          26504.25
         ],
         "ultimos_swing_low": [
           26230.0,
@@ -253,7 +256,7 @@
           "hora_ny": "2026-11-19 10:15",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -264,62 +267,18 @@
           "hora_ny": "2026-11-19 11:45",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "alta"
-        },
-        {
-          "tf": "15m",
-          "arriba": 26760.25,
-          "abajo": 26680.0,
-          "ce": 26720.12,
-          "tamano": 80.25,
-          "hora_ny": "2026-11-19 14:45",
-          "tipo": "bajista",
-          "estado": "tocado",
-          "importancia": "baja"
-        },
-        {
-          "tf": "15m",
-          "arriba": 26505.5,
-          "abajo": 26472.0,
-          "ce": 26488.75,
-          "tamano": 33.5,
-          "hora_ny": "2026-11-19 19:30",
-          "tipo": "bajista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "baja"
-        },
-        {
-          "tf": "15m",
-          "arriba": 26372.5,
-          "abajo": 26329.75,
-          "ce": 26351.12,
-          "tamano": 42.75,
-          "hora_ny": "2026-11-20 02:45",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 20/11 04:00",
           "importancia": "media"
         },
         {
           "tf": "15m",
-          "arriba": 26267.5,
-          "abajo": 26246.75,
-          "ce": 26257.12,
-          "tamano": 20.75,
-          "hora_ny": "2026-11-20 06:00",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 20/11 09:15",
-          "importancia": "baja"
-        },
-        {
-          "tf": "15m",
-          "arriba": 26215.5,
-          "abajo": 26196.0,
-          "ce": 26205.75,
-          "tamano": 19.5,
-          "hora_ny": "2026-11-20 09:00",
-          "tipo": "alcista",
+          "arriba": 26223.25,
+          "abajo": 26050.75,
+          "ce": 26137.0,
+          "tamano": 172.5,
+          "hora_ny": "2026-11-20 10:15",
+          "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "15m",
@@ -328,9 +287,20 @@
           "ce": 26136.62,
           "tamano": 98.25,
           "hora_ny": "2026-11-20 08:45",
-          "tipo": "alcista",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 20/11 10:15",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 25768.5,
+          "abajo": 25728.0,
+          "ce": 25748.25,
+          "tamano": 40.5,
+          "hora_ny": "2026-11-20 11:30",
+          "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "alta"
+          "importancia": "media"
         }
       ],
       "fibonacci": null,
@@ -346,16 +316,16 @@
     "5m": {
       "estructura": {
         "tendencia": "alcista · LH y LL",
-        "evento": "BOS alcista: cierre por encima de 26223.25 (20/11 09:05 NY)",
+        "evento": "CHoCH/MSS alcista: cierre por encima de 25623.25 (20/11 13:20 NY)",
         "ultimos_swing_high": [
-          26175.0,
-          26167.25,
-          26144.25
+          25980.0,
+          25648.75,
+          25623.25
         ],
         "ultimos_swing_low": [
-          26100.25,
-          26076.75,
-          26000.0
+          26116.75,
+          25747.75,
+          25511.75
         ]
       },
       "fvg_abiertos": [
@@ -368,84 +338,40 @@
           "hora_ny": "2026-11-19 11:50",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "5m",
-          "arriba": 26633.25,
-          "abajo": 26591.5,
-          "ce": 26612.38,
-          "tamano": 41.75,
-          "hora_ny": "2026-11-19 15:55",
-          "tipo": "bajista",
-          "estado": "tocado",
+          "arriba": 26336.0,
+          "abajo": 26315.0,
+          "ce": 26325.5,
+          "tamano": 21.0,
+          "hora_ny": "2026-11-20 09:50",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 20/11 10:05",
           "importancia": "baja"
         },
         {
           "tf": "5m",
-          "arriba": 26495.5,
-          "abajo": 26474.25,
-          "ce": 26484.88,
-          "tamano": 21.25,
-          "hora_ny": "2026-11-19 23:00",
+          "arriba": 26294.5,
+          "abajo": 26237.25,
+          "ce": 26265.88,
+          "tamano": 57.25,
+          "hora_ny": "2026-11-20 10:10",
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "media"
         },
         {
           "tf": "5m",
-          "arriba": 26343.75,
-          "abajo": 26319.25,
-          "ce": 26331.5,
-          "tamano": 24.5,
-          "hora_ny": "2026-11-20 05:45",
+          "arriba": 26223.25,
+          "abajo": 26151.5,
+          "ce": 26187.38,
+          "tamano": 71.75,
+          "hora_ny": "2026-11-20 10:15",
           "tipo": "bajista",
-          "estado": "tocado",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 26262.25,
-          "abajo": 26259.25,
-          "ce": 26260.75,
-          "tamano": 3.0,
-          "hora_ny": "2026-11-20 09:20",
-          "tipo": "alcista",
           "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 26212.75,
-          "abajo": 26196.0,
-          "ce": 26204.38,
-          "tamano": 16.75,
-          "hora_ny": "2026-11-20 09:00",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 26194.5,
-          "abajo": 26166.75,
-          "ce": 26180.62,
-          "tamano": 27.75,
-          "hora_ny": "2026-11-20 07:00",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 20/11 09:00",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 26185.75,
-          "abajo": 26172.0,
-          "ce": 26178.88,
-          "tamano": 13.75,
-          "hora_ny": "2026-11-20 08:55",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -454,19 +380,30 @@
           "ce": 26096.5,
           "tamano": 64.5,
           "hora_ny": "2026-11-20 08:45",
-          "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "alta"
+          "tipo": "IFVG bajista",
+          "estado": "invertido 20/11 10:15",
+          "importancia": "media"
         },
         {
           "tf": "5m",
-          "arriba": 26068.25,
-          "abajo": 26038.75,
-          "ce": 26053.5,
-          "tamano": 29.5,
-          "hora_ny": "2026-11-20 08:30",
-          "tipo": "IFVG alcista",
-          "estado": "invertido 20/11 08:45",
+          "arriba": 25808.0,
+          "abajo": 25787.0,
+          "ce": 25797.5,
+          "tamano": 21.0,
+          "hora_ny": "2026-11-20 11:25",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "baja"
+        },
+        {
+          "tf": "5m",
+          "arriba": 25587.25,
+          "abajo": 25557.5,
+          "ce": 25572.38,
+          "tamano": 29.75,
+          "hora_ny": "2026-11-20 13:15",
+          "tipo": "alcista",
+          "estado": "virgen",
           "importancia": "media"
         }
       ],
@@ -479,8 +416,8 @@
   },
   "estadisticas": {
     "dias_analizados": 48,
-    "rango_medio_20d": 883.4,
-    "rango_medio_5d": 977.3,
+    "rango_medio_20d": 880.5,
+    "rango_medio_5d": 976.4,
     "pct_dias_toman_pdh": 48,
     "pct_dias_toman_pdl": 52,
     "pct_dias_toman_ambos": 12,
@@ -501,14 +438,14 @@
       "pct_toma_pdl": 90,
       "pct_toma_pdh": 10,
       "pct_cierra_arriba_de_apertura": 40,
-      "rebote_medio_desde_apertura": 227.3
+      "rebote_medio_desde_apertura": 225.8
     },
     "tras_dia_alcista_fuerte": {
       "casos": 16,
       "pct_toma_pdh": 75,
       "pct_toma_pdl": 31,
       "pct_cierra_abajo_de_apertura": 44,
-      "retroceso_medio_desde_apertura": 426.9
+      "retroceso_medio_desde_apertura": 423.2
     },
     "dia_anterior_tipo": "bajista fuerte"
   },
@@ -543,6 +480,114 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "20/11 19:17",
+      "titular": "Trump: working on a deal with China on exports and chips",
+      "fuente": "@MarketsCapApp",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 19:12",
+      "titular": "Japanese Yen Forecast: USD/JPY Bulls Falter at Major Resistance&#x97;Critical Range Break in Focus",
+      "fuente": "forex.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 19:02",
+      "titular": "Trump: I discussed Ukraine &amp; Iran with Putin and Xi",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 18:55",
+      "titular": "Trump: Putin Expressed Desire To End Ukraine War",
+      "fuente": "@finsquawk_",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 18:50",
+      "titular": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
+      "fuente": "@finsquawk_",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 18:32",
+      "titular": "Trump: Interest Rates Too High Because We Have Political Fed",
+      "fuente": "@DeItaone",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 18:29",
+      "titular": "US President Trump: Secured 2 New Trade Deals, And About 10 Others Coming Very Soon",
+      "fuente": "@LiveSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 18:26",
+      "titular": "President Trump Hosts a News Conference",
+      "fuente": "youtube.com/whitehouse",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 18:15",
+      "titular": "Cook: The U.S. Economy in Global Context",
+      "fuente": "federalreserve.gov",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 17:50",
+      "titular": "Fed monetary policy credibility caught between a rock and a hard place",
+      "fuente": "omfif.org",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 17:20",
+      "titular": "Trump Administration Wants Kyiv To Reach A Peace Deal With Russia By Early January -FT",
+      "fuente": "@DeItaone",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 17:15",
+      "titular": "Warsh wants Fed officials to talk less. Instead, they&#x92;re talking more",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 17:05",
+      "titular": "Missile hits southern Iran's Qeshm Island, no information on possible damage - Tasnim News Agency",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 16:40",
+      "titular": "STARTRADER Heads to Icons of Porsche as Official Partner of the Porsche Carrera Cup Middle East",
+      "fuente": "financefeeds.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 16:29",
+      "titular": "Bessent: Seems Peripatetic For Fed To Want A Bigger Hike; Fed Should Look Forward Not Backwards",
+      "fuente": "@DeItaone",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 16:05",
+      "titular": "US consumer confidence improves in November",
+      "fuente": "breakingthenews.net",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 16:05",
+      "titular": "ECB&#x92;s Nagel Signals December Rate Hike, Says Tightening Would Not Undermine Growth Outlook",
+      "fuente": "econostream-media.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 16:04",
+      "titular": "Flash Consumer Confidence Indicator for the EU and Euro Area",
+      "fuente": "economy-finance.ec.europa.eu",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "20/11 15:30",
       "titular": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
@@ -584,114 +629,6 @@
       "titular": "Oil and Stocks Drive Rates Lower, and Take Some Shine Off the US Dollar",
       "fuente": "marctomarket.com",
       "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 12:47",
-      "titular": "Elev8 launches CFD trading on Anthropic, PBC (ANT) following historic IPO",
-      "fuente": "financefeeds.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 12:04",
-      "titular": "GBP/USD: Pound Breakdown Puts Sellers in Control",
-      "fuente": "dailyforex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 11:50",
-      "titular": "UK-EU Summit Deal Reached, EU Official Says",
-      "fuente": "@FirstSquawk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 11:36",
-      "titular": "Canada sees little US movement on tariff relief, sources say",
-      "fuente": "miningweekly.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 10:58",
-      "titular": "Polish Minister: 2 Russian Missiles, A Drone Crashed In Poland",
-      "fuente": "@NourHammoury",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 10:52",
-      "titular": "ECB's Pereira: Energy-driven inflation pressures remain significant",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 10:36",
-      "titular": "Lagarde: Acting in time",
-      "fuente": "ecb.europa.eu",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 10:05",
-      "titular": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
-      "fuente": "investinglive.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 08:36",
-      "titular": "Canadian Consumers: Bending, Not Breaking",
-      "fuente": "economics.td.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 08:04",
-      "titular": "German producer prices in October 2026: +8.1% on October 2025",
-      "fuente": "destatis.de",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 08:03",
-      "titular": "Public sector finances, UK: October 2026",
-      "fuente": "ons.gov.uk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 08:01",
-      "titular": "Retail sales, Great Britain: October 2026",
-      "fuente": "ons.gov.uk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 07:02",
-      "titular": "USD/JPY Outlook: Yen Strength Builds as Carry Trades Come Under Threat",
-      "fuente": "stonex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 05:59",
-      "titular": "Gold set for worst week since March on hawkish Fed, AI selloff",
-      "fuente": "straitstimes.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 05:14",
-      "titular": "Fed's Paulson backs further rate hikes, says shared understanding beats guidance",
-      "fuente": "finance.yahoo.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 04:29",
-      "titular": "Did Anthropic's IPO make its employees millionaires? About 96% are, on paper, by one estimate",
-      "fuente": "nacionale.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 03:45",
-      "titular": "BOJ's ambiguity on rate hike path could tempt yen bears",
-      "fuente": "ca.finance.yahoo.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "20/11 03:05",
-      "titular": "US Has Floated NATO Membership For Ukraine In Recent Meetings - WSJ",
-      "fuente": "@LiveSquawk",
-      "impacto": "low"
     }
   ]
 }
