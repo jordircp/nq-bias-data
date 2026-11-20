@@ -1,14 +1,14 @@
 {
-  "generado_utc": "2026-11-20 07:35",
-  "ultima_vela_ny": "2026-11-20 02:25",
-  "precio": 26249.75,
+  "generado_utc": "2026-11-20 12:44",
+  "ultima_vela_ny": "2026-11-20 07:30",
+  "precio": 26143.0,
   "dia_anterior": {
     "fecha": "2026-11-19",
     "PDH": 27838.0,
     "PDL": 26436.0,
     "cierre": 26505.5,
     "max_semana": 28279.25,
-    "min_semana": 26244.0
+    "min_semana": 26100.0
   },
   "sesiones": {
     "dia_trading": "2026-11-20",
@@ -17,13 +17,13 @@
       "minimo": 26351.0
     },
     "londres": {
-      "maximo": 26353.75,
-      "minimo": 26244.0
+      "maximo": 26447.75,
+      "minimo": 26135.75
     },
     "ny_am": null,
     "overnight": {
       "maximo": 26603.5,
-      "minimo": 26244.0
+      "minimo": 26100.0
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -33,7 +33,7 @@
         "tendencia": "bajista · HH y HL",
         "evento": "BOS bajista: cierre por debajo de 26366.50 (19/11 21:00 NY)",
         "ultimos_swing_high": [
-          27609.75,
+          27605.25,
           27424.5,
           27838.0
         ],
@@ -114,13 +114,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 27838.0,
-        "minimo": 26244.0,
+        "minimo": 26100.0,
         "hora_max": "2026-11-19 09:00",
-        "hora_min": "2026-11-20 01:00",
-        "50": 27041.0,
-        "62": 27232.28,
-        "70.5": 27367.77,
-        "79": 27503.26,
+        "hora_min": "2026-11-20 05:00",
+        "50": 26969.0,
+        "62": 27177.56,
+        "70.5": 27325.29,
+        "79": 27473.02,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -130,12 +130,12 @@
     },
     "1h": {
       "estructura": {
-        "tendencia": "bajista · HH y HL",
-        "evento": "BOS bajista: cierre por debajo de 26366.50 (20/11 00:00 NY)",
+        "tendencia": "bajista · LH y HL",
+        "evento": "BOS bajista: cierre por debajo de 26366.50 (19/11 23:00 NY)",
         "ultimos_swing_high": [
-          27424.5,
           27589.0,
-          27838.0
+          27838.0,
+          26447.75
         ],
         "ultimos_swing_low": [
           27093.0,
@@ -165,17 +165,6 @@
           "tipo": "bajista",
           "estado": "tocado",
           "importancia": "alta"
-        },
-        {
-          "tf": "1h",
-          "arriba": 28110.5,
-          "abajo": 28059.75,
-          "ce": 28085.12,
-          "tamano": 50.75,
-          "hora_ny": "2026-11-15 20:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
         },
         {
           "tf": "1h",
@@ -209,18 +198,29 @@
           "tipo": "IFVG bajista",
           "estado": "invertido 19/11 14:00",
           "importancia": "media"
+        },
+        {
+          "tf": "1h",
+          "arriba": 26661.25,
+          "abajo": 26608.75,
+          "ce": 26635.0,
+          "tamano": 52.5,
+          "hora_ny": "2026-11-19 15:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
         }
       ],
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
-        "maximo": 27838.0,
-        "minimo": 26244.0,
-        "hora_max": "2026-11-19 09:00",
-        "hora_min": "2026-11-20 02:00",
-        "50": 27041.0,
-        "62": 27232.28,
-        "70.5": 27367.77,
-        "79": 27503.26,
+        "maximo": 26447.75,
+        "minimo": 26100.0,
+        "hora_max": "2026-11-20 03:00",
+        "hora_min": "2026-11-20 07:00",
+        "50": 26273.88,
+        "62": 26315.6,
+        "70.5": 26345.16,
+        "79": 26374.72,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -231,16 +231,16 @@
     "15m": {
       "estructura": {
         "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 26271.00 (20/11 02:15 NY)",
+        "evento": "CHoCH/MSS bajista: cierre por debajo de 26230.00 (20/11 04:15 NY)",
         "ultimos_swing_high": [
-          26603.5,
-          26572.75,
-          26373.0
+          26373.0,
+          26447.75,
+          26370.0
         ],
         "ultimos_swing_low": [
-          26416.0,
-          26382.25,
-          26271.0
+          26271.0,
+          26230.0,
+          26135.75
         ]
       },
       "fvg_abiertos": [
@@ -268,30 +268,54 @@
         },
         {
           "tf": "15m",
-          "arriba": 26760.25,
-          "abajo": 26680.0,
-          "ce": 26720.12,
-          "tamano": 80.25,
-          "hora_ny": "2026-11-19 14:45",
+          "arriba": 26372.5,
+          "abajo": 26329.75,
+          "ce": 26351.12,
+          "tamano": 42.75,
+          "hora_ny": "2026-11-20 02:45",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 20/11 04:00",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 26267.5,
+          "abajo": 26246.75,
+          "ce": 26257.12,
+          "tamano": 20.75,
+          "hora_ny": "2026-11-20 06:00",
           "tipo": "bajista",
-          "estado": "tocado",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
+          "arriba": 26231.25,
+          "abajo": 26225.5,
+          "ce": 26228.38,
+          "tamano": 5.75,
+          "hora_ny": "2026-11-20 06:15",
+          "tipo": "bajista",
+          "estado": "virgen",
           "importancia": "baja"
         },
         {
           "tf": "15m",
-          "arriba": 26356.25,
-          "abajo": 26319.0,
-          "ce": 26337.62,
-          "tamano": 37.25,
-          "hora_ny": "2026-11-19 22:00",
-          "tipo": "bajista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "arriba": 26218.25,
+          "abajo": 26206.0,
+          "ce": 26212.12,
+          "tamano": 12.25,
+          "hora_ny": "2026-11-20 05:00",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 20/11 06:30",
           "importancia": "media"
         }
       ],
       "fibonacci": null,
       "liquidez_iguales": {
-        "maximos_iguales": [],
+        "maximos_iguales": [
+          26371.5
+        ],
         "minimos_iguales": [
           26271.62
         ]
@@ -299,17 +323,17 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · HH y LL",
-        "evento": "BOS bajista: cierre por debajo de 26272.25 (20/11 02:25 NY)",
+        "tendencia": "bajista · LH y LL",
+        "evento": "BOS bajista: cierre por debajo de 26142.75 (20/11 07:15 NY)",
         "ultimos_swing_high": [
-          26373.0,
-          26348.75,
-          26353.75
+          26447.75,
+          26370.0,
+          26223.25
         ],
         "ultimos_swing_low": [
-          26271.0,
-          26285.75,
-          26272.25
+          26142.75,
+          26171.75,
+          26100.25
         ]
       },
       "fvg_abiertos": [
@@ -322,58 +346,75 @@
           "hora_ny": "2026-11-19 11:50",
           "tipo": "bajista",
           "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26343.75,
+          "abajo": 26319.25,
+          "ce": 26331.5,
+          "tamano": 24.5,
+          "hora_ny": "2026-11-20 05:45",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26273.5,
+          "abajo": 26255.0,
+          "ce": 26264.25,
+          "tamano": 18.5,
+          "hora_ny": "2026-11-20 05:20",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 20/11 06:10",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26254.25,
+          "abajo": 26246.75,
+          "ce": 26250.5,
+          "tamano": 7.5,
+          "hora_ny": "2026-11-20 06:10",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26216.5,
+          "abajo": 26176.5,
+          "ce": 26196.5,
+          "tamano": 40.0,
+          "hora_ny": "2026-11-20 05:00",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 20/11 06:45",
           "importancia": "alta"
         },
         {
           "tf": "5m",
-          "arriba": 26385.25,
-          "abajo": 26317.5,
-          "ce": 26351.38,
-          "tamano": 67.75,
-          "hora_ny": "2026-11-19 22:05",
+          "arriba": 26194.5,
+          "abajo": 26166.75,
+          "ce": 26180.62,
+          "tamano": 27.75,
+          "hora_ny": "2026-11-20 07:00",
           "tipo": "bajista",
           "estado": "tocado",
           "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 26366.5,
-          "abajo": 26319.0,
-          "ce": 26342.75,
-          "tamano": 47.5,
-          "hora_ny": "2026-11-20 00:05",
-          "tipo": "bajista",
-          "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 26301.75,
-          "abajo": 26274.75,
-          "ce": 26288.25,
-          "tamano": 27.0,
-          "hora_ny": "2026-11-20 02:20",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "alta"
         }
       ],
       "fibonacci": null,
       "liquidez_iguales": {
-        "maximos_iguales": [
-          26356.12
-        ],
-        "minimos_iguales": [
-          26271.62,
-          26278.88
-        ]
+        "maximos_iguales": [],
+        "minimos_iguales": []
       }
     }
   },
   "estadisticas": {
     "dias_analizados": 48,
-    "rango_medio_20d": 883.4,
-    "rango_medio_5d": 977.3,
+    "rango_medio_20d": 880.5,
+    "rango_medio_5d": 976.4,
     "pct_dias_toman_pdh": 48,
     "pct_dias_toman_pdl": 52,
     "pct_dias_toman_ambos": 12,
@@ -394,14 +435,14 @@
       "pct_toma_pdl": 90,
       "pct_toma_pdh": 10,
       "pct_cierra_arriba_de_apertura": 40,
-      "rebote_medio_desde_apertura": 227.3
+      "rebote_medio_desde_apertura": 225.8
     },
     "tras_dia_alcista_fuerte": {
       "casos": 16,
       "pct_toma_pdh": 75,
       "pct_toma_pdl": 31,
       "pct_cierra_abajo_de_apertura": 44,
-      "retroceso_medio_desde_apertura": 426.9
+      "retroceso_medio_desde_apertura": 423.2
     },
     "dia_anterior_tipo": "bajista fuerte"
   },
@@ -427,6 +468,66 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "20/11 13:37",
+      "titular": "Oil and Stocks Drive Rates Lower, and Take Some Shine Off the US Dollar",
+      "fuente": "marctomarket.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 12:47",
+      "titular": "Elev8 launches CFD trading on Anthropic, PBC (ANT) following historic IPO",
+      "fuente": "financefeeds.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 12:04",
+      "titular": "GBP/USD: Pound Breakdown Puts Sellers in Control",
+      "fuente": "dailyforex.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 11:50",
+      "titular": "UK-EU Summit Deal Reached, EU Official Says",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 11:36",
+      "titular": "Canada sees little US movement on tariff relief, sources say",
+      "fuente": "miningweekly.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 10:58",
+      "titular": "Polish Minister: 2 Russian Missiles, A Drone Crashed In Poland",
+      "fuente": "@NourHammoury",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 10:52",
+      "titular": "ECB's Pereira: Energy-driven inflation pressures remain significant",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "20/11 10:36",
+      "titular": "Lagarde: Acting in time",
+      "fuente": "ecb.europa.eu",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 10:05",
+      "titular": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
+      "fuente": "investinglive.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "20/11 08:36",
+      "titular": "Canadian Consumers: Bending, Not Breaking",
+      "fuente": "economics.td.com",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "20/11 08:04",
       "titular": "German producer prices in October 2026: +8.1% on October 2025",
@@ -516,66 +617,6 @@
       "titular": "Paulson: Monetary Policy Communication: Do We Understand Each Other?",
       "fuente": "philadelphiafed.org",
       "impacto": "low"
-    },
-    {
-      "hora_alemania": "20/11 00:31",
-      "titular": "November US Executive Briefing: Resilience up in the economy but so are costs",
-      "fuente": "rbc.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "19/11 23:45",
-      "titular": "Kalshi hires streamer Cliff Savage to &#x91;research&#x92; Grand Theft Auto 6 for six figures",
-      "fuente": "nypost.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "19/11 23:01",
-      "titular": "USD/JPY: The 160.00 Test",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "19/11 22:15",
-      "titular": "FxPro enables its clients to trade Anthropic stock",
-      "fuente": "fxnewsgroup.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "19/11 21:32",
-      "titular": "Fed's Goolsbee: Multiple months of borderline disturbing inflation",
-      "fuente": "@TapTradTerminal",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "19/11 21:30",
-      "titular": "Two Million Followers and \\u00a33,072 Fine: FCA Sentences Illegal FX Finfluencer",
-      "fuente": "financemagnates.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "19/11 20:45",
-      "titular": "Complete Guide to the Two-Bar Reversal Strategy",
-      "fuente": "tradingstrategyguides.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "19/11 20:21",
-      "titular": "Fed's Barr: AI could boost access to financial services",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "19/11 20:21",
-      "titular": "Trump on North Korea's Kim Jong Un: The relationship is there, but we didn't meet during Asia trip because there was too many meetings - NBC News",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "19/11 20:18",
-      "titular": "Fed's Barr: FinRegLab AI Symposium 2026 - Day 2",
-      "fuente": "youtube.com/finreglab4805",
-      "impacto": "-"
     }
   ]
 }
