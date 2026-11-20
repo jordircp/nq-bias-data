@@ -1,6 +1,6 @@
-# NQ datos · 2026-11-20 08:55 (NY)
+# NQ datos · 2026-11-20 09:25 (NY)
 
-Precio: **26151.5**
+Precio: **26301.0**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
@@ -10,7 +10,7 @@ Día anterior (2026-11-19): PDH 27838.0 · PDL 26436.0 · cierre 26505.5 · sema
 - overnight: 26000.0 – 26603.5
 
 ## 4h: bajista · HH y HL · BOS bajista: cierre por debajo de 26366.50 (19/11 21:00 NY)
-Swing highs [27605.25, 27424.5, 27838.0] · swing lows [27695.25, 26658.5, 26921.75]
+Swing highs [27609.75, 27424.5, 27838.0] · swing lows [27695.25, 26658.5, 26921.75]
 Fib bajista (máximo → mínimo): 26000.0–27838.0 · 50 % 26919.0 · OTE 27139.56/27295.79/27452.02 · precio en discount
 - FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, importancia media, 2026-10-14 10:00)
 - FVG bajista 28111.75–28328.75 (CE 28220.25, tocado, importancia media, 2026-11-13 09:00)
@@ -21,7 +21,7 @@ Fib bajista (máximo → mínimo): 26000.0–27838.0 · 50 % 26919.0 · OTE 2713
 
 ## 1h: bajista · LH y HL · BOS bajista: cierre por debajo de 26366.50 (19/11 23:00 NY)
 Swing highs [27589.0, 27838.0, 26447.75] · swing lows [27093.0, 26921.75, 27303.0]
-Fib bajista (máximo → mínimo): 26000.0–26447.75 · 50 % 26223.88 · OTE 26277.6/26315.66/26353.72 · precio en discount
+Fib bajista (máximo → mínimo): 26000.0–26447.75 · 50 % 26223.88 · OTE 26277.6/26315.66/26353.72 · precio en premium
 - FVG bajista 29180.0–29443.25 (CE 29311.62, virgen, importancia media, 2026-10-29 16:00)
 - FVG bajista 28096.0–28376.5 (CE 28236.25, tocado, importancia alta, 2026-11-13 09:00)
 - FVG bajista 27429.75–27620.0 (CE 27524.88, virgen, importancia alta, 2026-11-19 10:00)
@@ -30,25 +30,29 @@ Fib bajista (máximo → mínimo): 26000.0–26447.75 · 50 % 26223.88 · OTE 26
 - FVG bajista 26608.75–26661.25 (CE 26635.0, virgen, importancia media, 2026-11-19 15:00)
 
 ## 15m: bajista · LH y LL · BOS bajista: cierre por debajo de 26135.75 (20/11 07:30 NY)
-Swing highs [26373.0, 26447.75, 26370.0] · swing lows [26271.0, 26230.0, 26135.75]
+Swing highs [26373.0, 26447.75, 26370.0] · swing lows [26230.0, 26135.75, 26000.0]
 - FVG bajista 27353.0–27562.75 (CE 27457.88, tocado, importancia alta, 2026-11-19 10:15)
 - FVG bajista 27023.25–27225.75 (CE 27124.5, tocado, importancia alta, 2026-11-19 11:45)
+- FVG bajista 26680.0–26760.25 (CE 26720.12, tocado, importancia baja, 2026-11-19 14:45)
+- FVG bajista 26472.0–26505.5 (CE 26488.75, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-19 19:30)
 - IFVG bajista 26329.75–26372.5 (CE 26351.12, invertido 20/11 04:00, importancia media, 2026-11-20 02:45)
-- FVG bajista 26246.75–26267.5 (CE 26257.12, virgen, importancia media, 2026-11-20 06:00)
-- FVG bajista 26225.5–26231.25 (CE 26228.38, virgen, importancia baja, 2026-11-20 06:15)
-- IFVG bajista 26206.0–26218.25 (CE 26212.12, invertido 20/11 06:30, importancia media, 2026-11-20 05:00)
+- IFVG alcista 26246.75–26267.5 (CE 26257.12, invertido 20/11 09:15, importancia baja, 2026-11-20 06:00)
+- FVG alcista 26196.0–26215.5 (CE 26205.75, virgen, importancia media, 2026-11-20 09:00)
+- FVG alcista 26087.5–26185.75 (CE 26136.62, virgen, importancia alta, 2026-11-20 08:45)
 Máximos iguales [26371.5] · mínimos iguales [26271.62]
 
-## 5m: alcista · LH y LL · CHoCH/MSS alcista: cierre por encima de 26144.25 (20/11 08:45 NY)
+## 5m: alcista · LH y LL · BOS alcista: cierre por encima de 26223.25 (20/11 09:05 NY)
 Swing highs [26175.0, 26167.25, 26144.25] · swing lows [26100.25, 26076.75, 26000.0]
-- FVG bajista 27148.25–27298.5 (CE 27223.38, virgen, importancia media, 2026-11-19 11:50)
-- FVG bajista 26319.25–26343.75 (CE 26331.5, virgen, importancia media, 2026-11-20 05:45)
-- FVG bajista 26246.75–26254.25 (CE 26250.5, virgen, importancia media, 2026-11-20 06:10)
-- IFVG bajista 26176.5–26216.5 (CE 26196.5, invertido 20/11 06:45, importancia alta, 2026-11-20 05:00)
-- FVG bajista 26166.75–26194.5 (CE 26180.62, tocado, importancia media, 2026-11-20 07:00)
+- FVG bajista 27148.25–27298.5 (CE 27223.38, virgen, importancia alta, 2026-11-19 11:50)
+- FVG bajista 26591.5–26633.25 (CE 26612.38, tocado, importancia baja, 2026-11-19 15:55)
+- FVG bajista 26474.25–26495.5 (CE 26484.88, virgen, importancia media, 2026-11-19 23:00)
+- FVG bajista 26319.25–26343.75 (CE 26331.5, tocado, importancia media, 2026-11-20 05:45)
+- FVG alcista 26259.25–26262.25 (CE 26260.75, virgen, importancia media, 2026-11-20 09:20)
+- FVG alcista 26196.0–26212.75 (CE 26204.38, virgen, importancia media, 2026-11-20 09:00)
+- IFVG alcista 26166.75–26194.5 (CE 26180.62, invertido 20/11 09:00, importancia media, 2026-11-20 07:00)
+- FVG alcista 26172.0–26185.75 (CE 26178.88, virgen, importancia media, 2026-11-20 08:55)
 - FVG alcista 26064.25–26128.75 (CE 26096.5, virgen, importancia alta, 2026-11-20 08:45)
 - IFVG alcista 26038.75–26068.25 (CE 26053.5, invertido 20/11 08:45, importancia media, 2026-11-20 08:30)
-- FVG alcista 26038.75–26049.5 (CE 26044.12, virgen, importancia media, 2026-11-20 08:40)
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 16:00 · Revised UoM Consumer Sentiment · impacto medio · previsión 51.7 · anterior 51.0
@@ -56,6 +60,7 @@ Swing highs [26175.0, 26167.25, 26144.25] · swing lows [26100.25, 26076.75, 260
 - 18:00 · President Trump Speaks · impacto medio · previsión None · anterior None
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 20/11 15:30 · [-] U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia (cnbc.com)
 - 20/11 14:52 · [-] Embattled Trump seeks reset with White House news conference (thehill.com)
 - 20/11 14:30 · [medium] Canadian Retail Trade, September 2026 (statcan.gc.ca)
 - 20/11 14:26 · [low] Waller: Opening Remarks (federalreserve.gov)
@@ -80,12 +85,11 @@ Swing highs [26175.0, 26167.25, 26144.25] · swing lows [26100.25, 26076.75, 260
 - 20/11 04:29 · [-] Did Anthropic's IPO make its employees millionaires? About 96% are, on paper, by one estimate (nacionale.com)
 - 20/11 03:45 · [-] BOJ's ambiguity on rate hike path could tempt yen bears (ca.finance.yahoo.com)
 - 20/11 03:05 · [low] US Has Floated NATO Membership For Ukraine In Recent Meetings - WSJ (@LiveSquawk)
-- 20/11 03:01 · [low] NZ credit card summary (rbnz.govt.nz)
 
 ## Estadísticas (últimos 48 días)
-Rango medio: 880.5 pts (20d) · 976.4 pts (5d)
+Rango medio: 883.4 pts (20d) · 977.3 pts (5d)
 Toma PDH 48 % · toma PDL 52 % · ambos 12 %
 Sesión del máximo: {'NY': 45, 'Asia': 35, 'otro': 12, 'Londres': 8} · del mínimo: {'NY': 35, 'Asia': 24, 'Londres': 20, 'otro': 20}
 Ayer fue un día: bajista fuerte
-tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 90, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 40, 'rebote_medio_desde_apertura': 225.8}
-tras dia alcista fuerte: {'casos': 16, 'pct_toma_pdh': 75, 'pct_toma_pdl': 31, 'pct_cierra_abajo_de_apertura': 44, 'retroceso_medio_desde_apertura': 423.2}
+tras dia bajista fuerte: {'casos': 10, 'pct_toma_pdl': 90, 'pct_toma_pdh': 10, 'pct_cierra_arriba_de_apertura': 40, 'rebote_medio_desde_apertura': 227.3}
+tras dia alcista fuerte: {'casos': 16, 'pct_toma_pdh': 75, 'pct_toma_pdl': 31, 'pct_cierra_abajo_de_apertura': 44, 'retroceso_medio_desde_apertura': 426.9}
