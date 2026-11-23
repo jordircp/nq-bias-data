@@ -1,11 +1,12 @@
-# NQ datos · 2026-11-23 01:55 (NY)
+# NQ datos · 2026-11-23 02:25 (NY)
 
-Precio: **25846.0**
+Precio: **25852.0**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
 Día anterior (2026-11-20): PDH 26603.5 · PDL 24976.5 · cierre 25126.5 · semana 25462.0–25941.5
 - asia: 25610.75 – 25904.75
+- londres: 25814.25 – 25880.0
 - overnight: 25462.0 – 25941.5
 
 ## 4h: bajista · LH y LL · BOS bajista: cierre por debajo de 26366.50 (19/11 21:00 NY)
@@ -32,11 +33,11 @@ Fib bajista (máximo → mínimo): 24976.5–26504.25 · 50 % 25740.38 · OTE 25
 - FVG alcista 25367.0–25462.0 (CE 25414.5, virgen, importancia baja, 2026-11-20 16:00)
 
 ## 15m: alcista · HH y HL · BOS alcista: cierre por encima de 25904.75 (23/11 00:15 NY)
-Swing highs [25762.5, 25904.75, 25941.5] · swing lows [25493.25, 24976.5, 25610.75]
+Swing highs [25762.5, 25904.75, 25941.5] · swing lows [24976.5, 25610.75, 25805.5]
 - FVG bajista 27353.0–27562.75 (CE 27457.88, tocado, importancia media, 2026-11-19 10:15)
 - FVG bajista 27023.25–27225.75 (CE 27124.5, tocado, importancia alta, 2026-11-19 11:45)
 - FVG bajista 26050.75–26223.25 (CE 26137.0, virgen, importancia alta, 2026-11-20 10:15)
-- FVG bajista 25861.0–25874.75 (CE 25867.88, virgen, importancia media, 2026-11-23 01:15)
+- FVG bajista 25861.0–25874.75 (CE 25867.88, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-23 01:15)
 - FVG alcista 25699.25–25838.25 (CE 25768.75, tocado, importancia media, 2026-11-23 00:00)
 - FVG alcista 25736.0–25826.0 (CE 25781.0, tocado, importancia media, 2026-11-22 21:45)
 - IFVG alcista 25736.0–25775.25 (CE 25755.62, invertido 23/11 00:00, importancia media, 2026-11-22 21:15)
@@ -44,18 +45,19 @@ Swing highs [25762.5, 25904.75, 25941.5] · swing lows [25493.25, 24976.5, 25610
 - FVG alcista 25362.75–25558.25 (CE 25460.5, virgen, importancia alta, 2026-11-22 18:00)
 - FVG alcista 25329.5–25462.0 (CE 25395.75, virgen, importancia alta, 2026-11-20 16:45)
 
-## 5m: bajista · HH y LL · CHoCH/MSS bajista: cierre por debajo de 25872.25 (23/11 01:20 NY)
-Swing highs [25858.25, 25937.25, 25941.5] · swing lows [25610.75, 25872.25, 25805.5]
+## 5m: bajista · LH y HL · CHoCH/MSS bajista: cierre por debajo de 25872.25 (23/11 01:20 NY)
+Swing highs [25937.25, 25941.5, 25867.5] · swing lows [25872.25, 25805.5, 25814.25]
 - FVG bajista 26237.25–26294.5 (CE 26265.88, virgen, importancia media, 2026-11-20 10:10)
 - FVG bajista 26151.5–26223.25 (CE 26187.38, virgen, importancia alta, 2026-11-20 10:15)
 - FVG bajista 25893.25–25899.0 (CE 25896.12, virgen, importancia media, 2026-11-23 01:05)
 - IFVG bajista 25893.0–25899.0 (CE 25896.0, invertido 23/11 01:05, importancia baja, 2026-11-23 00:55)
-- FVG bajista 25866.25–25875.25 (CE 25870.75, virgen, importancia media, 2026-11-23 01:20)
-- IFVG bajista 25852.5–25860.75 (CE 25856.62, invertido 23/11 01:30, importancia media, 2026-11-23 00:15)
+- FVG bajista 25866.25–25875.25 (CE 25870.75, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-23 01:20)
 - FVG alcista 25699.25–25829.75 (CE 25764.5, tocado, importancia alta, 2026-11-22 21:50)
 - FVG alcista 25684.75–25826.0 (CE 25755.38, tocado, importancia alta, 2026-11-23 00:00)
+- IFVG alcista 25711.0–25725.0 (CE 25718.0, invertido 23/11 00:00, importancia baja, 2026-11-22 21:30)
 - FVG alcista 25311.25–25558.25 (CE 25434.75, virgen, importancia alta, 2026-11-22 18:10)
 - FVG alcista 25350.75–25462.0 (CE 25406.38, virgen, importancia alta, 2026-11-20 16:55)
+Máximos iguales [] · mínimos iguales [25814.25]
 
 ## Calendario USD de hoy (Forex Factory, hora de Alemania)
 - 15:45 · Flash Manufacturing PMI · impacto medio · previsión 54.5 · anterior 56.0
@@ -64,6 +66,7 @@ Swing highs [25858.25, 25937.25, 25941.5] · swing lows [25610.75, 25872.25, 258
 - Próximo ALTO: 2026-11-25 14:30 · Prelim GDP q/q · previsión 3.5%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 23/11 08:11 · [-] Gold rises from 14-month low as markets await US inflation data (brecorder.com)
 - 23/11 06:59 · [-] Both Kevin Warsh And His Critics Mistake Rising Prices For Inflation (finance.yahoo.com)
 - 23/11 05:59 · [-] Bessent warns on Fed hike as AI bubble fears mount (semafor.com)
 - 23/11 05:14 · [-] New Zealand dollar hits lowest level in 17 years against US dollar (rnz.co.nz)

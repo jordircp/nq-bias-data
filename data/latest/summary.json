@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-23 07:05",
-  "ultima_vela_ny": "2026-11-23 01:55",
-  "precio": 25846.0,
+  "generado_utc": "2026-11-23 07:35",
+  "ultima_vela_ny": "2026-11-23 02:25",
+  "precio": 25852.0,
   "dia_anterior": {
     "fecha": "2026-11-20",
     "PDH": 26603.5,
@@ -16,7 +16,10 @@
       "maximo": 25904.75,
       "minimo": 25610.75
     },
-    "londres": null,
+    "londres": {
+      "maximo": 25880.0,
+      "minimo": 25814.25
+    },
     "ny_am": null,
     "overnight": {
       "maximo": 25941.5,
@@ -268,9 +271,9 @@
           25941.5
         ],
         "ultimos_swing_low": [
-          25493.25,
           24976.5,
-          25610.75
+          25610.75,
+          25805.5
         ]
       },
       "fvg_abiertos": [
@@ -315,8 +318,8 @@
           "tamano": 13.75,
           "hora_ny": "2026-11-23 01:15",
           "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -393,17 +396,17 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · HH y LL",
+        "tendencia": "bajista · LH y HL",
         "evento": "CHoCH/MSS bajista: cierre por debajo de 25872.25 (23/11 01:20 NY)",
         "ultimos_swing_high": [
-          25858.25,
           25937.25,
-          25941.5
+          25941.5,
+          25867.5
         ],
         "ultimos_swing_low": [
-          25610.75,
           25872.25,
-          25805.5
+          25805.5,
+          25814.25
         ]
       },
       "fvg_abiertos": [
@@ -459,19 +462,8 @@
           "tamano": 9.0,
           "hora_ny": "2026-11-23 01:20",
           "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 25860.75,
-          "abajo": 25852.5,
-          "ce": 25856.62,
-          "tamano": 8.25,
-          "hora_ny": "2026-11-23 00:15",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 23/11 01:30",
-          "importancia": "media"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "5m",
@@ -494,6 +486,17 @@
           "tipo": "alcista",
           "estado": "tocado",
           "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 25725.0,
+          "abajo": 25711.0,
+          "ce": 25718.0,
+          "tamano": 14.0,
+          "hora_ny": "2026-11-22 21:30",
+          "tipo": "IFVG alcista",
+          "estado": "invertido 23/11 00:00",
+          "importancia": "baja"
         },
         {
           "tf": "5m",
@@ -521,7 +524,9 @@
       "fibonacci": null,
       "liquidez_iguales": {
         "maximos_iguales": [],
-        "minimos_iguales": []
+        "minimos_iguales": [
+          25814.25
+        ]
       }
     }
   },
@@ -601,6 +606,12 @@
     }
   ],
   "noticias_24h": [
+    {
+      "hora_alemania": "23/11 08:11",
+      "titular": "Gold rises from 14-month low as markets await US inflation data",
+      "fuente": "brecorder.com",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "23/11 06:59",
       "titular": "Both Kevin Warsh And His Critics Mistake Rising Prices For Inflation",
