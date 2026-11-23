@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-23 14:27",
-  "ultima_vela_ny": "2026-11-23 09:15",
-  "precio": 26867.5,
+  "generado_utc": "2026-11-23 14:35",
+  "ultima_vela_ny": "2026-11-23 09:25",
+  "precio": 26878.5,
   "dia_anterior": {
     "fecha": "2026-11-20",
     "PDH": 26603.5,
@@ -346,9 +346,9 @@
         {
           "tf": "15m",
           "arriba": 26760.75,
-          "abajo": 26682.25,
-          "ce": 26721.5,
-          "tamano": 78.5,
+          "abajo": 26683.0,
+          "ce": 26721.88,
+          "tamano": 77.75,
           "hora_ny": "2026-11-23 09:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -420,11 +420,11 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "alcista · HH y HL",
+        "tendencia": "alcista · LH y HL",
         "evento": "BOS alcista: cierre por encima de 26102.25 (23/11 09:10 NY)",
         "ultimos_swing_high": [
-          26037.5,
           26016.0,
+          26878.5,
           26878.5
         ],
         "ultimos_swing_low": [
@@ -469,21 +469,21 @@
         },
         {
           "tf": "5m",
-          "arriba": 27023.0,
+          "arriba": 27080.75,
           "abajo": 27000.25,
-          "ce": 27011.62,
-          "tamano": 22.75,
+          "ce": 27040.5,
+          "tamano": 80.5,
           "hora_ny": "2026-11-19 12:35",
           "tipo": "bajista",
           "estado": "tocado",
-          "importancia": "baja"
+          "importancia": "media"
         },
         {
           "tf": "5m",
           "arriba": 26688.0,
-          "abajo": 26682.25,
-          "ce": 26685.12,
-          "tamano": 5.75,
+          "abajo": 26683.0,
+          "ce": 26685.5,
+          "tamano": 5.0,
           "hora_ny": "2026-11-23 09:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -556,8 +556,8 @@
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 944.9,
-    "rango_medio_5d": 1119.3,
+    "rango_medio_20d": 947.8,
+    "rango_medio_5d": 1120.2,
     "pct_dias_toman_pdh": 47,
     "pct_dias_toman_pdl": 53,
     "pct_dias_toman_ambos": 11,
@@ -578,14 +578,14 @@
       "pct_toma_pdl": 90,
       "pct_toma_pdh": 0,
       "pct_cierra_arriba_de_apertura": 40,
-      "rebote_medio_desde_apertura": 198.5
+      "rebote_medio_desde_apertura": 201.1
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 80,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 40,
-      "retroceso_medio_desde_apertura": 432.7
+      "retroceso_medio_desde_apertura": 436.6
     },
     "dia_anterior_tipo": "bajista fuerte"
   },
