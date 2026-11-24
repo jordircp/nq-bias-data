@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-24 14:05",
-  "ultima_vela_ny": "2026-11-24 08:55",
-  "precio": 26247.5,
+  "generado_utc": "2026-11-24 14:35",
+  "ultima_vela_ny": "2026-11-24 09:25",
+  "precio": 26304.0,
   "dia_anterior": {
     "fecha": "2026-11-23",
     "PDH": 27137.0,
@@ -46,17 +46,6 @@
       "fvg_abiertos": [
         {
           "tf": "4h",
-          "arriba": 30705.25,
-          "abajo": 30538.25,
-          "ce": 30621.75,
-          "tamano": 167.0,
-          "hora_ny": "2026-10-14 06:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "4h",
           "arriba": 30465.75,
           "abajo": 30237.0,
           "ce": 30351.38,
@@ -95,6 +84,17 @@
           "ce": 26640.75,
           "tamano": 132.5,
           "hora_ny": "2026-11-24 01:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
+        },
+        {
+          "tf": "4h",
+          "arriba": 26496.0,
+          "abajo": 26321.75,
+          "ce": 26408.88,
+          "tamano": 174.25,
+          "hora_ny": "2026-11-24 05:00",
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "media"
@@ -295,9 +295,9 @@
           26472.25
         ],
         "ultimos_swing_low": [
-          26707.0,
           26816.0,
-          26255.0
+          26255.0,
+          26142.25
         ]
       },
       "fvg_abiertos": [
@@ -358,6 +358,17 @@
         },
         {
           "tf": "15m",
+          "arriba": 26490.5,
+          "abajo": 26400.5,
+          "ce": 26445.5,
+          "tamano": 90.0,
+          "hora_ny": "2026-11-24 05:30",
+          "tipo": "bajista",
+          "estado": "tocado",
+          "importancia": "media"
+        },
+        {
+          "tf": "15m",
           "arriba": 26425.75,
           "abajo": 26350.75,
           "ce": 26388.25,
@@ -398,7 +409,7 @@
           "hora_ny": "2026-11-22 22:00",
           "tipo": "alcista",
           "estado": "tocado",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -431,7 +442,7 @@
     },
     "5m": {
       "estructura": {
-        "tendencia": "bajista · LH y LL",
+        "tendencia": "bajista · LH y HL",
         "evento": "BOS bajista: cierre por debajo de 26282.00 (24/11 08:15 NY)",
         "ultimos_swing_high": [
           26574.5,
@@ -439,9 +450,9 @@
           26400.0
         ],
         "ultimos_swing_low": [
-          26255.0,
           26283.25,
-          26142.25
+          26142.25,
+          26195.5
         ]
       },
       "fvg_abiertos": [
@@ -455,6 +466,17 @@
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 26808.75,
+          "abajo": 26767.75,
+          "ce": 26788.25,
+          "tamano": 41.0,
+          "hora_ny": "2026-11-24 03:25",
+          "tipo": "bajista",
+          "estado": "tocado",
+          "importancia": "media"
         },
         {
           "tf": "5m",
@@ -487,7 +509,7 @@
           "hora_ny": "2026-11-24 07:00",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -519,19 +541,19 @@
           "tamano": 51.75,
           "hora_ny": "2026-11-24 08:05",
           "tipo": "bajista",
-          "estado": "virgen",
+          "estado": "tocado",
           "importancia": "alta"
         },
         {
           "tf": "5m",
-          "arriba": 26238.25,
-          "abajo": 26227.25,
-          "ce": 26232.75,
-          "tamano": 11.0,
-          "hora_ny": "2026-11-24 08:35",
+          "arriba": 26260.0,
+          "abajo": 26255.25,
+          "ce": 26257.62,
+          "tamano": 4.75,
+          "hora_ny": "2026-11-24 09:00",
           "tipo": "alcista",
-          "estado": "virgen",
-          "importancia": "media"
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
+          "importancia": "baja"
         },
         {
           "tf": "5m",
@@ -578,8 +600,8 @@
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 1004.1,
-    "rango_medio_5d": 1246.3,
+    "rango_medio_20d": 1001.3,
+    "rango_medio_5d": 1245.4,
     "pct_dias_toman_pdh": 47,
     "pct_dias_toman_pdl": 53,
     "pct_dias_toman_ambos": 11,
@@ -600,14 +622,14 @@
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 331.3
+      "rebote_medio_desde_apertura": 328.4
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 80,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 40,
-      "retroceso_medio_desde_apertura": 436.6
+      "retroceso_medio_desde_apertura": 432.7
     },
     "dia_anterior_tipo": "alcista fuerte"
   },
@@ -644,6 +666,12 @@
   ],
   "noticias_24h": [
     {
+      "hora_alemania": "24/11 15:24",
+      "titular": "US Dollar Tests 20-Month Highs - What's Next?",
+      "fuente": "youtube.com/forexcom",
+      "impacto": "-"
+    },
+    {
       "hora_alemania": "24/11 15:03",
       "titular": "S&amp;P Cotality Case-Shiller Index Reports Annual Gain in September 2026",
       "fuente": "spglobal.com",
@@ -669,7 +697,7 @@
     },
     {
       "hora_alemania": "24/11 14:43",
-      "titular": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU: Report",
+      "titular": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU",
       "fuente": "ndtvprofit.com",
       "impacto": "-"
     },
@@ -785,12 +813,6 @@
       "hora_alemania": "24/11 06:01",
       "titular": "ECB's Stournaras: Cannot Wait for Full Wage and Price Impact of Energy Shock Before Reacting",
       "fuente": "econostream-media.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "24/11 05:28",
-      "titular": "Why savers REALLY need the RBNZ to tackle inflation successfully",
-      "fuente": "interest.co.nz",
       "impacto": "-"
     }
   ]
