@@ -1,34 +1,34 @@
-# NQ datos · 2026-11-25 08:55 (NY)
+# NQ datos · 2026-11-25 09:00 (NY)
 
-Precio: **25450.25**
+Precio: **25407.25**
 
 Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE de vela más allá del extremo contrario y entonces pasa a IFVG (cambia de papel). Importancia alta/media/baja según tamaño, desplazamiento, si está virgen y cercanía al precio: prioriza los de importancia alta.
 
-Día anterior (2026-11-24): PDH 27036.0 · PDL 25998.0 · cierre 26266.0 · semana 25423.25–27137.0
+Día anterior (2026-11-24): PDH 27036.0 · PDL 25998.0 · cierre 26266.0 · semana 25402.5–27137.0
 - asia: 25904.5 – 26246.0
 - londres: 25580.0 – 25915.0
-- overnight: 25423.25 – 26350.75
+- overnight: 25402.5 – 26350.75
 
 ## 4h: bajista · HH y HL · CHoCH/MSS bajista: cierre por debajo de 25998.00 (24/11 21:00 NY)
 Swing highs [27838.0, 26504.25, 27137.0] · swing lows [26921.75, 24976.5, 25998.0]
-Fib bajista (máximo → mínimo): 25423.25–27137.0 · 50 % 26280.12 · OTE 26485.78/26631.44/26777.11 · precio en discount
-- FVG bajista 30237.0–30465.75 (CE 30351.38, virgen, importancia media, 2026-10-14 10:00)
-- IFVG bajista 27378.0–27891.0 (CE 27634.5, invertido 16/11 13:00, importancia media, 2026-11-09 09:00)
+Fib bajista (máximo → mínimo): 25402.5–27137.0 · 50 % 26269.75 · OTE 26477.89/26625.32/26772.76 · precio en discount
 - FVG bajista 26928.25–27641.5 (CE 27284.88, tocado, importancia alta, 2026-11-19 09:00)
+- IFVG bajista 27562.25–27641.5 (CE 27601.88, invertido 19/11 09:00, importancia baja, 2026-11-19 01:00)
 - FVG bajista 26574.5–26707.0 (CE 26640.75, virgen, importancia media, 2026-11-24 01:00)
 - IFVG bajista 26102.25–26450.25 (CE 26276.25, invertido 24/11 17:00, importancia alta, 2026-11-23 05:00)
 - FVG bajista 25710.75–25869.75 (CE 25790.25, virgen, importancia media, 2026-11-25 01:00)
+- FVG bajista 25438.0–25580.0 (CE 25509.0, virgen, importancia media, 2026-11-25 05:00)
 
 ## 1h: bajista · LH y LL · BOS bajista: cierre por debajo de 25824.00 (25/11 02:00 NY)
 Swing highs [26949.5, 26509.75, 26350.75] · swing lows [26684.0, 26707.0, 25998.0]
-Fib bajista (máximo → mínimo): 25423.25–26350.75 · 50 % 25887.0 · OTE 25998.3/26077.14/26155.97 · precio en discount
+Fib bajista (máximo → mínimo): 25402.5–26350.75 · 50 % 25876.62 · OTE 25990.42/26071.02/26151.62 · precio en discount
 - FVG bajista 28096.0–28376.5 (CE 28236.25, tocado, importancia media, 2026-11-13 09:00)
-- FVG bajista 27429.75–27620.0 (CE 27524.88, virgen, importancia alta, 2026-11-19 10:00)
+- FVG bajista 27429.75–27620.0 (CE 27524.88, virgen, importancia media, 2026-11-19 10:00)
 - FVG bajista 26620.75–26808.75 (CE 26714.75, virgen, importancia media, 2026-11-24 03:00)
 - IFVG bajista 26030.0–26450.25 (CE 26240.12, invertido 24/11 21:00, importancia alta, 2026-11-23 08:00)
 - IFVG bajista 25900.0–25945.5 (CE 25922.75, invertido 25/11 00:00, importancia baja, 2026-11-23 03:00)
 - FVG alcista 25362.75–25765.75 (CE 25564.25, tocado, importancia alta, 2026-11-22 18:00)
-- FVG bajista 25710.75–25737.75 (CE 25724.25, virgen, importancia media, 2026-11-25 04:00)
+- FVG bajista 25438.0–25470.5 (CE 25454.25, virgen, importancia media, 2026-11-25 08:00)
 - FVG alcista 25367.0–25462.0 (CE 25414.5, tocado, importancia baja, 2026-11-20 16:00)
 Máximos iguales [26948.75] · mínimos iguales []
 
@@ -60,6 +60,7 @@ Máximos iguales [] · mínimos iguales [25470.62]
 - 14:30 · Prelim GDP Price Index q/q · impacto medio · previsión 2.3% · anterior 2.3%
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 25/11 15:08 · [-] US inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed (apnews.com)
 - 25/11 14:38 · [low] USTR Greer: Tariff rates won't go into effect for a couple months (@financialjuice)
 - 25/11 14:32 · [low] US durable goods orders up 0.2% in October (breakingthenews.net)
 - 25/11 14:31 · [low] US Unemployment Insurance Weekly Claims (dol.gov)
@@ -84,12 +85,11 @@ Máximos iguales [] · mínimos iguales [25470.62]
 - 25/11 04:24 · [-] Trump leaves door open to Jensen Huang pardon &#x97; and urges him not to plead 5th to Congress next week (nypost.com)
 - 25/11 03:41 · [-] NZD/USD Outlook: Reversal Signals Emerge as AI Trade Falters (forex.com)
 - 25/11 02:55 · [-] AU: Inflation rises more than expected to 4.9pc in year to October (abc.net.au)
-- 25/11 02:05 · [-] US: Questions? We've Got Answers: Addressing Issues Impacting the Economic and Financial Outlook (economics.td.com)
 
 ## Estadísticas (últimos 47 días)
-Rango medio: 1026.4 pts (20d) · 1286.0 pts (5d)
+Rango medio: 1023.5 pts (20d) · 1285.1 pts (5d)
 Toma PDH 45 % · toma PDL 53 % · ambos 11 %
 Sesión del máximo: {'NY': 40, 'Asia': 38, 'otro': 15, 'Londres': 8} · del mínimo: {'NY': 35, 'Asia': 25, 'otro': 21, 'Londres': 19}
 Ayer fue un día: neutro
-tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 331.3}
-tras dia alcista fuerte: {'casos': 15, 'pct_toma_pdh': 73, 'pct_toma_pdl': 33, 'pct_cierra_abajo_de_apertura': 47, 'retroceso_medio_desde_apertura': 490.9}
+tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 328.4}
+tras dia alcista fuerte: {'casos': 15, 'pct_toma_pdh': 73, 'pct_toma_pdl': 33, 'pct_cierra_abajo_de_apertura': 47, 'retroceso_medio_desde_apertura': 486.9}

@@ -1,14 +1,14 @@
 {
-  "generado_utc": "2026-11-25 14:05",
-  "ultima_vela_ny": "2026-11-25 08:55",
-  "precio": 25450.25,
+  "generado_utc": "2026-11-25 14:11",
+  "ultima_vela_ny": "2026-11-25 09:00",
+  "precio": 25407.25,
   "dia_anterior": {
     "fecha": "2026-11-24",
     "PDH": 27036.0,
     "PDL": 25998.0,
     "cierre": 26266.0,
     "max_semana": 27137.0,
-    "min_semana": 25423.25
+    "min_semana": 25402.5
   },
   "sesiones": {
     "dia_trading": "2026-11-25",
@@ -23,7 +23,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26350.75,
-      "minimo": 25423.25
+      "minimo": 25402.5
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -46,28 +46,6 @@
       "fvg_abiertos": [
         {
           "tf": "4h",
-          "arriba": 30465.75,
-          "abajo": 30237.0,
-          "ce": 30351.38,
-          "tamano": 228.75,
-          "hora_ny": "2026-10-14 10:00",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "media"
-        },
-        {
-          "tf": "4h",
-          "arriba": 27891.0,
-          "abajo": 27378.0,
-          "ce": 27634.5,
-          "tamano": 513.0,
-          "hora_ny": "2026-11-09 09:00",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 16/11 13:00",
-          "importancia": "media"
-        },
-        {
-          "tf": "4h",
           "arriba": 27641.5,
           "abajo": 26928.25,
           "ce": 27284.88,
@@ -76,6 +54,17 @@
           "tipo": "bajista",
           "estado": "tocado",
           "importancia": "alta"
+        },
+        {
+          "tf": "4h",
+          "arriba": 27641.5,
+          "abajo": 27562.25,
+          "ce": 27601.88,
+          "tamano": 79.25,
+          "hora_ny": "2026-11-19 01:00",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 19/11 09:00",
+          "importancia": "baja"
         },
         {
           "tf": "4h",
@@ -109,18 +98,29 @@
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "media"
+        },
+        {
+          "tf": "4h",
+          "arriba": 25580.0,
+          "abajo": 25438.0,
+          "ce": 25509.0,
+          "tamano": 142.0,
+          "hora_ny": "2026-11-25 05:00",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "media"
         }
       ],
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 27137.0,
-        "minimo": 25423.25,
+        "minimo": 25402.5,
         "hora_max": "2026-11-23 09:00",
-        "hora_min": "2026-11-25 05:00",
-        "50": 26280.12,
-        "62": 26485.78,
-        "70.5": 26631.44,
-        "79": 26777.11,
+        "hora_min": "2026-11-25 09:00",
+        "50": 26269.75,
+        "62": 26477.89,
+        "70.5": 26625.32,
+        "79": 26772.76,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -164,7 +164,7 @@
           "hora_ny": "2026-11-19 10:00",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "alta"
+          "importancia": "media"
         },
         {
           "tf": "1h",
@@ -212,11 +212,11 @@
         },
         {
           "tf": "1h",
-          "arriba": 25737.75,
-          "abajo": 25710.75,
-          "ce": 25724.25,
-          "tamano": 27.0,
-          "hora_ny": "2026-11-25 04:00",
+          "arriba": 25470.5,
+          "abajo": 25438.0,
+          "ce": 25454.25,
+          "tamano": 32.5,
+          "hora_ny": "2026-11-25 08:00",
           "tipo": "bajista",
           "estado": "virgen",
           "importancia": "media"
@@ -236,13 +236,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 26350.75,
-        "minimo": 25423.25,
+        "minimo": 25402.5,
         "hora_max": "2026-11-24 18:00",
-        "hora_min": "2026-11-25 08:00",
-        "50": 25887.0,
-        "62": 25998.3,
-        "70.5": 26077.14,
-        "79": 26155.97,
+        "hora_min": "2026-11-25 09:00",
+        "50": 25876.62,
+        "62": 25990.42,
+        "70.5": 26071.02,
+        "79": 26151.62,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -459,8 +459,8 @@
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 1026.4,
-    "rango_medio_5d": 1286.0,
+    "rango_medio_20d": 1023.5,
+    "rango_medio_5d": 1285.1,
     "pct_dias_toman_pdh": 45,
     "pct_dias_toman_pdl": 53,
     "pct_dias_toman_ambos": 11,
@@ -481,14 +481,14 @@
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 331.3
+      "rebote_medio_desde_apertura": 328.4
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 73,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 47,
-      "retroceso_medio_desde_apertura": 490.9
+      "retroceso_medio_desde_apertura": 486.9
     },
     "dia_anterior_tipo": "neutro"
   },
@@ -523,6 +523,12 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "25/11 15:08",
+      "titular": "US inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed",
+      "fuente": "apnews.com",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "25/11 14:38",
       "titular": "USTR Greer: Tariff rates won't go into effect for a couple months",
@@ -665,12 +671,6 @@
       "hora_alemania": "25/11 02:55",
       "titular": "AU: Inflation rises more than expected to 4.9pc in year to October",
       "fuente": "abc.net.au",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 02:05",
-      "titular": "US: Questions? We've Got Answers: Addressing Issues Impacting the Economic and Financial Outlook",
-      "fuente": "economics.td.com",
       "impacto": "-"
     }
   ]
