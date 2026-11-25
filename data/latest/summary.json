@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-11-25 07:05",
-  "ultima_vela_ny": "2026-11-25 01:55",
-  "precio": 25849.0,
+  "generado_utc": "2026-11-25 07:35",
+  "ultima_vela_ny": "2026-11-25 02:25",
+  "precio": 25729.0,
   "dia_anterior": {
     "fecha": "2026-11-24",
     "PDH": 27036.0,
@@ -16,11 +16,14 @@
       "maximo": 26246.0,
       "minimo": 25904.5
     },
-    "londres": null,
+    "londres": {
+      "maximo": 25880.0,
+      "minimo": 25722.0
+    },
     "ny_am": null,
     "overnight": {
       "maximo": 26350.75,
-      "minimo": 25847.5
+      "minimo": 25722.0
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -111,13 +114,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 27137.0,
-        "minimo": 25847.5,
+        "minimo": 25722.0,
         "hora_max": "2026-11-23 09:00",
         "hora_min": "2026-11-25 01:00",
-        "50": 26492.25,
-        "62": 26646.99,
-        "70.5": 26756.6,
-        "79": 26866.21,
+        "50": 26429.5,
+        "62": 26599.3,
+        "70.5": 26719.58,
+        "79": 26839.85,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -128,7 +131,7 @@
     "1h": {
       "estructura": {
         "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 25998.00 (24/11 21:00 NY)",
+        "evento": "BOS bajista: cierre por debajo de 25824.00 (25/11 02:00 NY)",
         "ultimos_swing_high": [
           26949.5,
           26509.75,
@@ -233,13 +236,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 26350.75,
-        "minimo": 25847.5,
+        "minimo": 25722.0,
         "hora_max": "2026-11-24 18:00",
-        "hora_min": "2026-11-25 01:00",
-        "50": 26099.12,
-        "62": 26159.51,
-        "70.5": 26202.29,
-        "79": 26245.07,
+        "hora_min": "2026-11-25 02:00",
+        "50": 26036.38,
+        "62": 26111.83,
+        "70.5": 26165.27,
+        "79": 26218.71,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -252,7 +255,7 @@
     "15m": {
       "estructura": {
         "tendencia": "bajista · LH y LL",
-        "evento": "BOS bajista: cierre por debajo de 25853.50 (25/11 01:45 NY)",
+        "evento": "BOS bajista: cierre por debajo de 25824.00 (25/11 02:15 NY)",
         "ultimos_swing_high": [
           26350.75,
           26246.0,
@@ -318,7 +321,7 @@
           "hora_ny": "2026-11-24 20:45",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -339,7 +342,7 @@
           "tamano": 90.0,
           "hora_ny": "2026-11-22 22:00",
           "tipo": "alcista",
-          "estado": "tocado",
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
           "importancia": "alta"
         },
         {
@@ -389,7 +392,7 @@
     "5m": {
       "estructura": {
         "tendencia": "bajista · HH y HL",
-        "evento": "BOS bajista: cierre por debajo de 25860.50 (25/11 01:55 NY)",
+        "evento": "BOS bajista: cierre por debajo de 25814.25 (25/11 02:25 NY)",
         "ultimos_swing_high": [
           25975.5,
           25925.25,
@@ -426,17 +429,6 @@
         },
         {
           "tf": "5m",
-          "arriba": 25982.0,
-          "abajo": 25977.0,
-          "ce": 25979.5,
-          "tamano": 5.0,
-          "hora_ny": "2026-11-24 23:35",
-          "tipo": "bajista",
-          "estado": "virgen",
-          "importancia": "baja"
-        },
-        {
-          "tf": "5m",
           "arriba": 25932.0,
           "abajo": 25916.25,
           "ce": 25924.12,
@@ -448,25 +440,14 @@
         },
         {
           "tf": "5m",
-          "arriba": 25932.0,
-          "abajo": 25911.5,
-          "ce": 25921.75,
-          "tamano": 20.5,
-          "hora_ny": "2026-11-25 01:10",
-          "tipo": "IFVG bajista",
-          "estado": "invertido 25/11 01:20",
-          "importancia": "media"
-        },
-        {
-          "tf": "5m",
-          "arriba": 25875.0,
-          "abajo": 25866.75,
-          "ce": 25870.88,
-          "tamano": 8.25,
-          "hora_ny": "2026-11-25 01:50",
+          "arriba": 25832.75,
+          "abajo": 25801.75,
+          "ce": 25817.25,
+          "tamano": 31.0,
+          "hora_ny": "2026-11-25 02:15",
           "tipo": "bajista",
           "estado": "virgen",
-          "importancia": "media"
+          "importancia": "alta"
         },
         {
           "tf": "5m",
@@ -475,8 +456,30 @@
           "ce": 25796.88,
           "tamano": 36.75,
           "hora_ny": "2026-11-22 22:10",
+          "tipo": "IFVG bajista",
+          "estado": "invertido 25/11 02:20",
+          "importancia": "media"
+        },
+        {
+          "tf": "5m",
+          "arriba": 25786.25,
+          "abajo": 25744.25,
+          "ce": 25765.25,
+          "tamano": 42.0,
+          "hora_ny": "2026-11-25 02:20",
+          "tipo": "bajista",
+          "estado": "virgen",
+          "importancia": "alta"
+        },
+        {
+          "tf": "5m",
+          "arriba": 25747.25,
+          "abajo": 25725.25,
+          "ce": 25736.25,
+          "tamano": 22.0,
+          "hora_ny": "2026-11-22 22:00",
           "tipo": "alcista",
-          "estado": "tocado",
+          "estado": "barrido (mecha lo atravesó, sin cierre)",
           "importancia": "media"
         },
         {
@@ -588,6 +591,12 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "25/11 08:27",
+      "titular": "German GDP: detailed results on economic performance in the 3rd quarter of 2026",
+      "fuente": "destatis.de",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "25/11 07:47",
       "titular": "Gold rises from 14-month low as markets await US inflation data",
@@ -731,12 +740,6 @@
       "titular": "Trump shares meme of Jensen Huang raising red bra in air",
       "fuente": "thehill.com",
       "impacto": "-"
-    },
-    {
-      "hora_alemania": "24/11 17:23",
-      "titular": "Trump Has't Made Final Decision On Next Steps In Iran War; Trump Considering A Range Of Options On Iran: NBC",
-      "fuente": "@zerohedge",
-      "impacto": "low"
     }
   ]
 }
