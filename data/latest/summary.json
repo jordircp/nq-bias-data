@@ -1,14 +1,14 @@
 {
-  "generado_utc": "2026-11-25 14:11",
-  "ultima_vela_ny": "2026-11-25 09:00",
-  "precio": 25407.25,
+  "generado_utc": "2026-11-25 14:35",
+  "ultima_vela_ny": "2026-11-25 09:25",
+  "precio": 25439.5,
   "dia_anterior": {
     "fecha": "2026-11-24",
     "PDH": 27036.0,
     "PDL": 25998.0,
     "cierre": 26266.0,
     "max_semana": 27137.0,
-    "min_semana": 25402.5
+    "min_semana": 25393.75
   },
   "sesiones": {
     "dia_trading": "2026-11-25",
@@ -23,7 +23,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26350.75,
-      "minimo": 25402.5
+      "minimo": 25393.75
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -102,9 +102,9 @@
         {
           "tf": "4h",
           "arriba": 25580.0,
-          "abajo": 25438.0,
-          "ce": 25509.0,
-          "tamano": 142.0,
+          "abajo": 25463.5,
+          "ce": 25521.75,
+          "tamano": 116.5,
           "hora_ny": "2026-11-25 05:00",
           "tipo": "bajista",
           "estado": "virgen",
@@ -114,13 +114,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 27137.0,
-        "minimo": 25402.5,
+        "minimo": 25393.75,
         "hora_max": "2026-11-23 09:00",
         "hora_min": "2026-11-25 09:00",
-        "50": 26269.75,
-        "62": 26477.89,
-        "70.5": 26625.32,
-        "79": 26772.76,
+        "50": 26265.38,
+        "62": 26474.56,
+        "70.5": 26622.74,
+        "79": 26770.92,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -213,9 +213,9 @@
         {
           "tf": "1h",
           "arriba": 25470.5,
-          "abajo": 25438.0,
-          "ce": 25454.25,
-          "tamano": 32.5,
+          "abajo": 25463.5,
+          "ce": 25467.0,
+          "tamano": 7.0,
           "hora_ny": "2026-11-25 08:00",
           "tipo": "bajista",
           "estado": "virgen",
@@ -236,13 +236,13 @@
       "fibonacci": {
         "direccion": "bajista (máximo → mínimo)",
         "maximo": 26350.75,
-        "minimo": 25402.5,
+        "minimo": 25393.75,
         "hora_max": "2026-11-24 18:00",
         "hora_min": "2026-11-25 09:00",
-        "50": 25876.62,
-        "62": 25990.42,
-        "70.5": 26071.02,
-        "79": 26151.62,
+        "50": 25872.25,
+        "62": 25987.09,
+        "70.5": 26068.44,
+        "79": 26149.78,
         "precio_en": "discount"
       },
       "liquidez_iguales": {
@@ -257,9 +257,9 @@
         "tendencia": "bajista · LH y LL",
         "evento": "BOS bajista: cierre por debajo de 25470.50 (25/11 08:30 NY)",
         "ultimos_swing_high": [
-          26246.0,
           26090.5,
-          25915.0
+          25915.0,
+          25587.75
         ],
         "ultimos_swing_low": [
           25637.25,
@@ -375,9 +375,9 @@
           25587.75
         ],
         "ultimos_swing_low": [
-          25470.5,
           25497.0,
-          25470.0
+          25470.0,
+          25393.75
         ]
       },
       "fvg_abiertos": [
@@ -459,8 +459,8 @@
   },
   "estadisticas": {
     "dias_analizados": 47,
-    "rango_medio_20d": 1023.5,
-    "rango_medio_5d": 1285.1,
+    "rango_medio_20d": 1026.4,
+    "rango_medio_5d": 1286.0,
     "pct_dias_toman_pdh": 45,
     "pct_dias_toman_pdl": 53,
     "pct_dias_toman_ambos": 11,
@@ -481,14 +481,14 @@
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 328.4
+      "rebote_medio_desde_apertura": 331.3
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 73,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 47,
-      "retroceso_medio_desde_apertura": 486.9
+      "retroceso_medio_desde_apertura": 490.9
     },
     "dia_anterior_tipo": "neutro"
   },
@@ -523,6 +523,30 @@
   ],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "25/11 15:30",
+      "titular": "BoE Gov. Bailey: Flow of crude through the strait is approaching back to where it was, future unpredictable",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "25/11 15:22",
+      "titular": "Dhingra: Annual Report to the Treasury Select Committee",
+      "fuente": "bankofengland.co.uk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "25/11 15:22",
+      "titular": "Lombardelli: Annual report to the Treasury Select Committee",
+      "fuente": "bankofengland.co.uk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "25/11 15:20",
+      "titular": "BoE Governor Andrew Bailey Testifies Before UK Treasury Committee on Rate Hike",
+      "fuente": "youtube.com/dwsofficial",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "25/11 15:08",
       "titular": "US inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed",
@@ -647,30 +671,6 @@
       "hora_alemania": "25/11 05:59",
       "titular": "Iran's Judiciary Puts Price Tag On US 'War Reparations' Demand: $290 Billion",
       "fuente": "zerohedge.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 05:12",
-      "titular": "Forex Technical Cross Pairs Analysis | November 24, 2026",
-      "fuente": "fxdailyreport.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 04:24",
-      "titular": "Trump leaves door open to Jensen Huang pardon &#x97; and urges him not to plead 5th to Congress next week",
-      "fuente": "nypost.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 03:41",
-      "titular": "NZD/USD Outlook: Reversal Signals Emerge as AI Trade Falters",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 02:55",
-      "titular": "AU: Inflation rises more than expected to 4.9pc in year to October",
-      "fuente": "abc.net.au",
       "impacto": "-"
     }
   ]
