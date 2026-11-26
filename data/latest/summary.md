@@ -6,7 +6,7 @@ Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE
 
 Día anterior (2026-11-25): PDH 26350.75 · PDL 25027.5 · cierre 26000.5 · semana 25027.5–27137.0
 - asia: 26195.75 – 26436.0
-- overnight: 26007.0 – 26436.0
+- overnight: 25997.5 – 26436.0
 
 ## 4h: bajista · HH y LL · CHoCH/MSS bajista: cierre por debajo de 25998.00 (24/11 21:00 NY)
 Swing highs [27838.0, 26504.25, 27137.0] · swing lows [24976.5, 25998.0, 25027.5]
@@ -17,7 +17,7 @@ Fib bajista (máximo → mínimo): 25027.5–27137.0 · 50 % 26082.25 · OTE 263
 - FVG bajista 26574.5–26707.0 (CE 26640.75, virgen, importancia media, 2026-11-24 01:00)
 - IFVG bajista 26102.25–26450.25 (CE 26276.25, invertido 24/11 17:00, importancia alta, 2026-11-23 05:00)
 - FVG alcista 26169.5–26230.0 (CE 26199.75, virgen, importancia media, 2026-11-25 17:00)
-- FVG alcista 25812.25–26007.0 (CE 25909.62, virgen, importancia media, 2026-11-25 13:00)
+- FVG alcista 25812.25–25997.5 (CE 25904.88, virgen, importancia media, 2026-11-25 13:00)
 - IFVG alcista 25710.75–25869.75 (CE 25790.25, invertido 25/11 13:00, importancia baja, 2026-11-25 01:00)
 
 ## 1h: alcista · LH y LL · CHoCH/MSS alcista: cierre por encima de 26350.75 (25/11 23:00 NY)
@@ -41,9 +41,9 @@ Swing highs [26169.5, 26356.0, 26372.75] · swing lows [25061.25, 25900.75, 2598
 - FVG bajista 26617.0–26690.0 (CE 26653.5, tocado, importancia alta, 2026-11-24 03:45)
 - FVG bajista 26400.5–26490.5 (CE 26445.5, barrido (mecha lo atravesó, sin cierre), importancia alta, 2026-11-24 05:30)
 - FVG alcista 26357.25–26364.75 (CE 26361.0, virgen, importancia media, 2026-11-25 23:00)
-- FVG alcista 26239.25–26271.25 (CE 26255.25, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-25 20:00)
+- FVG alcista 26239.25–26271.25 (CE 26255.25, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-25 20:00)
 - IFVG alcista 26211.0–26237.5 (CE 26224.25, invertido 25/11 20:00, importancia baja, 2026-11-24 18:30)
-- IFVG alcista 26132.5–26173.25 (CE 26152.88, invertido 25/11 19:00, importancia media, 2026-11-24 20:30)
+- IFVG alcista 26143.5–26173.25 (CE 26158.38, invertido 25/11 19:00, importancia baja, 2026-11-24 20:30)
 - FVG alcista 25779.25–25804.0 (CE 25791.62, virgen, importancia baja, 2026-11-25 13:15)
 - FVG alcista 25299.25–25479.0 (CE 25389.12, virgen, importancia alta, 2026-11-25 12:00)
 
@@ -65,6 +65,8 @@ Máximos iguales [26356.62] · mínimos iguales []
 Sin eventos de impacto alto o medio.
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 26/11 08:09 · [low] China's foreign ministry, on US tariffs announcement: China will continue to take necessary measures to safeguard its rights and interests (@financialjuice)
+- 26/11 08:08 · [low] German Consumer Climate: Little Boost for Christmas Shopping (nim.org)
 - 26/11 07:15 · [-] SpaceX, Elon Musk to give one share each to active Trump Accounts (finance.yahoo.com)
 - 26/11 06:14 · [low] BOJ Board Member Tamura Signals Potential for 25-BPS Rate Hikes at Intervals of Several Months (@FirstSquawk)
 - 26/11 05:59 · [-] Sweden: Is the Riksbank Behind the Curve? (gerlachmacro.substack.com)
@@ -88,13 +90,11 @@ Sin eventos de impacto alto o medio.
 - 25/11 19:25 · [-] Europe Is Running Out of Options (macroanchor.substack.com)
 - 25/11 18:46 · [-] Fed's favored inflation gauge heats up, solidifying a rate hike in December, with more likely next year (finance.yahoo.com)
 - 25/11 18:15 · [low] Trump: Stocks are down sharply because of the November Third Election results (@realDonaldTrump)
-- 25/11 18:09 · [low] EIA: US gas inventories down by 24 billion cubic feet (breakingthenews.net)
-- 25/11 17:54 · [-] Ranked: Every Country by GDP Growth in 2026 (visualcapitalist.com)
 
 ## Estadísticas (últimos 48 días)
-Rango medio: 1067.3 pts (20d) · 1413.0 pts (5d)
+Rango medio: 1064.5 pts (20d) · 1413.0 pts (5d)
 Toma PDH 44 % · toma PDL 54 % · ambos 10 %
 Sesión del máximo: {'NY': 39, 'Asia': 39, 'otro': 14, 'Londres': 8} · del mínimo: {'NY': 35, 'Asia': 24, 'otro': 22, 'Londres': 18}
 Ayer fue un día: neutro
-tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 331.3}
-tras dia alcista fuerte: {'casos': 15, 'pct_toma_pdh': 73, 'pct_toma_pdl': 33, 'pct_cierra_abajo_de_apertura': 47, 'retroceso_medio_desde_apertura': 490.9}
+tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 328.4}
+tras dia alcista fuerte: {'casos': 15, 'pct_toma_pdh': 73, 'pct_toma_pdl': 33, 'pct_cierra_abajo_de_apertura': 47, 'retroceso_medio_desde_apertura': 486.9}
