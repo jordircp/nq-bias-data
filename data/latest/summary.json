@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-26 13:48",
+  "generado_utc": "2026-11-26 14:05",
   "ultima_vela_ny": "2026-11-25 23:55",
   "precio": 26389.75,
   "dia_anterior": {
@@ -590,6 +590,12 @@
   "calendario_semana": [],
   "noticias_24h": [
     {
+      "hora_alemania": "26/11 14:55",
+      "titular": "South Korea&#x92;s central bank raises key interest rate to fight inflation",
+      "fuente": "apnews.com",
+      "impacto": "-"
+    },
+    {
       "hora_alemania": "26/11 14:32",
       "titular": "Trump: Stocks are down sharply because of the November Third Election results",
       "fuente": "@realDonaldTrump",
@@ -603,7 +609,7 @@
     },
     {
       "hora_alemania": "26/11 14:30",
-      "titular": "Pablo Hernndez de Cos is going to be the next ECB president - FT",
+      "titular": "Pablo Hernandez de Cos is going to be the next ECB president - FT",
       "fuente": "@financialjuice",
       "impacto": "low"
     },
@@ -731,12 +737,6 @@
       "hora_alemania": "26/11 05:59",
       "titular": "Sweden: Is the Riksbank Behind the Curve?",
       "fuente": "gerlachmacro.substack.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 05:14",
-      "titular": "America&#x92;s Largest Company by Revenue, Every Year Since 1955",
-      "fuente": "visualcapitalist.com",
       "impacto": "-"
     }
   ]

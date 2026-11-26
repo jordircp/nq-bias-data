@@ -65,9 +65,10 @@ Máximos iguales [26356.62] · mínimos iguales []
 Sin eventos de impacto alto o medio.
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 26/11 14:55 · [-] South Korea&#x92;s central bank raises key interest rate to fight inflation (apnews.com)
 - 26/11 14:32 · [low] Trump: Stocks are down sharply because of the November Third Election results (@realDonaldTrump)
 - 26/11 14:31 · [-] $1 Million Lotto Winner Arrested by ICE After Posing With Oversized Check (tmz.com)
-- 26/11 14:30 · [low] Pablo Hernndez de Cos is going to be the next ECB president - FT (@financialjuice)
+- 26/11 14:30 · [low] Pablo Hernandez de Cos is going to be the next ECB president - FT (@financialjuice)
 - 26/11 14:15 · [-] Beyond banks: what non-banks do (and don&#x92;t do) to monetary policy (bankunderground.co.uk)
 - 26/11 13:32 · [low] Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Frankfurt am Main on Wednesday and Thursday, 28-2 (ecb.europa.eu)
 - 26/11 13:31 · [-] U.S. tariff-hike threats pile pressure on partners to sign trade deals (cnbc.com)
@@ -89,7 +90,6 @@ Sin eventos de impacto alto o medio.
 - 26/11 07:15 · [-] SpaceX, Elon Musk to give one share each to active Trump Accounts (finance.yahoo.com)
 - 26/11 06:14 · [low] BOJ Board Member Tamura Signals Potential for 25-BPS Rate Hikes at Intervals of Several Months (@FirstSquawk)
 - 26/11 05:59 · [-] Sweden: Is the Riksbank Behind the Curve? (gerlachmacro.substack.com)
-- 26/11 05:14 · [-] America&#x92;s Largest Company by Revenue, Every Year Since 1955 (visualcapitalist.com)
 
 ## Estadísticas (últimos 48 días)
 Rango medio: 1064.5 pts (20d) · 1413.0 pts (5d)
