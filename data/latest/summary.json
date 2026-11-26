@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-26 07:35",
+  "generado_utc": "2026-11-26 13:48",
   "ultima_vela_ny": "2026-11-25 23:55",
   "precio": 26389.75,
   "dia_anterior": {
@@ -590,6 +590,120 @@
   "calendario_semana": [],
   "noticias_24h": [
     {
+      "hora_alemania": "26/11 14:32",
+      "titular": "Trump: Stocks are down sharply because of the November Third Election results",
+      "fuente": "@realDonaldTrump",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 14:31",
+      "titular": "$1 Million Lotto Winner Arrested by ICE After Posing With Oversized Check",
+      "fuente": "tmz.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 14:30",
+      "titular": "Pablo Hernndez de Cos is going to be the next ECB president - FT",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 14:15",
+      "titular": "Beyond banks: what non-banks do (and don&#x92;t do) to monetary policy",
+      "fuente": "bankunderground.co.uk",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 13:32",
+      "titular": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Frankfurt am Main on Wednesday and Thursday, 28-2",
+      "fuente": "ecb.europa.eu",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 13:31",
+      "titular": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 13:03",
+      "titular": "ECB Pres Lagarde Told EU Leaders: AI One Reason Why Economy Has Held Up",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 13:01",
+      "titular": "Bank Of England's Bailey: We Cannot Forget About Risks Of Quantum Computing That Are Coming Down The Track While We Focus On AI Risks",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 12:47",
+      "titular": "CMC Markets Profit Jumps 115% to \\u00a3106 Million on B2B Growth",
+      "fuente": "financefeeds.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 12:07",
+      "titular": "OPEC+ members are reportedly discussing the potential extension of current production quotas into January",
+      "fuente": "@NodeWire",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 12:02",
+      "titular": "Italy's PM Meloni: We're light-years away from resolving issue of EU budget",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 11:55",
+      "titular": "EUR/USD Faces Thin Thanksgiving Trading as Market Uncertainty Persists",
+      "fuente": "dailyforex.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 11:40",
+      "titular": "BOE Financial Policy Committee Record &#x96; November 2026",
+      "fuente": "bankofengland.co.uk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 11:36",
+      "titular": "BOE Financial Stability Report - November 2026",
+      "fuente": "bankofengland.co.uk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 10:57",
+      "titular": "China says reserves right to take 'measures' after new US tariffs",
+      "fuente": "channelnewsasia.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 10:24",
+      "titular": "Germany's Merz Says We're Only At The Beginning In EU Budget Talks",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 10:01",
+      "titular": "Monetary developments in the euro area: October 2026",
+      "fuente": "ecb.europa.eu",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "26/11 09:22",
+      "titular": "BOJ's net income shrinks as interest payments on excess reserves grow",
+      "fuente": "channelnewsasia.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 08:50",
+      "titular": "EU's Sefcovic Says Will Communicate Directly With US Trade Officials On Monday",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
       "hora_alemania": "26/11 08:09",
       "titular": "China's foreign ministry, on US tariffs announcement: China will continue to take necessary measures to safeguard its rights and interests",
       "fuente": "@financialjuice",
@@ -624,120 +738,6 @@
       "titular": "America&#x92;s Largest Company by Revenue, Every Year Since 1955",
       "fuente": "visualcapitalist.com",
       "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 04:27",
-      "titular": "Trump tariffs 2027: a new threat to inflation and US stocks",
-      "fuente": "equiti.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 03:44",
-      "titular": "BOJ's Tamura signals chance of faster-pace interest rate hikes",
-      "fuente": "channelnewsasia.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 02:58",
-      "titular": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
-      "fuente": "cnbc.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 02:11",
-      "titular": "USD/CHF Outlook: Swiss Franc Surges as AI Trade Capitulates and SNB Bets Shift",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 02:01",
-      "titular": "BOJ Tamura: Economic Activity, Prices, and Monetary Policy in Japan",
-      "fuente": "boj.or.jp",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 01:31",
-      "titular": "Private New Capital Expenditure and Expected Expenditure, Australia, September 2026",
-      "fuente": "abs.gov.au",
-      "impacto": "medium"
-    },
-    {
-      "hora_alemania": "26/11 01:30",
-      "titular": "RBA Bulletin November 2026",
-      "fuente": "rba.gov.au",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 01:25",
-      "titular": "US: Our Rate-Hike Economy: Sizzling Private-Sector Economic Growth, Hot Inflation",
-      "fuente": "wolfstreet.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 00:39",
-      "titular": "Rates Spark: No risk appetite for Thanksgiving dinner",
-      "fuente": "think.ing.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 23:49",
-      "titular": "Gold Outlook: Dollar fatigue opens the door to a squeeze",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 23:00",
-      "titular": "Bank of Canada expected to hike interest rate next month, economists say",
-      "fuente": "globalnews.ca",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 22:15",
-      "titular": "PU Prime Named Best Multi-Asset Broker at the Global Business &amp; Finance Magazine Awards",
-      "fuente": "financefeeds.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 21:30",
-      "titular": "China&#x92;s Schr\\u00f6dinger surplus",
-      "fuente": "omfif.org",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 20:45",
-      "titular": "US proposes new tariffs on 14 trading partners &#x97; including China, Japan, EU and India",
-      "fuente": "nypost.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 20:00",
-      "titular": "US Beige Book - November 2026",
-      "fuente": "federalreserve.gov",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "25/11 19:58",
-      "titular": "PrimeXBT Becomes a Verified TradingView Broker, Bringing Direct Trading to TradingView Platform",
-      "fuente": "financefeeds.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 19:25",
-      "titular": "Europe Is Running Out of Options",
-      "fuente": "macroanchor.substack.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 18:46",
-      "titular": "Fed's favored inflation gauge heats up, solidifying a rate hike in December, with more likely next year",
-      "fuente": "finance.yahoo.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "25/11 18:15",
-      "titular": "Trump: Stocks are down sharply because of the November Third Election results",
-      "fuente": "@realDonaldTrump",
-      "impacto": "low"
     }
   ]
 }
