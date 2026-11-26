@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-26 14:35",
+  "generado_utc": "2026-11-26 19:33",
   "ultima_vela_ny": "2026-11-25 23:55",
   "precio": 26389.75,
   "dia_anterior": {
@@ -20,7 +20,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26436.0,
-      "minimo": 26007.0
+      "minimo": 25997.5
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -109,10 +109,10 @@
         },
         {
           "tf": "4h",
-          "arriba": 26007.0,
+          "arriba": 25997.5,
           "abajo": 25812.25,
-          "ce": 25909.62,
-          "tamano": 194.75,
+          "ce": 25904.88,
+          "tamano": 185.25,
           "hora_ny": "2026-11-25 13:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -362,7 +362,7 @@
           "hora_ny": "2026-11-25 20:00",
           "tipo": "alcista",
           "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -378,13 +378,13 @@
         {
           "tf": "15m",
           "arriba": 26173.25,
-          "abajo": 26132.5,
-          "ce": 26152.88,
-          "tamano": 40.75,
+          "abajo": 26143.5,
+          "ce": 26158.38,
+          "tamano": 29.75,
           "hora_ny": "2026-11-24 20:30",
           "tipo": "IFVG alcista",
           "estado": "invertido 25/11 19:00",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -553,7 +553,7 @@
   },
   "estadisticas": {
     "dias_analizados": 48,
-    "rango_medio_20d": 1067.3,
+    "rango_medio_20d": 1064.5,
     "rango_medio_5d": 1413.0,
     "pct_dias_toman_pdh": 44,
     "pct_dias_toman_pdl": 54,
@@ -575,14 +575,14 @@
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 331.3
+      "rebote_medio_desde_apertura": 328.4
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 73,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 47,
-      "retroceso_medio_desde_apertura": 490.9
+      "retroceso_medio_desde_apertura": 486.9
     },
     "dia_anterior_tipo": "neutro"
   },
@@ -590,21 +590,51 @@
   "calendario_semana": [],
   "noticias_24h": [
     {
-      "hora_alemania": "26/11 14:55",
-      "titular": "South Korea&#x92;s central bank raises key interest rate to fight inflation",
-      "fuente": "apnews.com",
+      "hora_alemania": "26/11 19:46",
+      "titular": "British Pound: Stabilization hints at further progress &#x96; Scotiabank",
+      "fuente": "fxstreet.com",
       "impacto": "-"
     },
     {
-      "hora_alemania": "26/11 14:32",
-      "titular": "Trump: Stocks are down sharply because of the November Third Election results",
+      "hora_alemania": "26/11 18:41",
+      "titular": "Trump demands probe of GDP data released before midterms",
+      "fuente": "channelnewsasia.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 17:55",
+      "titular": "OPEC Mulls Sticking with Current Quotas",
+      "fuente": "rigzone.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 17:05",
+      "titular": "Spain&#x92;s Pablo Hern\\u00e1ndez de Cos set to lead European Central Bank",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 16:22",
+      "titular": "US Dollar Rally Stalls at Resistance as Bearish December Nears",
+      "fuente": "youtube.com/stonex_official",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 16:05",
+      "titular": "Trump: I would like to see President Putin pull back all Military aggression against territories throughout Europe",
       "fuente": "@realDonaldTrump",
       "impacto": "low"
     },
     {
-      "hora_alemania": "26/11 14:31",
-      "titular": "$1 Million Lotto Winner Arrested by ICE After Posing With Oversized Check",
-      "fuente": "tmz.com",
+      "hora_alemania": "26/11 15:50",
+      "titular": "How The Fed Should Talk About Inflation",
+      "fuente": "robinjbrooks.substack.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "26/11 14:55",
+      "titular": "South Korea&#x92;s central bank raises key interest rate to fight inflation",
+      "fuente": "apnews.com",
       "impacto": "-"
     },
     {
@@ -708,36 +738,6 @@
       "titular": "EU's Sefcovic Says Will Communicate Directly With US Trade Officials On Monday",
       "fuente": "@FirstSquawk",
       "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 08:09",
-      "titular": "China's foreign ministry, on US tariffs announcement: China will continue to take necessary measures to safeguard its rights and interests",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 08:08",
-      "titular": "German Consumer Climate: Little Boost for Christmas Shopping",
-      "fuente": "nim.org",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 07:15",
-      "titular": "SpaceX, Elon Musk to give one share each to active Trump Accounts",
-      "fuente": "finance.yahoo.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 06:14",
-      "titular": "BOJ Board Member Tamura Signals Potential for 25-BPS Rate Hikes at Intervals of Several Months",
-      "fuente": "@FirstSquawk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 05:59",
-      "titular": "Sweden: Is the Riksbank Behind the Curve?",
-      "fuente": "gerlachmacro.substack.com",
-      "impacto": "-"
     }
   ]
 }
