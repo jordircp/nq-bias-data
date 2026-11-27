@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-27 14:05",
+  "generado_utc": "2026-11-27 14:35",
   "ultima_vela_ny": "2026-11-25 23:55",
   "precio": 26389.75,
   "dia_anterior": {
@@ -20,7 +20,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26436.0,
-      "minimo": 26007.0
+      "minimo": 25997.5
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -109,10 +109,10 @@
         },
         {
           "tf": "4h",
-          "arriba": 26007.0,
+          "arriba": 25997.5,
           "abajo": 25812.25,
-          "ce": 25909.62,
-          "tamano": 194.75,
+          "ce": 25904.88,
+          "tamano": 185.25,
           "hora_ny": "2026-11-25 13:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -362,7 +362,7 @@
           "hora_ny": "2026-11-25 20:00",
           "tipo": "alcista",
           "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -378,13 +378,13 @@
         {
           "tf": "15m",
           "arriba": 26173.25,
-          "abajo": 26132.5,
-          "ce": 26152.88,
-          "tamano": 40.75,
+          "abajo": 26143.5,
+          "ce": 26158.38,
+          "tamano": 29.75,
           "hora_ny": "2026-11-24 20:30",
           "tipo": "IFVG alcista",
           "estado": "invertido 25/11 19:00",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -552,37 +552,37 @@
     }
   },
   "estadisticas": {
-    "dias_analizados": 48,
-    "rango_medio_20d": 1067.3,
+    "dias_analizados": 47,
+    "rango_medio_20d": 1064.5,
     "rango_medio_5d": 1413.0,
-    "pct_dias_toman_pdh": 44,
-    "pct_dias_toman_pdl": 54,
-    "pct_dias_toman_ambos": 10,
+    "pct_dias_toman_pdh": 43,
+    "pct_dias_toman_pdl": 55,
+    "pct_dias_toman_ambos": 11,
     "sesion_del_maximo_pct": {
-      "NY": 39,
-      "Asia": 39,
-      "otro": 14,
+      "NY": 40,
+      "Asia": 40,
+      "otro": 12,
       "Londres": 8
     },
     "sesion_del_minimo_pct": {
       "NY": 35,
-      "Asia": 24,
-      "otro": 22,
-      "Londres": 18
+      "Asia": 23,
+      "otro": 23,
+      "Londres": 19
     },
     "tras_dia_bajista_fuerte": {
       "casos": 11,
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 331.3
+      "rebote_medio_desde_apertura": 328.4
     },
     "tras_dia_alcista_fuerte": {
-      "casos": 15,
-      "pct_toma_pdh": 73,
-      "pct_toma_pdl": 33,
-      "pct_cierra_abajo_de_apertura": 47,
-      "retroceso_medio_desde_apertura": 490.9
+      "casos": 14,
+      "pct_toma_pdh": 71,
+      "pct_toma_pdl": 36,
+      "pct_cierra_abajo_de_apertura": 50,
+      "retroceso_medio_desde_apertura": 521.6
     },
     "dia_anterior_tipo": "neutro"
   },
