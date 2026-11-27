@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-27 07:05",
+  "generado_utc": "2026-11-27 07:35",
   "ultima_vela_ny": "2026-11-25 23:55",
   "precio": 26389.75,
   "dia_anterior": {
@@ -20,7 +20,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26436.0,
-      "minimo": 25997.5
+      "minimo": 26007.0
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -109,10 +109,10 @@
         },
         {
           "tf": "4h",
-          "arriba": 25997.5,
+          "arriba": 26007.0,
           "abajo": 25812.25,
-          "ce": 25904.88,
-          "tamano": 185.25,
+          "ce": 25909.62,
+          "tamano": 194.75,
           "hora_ny": "2026-11-25 13:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -362,7 +362,7 @@
           "hora_ny": "2026-11-25 20:00",
           "tipo": "alcista",
           "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "baja"
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -378,13 +378,13 @@
         {
           "tf": "15m",
           "arriba": 26173.25,
-          "abajo": 26143.5,
-          "ce": 26158.38,
-          "tamano": 29.75,
+          "abajo": 26132.5,
+          "ce": 26152.88,
+          "tamano": 40.75,
           "hora_ny": "2026-11-24 20:30",
           "tipo": "IFVG alcista",
           "estado": "invertido 25/11 19:00",
-          "importancia": "baja"
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -553,7 +553,7 @@
   },
   "estadisticas": {
     "dias_analizados": 48,
-    "rango_medio_20d": 1064.5,
+    "rango_medio_20d": 1067.3,
     "rango_medio_5d": 1413.0,
     "pct_dias_toman_pdh": 44,
     "pct_dias_toman_pdl": 54,
@@ -575,20 +575,26 @@
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 328.4
+      "rebote_medio_desde_apertura": 331.3
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 73,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 47,
-      "retroceso_medio_desde_apertura": 486.9
+      "retroceso_medio_desde_apertura": 490.9
     },
     "dia_anterior_tipo": "neutro"
   },
   "calendario_hoy": [],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "27/11 08:25",
+      "titular": "GBPJPY reverses from 207.00 for the third time",
+      "fuente": "fxpro.news",
+      "impacto": "-"
+    },
     {
       "hora_alemania": "27/11 07:18",
       "titular": "Americans Set To Put A Record $21 Billion Of Christmas On Buy-Now-Pay-Later... Mostly From Their Phones",
@@ -732,12 +738,6 @@
       "titular": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Frankfurt am Main on Wednesday and Thursday, 28-2",
       "fuente": "ecb.europa.eu",
       "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 13:31",
-      "titular": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-      "fuente": "cnbc.com",
-      "impacto": "-"
     }
   ]
 }
