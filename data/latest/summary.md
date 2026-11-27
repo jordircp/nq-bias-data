@@ -6,7 +6,7 @@ Reglas FVG: tocar o atravesar con mecha NO invalida; solo se invalida con CIERRE
 
 Día anterior (2026-11-25): PDH 26350.75 · PDL 25027.5 · cierre 26000.5 · semana 25027.5–27137.0
 - asia: 26195.75 – 26436.0
-- overnight: 26007.0 – 26436.0
+- overnight: 25997.5 – 26436.0
 
 ## 4h: bajista · HH y LL · CHoCH/MSS bajista: cierre por debajo de 25998.00 (24/11 21:00 NY)
 Swing highs [27838.0, 26504.25, 27137.0] · swing lows [24976.5, 25998.0, 25027.5]
@@ -17,7 +17,7 @@ Fib bajista (máximo → mínimo): 25027.5–27137.0 · 50 % 26082.25 · OTE 263
 - FVG bajista 26574.5–26707.0 (CE 26640.75, virgen, importancia media, 2026-11-24 01:00)
 - IFVG bajista 26102.25–26450.25 (CE 26276.25, invertido 24/11 17:00, importancia alta, 2026-11-23 05:00)
 - FVG alcista 26169.5–26230.0 (CE 26199.75, virgen, importancia media, 2026-11-25 17:00)
-- FVG alcista 25812.25–26007.0 (CE 25909.62, virgen, importancia media, 2026-11-25 13:00)
+- FVG alcista 25812.25–25997.5 (CE 25904.88, virgen, importancia media, 2026-11-25 13:00)
 - IFVG alcista 25710.75–25869.75 (CE 25790.25, invertido 25/11 13:00, importancia baja, 2026-11-25 01:00)
 
 ## 1h: alcista · LH y LL · CHoCH/MSS alcista: cierre por encima de 26350.75 (25/11 23:00 NY)
@@ -41,9 +41,9 @@ Swing highs [26169.5, 26356.0, 26372.75] · swing lows [25061.25, 25900.75, 2598
 - FVG bajista 26617.0–26690.0 (CE 26653.5, tocado, importancia alta, 2026-11-24 03:45)
 - FVG bajista 26400.5–26490.5 (CE 26445.5, barrido (mecha lo atravesó, sin cierre), importancia alta, 2026-11-24 05:30)
 - FVG alcista 26357.25–26364.75 (CE 26361.0, virgen, importancia media, 2026-11-25 23:00)
-- FVG alcista 26239.25–26271.25 (CE 26255.25, barrido (mecha lo atravesó, sin cierre), importancia media, 2026-11-25 20:00)
+- FVG alcista 26239.25–26271.25 (CE 26255.25, barrido (mecha lo atravesó, sin cierre), importancia baja, 2026-11-25 20:00)
 - IFVG alcista 26211.0–26237.5 (CE 26224.25, invertido 25/11 20:00, importancia baja, 2026-11-24 18:30)
-- IFVG alcista 26132.5–26173.25 (CE 26152.88, invertido 25/11 19:00, importancia media, 2026-11-24 20:30)
+- IFVG alcista 26143.5–26173.25 (CE 26158.38, invertido 25/11 19:00, importancia baja, 2026-11-24 20:30)
 - FVG alcista 25779.25–25804.0 (CE 25791.62, virgen, importancia baja, 2026-11-25 13:15)
 - FVG alcista 25299.25–25479.0 (CE 25389.12, virgen, importancia alta, 2026-11-25 12:00)
 
@@ -65,6 +65,22 @@ Máximos iguales [26356.62] · mínimos iguales []
 Sin eventos de impacto alto o medio.
 
 ## Titulares últimas 24 h (Forex Factory News, hora de Alemania, más recientes arriba)
+- 27/11 14:31 · [low] US Advance Economic Indicators Report - October 2026 (census.gov)
+- 27/11 14:30 · [low] Canada's balance of international payments, third quarter 2026 (statcan.gc.ca)
+- 27/11 14:11 · [low] ECB's Nagel: We Expect Inflation Durably Above 3% In 2027 (@DeItaone)
+- 27/11 13:30 · [-] ActivTrades Relaunches ActivPartner: A Partner Programme Built Around Each Partner's Business (financemagnates.com)
+- 27/11 13:18 · [low] ECB's Dolenc: Two Hikes To Date Aren't Enough To Tame Inflation (@FirstSquawk)
+- 27/11 13:06 · [low] PBOC vows to defuse risks and keep Yuan stable (@financialjuice)
+- 27/11 12:46 · [-] Firmer Stocks and Oil Leave the US Dollar Mixed (marctomarket.com)
+- 27/11 12:07 · [-] USD/JPY: Fed Rate Hike Expectations Keep Dollar Bulls in Control (dailyforex.com)
+- 27/11 11:36 · [-] ECB Consumer Expectations Survey results &#x96; October 2026 (ecb.europa.eu)
+- 27/11 11:35 · [low] Japan Considers 52% Capital Gains Tax On New Condo Flips - Yomiuri (@FirstSquawk)
+- 27/11 10:36 · [-] German unemployment at 6.2% in November (breakingthenews.net)
+- 27/11 09:33 · [-] Spain: Flash estimate of the Consumer Price Index (CPI) November 2026 (ine.es)
+- 27/11 08:51 · [low] In the third quarter of 2026, French GDP declined (-0.2% after 0.0%) (insee.fr)
+- 27/11 08:51 · [low] In the third quarter of 2026, salaried employment was stable over the quarter and down year-on-year (-0.3%). (insee.fr)
+- 27/11 08:49 · [low] In November 2026, French consumer prices are expected to increase by 2.9% year-on-year (insee.fr)
+- 27/11 08:47 · [low] French Household consumption of goods is stable in October 2026 (after -0.9%) (insee.fr)
 - 27/11 08:25 · [-] GBPJPY reverses from 207.00 for the third time (fxpro.news)
 - 27/11 07:18 · [-] Americans Set To Put A Record $21 Billion Of Christmas On Buy-Now-Pay-Later... Mostly From Their Phones (zerohedge.com)
 - 27/11 05:59 · [-] Trump demands probe into revision to gross domestic product data (upi.com)
@@ -74,27 +90,11 @@ Sin eventos de impacto alto o medio.
 - 27/11 02:45 · [-] Core inflation in Japan's capital accelerates in November (channelnewsasia.com)
 - 27/11 01:45 · [-] USD/JPY Weekly Outlook: Fed Hikes, AI Volatility and a Sleeping Yen (forex.com)
 - 27/11 00:53 · [low] Trump: Doesn't know if Putin will come to G20, adding that if he wanted to come, he can (@FirstSquawk)
-- 27/11 00:45 · [-] CMC Markets Profit More Than Doubles, but Shares Fall 11% (financemagnates.com)
-- 26/11 23:45 · [-] Tokyo CPI preview: core inflation seen jumping to 3% three weeks before BoJ decision (investinglive.com)
-- 26/11 22:45 · [-] India&#x92;s central bank repatriates another 60 tonnes of gold in 2026 as share of FX reserves drops to 14.38% (kitco.com)
-- 26/11 21:50 · [-] Is Tickmill Launching Prediction Markets? (financemagnates.com)
-- 26/11 20:45 · [-] Ranked: The Cost of Thanksgiving Dinner in 50 U.S. Cities (visualcapitalist.com)
-- 26/11 19:46 · [-] British Pound: Stabilization hints at further progress &#x96; Scotiabank (fxstreet.com)
-- 26/11 18:41 · [-] Trump demands probe of GDP data released before midterms (channelnewsasia.com)
-- 26/11 17:55 · [-] OPEC Mulls Sticking with Current Quotas (rigzone.com)
-- 26/11 17:05 · [-] Spain&#x92;s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank (cnbc.com)
-- 26/11 16:22 · [-] US Dollar Rally Stalls at Resistance as Bearish December Nears (youtube.com/stonex_official)
-- 26/11 16:05 · [low] Trump: I would like to see President Putin pull back all Military aggression against territories throughout Europe (@realDonaldTrump)
-- 26/11 15:50 · [-] How The Fed Should Talk About Inflation (robinjbrooks.substack.com)
-- 26/11 14:55 · [-] South Korea&#x92;s central bank raises key interest rate to fight inflation (apnews.com)
-- 26/11 14:30 · [low] Pablo Hernandez de Cos is going to be the next ECB president - FT (@financialjuice)
-- 26/11 14:15 · [-] Beyond banks: what non-banks do (and don&#x92;t do) to monetary policy (bankunderground.co.uk)
-- 26/11 13:32 · [low] Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Frankfurt am Main on Wednesday and Thursday, 28-2 (ecb.europa.eu)
 
 ## Estadísticas (últimos 48 días)
-Rango medio: 1067.3 pts (20d) · 1413.0 pts (5d)
+Rango medio: 1064.5 pts (20d) · 1413.0 pts (5d)
 Toma PDH 44 % · toma PDL 54 % · ambos 10 %
 Sesión del máximo: {'NY': 39, 'Asia': 39, 'otro': 14, 'Londres': 8} · del mínimo: {'NY': 35, 'Asia': 24, 'otro': 22, 'Londres': 18}
 Ayer fue un día: neutro
-tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 331.3}
-tras dia alcista fuerte: {'casos': 15, 'pct_toma_pdh': 73, 'pct_toma_pdl': 33, 'pct_cierra_abajo_de_apertura': 47, 'retroceso_medio_desde_apertura': 490.9}
+tras dia bajista fuerte: {'casos': 11, 'pct_toma_pdl': 82, 'pct_toma_pdh': 9, 'pct_cierra_arriba_de_apertura': 45, 'rebote_medio_desde_apertura': 328.4}
+tras dia alcista fuerte: {'casos': 15, 'pct_toma_pdh': 73, 'pct_toma_pdl': 33, 'pct_cierra_abajo_de_apertura': 47, 'retroceso_medio_desde_apertura': 486.9}

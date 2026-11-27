@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-27 07:35",
+  "generado_utc": "2026-11-27 13:44",
   "ultima_vela_ny": "2026-11-25 23:55",
   "precio": 26389.75,
   "dia_anterior": {
@@ -20,7 +20,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26436.0,
-      "minimo": 26007.0
+      "minimo": 25997.5
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -109,10 +109,10 @@
         },
         {
           "tf": "4h",
-          "arriba": 26007.0,
+          "arriba": 25997.5,
           "abajo": 25812.25,
-          "ce": 25909.62,
-          "tamano": 194.75,
+          "ce": 25904.88,
+          "tamano": 185.25,
           "hora_ny": "2026-11-25 13:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -362,7 +362,7 @@
           "hora_ny": "2026-11-25 20:00",
           "tipo": "alcista",
           "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -378,13 +378,13 @@
         {
           "tf": "15m",
           "arriba": 26173.25,
-          "abajo": 26132.5,
-          "ce": 26152.88,
-          "tamano": 40.75,
+          "abajo": 26143.5,
+          "ce": 26158.38,
+          "tamano": 29.75,
           "hora_ny": "2026-11-24 20:30",
           "tipo": "IFVG alcista",
           "estado": "invertido 25/11 19:00",
-          "importancia": "media"
+          "importancia": "baja"
         },
         {
           "tf": "15m",
@@ -553,7 +553,7 @@
   },
   "estadisticas": {
     "dias_analizados": 48,
-    "rango_medio_20d": 1067.3,
+    "rango_medio_20d": 1064.5,
     "rango_medio_5d": 1413.0,
     "pct_dias_toman_pdh": 44,
     "pct_dias_toman_pdl": 54,
@@ -575,20 +575,116 @@
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 331.3
+      "rebote_medio_desde_apertura": 328.4
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 73,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 47,
-      "retroceso_medio_desde_apertura": 490.9
+      "retroceso_medio_desde_apertura": 486.9
     },
     "dia_anterior_tipo": "neutro"
   },
   "calendario_hoy": [],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "27/11 14:31",
+      "titular": "US Advance Economic Indicators Report - October 2026",
+      "fuente": "census.gov",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 14:30",
+      "titular": "Canada's balance of international payments, third quarter 2026",
+      "fuente": "statcan.gc.ca",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 14:11",
+      "titular": "ECB's Nagel: We Expect Inflation Durably Above 3% In 2027",
+      "fuente": "@DeItaone",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 13:30",
+      "titular": "ActivTrades Relaunches ActivPartner: A Partner Programme Built Around Each Partner's Business",
+      "fuente": "financemagnates.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 13:18",
+      "titular": "ECB's Dolenc: Two Hikes To Date Aren't Enough To Tame Inflation",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 13:06",
+      "titular": "PBOC vows to defuse risks and keep Yuan stable",
+      "fuente": "@financialjuice",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 12:46",
+      "titular": "Firmer Stocks and Oil Leave the US Dollar Mixed",
+      "fuente": "marctomarket.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 12:07",
+      "titular": "USD/JPY: Fed Rate Hike Expectations Keep Dollar Bulls in Control",
+      "fuente": "dailyforex.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 11:36",
+      "titular": "ECB Consumer Expectations Survey results &#x96; October 2026",
+      "fuente": "ecb.europa.eu",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 11:35",
+      "titular": "Japan Considers 52% Capital Gains Tax On New Condo Flips - Yomiuri",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 10:36",
+      "titular": "German unemployment at 6.2% in November",
+      "fuente": "breakingthenews.net",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 09:33",
+      "titular": "Spain: Flash estimate of the Consumer Price Index (CPI) November 2026",
+      "fuente": "ine.es",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 08:51",
+      "titular": "In the third quarter of 2026, French GDP declined (-0.2% after 0.0%)",
+      "fuente": "insee.fr",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 08:51",
+      "titular": "In the third quarter of 2026, salaried employment was stable over the quarter and down year-on-year (-0.3%).",
+      "fuente": "insee.fr",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 08:49",
+      "titular": "In November 2026, French consumer prices are expected to increase by 2.9% year-on-year",
+      "fuente": "insee.fr",
+      "impacto": "low"
+    },
+    {
+      "hora_alemania": "27/11 08:47",
+      "titular": "French Household consumption of goods is stable in October 2026 (after -0.9%)",
+      "fuente": "insee.fr",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "27/11 08:25",
       "titular": "GBPJPY reverses from 207.00 for the third time",
@@ -641,102 +737,6 @@
       "hora_alemania": "27/11 00:53",
       "titular": "Trump: Doesn't know if Putin will come to G20, adding that if he wanted to come, he can",
       "fuente": "@FirstSquawk",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "27/11 00:45",
-      "titular": "CMC Markets Profit More Than Doubles, but Shares Fall 11%",
-      "fuente": "financemagnates.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 23:45",
-      "titular": "Tokyo CPI preview: core inflation seen jumping to 3% three weeks before BoJ decision",
-      "fuente": "investinglive.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 22:45",
-      "titular": "India&#x92;s central bank repatriates another 60 tonnes of gold in 2026 as share of FX reserves drops to 14.38%",
-      "fuente": "kitco.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 21:50",
-      "titular": "Is Tickmill Launching Prediction Markets?",
-      "fuente": "financemagnates.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 20:45",
-      "titular": "Ranked: The Cost of Thanksgiving Dinner in 50 U.S. Cities",
-      "fuente": "visualcapitalist.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 19:46",
-      "titular": "British Pound: Stabilization hints at further progress &#x96; Scotiabank",
-      "fuente": "fxstreet.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 18:41",
-      "titular": "Trump demands probe of GDP data released before midterms",
-      "fuente": "channelnewsasia.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 17:55",
-      "titular": "OPEC Mulls Sticking with Current Quotas",
-      "fuente": "rigzone.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 17:05",
-      "titular": "Spain&#x92;s Pablo Hern\\u00e1ndez de Cos set to lead European Central Bank",
-      "fuente": "cnbc.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 16:22",
-      "titular": "US Dollar Rally Stalls at Resistance as Bearish December Nears",
-      "fuente": "youtube.com/stonex_official",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 16:05",
-      "titular": "Trump: I would like to see President Putin pull back all Military aggression against territories throughout Europe",
-      "fuente": "@realDonaldTrump",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 15:50",
-      "titular": "How The Fed Should Talk About Inflation",
-      "fuente": "robinjbrooks.substack.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 14:55",
-      "titular": "South Korea&#x92;s central bank raises key interest rate to fight inflation",
-      "fuente": "apnews.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 14:30",
-      "titular": "Pablo Hernandez de Cos is going to be the next ECB president - FT",
-      "fuente": "@financialjuice",
-      "impacto": "low"
-    },
-    {
-      "hora_alemania": "26/11 14:15",
-      "titular": "Beyond banks: what non-banks do (and don&#x92;t do) to monetary policy",
-      "fuente": "bankunderground.co.uk",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "26/11 13:32",
-      "titular": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Frankfurt am Main on Wednesday and Thursday, 28-2",
-      "fuente": "ecb.europa.eu",
       "impacto": "low"
     }
   ]
