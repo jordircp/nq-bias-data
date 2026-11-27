@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-27 13:44",
+  "generado_utc": "2026-11-27 14:05",
   "ultima_vela_ny": "2026-11-25 23:55",
   "precio": 26389.75,
   "dia_anterior": {
@@ -20,7 +20,7 @@
     "ny_am": null,
     "overnight": {
       "maximo": 26436.0,
-      "minimo": 25997.5
+      "minimo": 26007.0
     }
   },
   "fuente": "Yahoo Finance (NQ=F, contrato continuo; puede tener algunos minutos de retraso y pequeñas diferencias con el contrato que operes)",
@@ -109,10 +109,10 @@
         },
         {
           "tf": "4h",
-          "arriba": 25997.5,
+          "arriba": 26007.0,
           "abajo": 25812.25,
-          "ce": 25904.88,
-          "tamano": 185.25,
+          "ce": 25909.62,
+          "tamano": 194.75,
           "hora_ny": "2026-11-25 13:00",
           "tipo": "alcista",
           "estado": "virgen",
@@ -362,7 +362,7 @@
           "hora_ny": "2026-11-25 20:00",
           "tipo": "alcista",
           "estado": "barrido (mecha lo atravesó, sin cierre)",
-          "importancia": "baja"
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -378,13 +378,13 @@
         {
           "tf": "15m",
           "arriba": 26173.25,
-          "abajo": 26143.5,
-          "ce": 26158.38,
-          "tamano": 29.75,
+          "abajo": 26132.5,
+          "ce": 26152.88,
+          "tamano": 40.75,
           "hora_ny": "2026-11-24 20:30",
           "tipo": "IFVG alcista",
           "estado": "invertido 25/11 19:00",
-          "importancia": "baja"
+          "importancia": "media"
         },
         {
           "tf": "15m",
@@ -553,7 +553,7 @@
   },
   "estadisticas": {
     "dias_analizados": 48,
-    "rango_medio_20d": 1064.5,
+    "rango_medio_20d": 1067.3,
     "rango_medio_5d": 1413.0,
     "pct_dias_toman_pdh": 44,
     "pct_dias_toman_pdl": 54,
@@ -575,20 +575,38 @@
       "pct_toma_pdl": 82,
       "pct_toma_pdh": 9,
       "pct_cierra_arriba_de_apertura": 45,
-      "rebote_medio_desde_apertura": 328.4
+      "rebote_medio_desde_apertura": 331.3
     },
     "tras_dia_alcista_fuerte": {
       "casos": 15,
       "pct_toma_pdh": 73,
       "pct_toma_pdl": 33,
       "pct_cierra_abajo_de_apertura": 47,
-      "retroceso_medio_desde_apertura": 486.9
+      "retroceso_medio_desde_apertura": 490.9
     },
     "dia_anterior_tipo": "neutro"
   },
   "calendario_hoy": [],
   "calendario_semana": [],
   "noticias_24h": [
+    {
+      "hora_alemania": "27/11 15:00",
+      "titular": "US inflation has shoppers hunting for value. That bodes well for Black Friday",
+      "fuente": "cnbc.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 14:58",
+      "titular": "Gold gains as traders assess latest setbacks in US-Iran talks",
+      "fuente": "msn.com",
+      "impacto": "-"
+    },
+    {
+      "hora_alemania": "27/11 14:52",
+      "titular": "German Budget Passes With Eur210 Bln In New Borrowing",
+      "fuente": "@FirstSquawk",
+      "impacto": "low"
+    },
     {
       "hora_alemania": "27/11 14:31",
       "titular": "US Advance Economic Indicators Report - October 2026",
@@ -720,24 +738,6 @@
       "titular": "Thanksgiving Day 2026 Finds the US Dollar Unchanged and Stocks Higher in Europe and Asia,",
       "fuente": "currencythoughts.com",
       "impacto": "-"
-    },
-    {
-      "hora_alemania": "27/11 02:45",
-      "titular": "Core inflation in Japan's capital accelerates in November",
-      "fuente": "channelnewsasia.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "27/11 01:45",
-      "titular": "USD/JPY Weekly Outlook: Fed Hikes, AI Volatility and a Sleeping Yen",
-      "fuente": "forex.com",
-      "impacto": "-"
-    },
-    {
-      "hora_alemania": "27/11 00:53",
-      "titular": "Trump: Doesn't know if Putin will come to G20, adding that if he wanted to come, he can",
-      "fuente": "@FirstSquawk",
-      "impacto": "low"
     }
   ]
 }
